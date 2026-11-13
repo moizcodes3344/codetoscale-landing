@@ -1,0 +1,38 @@
+{
+  "content": [
+    {
+      "file": "content/services.mjs",
+      "unchanged": true
+    },
+    {
+      "file": "content/pages.mjs",
+      "unchanged": true
+    },
+    {
+      "file": "navigation.js",
+      "unchanged": true
+    },
+    {
+      "file": "site.config.json",
+      "unchanged": true
+    },
+    {
+      "file": "scripts/seo.mjs",
+      "unchanged": true
+    },
+    {
+      "file": "package.json",
+      "unchanged": true
+    },
+    {
+      "file": "tests/site.test.mjs",
+      "unchanged": true
+    },
+    {
+      "file": "robots.txt",
+      "unchanged": true
+    }
+  ],
+  "contactHandlerUnchanged": true,
+  "homepageCopyExcludingMotionControlUnchanged": true
+}

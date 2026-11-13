@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-13",
+  "pages": 15,
+  "uniqueTitles": 15,
+  "uniqueDescriptions": 15,
+  "h1Errors": [],
+  "headingJumps": {},
+  "servicePageBytesUnchanged": true,
+  "faqCopyUnchanged": true,
+  "privacyVisibleBodyUnchanged": true,
+  "termsBytesUnchanged": true,
+  "titlesUnchanged": true,
+  "changedDescriptions": [
+    "/about.html",
+    "/privacy.html"
+  ],
+  "duplicateParagraphs": 7,
+  "duplicateParagraphRoutes": [
+    "/",
+    "/faq.html"
+  ],
+  "modifiedEntryFiles": [
+    "index.html",
+    "styles.css",
+    "scripts/build.mjs",
+    "about.html",
+    "faq.html",
+    "privacy.html",
+    "content/pages.mjs",
+    "docs/seo-keyword-map.md"
+  ],
+  "commands": {
+    "build": {
+      "command": "npm run build",
+      "exit": 0
+    },
+    "tests": {
+      "command": "npm run check",
+      "exit": 0,
+      "passed": 70,
+      "failed": 0
+    },
+    "crawl": {
+      "command": "PREVIEW_URL=http://127.0.0.1:4173 node scripts/crawl.mjs",
+      "exit": 0,
+      "pages": 15,
+      "targets": 85,
+      "requests": 27,
+      "errors": 0
+    }
+  },
+  "sourcePDF": {
+    "pages": 14,
+    "sha256": "70bbe5fcf1db5ddad0971eee3090a31a62d8f0aeb737f3a1e860dc4910e4afcd"
+  }
+}

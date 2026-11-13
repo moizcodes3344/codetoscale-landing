@@ -1,0 +1,329 @@
+{
+  "trace": "home-mobile-diagnostic-0.trace.json",
+  "diagnosticOnly": true,
+  "initialLayout": {
+    "wallMS": 282.169,
+    "threadCPUms": 246.739,
+    "objects": {
+      "dirtyObjects": 445,
+      "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+      "partialLayout": false,
+      "sampleTraceId": 1114242824760253,
+      "totalObjects": 445
+    }
+  },
+  "fontEventsInsideInitialLayout": {
+    "FontCache::GetFontPlatformData": {
+      "count": 136,
+      "wallMS": 70.13400000000001,
+      "threadCPUms": 52.17200000000004
+    },
+    "FontDataManager::onMatchFamilyStyle": {
+      "count": 19,
+      "wallMS": 15.789000000000001,
+      "threadCPUms": 2.1630000000000007
+    },
+    "FontDataManager - using mapped file": {
+      "count": 16,
+      "wallMS": 57.04800000000001,
+      "threadCPUms": 51.246
+    },
+    "FontDataManager::onMakeFromStreamArgs": {
+      "count": 16,
+      "wallMS": 56.119000000000014,
+      "threadCPUms": 50.446999999999996
+    },
+    "InlineNode::ShapeTextIncludingFirstLine": {
+      "count": 95,
+      "wallMS": 180.2139999999999,
+      "threadCPUms": 161.6939999999999
+    },
+    "FontCache::FallbackFontForCharacter": {
+      "count": 2,
+      "wallMS": 19.755,
+      "threadCPUms": 14.146999999999998
+    }
+  },
+  "note": "Font events nest; do not sum overlapping font/cache/shape times.",
+  "browserContentExtraction": {
+    "name": "AIPageContentAgent::ContentBuilder::Build",
+    "wallMS": 168.212,
+    "threadCPUms": 151.2,
+    "children": [
+      {
+        "name": "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+        "wallMS": 163.83,
+        "threadCPUms": 147.138,
+        "args": {}
+      },
+      {
+        "name": "LocalFrameView::UpdateStyleAndLayout",
+        "wallMS": 163.81,
+        "threadCPUms": 147.12,
+        "args": {}
+      },
+      {
+        "name": "Blink.Layout.UpdateTime",
+        "wallMS": 119.452,
+        "threadCPUms": 107.993,
+        "args": {
+          "preFCP": false
+        }
+      },
+      {
+        "name": "LocalFrameView::layout",
+        "wallMS": 119.424,
+        "threadCPUms": 107.967,
+        "args": {
+          "endData": {
+            "layoutRoots": [
+              {
+                "depth": 1,
+                "nodeId": 8,
+                "nodeName": "#document",
+                "quads": [
+                  [
+                    0,
+                    0,
+                    412,
+                    0,
+                    412,
+                    823,
+                    0,
+                    823
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": "Layout",
+        "wallMS": 119.416,
+        "threadCPUms": 107.961,
+        "args": {
+          "beginData": {
+            "dirtyObjects": 1394,
+            "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+            "partialLayout": false,
+            "sampleTraceId": 1114242824761215,
+            "totalObjects": 1952
+          }
+        }
+      },
+      {
+        "name": "LocalFrameView::performLayout",
+        "wallMS": 119.324,
+        "threadCPUms": 107.87,
+        "args": {
+          "contentsHeightBeforeLayout": 13816.203125
+        }
+      },
+      {
+        "name": "Blink.Style.UpdateTime",
+        "wallMS": 44.224,
+        "threadCPUms": 38.996,
+        "args": {
+          "preFCP": false
+        }
+      },
+      {
+        "name": "UpdateLayoutTree",
+        "wallMS": 44.205,
+        "threadCPUms": 38.977,
+        "args": {
+          "beginData": {
+            "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+            "sampleTraceId": 1114242824761194
+          },
+          "elementCount": 1040
+        }
+      },
+      {
+        "name": "Document::updateStyle",
+        "wallMS": 44.083,
+        "threadCPUms": 38.865,
+        "args": {
+          "counters": {
+            "baseStylesUsed": 2,
+            "customPropertiesApplied": 0,
+            "elementsStyled": 939,
+            "independentInheritedStylesPropagated": 0,
+            "matchedPropertyApply": 0,
+            "matchedPropertyCacheAdded": 439,
+            "matchedPropertyCacheHit": 596,
+            "pseudoElementsStyled": 101,
+            "rulesFastRejected": 18795,
+            "rulesMatched": 6891,
+            "rulesRejected": 1356,
+            "stylesAnimated": 5,
+            "stylesChanged": 900,
+            "stylesUnchanged": 38,
+            "svgPresentationAttributeStylesUsed": 0
+          },
+          "resolverAccessCount": 1040
+        }
+      },
+      {
+        "name": "Document::recalcStyle",
+        "wallMS": 28.234,
+        "threadCPUms": 25.035,
+        "args": {}
+      },
+      {
+        "name": "Document::rebuildLayoutTree",
+        "wallMS": 15.43,
+        "threadCPUms": 13.442,
+        "args": {}
+      },
+      {
+        "name": "InlineNode::ShapeTextIncludingFirstLine",
+        "wallMS": 6.911,
+        "threadCPUms": 6.288,
+        "args": {}
+      },
+      {
+        "name": "InlineNode::ShapeTextIncludingFirstLine",
+        "wallMS": 4.713,
+        "threadCPUms": 4.034,
+        "args": {}
+      },
+      {
+        "name": "InlineNode::ShapeTextIncludingFirstLine",
+        "wallMS": 4.673,
+        "threadCPUms": 4.343,
+        "args": {}
+      }
+    ]
+  },
+  "scriptEvaluation": [
+    {
+      "wallMS": 2.178,
+      "threadCPUms": 2.164,
+      "args": {
+        "data": {
+          "columnNumber": 13,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "lineNumber": 6,
+          "sampleTraceId": 1114242824760111,
+          "scriptId": 0,
+          "url": "http://127.0.0.1:4173/"
+        }
+      }
+    },
+    {
+      "wallMS": 11.793,
+      "threadCPUms": 10.765,
+      "args": {
+        "data": {
+          "columnNumber": 1,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "lineNumber": 1,
+          "sampleTraceId": 1114242824760260,
+          "scriptId": 0,
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    },
+    {
+      "wallMS": 3.014,
+      "threadCPUms": 2.746,
+      "args": {}
+    },
+    {
+      "wallMS": 0.505,
+      "threadCPUms": 0.472,
+      "args": {
+        "data": {
+          "columnNumber": 1,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "lineNumber": 1,
+          "sampleTraceId": 1114242824760466,
+          "scriptId": 0,
+          "url": ""
+        }
+      }
+    },
+    {
+      "wallMS": 2.031,
+      "threadCPUms": 1.796,
+      "args": {}
+    },
+    {
+      "wallMS": 1.634,
+      "threadCPUms": 1.623,
+      "args": {}
+    }
+  ],
+  "siteCallbacks": [
+    {
+      "wallMS": 1.969,
+      "threadCPUms": 1.801,
+      "columnNumber": 52,
+      "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+      "functionName": "IntersectionObserver.threshold",
+      "isolate": "7934683918485661132",
+      "lineNumber": 208,
+      "sampleTraceId": 1114242824760020,
+      "scriptId": "12",
+      "url": "http://127.0.0.1:4173/script.js"
+    },
+    {
+      "wallMS": 0.774,
+      "threadCPUms": 0.546,
+      "columnNumber": 54,
+      "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+      "functionName": "IntersectionObserver.rootMargin",
+      "isolate": "7934683918485661132",
+      "lineNumber": 214,
+      "sampleTraceId": 1114242824760030,
+      "scriptId": "12",
+      "url": "http://127.0.0.1:4173/script.js"
+    },
+    {
+      "wallMS": 0.213,
+      "threadCPUms": 0.196,
+      "columnNumber": 55,
+      "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+      "functionName": "",
+      "isolate": "7934683918485661132",
+      "lineNumber": 203,
+      "sampleTraceId": 1114242824760016,
+      "scriptId": "12",
+      "url": "http://127.0.0.1:4173/script.js"
+    },
+    {
+      "wallMS": 0.192,
+      "threadCPUms": 0.19,
+      "columnNumber": 47,
+      "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+      "functionName": "IntersectionObserver.rootMargin",
+      "isolate": "7934683918485661132",
+      "lineNumber": 340,
+      "sampleTraceId": 1114242824760019,
+      "scriptId": "12",
+      "url": "http://127.0.0.1:4173/script.js"
+    }
+  ],
+  "timerFires": [
+    {
+      "wallMS": 0.44,
+      "args": {
+        "data": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "timerId": 1
+        }
+      }
+    },
+    {
+      "wallMS": 0.388,
+      "args": {
+        "data": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "timerId": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+[
+  {
+    "page": "index.html",
+    "categoryButtons": [
+      4502,
+      4502
+    ],
+    "clientWidth": 1425,
+    "formColumns": "267.875px 267.875px",
+    "heroLines": [
+      {
+        "height": 74,
+        "lineHeight": "73.7712px"
+      },
+      {
+        "height": 74,
+        "lineHeight": "73.7712px"
+      },
+      {
+        "height": 74,
+        "lineHeight": "73.7712px"
+      }
+    ],
+    "images": [
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1000
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1000
+      }
+    ],
+    "overflow": [],
+    "pending": 0,
+    "projectButtons": [
+      8574,
+      8574
+    ],
+    "scrollWidth": 1425,
+    "width": 1440
+  },
+  {
+    "page": "index.html",
+    "categoryButtons": [
+      4833,
+      4833
+    ],
+    "clientWidth": 1009,
+    "formColumns": "187.946px 187.946px",
+    "heroLines": [
+      {
+        "height": 55,
+        "lineHeight": "54.5px"
+      },
+      {
+        "height": 55,
+        "lineHeight": "54.5px"
+      },
+      {
+        "height": 55,
+        "lineHeight": "54.5px"
+      }
+    ],
+    "images": [
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1000
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1000
+      }
+    ],
+    "overflow": [],
+    "pending": 0,
+    "projectButtons": [
+      8650,
+      8650
+    ],
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "page": "index.html",
+    "categoryButtons": [
+      4791,
+      4791
+    ],
+    "clientWidth": 753,
+    "formColumns": "296.821px",
+    "heroLines": [
+      {
+        "height": 44,
+        "lineHeight": "43.6px"
+      },
+      {
+        "height": 44,
+        "lineHeight": "43.6px"
+      },
+      {
+        "height": 44,
+        "lineHeight": "43.6px"
+      }
+    ],
+    "images": [
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1000
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1000
+      }
+    ],
+    "overflow": [],
+    "pending": 0,
+    "projectButtons": [
+      8801,
+      8801
+    ],
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "page": "index.html",
+    "categoryButtons": [
+      7379,
+      8425
+    ],
+    "clientWidth": 410,
+    "formColumns": "325.143px",
+    "heroLines": [
+      {
+        "height": 49,
+        "lineHeight": "49.0445px"
+      },
+      {
+        "height": 49,
+        "lineHeight": "49.0445px"
+      },
+      {
+        "height": 49,
+        "lineHeight": "49.0445px"
+      }
+    ],
+    "images": [
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1000
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1000
+      }
+    ],
+    "overflow": [],
+    "pending": 0,
+    "projectButtons": [
+      14185,
+      14833
+    ],
+    "scrollWidth": 410,
+    "width": 425
+  },
+  {
+    "page": "index.html",
+    "categoryButtons": [
+      7547,
+      8614
+    ],
+    "clientWidth": 360,
+    "formColumns": "275.429px",
+    "heroLines": [
+      {
+        "height": 43,
+        "lineHeight": "42.889px"
+      },
+      {
+        "height": 43,
+        "lineHeight": "42.889px"
+      },
+      {
+        "height": 43,
+        "lineHeight": "42.889px"
+      }
+    ],
+    "images": [
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1000
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1000
+      }
+    ],
+    "overflow": [],
+    "pending": 0,
+    "projectButtons": [
+      14480,
+      15118
+    ],
+    "scrollWidth": 360,
+    "width": 375
+  },
+  {
+    "page": "privacy.html",
+    "clientWidth": 1425,
+    "description": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "h1": 1,
+    "ogDescription": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "overflow": [],
+    "robots": "noindex, follow",
+    "scrollWidth": 1425,
+    "title": "Privacy notice | CodeToScale",
+    "twitterDescription": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "width": 1440
+  },
+  {
+    "page": "privacy.html",
+    "clientWidth": 1009,
+    "description": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "h1": 1,
+    "ogDescription": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "overflow": [],
+    "robots": "noindex, follow",
+    "scrollWidth": 1009,
+    "title": "Privacy notice | CodeToScale",
+    "twitterDescription": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "width": 1024
+  },
+  {
+    "page": "privacy.html",
+    "clientWidth": 753,
+    "description": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "h1": 1,
+    "ogDescription": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "overflow": [],
+    "robots": "noindex, follow",
+    "scrollWidth": 753,
+    "title": "Privacy notice | CodeToScale",
+    "twitterDescription": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "width": 768
+  },
+  {
+    "page": "privacy.html",
+    "clientWidth": 410,
+    "description": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "h1": 1,
+    "ogDescription": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "overflow": [],
+    "robots": "noindex, follow",
+    "scrollWidth": 410,
+    "title": "Privacy notice | CodeToScale",
+    "twitterDescription": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "width": 425
+  },
+  {
+    "page": "privacy.html",
+    "clientWidth": 360,
+    "description": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "h1": 1,
+    "ogDescription": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "overflow": [],
+    "robots": "noindex, follow",
+    "scrollWidth": 360,
+    "title": "Privacy notice | CodeToScale",
+    "twitterDescription": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "width": 375
+  },
+  {
+    "page": "terms.html",
+    "clientWidth": 1425,
+    "description": "CodeToScale terms publication status and project agreement information.",
+    "h1": 1,
+    "ogDescription": "CodeToScale terms publication status and project agreement information.",
+    "overflow": [],
+    "robots": "noindex, follow",
+    "scrollWidth": 1425,
+    "title": "Terms & conditions | CodeToScale",
+    "twitterDescription": "CodeToScale terms publication status and project agreement information.",
+    "width": 1440
+  },
+  {
+    "page": "terms.html",
+    "clientWidth": 1009,
+    "description": "CodeToScale terms publication status and project agreement information.",
+    "h1": 1,
+    "ogDescription": "CodeToScale terms publication status and project agreement information.",
+    "overflow": [],
+    "robots": "noindex, follow",
+    "scrollWidth": 1009,
+    "title": "Terms & conditions | CodeToScale",
+    "twitterDescription": "CodeToScale terms publication status and project agreement information.",
+    "width": 1024
+  },
+  {
+    "page": "terms.html",
+    "clientWidth": 753,
+    "description": "CodeToScale terms publication status and project agreement information.",
+    "h1": 1,
+    "ogDescription": "CodeToScale terms publication status and project agreement information.",
+    "overflow": [],
+    "robots": "noindex, follow",
+    "scrollWidth": 753,
+    "title": "Terms & conditions | CodeToScale",
+    "twitterDescription": "CodeToScale terms publication status and project agreement information.",
+    "width": 768
+  },
+  {
+    "page": "terms.html",
+    "clientWidth": 410,
+    "description": "CodeToScale terms publication status and project agreement information.",
+    "h1": 1,
+    "ogDescription": "CodeToScale terms publication status and project agreement information.",
+    "overflow": [],
+    "robots": "noindex, follow",
+    "scrollWidth": 410,
+    "title": "Terms & conditions | CodeToScale",
+    "twitterDescription": "CodeToScale terms publication status and project agreement information.",
+    "width": 425
+  },
+  {
+    "page": "terms.html",
+    "clientWidth": 360,
+    "description": "CodeToScale terms publication status and project agreement information.",
+    "h1": 1,
+    "ogDescription": "CodeToScale terms publication status and project agreement information.",
+    "overflow": [],
+    "robots": "noindex, follow",
+    "scrollWidth": 360,
+    "title": "Terms & conditions | CodeToScale",
+    "twitterDescription": "CodeToScale terms publication status and project agreement information.",
+    "width": 375
+  }
+]

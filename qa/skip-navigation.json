@@ -1,0 +1,20 @@
+[
+  {
+    "focus": "main",
+    "hash": "#main",
+    "page": "/index.html",
+    "tabIndex": "-1"
+  },
+  {
+    "focus": "main",
+    "hash": "#main",
+    "page": "/privacy.html",
+    "tabIndex": "-1"
+  },
+  {
+    "focus": "main",
+    "hash": "#main",
+    "page": "/terms.html",
+    "tabIndex": "-1"
+  }
+]

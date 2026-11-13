@@ -1,0 +1,1462 @@
+{
+  "input": "qa/phase4/baseline/home-desktop-1-0.trace.json",
+  "units": "milliseconds except raw trace timestamps (microseconds)",
+  "note": "Nested category totals overlap; do not sum them. Wall minus thread CPU can include waiting/descheduling and is not proof of a specific competing process.",
+  "environment": {
+    "hardware": "Latitude E7470",
+    "nativeAccessibility": "NATIVE_APIS"
+  },
+  "longTasks": [
+    {
+      "name": "RunTask",
+      "wallMS": 447.319,
+      "threadCPUms": 0.201,
+      "ts": 570087411,
+      "args": {},
+      "inside": []
+    },
+    {
+      "name": "RunTask",
+      "wallMS": 326.541,
+      "threadCPUms": 289.874,
+      "ts": 569160221,
+      "args": {},
+      "inside": [
+        {
+          "name": "Layout",
+          "wallMS": 291.442,
+          "threadCPUms": 257.274,
+          "ts": 569191222,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 429,
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "partialLayout": false,
+              "sampleTraceId": 5688224732808118,
+              "totalObjects": 429
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 17,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      1350,
+                      0,
+                      1350,
+                      940,
+                      0,
+                      940
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "wallMS": 12.765,
+          "threadCPUms": 12.014,
+          "ts": 569170124,
+          "args": {
+            "beginData": {
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "sampleTraceId": 5688224732808172
+            },
+            "elementCount": 221
+          }
+        },
+        {
+          "name": "EvaluateScript",
+          "wallMS": 8.867,
+          "threadCPUms": 8.494,
+          "ts": 569160262,
+          "args": {
+            "data": {
+              "columnNumber": 1,
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "lineNumber": 1,
+              "sampleTraceId": 5688224732808185,
+              "scriptId": 0,
+              "url": "http://127.0.0.1:4173/script.js"
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "wallMS": 7.486,
+          "threadCPUms": 6.836,
+          "ts": 569183724,
+          "args": {
+            "beginData": {
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "sampleTraceId": 5688224732808149
+            },
+            "elementCount": 138
+          }
+        },
+        {
+          "name": "ScriptCompiled",
+          "wallMS": 6.778,
+          "threadCPUms": 6.503,
+          "ts": 569162342,
+          "args": {
+            "data": {
+              "contextType": "default",
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "frameType": "page",
+              "isDefault": true,
+              "isolate": "18298478092130422291",
+              "origin": "http://127.0.0.1:4173",
+              "scriptId": 12,
+              "url": "http://127.0.0.1:4173/",
+              "v8context": "9F2184B6DD2BE29ACE67C684BBFAC318"
+            }
+          }
+        },
+        {
+          "name": "v8.run",
+          "wallMS": 6.654,
+          "threadCPUms": 6.383,
+          "ts": 569162372,
+          "args": {
+            "fileName": "http://127.0.0.1:4173/script.js",
+            "worldId": 0
+          }
+        },
+        {
+          "name": "v8.compile",
+          "wallMS": 2.008,
+          "threadCPUms": 1.916,
+          "ts": 569160321,
+          "args": {
+            "data": {
+              "columnNumber": 1,
+              "lineNumber": 1,
+              "scriptId": 12,
+              "streamed": true,
+              "url": "http://127.0.0.1:4173/script.js"
+            },
+            "fileName": "http://127.0.0.1:4173/script.js",
+            "worldId": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "RunTask",
+      "wallMS": 163.279,
+      "threadCPUms": 135.342,
+      "ts": 571540349,
+      "args": {},
+      "inside": [
+        {
+          "name": "Layout",
+          "wallMS": 136.572,
+          "threadCPUms": 109.919,
+          "ts": 571556970,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 1377,
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "partialLayout": false,
+              "sampleTraceId": 5688224732808379,
+              "totalObjects": 1973
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 17,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      1350,
+                      0,
+                      1350,
+                      940,
+                      0,
+                      940
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "wallMS": 16.473,
+          "threadCPUms": 15.877,
+          "ts": 571540481,
+          "args": {
+            "beginData": {
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "sampleTraceId": 5688224732808377
+            },
+            "elementCount": 911
+          }
+        }
+      ]
+    },
+    {
+      "name": "RunTask",
+      "wallMS": 93.399,
+      "threadCPUms": 58.251,
+      "ts": 569525119,
+      "args": {},
+      "inside": [
+        {
+          "name": "Layout",
+          "wallMS": 50.883,
+          "threadCPUms": 40.027,
+          "ts": 569529112,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 319,
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "partialLayout": false,
+              "sampleTraceId": 5688224732807748,
+              "totalObjects": 609
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 17,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      1350,
+                      0,
+                      1350,
+                      940,
+                      0,
+                      940
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Layerize",
+          "wallMS": 15.916,
+          "threadCPUms": 1.136,
+          "ts": 569595791,
+          "args": {
+            "data": {
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "isMainFrame": true,
+              "isOutermostMainFrame": true,
+              "page": "19858986BD9BA7BDD1037FFB40F12717"
+            }
+          }
+        },
+        {
+          "name": "Paint",
+          "wallMS": 10.493,
+          "threadCPUms": 4.898,
+          "ts": 569583538,
+          "args": {
+            "data": {
+              "clip": [
+                0,
+                0,
+                1335,
+                0,
+                1335,
+                4940,
+                0,
+                4940
+              ],
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "layerId": 0,
+              "nodeId": 17,
+              "nodeName": "#document",
+              "sampleTraceId": 5688224732807747
+            }
+          }
+        },
+        {
+          "name": "Commit",
+          "wallMS": 3.707,
+          "threadCPUms": 2.533,
+          "ts": 569614585,
+          "args": {
+            "frameSeqId": 249,
+            "layerTreeId": 3
+          }
+        },
+        {
+          "name": "PrePaint",
+          "wallMS": 2.809,
+          "threadCPUms": 1.653,
+          "ts": 569580091,
+          "args": {
+            "data": {
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "isMainFrame": true,
+              "isOutermostMainFrame": true,
+              "page": "19858986BD9BA7BDD1037FFB40F12717"
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "wallMS": 2.584,
+          "threadCPUms": 2.58,
+          "ts": 569526514,
+          "args": {
+            "beginData": {
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "sampleTraceId": 5688224732807771
+            },
+            "elementCount": 247
+          }
+        },
+        {
+          "name": "PrePaint",
+          "wallMS": 1.014,
+          "threadCPUms": 1.016,
+          "ts": 569525315,
+          "args": {
+            "data": {
+              "frame": "19858986BD9BA7BDD1037FFB40F12717",
+              "isMainFrame": true,
+              "isOutermostMainFrame": true,
+              "page": "19858986BD9BA7BDD1037FFB40F12717"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "name": "Layout",
+      "wallMS": 291.442,
+      "threadCPUms": 257.274,
+      "ts": 569191222,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 429,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "partialLayout": false,
+          "sampleTraceId": 5688224732808118,
+          "totalObjects": 429
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 17,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  1350,
+                  0,
+                  1350,
+                  940,
+                  0,
+                  940
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 136.572,
+      "threadCPUms": 109.919,
+      "ts": 571556970,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 1377,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "partialLayout": false,
+          "sampleTraceId": 5688224732808379,
+          "totalObjects": 1973
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 17,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  1350,
+                  0,
+                  1350,
+                  940,
+                  0,
+                  940
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 50.883,
+      "threadCPUms": 40.027,
+      "ts": 569529112,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 319,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "partialLayout": false,
+          "sampleTraceId": 5688224732807748,
+          "totalObjects": 609
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 17,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  1350,
+                  0,
+                  1350,
+                  940,
+                  0,
+                  940
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 33.926,
+      "threadCPUms": 32.942,
+      "ts": 569489336,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 290,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "partialLayout": false,
+          "sampleTraceId": 5688224732807802,
+          "totalObjects": 296
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 17,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  1350,
+                  0,
+                  1350,
+                  940,
+                  0,
+                  940
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 0.544,
+      "threadCPUms": 0.547,
+      "ts": 572428780,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 15,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "partialLayout": false,
+          "sampleTraceId": 5688224732808896,
+          "totalObjects": 606
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 17,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  1350,
+                  0,
+                  1350,
+                  940,
+                  0,
+                  940
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 0.171,
+      "threadCPUms": 0.171,
+      "ts": 569188141,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 3,
+          "frame": "35327324B551DF4A0287DF54F8906F03",
+          "partialLayout": false,
+          "sampleTraceId": 5688224732808116,
+          "totalObjects": 3
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 16,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 0.069,
+      "threadCPUms": 0.069,
+      "ts": 569627515,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 4,
+          "frame": "0BF1562BF78E4D394AB414FBAB26BDE9",
+          "partialLayout": false,
+          "sampleTraceId": 5688224732807892,
+          "totalObjects": 4
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 75,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 0.04,
+      "threadCPUms": 0.039,
+      "ts": 569630849,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 2,
+          "frame": "0BF1562BF78E4D394AB414FBAB26BDE9",
+          "partialLayout": false,
+          "sampleTraceId": 5688224732807889,
+          "totalObjects": 4
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 75,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  32,
+                  0,
+                  32,
+                  32,
+                  0,
+                  32
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "name": "EvaluateScript",
+      "wallMS": 8.867,
+      "threadCPUms": 8.494,
+      "ts": 569160262,
+      "args": {
+        "data": {
+          "columnNumber": 1,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "lineNumber": 1,
+          "sampleTraceId": 5688224732808185,
+          "scriptId": 0,
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 1.839,
+      "threadCPUms": 1.825,
+      "ts": 572905425,
+      "args": {}
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 1.58,
+      "threadCPUms": 1.025,
+      "ts": 569106675,
+      "args": {
+        "data": {
+          "columnNumber": 13,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "lineNumber": 6,
+          "sampleTraceId": 5688224732808008,
+          "scriptId": 0,
+          "url": "http://127.0.0.1:4173/"
+        }
+      }
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 1.401,
+      "threadCPUms": 1.388,
+      "ts": 571741358,
+      "args": {}
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 1.348,
+      "threadCPUms": 1.341,
+      "ts": 571747021,
+      "args": {}
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 0.263,
+      "threadCPUms": 0.257,
+      "ts": 571741443,
+      "args": {
+        "data": {
+          "columnNumber": 1,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "lineNumber": 1,
+          "sampleTraceId": 5688224732809043,
+          "scriptId": 0,
+          "url": ""
+        }
+      }
+    }
+  ],
+  "functions": [
+    {
+      "name": "FunctionCall",
+      "wallMS": 1.254,
+      "threadCPUms": 0.426,
+      "ts": 569619898,
+      "args": {
+        "data": {
+          "columnNumber": 54,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "functionName": "IntersectionObserver.rootMargin",
+          "isolate": "18298478092130422291",
+          "lineNumber": 214,
+          "sampleTraceId": 5688224732807680,
+          "scriptId": "12",
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.75,
+      "threadCPUms": 0.748,
+      "ts": 572424010,
+      "args": {
+        "data": {
+          "columnNumber": 21,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "functionName": "appendLog",
+          "isolate": "18298478092130422291",
+          "lineNumber": 171,
+          "sampleTraceId": 5688224732808922,
+          "scriptId": "12",
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.443,
+      "threadCPUms": 0.38,
+      "ts": 571742929,
+      "args": {
+        "data": {
+          "columnNumber": 51,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "functionName": "",
+          "isolate": "18298478092130422291",
+          "lineNumber": 18,
+          "sampleTraceId": 5688224732809055,
+          "scriptId": "14",
+          "url": "_lighthouse-eval.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.44,
+      "threadCPUms": 0.239,
+      "ts": 569621309,
+      "args": {
+        "data": {
+          "columnNumber": 55,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "functionName": "",
+          "isolate": "18298478092130422291",
+          "lineNumber": 203,
+          "sampleTraceId": 5688224732807692,
+          "scriptId": "12",
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.168,
+      "threadCPUms": 0.168,
+      "ts": 573063348,
+      "args": {
+        "data": {
+          "columnNumber": 16,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "functionName": "",
+          "isolate": "18298478092130422291",
+          "lineNumber": 26,
+          "sampleTraceId": 5688224732809312,
+          "scriptId": "16",
+          "url": "_lighthouse-eval.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.134,
+      "threadCPUms": 0.135,
+      "ts": 571899667,
+      "args": {
+        "data": {
+          "columnNumber": 16,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "functionName": "",
+          "isolate": "18298478092130422291",
+          "lineNumber": 26,
+          "sampleTraceId": 5688224732809191,
+          "scriptId": "15",
+          "url": "_lighthouse-eval.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.115,
+      "threadCPUms": 0.115,
+      "ts": 569621782,
+      "args": {
+        "data": {
+          "columnNumber": 52,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "functionName": "IntersectionObserver.threshold",
+          "isolate": "18298478092130422291",
+          "lineNumber": 208,
+          "sampleTraceId": 5688224732807688,
+          "scriptId": "12",
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.093,
+      "threadCPUms": 0.091,
+      "ts": 569621197,
+      "args": {
+        "data": {
+          "columnNumber": 47,
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "functionName": "IntersectionObserver.rootMargin",
+          "isolate": "18298478092130422291",
+          "lineNumber": 340,
+          "sampleTraceId": 5688224732807683,
+          "scriptId": "12",
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    }
+  ],
+  "timers": [
+    {
+      "name": "TimerFire",
+      "wallMS": 0.842,
+      "threadCPUms": 0.836,
+      "ts": 572423959,
+      "args": {
+        "data": {
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "timerId": 1
+        }
+      }
+    },
+    {
+      "name": "TimerFire",
+      "wallMS": 0.749,
+      "threadCPUms": 0.437,
+      "ts": 573063304,
+      "args": {
+        "data": {
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "timerId": 3
+        }
+      }
+    },
+    {
+      "name": "TimerFire",
+      "wallMS": 0.417,
+      "threadCPUms": 0.384,
+      "ts": 571899563,
+      "args": {
+        "data": {
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "timerId": 2
+        }
+      }
+    }
+  ],
+  "callbacks": [
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.094,
+      "threadCPUms": 0.091,
+      "ts": 569169238,
+      "args": {
+        "data": {
+          "sampleTraceId": 5688224732808166,
+          "type": "DOMContentLoaded"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.022,
+      "threadCPUms": 0.014,
+      "ts": 569523905,
+      "args": {
+        "data": {
+          "sampleTraceId": 5688224732807788,
+          "type": "contentvisibilityautostatechange"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.018,
+      "threadCPUms": 0.018,
+      "ts": 569008420,
+      "args": {
+        "data": {
+          "sampleTraceId": 5688224732807401,
+          "type": "readystatechange"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.018,
+      "threadCPUms": 0.017,
+      "ts": 569169178,
+      "args": {
+        "data": {
+          "sampleTraceId": 5688224732808165,
+          "type": "load"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.016,
+      "threadCPUms": 0.01,
+      "ts": 569626880,
+      "args": {
+        "data": {
+          "sampleTraceId": 5688224732807910,
+          "type": "readystatechange"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.013,
+      "threadCPUms": 0.012,
+      "ts": 569076033,
+      "args": {
+        "data": {
+          "sampleTraceId": 5688224732807369,
+          "type": "pagehide"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.011,
+      "threadCPUms": 0.01,
+      "ts": 569132134,
+      "args": {
+        "data": {
+          "sampleTraceId": 5688224732807982,
+          "type": "toggle"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.011,
+      "threadCPUms": 0.008,
+      "ts": 569136636,
+      "args": {
+        "data": {
+          "sampleTraceId": 5688224732807956,
+          "type": "readystatechange"
+        }
+      }
+    }
+  ],
+  "style": [
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 16.473,
+      "threadCPUms": 15.877,
+      "ts": 571540481,
+      "args": {
+        "beginData": {
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "sampleTraceId": 5688224732808377
+        },
+        "elementCount": 911
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 12.765,
+      "threadCPUms": 12.014,
+      "ts": 569170124,
+      "args": {
+        "beginData": {
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "sampleTraceId": 5688224732808172
+        },
+        "elementCount": 221
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 7.486,
+      "threadCPUms": 6.836,
+      "ts": 569183724,
+      "args": {
+        "beginData": {
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "sampleTraceId": 5688224732808149
+        },
+        "elementCount": 138
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 2.584,
+      "threadCPUms": 2.58,
+      "ts": 569526514,
+      "args": {
+        "beginData": {
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "sampleTraceId": 5688224732807771
+        },
+        "elementCount": 247
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 2.425,
+      "threadCPUms": 0.896,
+      "ts": 570730878,
+      "args": {
+        "beginData": {
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "sampleTraceId": 5688224732808643
+        },
+        "elementCount": 8
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 1.102,
+      "threadCPUms": 0.542,
+      "ts": 572032277,
+      "args": {
+        "beginData": {
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "sampleTraceId": 5688224732809132
+        },
+        "elementCount": 4
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 1.082,
+      "threadCPUms": 0.792,
+      "ts": 569622238,
+      "args": {
+        "beginData": {
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "sampleTraceId": 5688224732807690
+        },
+        "elementCount": 5
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 1.031,
+      "threadCPUms": 0.577,
+      "ts": 572345298,
+      "args": {
+        "beginData": {
+          "frame": "19858986BD9BA7BDD1037FFB40F12717",
+          "sampleTraceId": 5688224732808944
+        },
+        "elementCount": 4
+      }
+    }
+  ],
+  "categoryTotals": {
+    "DocumentLoader::DocumentLoader": {
+      "count": 4,
+      "wallMS": 0.11499999999999999,
+      "threadCPUms": 0.10999999999999999,
+      "maxWallMS": 0.046
+    },
+    "DocumentLoader::CommitNavigation": {
+      "count": 4,
+      "wallMS": 24.377,
+      "threadCPUms": 17.106,
+      "maxWallMS": 22.574
+    },
+    "DocumentLoader::InitializeWindow": {
+      "count": 4,
+      "wallMS": 0.7660000000000001,
+      "threadCPUms": 0.5089999999999999,
+      "maxWallMS": 0.541
+    },
+    "DocumentLoader::RecordUseCountersForCommit": {
+      "count": 4,
+      "wallMS": 0.033999999999999996,
+      "threadCPUms": 0.025,
+      "maxWallMS": 0.012
+    },
+    "DocumentLoader::DidInstallNewDocument": {
+      "count": 4,
+      "wallMS": 0.09099999999999998,
+      "threadCPUms": 0.08399999999999999,
+      "maxWallMS": 0.037
+    },
+    "DocumentLoader::DidCommitNavigation": {
+      "count": 4,
+      "wallMS": 0.15900000000000003,
+      "threadCPUms": 0.15500000000000003,
+      "maxWallMS": 0.138
+    },
+    "DocumentLoader::StartLoadingResponse": {
+      "count": 4,
+      "wallMS": 18.956,
+      "threadCPUms": 14.462,
+      "maxWallMS": 18.199
+    },
+    "DocumentLoader::CreateParserPostCommit": {
+      "count": 4,
+      "wallMS": 18.279000000000003,
+      "threadCPUms": 13.815,
+      "maxWallMS": 18.172
+    },
+    "DocumentLoader::FinishedLoading": {
+      "count": 4,
+      "wallMS": 0.8829999999999999,
+      "threadCPUms": 0.8629999999999999,
+      "maxWallMS": 0.361
+    },
+    "ParseHTML": {
+      "count": 7,
+      "wallMS": 22.683000000000003,
+      "threadCPUms": 19.432000000000002,
+      "maxWallMS": 10.819
+    },
+    "HTMLDocumentParser::DocumentElementAvailable": {
+      "count": 4,
+      "wallMS": 0.041,
+      "threadCPUms": 0.039,
+      "maxWallMS": 0.017
+    },
+    "EventDispatch": {
+      "count": 63,
+      "wallMS": 0.4840000000000002,
+      "threadCPUms": 0.42200000000000015,
+      "maxWallMS": 0.094
+    },
+    "V8.GC_TIME_TO_SAFEPOINT": {
+      "count": 6,
+      "wallMS": 0.038000000000000006,
+      "threadCPUms": 0.030000000000000002,
+      "maxWallMS": 0.022
+    },
+    "V8.GC_HEAP_ENSURE_SWEEPING_COMPLETED": {
+      "count": 21,
+      "wallMS": 0.19100000000000006,
+      "threadCPUms": 0.14100000000000001,
+      "maxWallMS": 0.024
+    },
+    "V8.DeoptimizeCode": {
+      "count": 1,
+      "wallMS": 0.033,
+      "threadCPUms": 0.03,
+      "maxWallMS": 0.033
+    },
+    "BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache": {
+      "count": 3,
+      "wallMS": 0.020999999999999998,
+      "threadCPUms": 0.017,
+      "maxWallMS": 0.008
+    },
+    "CommitLoad": {
+      "count": 1,
+      "wallMS": 0.083,
+      "threadCPUms": 0.083,
+      "maxWallMS": 0.083
+    },
+    "NavigationBodyLoader::StartLoadingBody": {
+      "count": 1,
+      "wallMS": 5.142,
+      "threadCPUms": 4.673,
+      "maxWallMS": 5.142
+    },
+    "NavigationBodyLoader::OnReadable": {
+      "count": 1,
+      "wallMS": 5.095,
+      "threadCPUms": 4.616,
+      "maxWallMS": 5.095
+    },
+    "NavigationBodyLoader::ReadFromDataPipe": {
+      "count": 1,
+      "wallMS": 5.075,
+      "threadCPUms": 4.609,
+      "maxWallMS": 5.075
+    },
+    "DocumentLoader::BodyDataReceivedImpl": {
+      "count": 1,
+      "wallMS": 5.043,
+      "threadCPUms": 4.577,
+      "maxWallMS": 5.043
+    },
+    "DocumentLoader::HandleData": {
+      "count": 1,
+      "wallMS": 4.7,
+      "threadCPUms": 4.237,
+      "maxWallMS": 4.7
+    },
+    "DocumentLoader::CommitData": {
+      "count": 1,
+      "wallMS": 4.691,
+      "threadCPUms": 4.228,
+      "maxWallMS": 4.691
+    },
+    "DecodedDataDocumentParser::AppendBytes": {
+      "count": 3,
+      "wallMS": 5.241,
+      "threadCPUms": 4.758,
+      "maxWallMS": 4.683
+    },
+    "HTMLDocumentParser::MaybeFetchQueuedPreloads": {
+      "count": 1,
+      "wallMS": 2.523,
+      "threadCPUms": 2.103,
+      "maxWallMS": 2.523
+    },
+    "LocalWindowProxy::Initialize": {
+      "count": 3,
+      "wallMS": 19.525,
+      "threadCPUms": 15.321,
+      "maxWallMS": 12.744
+    },
+    "LocalWindowProxy::CreateContext": {
+      "count": 3,
+      "wallMS": 6.204000000000001,
+      "threadCPUms": 5.926,
+      "maxWallMS": 2.512
+    },
+    "V8.DeserializeContext": {
+      "count": 4,
+      "wallMS": 6.5440000000000005,
+      "threadCPUms": 6.33,
+      "maxWallMS": 2.209
+    },
+    "LocalWindowProxy::SetupWindowPrototypeChain": {
+      "count": 3,
+      "wallMS": 0.05,
+      "threadCPUms": 0.047,
+      "maxWallMS": 0.02
+    },
+    "LocalWindowProxy::UpdateDocumentProperty": {
+      "count": 1,
+      "wallMS": 0.006,
+      "threadCPUms": 0.006,
+      "maxWallMS": 0.006
+    },
+    "ContextCreatedNotification": {
+      "count": 3,
+      "wallMS": 1.8719999999999999,
+      "threadCPUms": 1.85,
+      "maxWallMS": 0.689
+    },
+    "InstallConditionalFeatures": {
+      "count": 3,
+      "wallMS": 1.6760000000000002,
+      "threadCPUms": 1.576,
+      "maxWallMS": 0.675
+    },
+    "ScriptCatchup": {
+      "count": 18,
+      "wallMS": 1.3399999999999992,
+      "threadCPUms": 0.34,
+      "maxWallMS": 0.973
+    },
+    "V8.StackGuard": {
+      "count": 1,
+      "wallMS": 0.037,
+      "threadCPUms": 0.034,
+      "maxWallMS": 0.037
+    },
+    "V8.HandleInterrupts": {
+      "count": 1,
+      "wallMS": 0.029,
+      "threadCPUms": 0.027,
+      "maxWallMS": 0.029
+    },
+    "V8.InvokeApiInterruptCallbacks": {
+      "count": 1,
+      "wallMS": 0.006,
+      "threadCPUms": 0.02,
+      "maxWallMS": 0.006
+    },
+    "v8.newInstance": {
+      "count": 23,
+      "wallMS": 0.2300000000000001,
+      "threadCPUms": 0.20000000000000004,
+      "maxWallMS": 0.044
+    },
+    "UpdateLayoutTree": {
+      "count": 110,
+      "wallMS": 87.24299999999997,
+      "threadCPUms": 74.47500000000004,
+      "maxWallMS": 16.473
+    },
+    "PageTimingMetricsSender::SendNow": {
+      "count": 9,
+      "wallMS": 1.524,
+      "threadCPUms": 0.615,
+      "maxWallMS": 0.472
+    },
+    "EvaluateScript": {
+      "count": 6,
+      "wallMS": 15.298000000000002,
+      "threadCPUms": 14.329999999999998,
+      "maxWallMS": 8.867
+    },
+    "v8.compile": {
+      "count": 3,
+      "wallMS": 2.9979999999999998,
+      "threadCPUms": 2.481,
+      "maxWallMS": 2.008
+    },
+    "ScriptCompiled": {
+      "count": 3,
+      "wallMS": 7.5489999999999995,
+      "threadCPUms": 7.1419999999999995,
+      "maxWallMS": 6.778
+    },
+    "v8.run": {
+      "count": 3,
+      "wallMS": 7.319999999999999,
+      "threadCPUms": 6.922000000000001,
+      "maxWallMS": 6.654
+    },
+    "v8.produceCache": {
+      "count": 3,
+      "wallMS": 0.09100000000000001,
+      "threadCPUms": 0.084,
+      "maxWallMS": 0.081
+    },
+    "DocumentLoader::BodyLoadingFinished": {
+      "count": 1,
+      "wallMS": 1.48,
+      "threadCPUms": 1.442,
+      "maxWallMS": 1.48
+    },
+    "RunMicrotasks": {
+      "count": 12,
+      "wallMS": 2.904,
+      "threadCPUms": 2.127,
+      "maxWallMS": 0.97
+    },
+    "ParseAuthorStyleSheet": {
+      "count": 1,
+      "wallMS": 1.455,
+      "threadCPUms": 1.31,
+      "maxWallMS": 1.455
+    },
+    "V8.BytecodeBudgetInterrupt": {
+      "count": 7,
+      "wallMS": 0.05,
+      "threadCPUms": 0.04000000000000001,
+      "maxWallMS": 0.011
+    },
+    "Layout": {
+      "count": 8,
+      "wallMS": 513.647,
+      "threadCPUms": 440.988,
+      "maxWallMS": 291.442
+    },
+    "RemoteFontLoaded": {
+      "count": 2,
+      "wallMS": 0.026,
+      "threadCPUms": 0.023,
+      "maxWallMS": 0.019
+    },
+    "PrePaint": {
+      "count": 109,
+      "wallMS": 36.97899999999999,
+      "threadCPUms": 29.82699999999999,
+      "maxWallMS": 2.809
+    },
+    "IntersectionObserverController::computeIntersections": {
+      "count": 210,
+      "wallMS": 32.033,
+      "threadCPUms": 23.323999999999987,
+      "maxWallMS": 2.544
+    },
+    "Paint": {
+      "count": 23,
+      "wallMS": 15.643,
+      "threadCPUms": 9.494,
+      "maxWallMS": 10.493
+    },
+    "PaintImage": {
+      "count": 27,
+      "wallMS": 0.6070000000000002,
+      "threadCPUms": 0.5790000000000002,
+      "maxWallMS": 0.124
+    },
+    "Layerize": {
+      "count": 104,
+      "wallMS": 21.303000000000036,
+      "threadCPUms": 5.992,
+      "maxWallMS": 15.916
+    },
+    "Commit": {
+      "count": 104,
+      "wallMS": 65.08500000000001,
+      "threadCPUms": 38.396000000000015,
+      "maxWallMS": 3.969
+    },
+    "UpdateLayer": {
+      "count": 175,
+      "wallMS": 0.9070000000000006,
+      "threadCPUms": 0.7530000000000006,
+      "maxWallMS": 0.057
+    },
+    "v8.callFunction": {
+      "count": 8,
+      "wallMS": 4.2459999999999996,
+      "threadCPUms": 2.8209999999999997,
+      "maxWallMS": 1.276
+    },
+    "FunctionCall": {
+      "count": 8,
+      "wallMS": 3.397,
+      "threadCPUms": 2.302,
+      "maxWallMS": 1.254
+    },
+    "HitTest": {
+      "count": 3,
+      "wallMS": 0.386,
+      "threadCPUms": 0.378,
+      "maxWallMS": 0.196
+    },
+    "TimerFire": {
+      "count": 3,
+      "wallMS": 2.008,
+      "threadCPUms": 1.657,
+      "maxWallMS": 0.842
+    }
+  }
+}

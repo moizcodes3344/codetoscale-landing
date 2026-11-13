@@ -1,0 +1,1084 @@
+{
+  "date": "2026-11-13",
+  "verdict": "NOT READY",
+  "applicationCodeChanged": false,
+  "measurementComparisonIsNotOptimizationGain": true,
+  "priorPhase3": {
+    "mobile": {
+      "performance": 68,
+      "first-contentful-paint": 1357.3775999999998,
+      "largest-contentful-paint": 1357.3775999999998,
+      "total-blocking-time": 3369.562970938251,
+      "cumulative-layout-shift": 0,
+      "speed-index": 3796.74501143774
+    },
+    "desktop": {
+      "first-contentful-paint": 573.3620000000001,
+      "largest-contentful-paint": 573.3620000000001,
+      "total-blocking-time": 492.81899999999996,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1397.1876431351534
+    }
+  },
+  "baseline": {
+    "batch": "baseline",
+    "runs": 30,
+    "note": "Every valid run included. Medians per metric; same settings do not guarantee identical host load. No field INP claim.",
+    "groups": [
+      {
+        "page": "home",
+        "mode": "mobile",
+        "count": 5,
+        "valid": 5,
+        "comparableSettings": true,
+        "settings": {
+          "output": [
+            "json",
+            "html"
+          ],
+          "maxWaitForFcp": 30000,
+          "maxWaitForLoad": 45000,
+          "pauseAfterFcpMs": 1000,
+          "pauseAfterLoadMs": 1000,
+          "networkQuietThresholdMs": 1000,
+          "cpuQuietThresholdMs": 1000,
+          "formFactor": "mobile",
+          "throttling": {
+            "rttMs": 150,
+            "throughputKbps": 1638.4,
+            "requestLatencyMs": 562.5,
+            "downloadThroughputKbps": 1474.5600000000002,
+            "uploadThroughputKbps": 675,
+            "cpuSlowdownMultiplier": 4
+          },
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": true,
+            "width": 412,
+            "height": 823,
+            "deviceScaleFactor": 1.75,
+            "disabled": false
+          },
+          "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+          "auditMode": false,
+          "gatherMode": false,
+          "clearStorageTypes": [
+            "file_systems",
+            "shader_cache",
+            "service_workers",
+            "cache_storage"
+          ],
+          "disableStorageReset": false,
+          "debugNavigation": false,
+          "channel": "cli",
+          "usePassiveGathering": false,
+          "disableFullPageScreenshot": false,
+          "skipAboutBlank": false,
+          "blankPage": "about:blank",
+          "ignoreStatusCode": false,
+          "locale": "en-US",
+          "blockedUrlPatterns": null,
+          "additionalTraceCategories": null,
+          "extraHeaders": null,
+          "precomputedLanternData": null,
+          "onlyAudits": null,
+          "onlyCategories": [
+            "performance",
+            "accessibility",
+            "best-practices",
+            "seo"
+          ],
+          "skipAudits": null
+        },
+        "runs": [
+          {
+            "name": "home-mobile-1",
+            "performance": 71,
+            "metrics": {
+              "largest-contentful-paint": 1361.1828778496943,
+              "total-blocking-time": 2112.908561075153,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1361.1828778496943,
+              "speed-index": 3267.435662459072
+            },
+            "benchmark": 627.5,
+            "cpuBefore": 50,
+            "cpuAfter": 42,
+            "warnings": [
+              "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+            ],
+            "runtimeError": null
+          },
+          {
+            "name": "home-mobile-2",
+            "performance": 86,
+            "metrics": {
+              "largest-contentful-paint": 1358.5019669423486,
+              "total-blocking-time": 549.125491735587,
+              "cumulative-layout-shift": 0.01203740225097046,
+              "first-contentful-paint": 1358.5019669423486,
+              "speed-index": 1949.0332969742356
+            },
+            "benchmark": 1301.5,
+            "cpuBefore": 34,
+            "cpuAfter": 20,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "home-mobile-3",
+            "performance": 77,
+            "metrics": {
+              "largest-contentful-paint": 1354.5301523931917,
+              "total-blocking-time": 1027.5000000000002,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1354.5301523931917,
+              "speed-index": 2428.0336674933083
+            },
+            "benchmark": 756.5,
+            "cpuBefore": 28,
+            "cpuAfter": 40,
+            "warnings": [
+              "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+            ],
+            "runtimeError": null
+          },
+          {
+            "name": "home-mobile-4",
+            "performance": 83,
+            "metrics": {
+              "largest-contentful-paint": 1355.0418850241795,
+              "total-blocking-time": 678.7604712560449,
+              "cumulative-layout-shift": 0.01203740225097046,
+              "first-contentful-paint": 1355.0418850241795,
+              "speed-index": 2016.6874615353704
+            },
+            "benchmark": 1160,
+            "cpuBefore": 37,
+            "cpuAfter": 31,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "home-mobile-5",
+            "performance": 87,
+            "metrics": {
+              "largest-contentful-paint": 1353.8824477341982,
+              "total-blocking-time": 512.0587761329009,
+              "cumulative-layout-shift": 0.01203740225097046,
+              "first-contentful-paint": 1353.8824477341982,
+              "speed-index": 1864.1834169646493
+            },
+            "benchmark": 1431,
+            "cpuBefore": 27,
+            "cpuAfter": 31,
+            "warnings": [],
+            "runtimeError": null
+          }
+        ],
+        "medians": {
+          "performance": 83,
+          "largest-contentful-paint": 1355.0418850241795,
+          "total-blocking-time": 678.7604712560449,
+          "cumulative-layout-shift": 0.01203740225097046,
+          "first-contentful-paint": 1355.0418850241795,
+          "speed-index": 2016.6874615353704,
+          "benchmarkIndex": 1160
+        },
+        "range": {
+          "performance": [
+            71,
+            87
+          ],
+          "tbt": [
+            512.0587761329009,
+            2112.908561075153
+          ],
+          "benchmark": [
+            627.5,
+            1431
+          ]
+        }
+      },
+      {
+        "page": "home",
+        "mode": "desktop",
+        "count": 5,
+        "valid": 5,
+        "comparableSettings": true,
+        "settings": {
+          "output": [
+            "json",
+            "html"
+          ],
+          "maxWaitForFcp": 30000,
+          "maxWaitForLoad": 45000,
+          "pauseAfterFcpMs": 1000,
+          "pauseAfterLoadMs": 1000,
+          "networkQuietThresholdMs": 1000,
+          "cpuQuietThresholdMs": 1000,
+          "formFactor": "desktop",
+          "throttling": {
+            "rttMs": 40,
+            "throughputKbps": 10240,
+            "requestLatencyMs": 0,
+            "downloadThroughputKbps": 0,
+            "uploadThroughputKbps": 0,
+            "cpuSlowdownMultiplier": 1
+          },
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": false,
+            "width": 1350,
+            "height": 940,
+            "deviceScaleFactor": 1,
+            "disabled": false
+          },
+          "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+          "auditMode": false,
+          "gatherMode": false,
+          "clearStorageTypes": [
+            "file_systems",
+            "shader_cache",
+            "service_workers",
+            "cache_storage"
+          ],
+          "disableStorageReset": false,
+          "debugNavigation": false,
+          "channel": "cli",
+          "usePassiveGathering": false,
+          "disableFullPageScreenshot": false,
+          "skipAboutBlank": false,
+          "blankPage": "about:blank",
+          "ignoreStatusCode": false,
+          "locale": "en-US",
+          "blockedUrlPatterns": null,
+          "additionalTraceCategories": null,
+          "extraHeaders": null,
+          "precomputedLanternData": null,
+          "onlyAudits": null,
+          "onlyCategories": [
+            "performance",
+            "accessibility",
+            "best-practices",
+            "seo"
+          ],
+          "skipAudits": null
+        },
+        "runs": [
+          {
+            "name": "home-desktop-1",
+            "performance": 81,
+            "metrics": {
+              "largest-contentful-paint": 556.409971120049,
+              "total-blocking-time": 412.99999999999994,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 556.409971120049,
+              "speed-index": 1229.5266786820562
+            },
+            "benchmark": 678.5,
+            "cpuBefore": 42,
+            "cpuAfter": 65,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "home-desktop-2",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 488.91684461005855,
+              "total-blocking-time": 37.99999999999994,
+              "cumulative-layout-shift": 0.0003612985598327217,
+              "first-contentful-paint": 488.91684461005855,
+              "speed-index": 872.7090552139258
+            },
+            "benchmark": 1209,
+            "cpuBefore": 48,
+            "cpuAfter": 40,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "home-desktop-3",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 469.64996585241033,
+              "total-blocking-time": 12.087508536897417,
+              "cumulative-layout-shift": 0.0003612985598327217,
+              "first-contentful-paint": 469.64996585241033,
+              "speed-index": 771.2011876049507
+            },
+            "benchmark": 1438.5,
+            "cpuBefore": 39,
+            "cpuAfter": 31,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "home-desktop-4",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 476.49040523123654,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0.0003612985598327217,
+              "first-contentful-paint": 476.49040523123654,
+              "speed-index": 771.0585122550134
+            },
+            "benchmark": 1366.5,
+            "cpuBefore": 63,
+            "cpuAfter": 40,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "home-desktop-5",
+            "performance": 88,
+            "metrics": {
+              "largest-contentful-paint": 557.6954425575414,
+              "total-blocking-time": 274.6522787212293,
+              "cumulative-layout-shift": 0.0003612985598327217,
+              "first-contentful-paint": 557.6954425575414,
+              "speed-index": 1181.1527946090423
+            },
+            "benchmark": 686.5,
+            "cpuBefore": 57,
+            "cpuAfter": 43,
+            "warnings": [],
+            "runtimeError": null
+          }
+        ],
+        "medians": {
+          "performance": 100,
+          "largest-contentful-paint": 488.91684461005855,
+          "total-blocking-time": 37.99999999999994,
+          "cumulative-layout-shift": 0.0003612985598327217,
+          "first-contentful-paint": 488.91684461005855,
+          "speed-index": 872.7090552139258,
+          "benchmarkIndex": 1209
+        },
+        "range": {
+          "performance": [
+            81,
+            100
+          ],
+          "tbt": [
+            0,
+            412.99999999999994
+          ],
+          "benchmark": [
+            678.5,
+            1438.5
+          ]
+        }
+      },
+      {
+        "page": "shopify",
+        "mode": "mobile",
+        "count": 5,
+        "valid": 5,
+        "comparableSettings": true,
+        "settings": {
+          "output": [
+            "json",
+            "html"
+          ],
+          "maxWaitForFcp": 30000,
+          "maxWaitForLoad": 45000,
+          "pauseAfterFcpMs": 1000,
+          "pauseAfterLoadMs": 1000,
+          "networkQuietThresholdMs": 1000,
+          "cpuQuietThresholdMs": 1000,
+          "formFactor": "mobile",
+          "throttling": {
+            "rttMs": 150,
+            "throughputKbps": 1638.4,
+            "requestLatencyMs": 562.5,
+            "downloadThroughputKbps": 1474.5600000000002,
+            "uploadThroughputKbps": 675,
+            "cpuSlowdownMultiplier": 4
+          },
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": true,
+            "width": 412,
+            "height": 823,
+            "deviceScaleFactor": 1.75,
+            "disabled": false
+          },
+          "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+          "auditMode": false,
+          "gatherMode": false,
+          "clearStorageTypes": [
+            "file_systems",
+            "shader_cache",
+            "service_workers",
+            "cache_storage"
+          ],
+          "disableStorageReset": false,
+          "debugNavigation": false,
+          "channel": "cli",
+          "usePassiveGathering": false,
+          "disableFullPageScreenshot": false,
+          "skipAboutBlank": false,
+          "blankPage": "about:blank",
+          "ignoreStatusCode": false,
+          "locale": "en-US",
+          "blockedUrlPatterns": null,
+          "additionalTraceCategories": null,
+          "extraHeaders": null,
+          "precomputedLanternData": null,
+          "onlyAudits": null,
+          "onlyCategories": [
+            "performance",
+            "accessibility",
+            "best-practices",
+            "seo"
+          ],
+          "skipAudits": null
+        },
+        "runs": [
+          {
+            "name": "shopify-mobile-1",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 1053.042,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1053.042,
+              "speed-index": 1053.042
+            },
+            "benchmark": 1044,
+            "cpuBefore": 65,
+            "cpuAfter": 36,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "shopify-mobile-2",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 1052.632,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1052.632,
+              "speed-index": 1052.632
+            },
+            "benchmark": 854,
+            "cpuBefore": 51,
+            "cpuAfter": 33,
+            "warnings": [
+              "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+            ],
+            "runtimeError": null
+          },
+          {
+            "name": "shopify-mobile-3",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 1052.9716,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1052.9716,
+              "speed-index": 1052.9716
+            },
+            "benchmark": 1438.5,
+            "cpuBefore": 44,
+            "cpuAfter": 31,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "shopify-mobile-4",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 1053.356,
+              "total-blocking-time": 54.160999999999945,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1053.356,
+              "speed-index": 1053.356
+            },
+            "benchmark": 1138.5,
+            "cpuBefore": 52,
+            "cpuAfter": 28,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "shopify-mobile-5",
+            "performance": 94,
+            "metrics": {
+              "largest-contentful-paint": 1055.6024,
+              "total-blocking-time": 281.1987999999999,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1055.6024,
+              "speed-index": 1234.2677486569437
+            },
+            "benchmark": 626.5,
+            "cpuBefore": 56,
+            "cpuAfter": 31,
+            "warnings": [
+              "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+            ],
+            "runtimeError": null
+          }
+        ],
+        "medians": {
+          "performance": 100,
+          "largest-contentful-paint": 1053.042,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0,
+          "first-contentful-paint": 1053.042,
+          "speed-index": 1053.042,
+          "benchmarkIndex": 1044
+        },
+        "range": {
+          "performance": [
+            94,
+            100
+          ],
+          "tbt": [
+            0,
+            281.1987999999999
+          ],
+          "benchmark": [
+            626.5,
+            1438.5
+          ]
+        }
+      },
+      {
+        "page": "shopify",
+        "mode": "desktop",
+        "count": 5,
+        "valid": 5,
+        "comparableSettings": true,
+        "settings": {
+          "output": [
+            "json",
+            "html"
+          ],
+          "maxWaitForFcp": 30000,
+          "maxWaitForLoad": 45000,
+          "pauseAfterFcpMs": 1000,
+          "pauseAfterLoadMs": 1000,
+          "networkQuietThresholdMs": 1000,
+          "cpuQuietThresholdMs": 1000,
+          "formFactor": "desktop",
+          "throttling": {
+            "rttMs": 40,
+            "throughputKbps": 10240,
+            "requestLatencyMs": 0,
+            "downloadThroughputKbps": 0,
+            "uploadThroughputKbps": 0,
+            "cpuSlowdownMultiplier": 1
+          },
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": false,
+            "width": 1350,
+            "height": 940,
+            "deviceScaleFactor": 1,
+            "disabled": false
+          },
+          "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+          "auditMode": false,
+          "gatherMode": false,
+          "clearStorageTypes": [
+            "file_systems",
+            "shader_cache",
+            "service_workers",
+            "cache_storage"
+          ],
+          "disableStorageReset": false,
+          "debugNavigation": false,
+          "channel": "cli",
+          "usePassiveGathering": false,
+          "disableFullPageScreenshot": false,
+          "skipAboutBlank": false,
+          "blankPage": "about:blank",
+          "ignoreStatusCode": false,
+          "locale": "en-US",
+          "blockedUrlPatterns": null,
+          "additionalTraceCategories": null,
+          "extraHeaders": null,
+          "precomputedLanternData": null,
+          "onlyAudits": null,
+          "onlyCategories": [
+            "performance",
+            "accessibility",
+            "best-practices",
+            "seo"
+          ],
+          "skipAudits": null
+        },
+        "runs": [
+          {
+            "name": "shopify-desktop-1",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 282.382,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 282.382,
+              "speed-index": 341.5033080562366
+            },
+            "benchmark": 1126,
+            "cpuBefore": 62,
+            "cpuAfter": 29,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "shopify-desktop-2",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 283.3165,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 283.3165,
+              "speed-index": 355.5487508268552
+            },
+            "benchmark": 856,
+            "cpuBefore": 45,
+            "cpuAfter": 48,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "shopify-desktop-3",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 283.2738,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 283.2738,
+              "speed-index": 330.6598600000085
+            },
+            "benchmark": 1178.5,
+            "cpuBefore": 35,
+            "cpuAfter": 46,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "shopify-desktop-4",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 281.8897,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 281.8897,
+              "speed-index": 328.87105944219695
+            },
+            "benchmark": 1293,
+            "cpuBefore": 49,
+            "cpuAfter": 24,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "shopify-desktop-5",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 284.75,
+              "total-blocking-time": 17.625,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 284.75,
+              "speed-index": 401.83850055284734
+            },
+            "benchmark": 822.5,
+            "cpuBefore": 48,
+            "cpuAfter": 22,
+            "warnings": [],
+            "runtimeError": null
+          }
+        ],
+        "medians": {
+          "performance": 100,
+          "largest-contentful-paint": 283.2738,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0,
+          "first-contentful-paint": 283.2738,
+          "speed-index": 341.5033080562366,
+          "benchmarkIndex": 1126
+        },
+        "range": {
+          "performance": [
+            100,
+            100
+          ],
+          "tbt": [
+            0,
+            17.625
+          ],
+          "benchmark": [
+            822.5,
+            1293
+          ]
+        }
+      },
+      {
+        "page": "seo",
+        "mode": "mobile",
+        "count": 5,
+        "valid": 5,
+        "comparableSettings": true,
+        "settings": {
+          "output": [
+            "json",
+            "html"
+          ],
+          "maxWaitForFcp": 30000,
+          "maxWaitForLoad": 45000,
+          "pauseAfterFcpMs": 1000,
+          "pauseAfterLoadMs": 1000,
+          "networkQuietThresholdMs": 1000,
+          "cpuQuietThresholdMs": 1000,
+          "formFactor": "mobile",
+          "throttling": {
+            "rttMs": 150,
+            "throughputKbps": 1638.4,
+            "requestLatencyMs": 562.5,
+            "downloadThroughputKbps": 1474.5600000000002,
+            "uploadThroughputKbps": 675,
+            "cpuSlowdownMultiplier": 4
+          },
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": true,
+            "width": 412,
+            "height": 823,
+            "deviceScaleFactor": 1.75,
+            "disabled": false
+          },
+          "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+          "auditMode": false,
+          "gatherMode": false,
+          "clearStorageTypes": [
+            "file_systems",
+            "shader_cache",
+            "service_workers",
+            "cache_storage"
+          ],
+          "disableStorageReset": false,
+          "debugNavigation": false,
+          "channel": "cli",
+          "usePassiveGathering": false,
+          "disableFullPageScreenshot": false,
+          "skipAboutBlank": false,
+          "blankPage": "about:blank",
+          "ignoreStatusCode": false,
+          "locale": "en-US",
+          "blockedUrlPatterns": null,
+          "additionalTraceCategories": null,
+          "extraHeaders": null,
+          "precomputedLanternData": null,
+          "onlyAudits": null,
+          "onlyCategories": [
+            "performance",
+            "accessibility",
+            "best-practices",
+            "seo"
+          ],
+          "skipAudits": null
+        },
+        "runs": [
+          {
+            "name": "seo-mobile-1",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 1054.4276,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1054.4276,
+              "speed-index": 1054.4276
+            },
+            "benchmark": 1226,
+            "cpuBefore": 34,
+            "cpuAfter": 33,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "seo-mobile-2",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 1054.9514,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1054.9514,
+              "speed-index": 1054.9514
+            },
+            "benchmark": 1313.5,
+            "cpuBefore": 34,
+            "cpuAfter": 48,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "seo-mobile-3",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 1056.0398,
+              "total-blocking-time": 35,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1056.0398,
+              "speed-index": 1056.0398
+            },
+            "benchmark": 1395.5,
+            "cpuBefore": 37,
+            "cpuAfter": 39,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "seo-mobile-4",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 1052.52,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1052.52,
+              "speed-index": 1052.52
+            },
+            "benchmark": 1223,
+            "cpuBefore": 45,
+            "cpuAfter": 43,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "seo-mobile-5",
+            "performance": 96,
+            "metrics": {
+              "largest-contentful-paint": 1053.048,
+              "total-blocking-time": 215.47599999999989,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 1053.048,
+              "speed-index": 1088.4161859355104
+            },
+            "benchmark": 631.5,
+            "cpuBefore": 50,
+            "cpuAfter": 48,
+            "warnings": [
+              "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+            ],
+            "runtimeError": null
+          }
+        ],
+        "medians": {
+          "performance": 100,
+          "largest-contentful-paint": 1054.4276,
+          "total-blocking-time": 0,
+          "cumulative-layout-shift": 0,
+          "first-contentful-paint": 1054.4276,
+          "speed-index": 1054.9514,
+          "benchmarkIndex": 1226
+        },
+        "range": {
+          "performance": [
+            96,
+            100
+          ],
+          "tbt": [
+            0,
+            215.47599999999989
+          ],
+          "benchmark": [
+            631.5,
+            1395.5
+          ]
+        }
+      },
+      {
+        "page": "seo",
+        "mode": "desktop",
+        "count": 5,
+        "valid": 5,
+        "comparableSettings": true,
+        "settings": {
+          "output": [
+            "json",
+            "html"
+          ],
+          "maxWaitForFcp": 30000,
+          "maxWaitForLoad": 45000,
+          "pauseAfterFcpMs": 1000,
+          "pauseAfterLoadMs": 1000,
+          "networkQuietThresholdMs": 1000,
+          "cpuQuietThresholdMs": 1000,
+          "formFactor": "desktop",
+          "throttling": {
+            "rttMs": 40,
+            "throughputKbps": 10240,
+            "requestLatencyMs": 0,
+            "downloadThroughputKbps": 0,
+            "uploadThroughputKbps": 0,
+            "cpuSlowdownMultiplier": 1
+          },
+          "throttlingMethod": "simulate",
+          "screenEmulation": {
+            "mobile": false,
+            "width": 1350,
+            "height": 940,
+            "deviceScaleFactor": 1,
+            "disabled": false
+          },
+          "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+          "auditMode": false,
+          "gatherMode": false,
+          "clearStorageTypes": [
+            "file_systems",
+            "shader_cache",
+            "service_workers",
+            "cache_storage"
+          ],
+          "disableStorageReset": false,
+          "debugNavigation": false,
+          "channel": "cli",
+          "usePassiveGathering": false,
+          "disableFullPageScreenshot": false,
+          "skipAboutBlank": false,
+          "blankPage": "about:blank",
+          "ignoreStatusCode": false,
+          "locale": "en-US",
+          "blockedUrlPatterns": null,
+          "additionalTraceCategories": null,
+          "extraHeaders": null,
+          "precomputedLanternData": null,
+          "onlyAudits": null,
+          "onlyCategories": [
+            "performance",
+            "accessibility",
+            "best-practices",
+            "seo"
+          ],
+          "skipAudits": null
+        },
+        "runs": [
+          {
+            "name": "seo-desktop-1",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 286.742,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 286.742,
+              "speed-index": 345.25138333332103
+            },
+            "benchmark": 895,
+            "cpuBefore": 26,
+            "cpuAfter": 28,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "seo-desktop-2",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 285.18,
+              "total-blocking-time": 1.2050000000000125,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 285.18,
+              "speed-index": 342.21074463601695
+            },
+            "benchmark": 1325.5,
+            "cpuBefore": 42,
+            "cpuAfter": 38,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "seo-desktop-3",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 281.762,
+              "total-blocking-time": 9.559499999999986,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 281.762,
+              "speed-index": 345.3840807921681
+            },
+            "benchmark": 1168,
+            "cpuBefore": 40,
+            "cpuAfter": 31,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "seo-desktop-4",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 282.186,
+              "total-blocking-time": 0,
+              "cumulative-layout-shift": 0,
+              "first-contentful-paint": 282.186,
+              "speed-index": 301.36122499995554
+            },
+            "benchmark": 1401.5,
+            "cpuBefore": 30,
+            "cpuAfter": 29,
+            "warnings": [],
+            "runtimeError": null
+          },
+          {
+            "name": "seo-desktop-5",
+            "performance": 100,
+            "metrics": {
+              "largest-contentful-paint": 285.93399999999997,
+              "total-blocking-time": 3,
+              "cumulative-layout-shift": 0.002334154160634135,
+              "first-contentful-paint": 285.93399999999997,
+              "speed-index": 542.9442234644241
+            },
+            "benchmark": 666,
+            "cpuBefore": 48,
+            "cpuAfter": 31,
+            "warnings": [],
+            "runtimeError": null
+          }
+        ],
+        "medians": {
+          "performance": 100,
+          "largest-contentful-paint": 285.18,
+          "total-blocking-time": 1.2050000000000125,
+          "cumulative-layout-shift": 0,
+          "first-contentful-paint": 285.18,
+          "speed-index": 345.25138333332103,
+          "benchmarkIndex": 1168
+        },
+        "range": {
+          "performance": [
+            100,
+            100
+          ],
+          "tbt": [
+            0,
+            9.559499999999986
+          ],
+          "benchmark": [
+            666,
+            1401.5
+          ]
+        }
+      }
+    ]
+  },
+  "diagnosticEvidence": "diagnostic-attribution.json",
+  "sourcePreservation": "preservation.json",
+  "tests": {
+    "passed": 70,
+    "failed": 0
+  },
+  "responsiveCombinations": 15,
+  "crawl": {
+    "pages": 15,
+    "targets": 85,
+    "errors": 0
+  },
+  "ownerDependencies": [
+    "Confirmed production origin and host",
+    "Official mailbox and contact behavior decision",
+    "Approved Privacy and Terms"
+  ],
+  "remaining": "Mobile rendering cost and host/browser extraction overhead require stable independent validation; no speculative application edit retained."
+}

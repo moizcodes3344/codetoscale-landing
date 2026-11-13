@@ -1,0 +1,259 @@
+{
+  "date": "2026-11-13",
+  "branch": "codex/seo-executive-summary",
+  "entryFiles": 35,
+  "unchanged": 33,
+  "applicationChanges": [],
+  "documentationChanges": [
+    "README.md",
+    "docs/production-launch-checklist.md"
+  ],
+  "phase3ManifestMatchedAtEntry": true,
+  "files": [
+    {
+      "file": "index.html",
+      "entrySHA256": "c0273d04d7768ac4a1b75ac023c0e588e4c1923288e5876f09dbad4df9e8d069",
+      "finalSHA256": "c0273d04d7768ac4a1b75ac023c0e588e4c1923288e5876f09dbad4df9e8d069",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "script.js",
+      "entrySHA256": "2383fcf010f4c1fed1bc23349934eba09f1113549a2784358e082cb8761a9133",
+      "finalSHA256": "2383fcf010f4c1fed1bc23349934eba09f1113549a2784358e082cb8761a9133",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "styles.css",
+      "entrySHA256": "e0e516e469b4b584588d9fa79534d33f7056cec13c2a6fd6656d955086448274",
+      "finalSHA256": "e0e516e469b4b584588d9fa79534d33f7056cec13c2a6fd6656d955086448274",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "serve.mjs",
+      "entrySHA256": "093f83c9aeb6696b90100142f78e443ea82c56c064d58d570e3d856c16e4a058",
+      "finalSHA256": "093f83c9aeb6696b90100142f78e443ea82c56c064d58d570e3d856c16e4a058",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "scripts/build.mjs",
+      "entrySHA256": "1f83cc18269fccdda0ea8eb88274780bf36db606d09bbe45b8ca99b5ccb2b39a",
+      "finalSHA256": "1f83cc18269fccdda0ea8eb88274780bf36db606d09bbe45b8ca99b5ccb2b39a",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "tests/seo.test.mjs",
+      "entrySHA256": "3c2999a1c22243342185e87e2e089ebdfc2a44b47200edb577025117e2ed8a93",
+      "finalSHA256": "3c2999a1c22243342185e87e2e089ebdfc2a44b47200edb577025117e2ed8a93",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "services.html",
+      "entrySHA256": "29a9034e556113e68f53d18f48c814530a37350f331a38a6b125c4c6246c4ac1",
+      "finalSHA256": "29a9034e556113e68f53d18f48c814530a37350f331a38a6b125c4c6246c4ac1",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "about.html",
+      "entrySHA256": "d352ea1dd0b77acd8db9fb886021b62588503e353ed6b7d3b4f24dbffe7f8ed3",
+      "finalSHA256": "d352ea1dd0b77acd8db9fb886021b62588503e353ed6b7d3b4f24dbffe7f8ed3",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "faq.html",
+      "entrySHA256": "ec47d3352b6333d14890d77d2e19cf43720aea47802cfd630e24bcf26dc13e47",
+      "finalSHA256": "ec47d3352b6333d14890d77d2e19cf43720aea47802cfd630e24bcf26dc13e47",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "services/ecommerce-development.html",
+      "entrySHA256": "c615a84e38de45fccc571261582b5ca11c01dcc704b1ff90e1179c94a20245a5",
+      "finalSHA256": "c615a84e38de45fccc571261582b5ca11c01dcc704b1ff90e1179c94a20245a5",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "services/shopify-development.html",
+      "entrySHA256": "650fe0bccd668f3b889da1d1a70bd64462eb8564698b17d32ebc9733ec3ee51d",
+      "finalSHA256": "650fe0bccd668f3b889da1d1a70bd64462eb8564698b17d32ebc9733ec3ee51d",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "services/woocommerce-development.html",
+      "entrySHA256": "40c27cdbb9b58bdb96df7d047c6d27f0720d38aa40b423c4b8ce4fd98f398e86",
+      "finalSHA256": "40c27cdbb9b58bdb96df7d047c6d27f0720d38aa40b423c4b8ce4fd98f398e86",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "services/custom-software-development.html",
+      "entrySHA256": "f45c88e79f2276e62b2d4f3a41002be2ac397f836e4bd55e219b8b28a1135c2d",
+      "finalSHA256": "f45c88e79f2276e62b2d4f3a41002be2ac397f836e4bd55e219b8b28a1135c2d",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "services/saas-development.html",
+      "entrySHA256": "1fd005c562024242eb1a8d174b0f1fd0d5066ff8f671a1b6e0400fa76761d2da",
+      "finalSHA256": "1fd005c562024242eb1a8d174b0f1fd0d5066ff8f671a1b6e0400fa76761d2da",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "services/crm-integration.html",
+      "entrySHA256": "641e89c6786b142a5ca8f6310c4142ffc4928ed0f250df8f8f62f2635bb5194d",
+      "finalSHA256": "641e89c6786b142a5ca8f6310c4142ffc4928ed0f250df8f8f62f2635bb5194d",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "services/digital-marketing.html",
+      "entrySHA256": "dfde4894cb636091622dc6b46eca22f50bd726394d68c446f579c72bef3b75cc",
+      "finalSHA256": "dfde4894cb636091622dc6b46eca22f50bd726394d68c446f579c72bef3b75cc",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "services/seo-content-marketing.html",
+      "entrySHA256": "8e4e2a294cfc4f4a9af84cdceedb93df18dcfcd6ba26c830b4fa17988e6472d8",
+      "finalSHA256": "8e4e2a294cfc4f4a9af84cdceedb93df18dcfcd6ba26c830b4fa17988e6472d8",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "services/social-media-marketing.html",
+      "entrySHA256": "e8b5d51dd8ea9fd935fcad80430882b33324dd165645cf2ffe8a80fe62e864f5",
+      "finalSHA256": "e8b5d51dd8ea9fd935fcad80430882b33324dd165645cf2ffe8a80fe62e864f5",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "privacy.html",
+      "entrySHA256": "29ce5aeb188e719a3797a2a6bca5c5c937fdd2ba7ffe7af75d6c3deb528bcbd8",
+      "finalSHA256": "29ce5aeb188e719a3797a2a6bca5c5c937fdd2ba7ffe7af75d6c3deb528bcbd8",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "terms.html",
+      "entrySHA256": "056f392f5e38d59d4a7cffcc61ce591e02a01d4db6fd20143c5b4e5bcb841147",
+      "finalSHA256": "056f392f5e38d59d4a7cffcc61ce591e02a01d4db6fd20143c5b4e5bcb841147",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "assets/fonts/plus-jakarta-sans-latin.woff2",
+      "entrySHA256": "cd8db90cd950e26bc8761f65d323588bd5cd112d326d6d322bc7c8ea86771215",
+      "finalSHA256": "cd8db90cd950e26bc8761f65d323588bd5cd112d326d6d322bc7c8ea86771215",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "assets/fonts/fira-code-latin.woff2",
+      "entrySHA256": "d32d5b5a7c9720cf3812f7d1e3ebdb54116f8f656e7471a03a5a93bdd93c98b3",
+      "finalSHA256": "d32d5b5a7c9720cf3812f7d1e3ebdb54116f8f656e7471a03a5a93bdd93c98b3",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "assets/fonts/plus-jakarta-sans-OFL.txt",
+      "entrySHA256": "995c7199cab65954f545996326755daee7b63cc6b42b06c13da1f9502ab08a99",
+      "finalSHA256": "995c7199cab65954f545996326755daee7b63cc6b42b06c13da1f9502ab08a99",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "assets/fonts/fira-code-OFL.txt",
+      "entrySHA256": "926041dac670e6922505e35ac1661a4e8d20f1ffeabbbcb5edb5544370702369",
+      "finalSHA256": "926041dac670e6922505e35ac1661a4e8d20f1ffeabbbcb5edb5544370702369",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "README.md",
+      "entrySHA256": "b118332dd84b36e02fd996e6c20b12f52cc305aa3bc098c947bfb424d42b0a20",
+      "finalSHA256": "fa0667f232cf8584e7dc045b718e979c7e76a5d705e324d61acf4566bd3afbf9",
+      "unchanged": false,
+      "expectedDocumentationChange": true
+    },
+    {
+      "file": "docs/production-launch-checklist.md",
+      "entrySHA256": "6f445ca07f1326b314eadbd0482f06fb14c72a00518da5ca69ad43cf426f84a0",
+      "finalSHA256": "9f29fa34a83f3fdca4c4916ca4844a7c6a7040d1e419a2d3b7a85e8676110cab",
+      "unchanged": false,
+      "expectedDocumentationChange": true
+    },
+    {
+      "file": "docs/phase3-performance-report.md",
+      "entrySHA256": "881d02ecf57ec257e6b7851b38a895cda17ea7023c2cc7bc2d0839a703127ecb",
+      "finalSHA256": "881d02ecf57ec257e6b7851b38a895cda17ea7023c2cc7bc2d0839a703127ecb",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "content/services.mjs",
+      "entrySHA256": "b32e8028e447e57e12d052e1b7fc11b9e54ac347d34b3e2ec50d5bd0a0f11449",
+      "finalSHA256": "b32e8028e447e57e12d052e1b7fc11b9e54ac347d34b3e2ec50d5bd0a0f11449",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "content/pages.mjs",
+      "entrySHA256": "72d53189545c497b9bbf87856bde40601b33a3b8a6cde075a367997bca0c6e44",
+      "finalSHA256": "72d53189545c497b9bbf87856bde40601b33a3b8a6cde075a367997bca0c6e44",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "navigation.js",
+      "entrySHA256": "3400dcc1de12a58467f61e46a459f20060afb240182c609c4c17432a06825977",
+      "finalSHA256": "3400dcc1de12a58467f61e46a459f20060afb240182c609c4c17432a06825977",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "site.config.json",
+      "entrySHA256": "893ab251f12bb25e3954c97f6783e9c84fb54d4086594f18832ccaf2380bbb9a",
+      "finalSHA256": "893ab251f12bb25e3954c97f6783e9c84fb54d4086594f18832ccaf2380bbb9a",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "robots.txt",
+      "entrySHA256": "d2f67f2d0b5df667d6f027d3c250f5d5b3931d9f301bbe8178f57c3f2e275780",
+      "finalSHA256": "d2f67f2d0b5df667d6f027d3c250f5d5b3931d9f301bbe8178f57c3f2e275780",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "package.json",
+      "entrySHA256": "bbbbbccabe699048af878bcaf7789c0513075dcdeb9f891b49085f709301d5b6",
+      "finalSHA256": "bbbbbccabe699048af878bcaf7789c0513075dcdeb9f891b49085f709301d5b6",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "scripts/seo.mjs",
+      "entrySHA256": "8b6e254a94be0528ec617775ffbdfa9bcab86556debc62c56ca276b3c348b244",
+      "finalSHA256": "8b6e254a94be0528ec617775ffbdfa9bcab86556debc62c56ca276b3c348b244",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    },
+    {
+      "file": "tests/site.test.mjs",
+      "entrySHA256": "e02d868165019dde3e34b6c03de4974485ca0b560a07f89e7ac2d8d950408b1f",
+      "finalSHA256": "e02d868165019dde3e34b6c03de4974485ca0b560a07f89e7ac2d8d950408b1f",
+      "unchanged": true,
+      "expectedDocumentationChange": false
+    }
+  ]
+}

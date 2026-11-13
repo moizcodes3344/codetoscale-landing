@@ -1,0 +1,87 @@
+{
+  "ctas": [
+    {
+      "endpoint": "",
+      "requested": "Shopify Store Development",
+      "selected": "Shopify Store Development",
+      "url": "/?service=Shopify%20Store%20Development#contact"
+    },
+    {
+      "endpoint": "",
+      "requested": "Shopify Store Development",
+      "selected": "Shopify Store Development",
+      "url": "/?service=Shopify%20Store%20Development#contact"
+    },
+    {
+      "endpoint": "",
+      "requested": "WooCommerce Solutions",
+      "selected": "WooCommerce Solutions",
+      "url": "/?service=WooCommerce%20Solutions#contact"
+    },
+    {
+      "endpoint": "",
+      "requested": "Custom Software Development",
+      "selected": "Custom Software Development",
+      "url": "/?service=Custom%20Software%20Development#contact"
+    },
+    {
+      "endpoint": "",
+      "requested": "Custom Software Development",
+      "selected": "Custom Software Development",
+      "url": "/?service=Custom%20Software%20Development#contact"
+    },
+    {
+      "endpoint": "",
+      "requested": "Custom Software Development",
+      "selected": "Custom Software Development",
+      "url": "/?service=Custom%20Software%20Development#contact"
+    },
+    {
+      "endpoint": "",
+      "requested": "Performance Marketing & Growth",
+      "selected": "Performance Marketing & Growth",
+      "url": "/?service=Performance%20Marketing%20%26%20Growth#contact"
+    },
+    {
+      "endpoint": "",
+      "requested": "Performance Marketing & Growth",
+      "selected": "Performance Marketing & Growth",
+      "url": "/?service=Performance%20Marketing%20%26%20Growth#contact"
+    },
+    {
+      "endpoint": "",
+      "requested": "Performance Marketing & Growth",
+      "selected": "Performance Marketing & Growth",
+      "url": "/?service=Performance%20Marketing%20%26%20Growth#contact"
+    }
+  ],
+  "empty": {
+    "active": "name",
+    "invalid": [
+      "name",
+      "email",
+      "budget",
+      "message"
+    ]
+  },
+  "whitespace": {
+    "active": "name",
+    "feedback": "Please add your name and at least 10 characters about your project.",
+    "invalid": [
+      "name",
+      "message"
+    ]
+  },
+  "validDraft": {
+    "action": "mailto:moiz21892@gmail.com",
+    "draft": "mailto:moiz21892@gmail.com?subject=CodeToScale%20project%20inquiry%20%E2%80%94%20Performance%20Marketing%20%26%20Growth&body=Name%3A%20Production%20QA%0D%0AEmail%3A%20qa%40example.com%0D%0AService%3A%20Performance%20Marketing%20%26%20Growth%0D%0ABudget%3A%20Let%E2%80%99s%20discuss%0D%0A%0D%0AProject%20brief%3A%0D%0ALocal%20QA%20only%3A%20verify%20draft%20%26%20manual%20sending%20behavior.",
+    "email": "moiz21892@gmail.com",
+    "endpoint": "",
+    "feedback": "Your brief is ready. Complete sending it in your email app. Open email draft again or email moiz21892@gmail.com.",
+    "invalid": [],
+    "retainedName": "Production QA"
+  },
+  "mailClientLaunch": "blocked by browser security policy; not retried",
+  "automaticDeliveryTested": false,
+  "emailSent": false
+}

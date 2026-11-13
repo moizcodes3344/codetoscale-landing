@@ -1,0 +1,1180 @@
+[
+  {
+    "route": "/",
+    "title": "CodeToScale: E-commerce &amp; Custom Software Agency",
+    "description": "Build online stores, custom software, SaaS and CRM with CodeToScale. Explore development and digital marketing services, then discuss your project with our team.",
+    "h1": [
+      "CodeToScale: E-commerce &amp; Custom Software Agency"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 2232,
+    "internalLinks": [
+      "#main",
+      "#home",
+      "#home",
+      "#about",
+      "#capabilities",
+      "#ecommerce",
+      "#software",
+      "#projects",
+      "#contact",
+      "#contact",
+      "#home",
+      "#about",
+      "#capabilities",
+      "#ecommerce",
+      "#software",
+      "#projects",
+      "#contact",
+      "#contact",
+      "#capabilities",
+      "#contact",
+      "#capabilities",
+      "about.html",
+      "services.html",
+      "services/shopify-development.html",
+      "services/woocommerce-development.html",
+      "services/digital-marketing.html",
+      "services/custom-software-development.html",
+      "#contact",
+      "#contact",
+      "services/saas-development.html",
+      "services/crm-integration.html",
+      "services/shopify-development.html",
+      "#contact",
+      "services/woocommerce-development.html",
+      "#contact",
+      "services/ecommerce-development.html",
+      "#contact",
+      "services/ecommerce-development.html",
+      "#contact",
+      "services/ecommerce-development.html",
+      "#contact",
+      "services/ecommerce-development.html",
+      "#contact",
+      "services/ecommerce-development.html",
+      "#contact",
+      "services/ecommerce-development.html",
+      "#contact",
+      "#contact",
+      "services/custom-software-development.html",
+      "#contact",
+      "services/custom-software-development.html",
+      "#contact",
+      "services/crm-integration.html",
+      "#contact",
+      "services/custom-software-development.html",
+      "#contact",
+      "services/custom-software-development.html",
+      "#contact",
+      "services/custom-software-development.html",
+      "#contact",
+      "services/custom-software-development.html",
+      "#contact",
+      "services/custom-software-development.html",
+      "#contact",
+      "#contact",
+      "#contact",
+      "#contact",
+      "#contact",
+      "faq.html",
+      "#contact",
+      "services/ecommerce-development.html",
+      "services/custom-software-development.html",
+      "index.html#contact",
+      "services/shopify-development.html",
+      "services/saas-development.html",
+      "services/seo-content-marketing.html",
+      "index.html#contact",
+      "#contact",
+      "#home",
+      "services/seo-content-marketing.html",
+      "services/social-media-marketing.html",
+      "#home",
+      "about.html",
+      "services.html",
+      "#projects",
+      "#workflow",
+      "faq.html",
+      "#contact",
+      "services/shopify-development.html",
+      "services/woocommerce-development.html",
+      "services/ecommerce-development.html",
+      "#ecommerce",
+      "#ecommerce",
+      "services/custom-software-development.html",
+      "services/crm-integration.html",
+      "services/saas-development.html",
+      "#software",
+      "#software",
+      "privacy.html",
+      "terms.html",
+      "#home"
+    ],
+    "jsonLD": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "CodeToScale",
+            "email": "moiz21892@gmail.com"
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/commerce-concept.svg",
+        "alt": "Atelier demo storefront with a minimal cream layout, olive typography, and sculptural skincare product illustrations"
+      },
+      {
+        "src": "assets/software-concept.svg",
+        "alt": "Orbit demo operations dashboard showing an activity chart, project status table, and workflow overview with illustrative data"
+      }
+    ]
+  },
+  {
+    "route": "/services.html",
+    "title": "E-commerce, Software &amp; Marketing Services | CodeToScale",
+    "description": "Explore CodeToScale services for online stores, custom software, SaaS, CRM and digital marketing. Find the right starting point for your business and project.",
+    "h1": [
+      "E-commerce, software &amp; digital marketing services"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 368,
+    "internalLinks": [
+      "#main",
+      "index.html#home",
+      "index.html#home",
+      "about.html",
+      "services.html",
+      "index.html#ecommerce",
+      "index.html#software",
+      "index.html#projects",
+      "index.html#contact",
+      "index.html#contact",
+      "index.html#home",
+      "about.html",
+      "services.html",
+      "index.html#ecommerce",
+      "index.html#software",
+      "index.html#projects",
+      "index.html#contact",
+      "index.html#contact",
+      "index.html",
+      "services/ecommerce-development.html",
+      "services/shopify-development.html",
+      "services/woocommerce-development.html",
+      "services/custom-software-development.html",
+      "services/saas-development.html",
+      "services/crm-integration.html",
+      "services/custom-software-development.html",
+      "services/digital-marketing.html",
+      "services/seo-content-marketing.html",
+      "services/social-media-marketing.html",
+      "index.html#contact",
+      "index.html#home",
+      "services/seo-content-marketing.html",
+      "services/social-media-marketing.html",
+      "index.html#home",
+      "about.html",
+      "services.html",
+      "index.html#projects",
+      "index.html#workflow",
+      "faq.html",
+      "index.html#contact",
+      "services/shopify-development.html",
+      "services/woocommerce-development.html",
+      "services/ecommerce-development.html",
+      "index.html#ecommerce",
+      "index.html#ecommerce",
+      "services/custom-software-development.html",
+      "services/crm-integration.html",
+      "services/saas-development.html",
+      "index.html#software",
+      "index.html#software",
+      "privacy.html",
+      "terms.html",
+      "index.html#home"
+    ],
+    "jsonLD": [],
+    "images": []
+  },
+  {
+    "route": "/services/ecommerce-development.html",
+    "title": "E-commerce Website Development Services | CodeToScale",
+    "description": "Plan an online store around your catalog, checkout and operations. Explore CodeToScale e-commerce development with Shopify, WooCommerce and custom storefronts.",
+    "h1": [
+      "E-commerce website development"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 496,
+    "internalLinks": [
+      "#main",
+      "../index.html#home",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html",
+      "../services.html",
+      "../index.html?service=Shopify%20Store%20Development#contact",
+      "../services/shopify-development.html",
+      "../services/woocommerce-development.html",
+      "../services/seo-content-marketing.html",
+      "../services.html",
+      "../index.html?service=Shopify%20Store%20Development#contact",
+      "../faq.html",
+      "../index.html#home",
+      "../services/seo-content-marketing.html",
+      "../services/social-media-marketing.html",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#projects",
+      "../index.html#workflow",
+      "../faq.html",
+      "../index.html#contact",
+      "../services/shopify-development.html",
+      "../services/woocommerce-development.html",
+      "../services/ecommerce-development.html",
+      "../index.html#ecommerce",
+      "../index.html#ecommerce",
+      "../services/custom-software-development.html",
+      "../services/crm-integration.html",
+      "../services/saas-development.html",
+      "../index.html#software",
+      "../index.html#software",
+      "../privacy.html",
+      "../terms.html",
+      "../index.html#home"
+    ],
+    "jsonLD": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "E-commerce development",
+            "serviceType": "E-commerce development",
+            "description": "An online store needs to do more than display products. Customers need to understand what they are buying, find the right option and complete checkout with confidence. CodeToScale brings design, development and business workflows together through e-commerce website development shaped around your catalog and customers.",
+            "provider": {
+              "@type": "Organization",
+              "name": "CodeToScale",
+              "email": "moiz21892@gmail.com"
+            }
+          }
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "title": "Shopify Development for Pakistan &amp; Beyond | CodeToScale",
+    "description": "Discuss Shopify development for Pakistan and international markets. CodeToScale plans Liquid themes, catalog setup, integrations and careful store migrations.",
+    "h1": [
+      "Shopify development for Pakistan and beyond"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 509,
+    "internalLinks": [
+      "#main",
+      "../index.html#home",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html",
+      "../services.html",
+      "../index.html?service=Shopify%20Store%20Development#contact",
+      "../services/ecommerce-development.html",
+      "../services/woocommerce-development.html",
+      "../services/crm-integration.html",
+      "../services.html",
+      "../index.html?service=Shopify%20Store%20Development#contact",
+      "../faq.html",
+      "../index.html#home",
+      "../services/seo-content-marketing.html",
+      "../services/social-media-marketing.html",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#projects",
+      "../index.html#workflow",
+      "../faq.html",
+      "../index.html#contact",
+      "../services/shopify-development.html",
+      "../services/woocommerce-development.html",
+      "../services/ecommerce-development.html",
+      "../index.html#ecommerce",
+      "../index.html#ecommerce",
+      "../services/custom-software-development.html",
+      "../services/crm-integration.html",
+      "../services/saas-development.html",
+      "../index.html#software",
+      "../index.html#software",
+      "../privacy.html",
+      "../terms.html",
+      "../index.html#home"
+    ],
+    "jsonLD": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "Shopify development",
+            "serviceType": "Shopify development",
+            "description": "Choosing a Shopify development agency starts with finding a team that understands your catalog, customers and daily operations. CodeToScale plans Shopify stores around those requirements, from a focused theme implementation to a more tailored storefront. Our Shopify development work addresses businesses targeting Pakistan and international markets without treating every store as the same project.",
+            "provider": {
+              "@type": "Organization",
+              "name": "CodeToScale",
+              "email": "moiz21892@gmail.com"
+            }
+          }
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "route": "/services/woocommerce-development.html",
+    "title": "WooCommerce Development Services | CodeToScale",
+    "description": "Build a WordPress store around your products and workflows. Explore CodeToScale WooCommerce development, plugin integration, checkout and migration planning.",
+    "h1": [
+      "WooCommerce development"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 514,
+    "internalLinks": [
+      "#main",
+      "../index.html#home",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html",
+      "../services.html",
+      "../index.html?service=WooCommerce%20Solutions#contact",
+      "../services/ecommerce-development.html",
+      "../services/shopify-development.html",
+      "../services/seo-content-marketing.html",
+      "../services.html",
+      "../index.html?service=WooCommerce%20Solutions#contact",
+      "../faq.html",
+      "../index.html#home",
+      "../services/seo-content-marketing.html",
+      "../services/social-media-marketing.html",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#projects",
+      "../index.html#workflow",
+      "../faq.html",
+      "../index.html#contact",
+      "../services/shopify-development.html",
+      "../services/woocommerce-development.html",
+      "../services/ecommerce-development.html",
+      "../index.html#ecommerce",
+      "../index.html#ecommerce",
+      "../services/custom-software-development.html",
+      "../services/crm-integration.html",
+      "../services/saas-development.html",
+      "../index.html#software",
+      "../index.html#software",
+      "../privacy.html",
+      "../terms.html",
+      "../index.html#home"
+    ],
+    "jsonLD": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "WooCommerce development",
+            "serviceType": "WooCommerce development",
+            "description": "WooCommerce development connects WordPress content management with the details of running an online store. CodeToScale helps shape that combination around your catalog, checkout and internal processes. The goal is a shopping experience customers can understand and a store your team can manage without unnecessary complexity.",
+            "provider": {
+              "@type": "Organization",
+              "name": "CodeToScale",
+              "email": "moiz21892@gmail.com"
+            }
+          }
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "route": "/services/custom-software-development.html",
+    "title": "Custom Software &amp; Web App Development | CodeToScale",
+    "description": "Turn business workflows into useful software. Explore CodeToScale custom applications, portals, dashboards, ERP workflows and API integration for your team.",
+    "h1": [
+      "Custom software development"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 525,
+    "internalLinks": [
+      "#main",
+      "../index.html#home",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html",
+      "../services.html",
+      "../index.html?service=Custom%20Software%20Development#contact",
+      "../services/saas-development.html",
+      "../services/crm-integration.html",
+      "../services/ecommerce-development.html",
+      "../services.html",
+      "../index.html?service=Custom%20Software%20Development#contact",
+      "../faq.html",
+      "../index.html#home",
+      "../services/seo-content-marketing.html",
+      "../services/social-media-marketing.html",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#projects",
+      "../index.html#workflow",
+      "../faq.html",
+      "../index.html#contact",
+      "../services/shopify-development.html",
+      "../services/woocommerce-development.html",
+      "../services/ecommerce-development.html",
+      "../index.html#ecommerce",
+      "../index.html#ecommerce",
+      "../services/custom-software-development.html",
+      "../services/crm-integration.html",
+      "../services/saas-development.html",
+      "../index.html#software",
+      "../index.html#software",
+      "../privacy.html",
+      "../terms.html",
+      "../index.html#home"
+    ],
+    "jsonLD": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "Custom software development",
+            "serviceType": "Custom software development",
+            "description": "Custom software development is useful when the way your business works no longer fits the tools around it. CodeToScale plans and builds web applications, portals, dashboards and connected workflows around the people using them. We begin with a specific operational problem and work toward software with a clear purpose, manageable scope and understandable handover.",
+            "provider": {
+              "@type": "Organization",
+              "name": "CodeToScale",
+              "email": "moiz21892@gmail.com"
+            }
+          }
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "route": "/services/saas-development.html",
+    "title": "SaaS Product Development Services | CodeToScale",
+    "description": "Shape a SaaS product around a clear user need. CodeToScale helps plan product scope, onboarding, access roles, integrations and a practical release roadmap.",
+    "h1": [
+      "SaaS product development"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 529,
+    "internalLinks": [
+      "#main",
+      "../index.html#home",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html",
+      "../services.html",
+      "../index.html?service=Custom%20Software%20Development#contact",
+      "../services/custom-software-development.html",
+      "../services/crm-integration.html",
+      "../services.html",
+      "../index.html?service=Custom%20Software%20Development#contact",
+      "../faq.html",
+      "../index.html#home",
+      "../services/seo-content-marketing.html",
+      "../services/social-media-marketing.html",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#projects",
+      "../index.html#workflow",
+      "../faq.html",
+      "../index.html#contact",
+      "../services/shopify-development.html",
+      "../services/woocommerce-development.html",
+      "../services/ecommerce-development.html",
+      "../index.html#ecommerce",
+      "../index.html#ecommerce",
+      "../services/custom-software-development.html",
+      "../services/crm-integration.html",
+      "../services/saas-development.html",
+      "../index.html#software",
+      "../index.html#software",
+      "../privacy.html",
+      "../terms.html",
+      "../index.html#home"
+    ],
+    "jsonLD": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "SaaS product development",
+            "serviceType": "SaaS product development",
+            "description": "SaaS product development turns an ongoing user need into software delivered as a service. Unlike a one-off internal tool, a SaaS product needs to make sense to customers beyond the team building it. CodeToScale helps connect the product idea, user journeys and technical decisions so the first release has a clear purpose and a practical path forward.",
+            "provider": {
+              "@type": "Organization",
+              "name": "CodeToScale",
+              "email": "moiz21892@gmail.com"
+            }
+          }
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "route": "/services/crm-integration.html",
+    "title": "CRM Development &amp; Software Integration | CodeToScale",
+    "description": "Connect customer records and business workflows. Explore CodeToScale CRM development, data mapping, API integration and a practical plan for team adoption.",
+    "h1": [
+      "CRM development &amp; software integration"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 551,
+    "internalLinks": [
+      "#main",
+      "../index.html#home",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html",
+      "../services.html",
+      "../index.html?service=Custom%20Software%20Development#contact",
+      "../services/custom-software-development.html",
+      "../services/saas-development.html",
+      "../services/shopify-development.html",
+      "../services.html",
+      "../index.html?service=Custom%20Software%20Development#contact",
+      "../faq.html",
+      "../index.html#home",
+      "../services/seo-content-marketing.html",
+      "../services/social-media-marketing.html",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#projects",
+      "../index.html#workflow",
+      "../faq.html",
+      "../index.html#contact",
+      "../services/shopify-development.html",
+      "../services/woocommerce-development.html",
+      "../services/ecommerce-development.html",
+      "../index.html#ecommerce",
+      "../index.html#ecommerce",
+      "../services/custom-software-development.html",
+      "../services/crm-integration.html",
+      "../services/saas-development.html",
+      "../index.html#software",
+      "../index.html#software",
+      "../privacy.html",
+      "../terms.html",
+      "../index.html#home"
+    ],
+    "jsonLD": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "CRM development & integration",
+            "serviceType": "CRM development & integration",
+            "description": "Customer information becomes harder to use when it is spread across forms, spreadsheets, stores and internal tools. CRM software integration brings those records into a more useful workflow. CodeToScale plans customer relationship systems and connections around the way your team handles leads, sales stages and customer history, with clear rules for what moves between systems.",
+            "provider": {
+              "@type": "Organization",
+              "name": "CodeToScale",
+              "email": "moiz21892@gmail.com"
+            }
+          }
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "route": "/services/digital-marketing.html",
+    "title": "Digital Marketing Agency for Pakistan | CodeToScale",
+    "description": "Connect acquisition, content and on-site conversion. Explore CodeToScale digital marketing for Pakistan and international businesses, with measurable priorities.",
+    "h1": [
+      "Digital marketing for Pakistan and beyond"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 538,
+    "internalLinks": [
+      "#main",
+      "../index.html#home",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html",
+      "../services.html",
+      "../index.html?service=Performance%20Marketing%20%26%20Growth#contact",
+      "../services/seo-content-marketing.html",
+      "../services/social-media-marketing.html",
+      "../services/ecommerce-development.html",
+      "../services.html",
+      "../index.html?service=Performance%20Marketing%20%26%20Growth#contact",
+      "../faq.html",
+      "../index.html#home",
+      "../services/seo-content-marketing.html",
+      "../services/social-media-marketing.html",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#projects",
+      "../index.html#workflow",
+      "../faq.html",
+      "../index.html#contact",
+      "../services/shopify-development.html",
+      "../services/woocommerce-development.html",
+      "../services/ecommerce-development.html",
+      "../index.html#ecommerce",
+      "../index.html#ecommerce",
+      "../services/custom-software-development.html",
+      "../services/crm-integration.html",
+      "../services/saas-development.html",
+      "../index.html#software",
+      "../index.html#software",
+      "../privacy.html",
+      "../terms.html",
+      "../index.html#home"
+    ],
+    "jsonLD": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "Digital marketing",
+            "serviceType": "Digital marketing",
+            "description": "Choosing a digital marketing agency for Pakistan or international audiences starts with a business question: what should the right visitor do next? CodeToScale connects acquisition, useful content and the experience after the click. We plan activity around defined goals and a realistic measurement approach, with development and marketing considered together.",
+            "provider": {
+              "@type": "Organization",
+              "name": "CodeToScale",
+              "email": "moiz21892@gmail.com"
+            }
+          }
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "route": "/services/seo-content-marketing.html",
+    "title": "SEO &amp; Content Marketing for Pakistan | CodeToScale",
+    "description": "Plan technical SEO and useful content with CodeToScale. Explore SEO services for Pakistan and global audiences, from keyword research to progress reporting.",
+    "h1": [
+      "SEO &amp; content marketing for Pakistan and beyond"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 555,
+    "internalLinks": [
+      "#main",
+      "../index.html#home",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html",
+      "../services.html",
+      "../index.html?service=Performance%20Marketing%20%26%20Growth#contact",
+      "../services/digital-marketing.html",
+      "../services/ecommerce-development.html",
+      "../services/woocommerce-development.html",
+      "../services.html",
+      "../index.html?service=Performance%20Marketing%20%26%20Growth#contact",
+      "../faq.html",
+      "../index.html#home",
+      "../services/seo-content-marketing.html",
+      "../services/social-media-marketing.html",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#projects",
+      "../index.html#workflow",
+      "../faq.html",
+      "../index.html#contact",
+      "../services/shopify-development.html",
+      "../services/woocommerce-development.html",
+      "../services/ecommerce-development.html",
+      "../index.html#ecommerce",
+      "../index.html#ecommerce",
+      "../services/custom-software-development.html",
+      "../services/crm-integration.html",
+      "../services/saas-development.html",
+      "../index.html#software",
+      "../index.html#software",
+      "../privacy.html",
+      "../terms.html",
+      "../index.html#home"
+    ],
+    "jsonLD": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "SEO & content marketing",
+            "serviceType": "SEO & content marketing",
+            "description": "Useful search visibility starts with pages that answer a real question and a website search engines can access. CodeToScale brings technical SEO and content planning together for businesses addressing Pakistan and global audiences. Our SEO services focus on making the site clearer, more discoverable and easier to use, with priorities grounded in its current condition.",
+            "provider": {
+              "@type": "Organization",
+              "name": "CodeToScale",
+              "email": "moiz21892@gmail.com"
+            }
+          }
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "route": "/services/social-media-marketing.html",
+    "title": "Social Media Marketing for Pakistan | CodeToScale",
+    "description": "Plan social media marketing for Pakistan and wider audiences. CodeToScale connects content calendars, campaign goals and useful measurement to your customer journey.",
+    "h1": [
+      "Social media marketing for Pakistan and beyond"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 539,
+    "internalLinks": [
+      "#main",
+      "../index.html#home",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#ecommerce",
+      "../index.html#software",
+      "../index.html#projects",
+      "../index.html#contact",
+      "../index.html#contact",
+      "../index.html",
+      "../services.html",
+      "../index.html?service=Performance%20Marketing%20%26%20Growth#contact",
+      "../services/digital-marketing.html",
+      "../services/seo-content-marketing.html",
+      "../services/ecommerce-development.html",
+      "../services.html",
+      "../index.html?service=Performance%20Marketing%20%26%20Growth#contact",
+      "../faq.html",
+      "../index.html#home",
+      "../services/seo-content-marketing.html",
+      "../services/social-media-marketing.html",
+      "../index.html#home",
+      "../about.html",
+      "../services.html",
+      "../index.html#projects",
+      "../index.html#workflow",
+      "../faq.html",
+      "../index.html#contact",
+      "../services/shopify-development.html",
+      "../services/woocommerce-development.html",
+      "../services/ecommerce-development.html",
+      "../index.html#ecommerce",
+      "../index.html#ecommerce",
+      "../services/custom-software-development.html",
+      "../services/crm-integration.html",
+      "../services/saas-development.html",
+      "../index.html#software",
+      "../index.html#software",
+      "../privacy.html",
+      "../terms.html",
+      "../index.html#home"
+    ],
+    "jsonLD": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "Social media marketing",
+            "serviceType": "Social media marketing",
+            "description": "Social media marketing works best when each post or campaign has a clear audience and purpose. CodeToScale helps businesses plan social activity around what customers need to know and where they should go next. For Pakistan-focused and wider audiences, we connect content direction, campaign objectives and the website experience rather than treating posting volume as the outcome.",
+            "provider": {
+              "@type": "Organization",
+              "name": "CodeToScale",
+              "email": "moiz21892@gmail.com"
+            }
+          }
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "route": "/about.html",
+    "title": "About CodeToScale | E-commerce &amp; Software Agency",
+    "description": "Learn how CodeToScale approaches online stores, custom software and digital marketing, from understanding your workflows to planning a practical project handover.",
+    "h1": [
+      "About CodeToScale"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 365,
+    "internalLinks": [
+      "#main",
+      "index.html#home",
+      "index.html#home",
+      "about.html",
+      "services.html",
+      "index.html#ecommerce",
+      "index.html#software",
+      "index.html#projects",
+      "index.html#contact",
+      "index.html#contact",
+      "index.html#home",
+      "about.html",
+      "services.html",
+      "index.html#ecommerce",
+      "index.html#software",
+      "index.html#projects",
+      "index.html#contact",
+      "index.html#contact",
+      "index.html",
+      "services.html",
+      "index.html#workflow",
+      "index.html#projects",
+      "index.html#contact",
+      "index.html#home",
+      "services/seo-content-marketing.html",
+      "services/social-media-marketing.html",
+      "index.html#home",
+      "about.html",
+      "services.html",
+      "index.html#projects",
+      "index.html#workflow",
+      "faq.html",
+      "index.html#contact",
+      "services/shopify-development.html",
+      "services/woocommerce-development.html",
+      "services/ecommerce-development.html",
+      "index.html#ecommerce",
+      "index.html#ecommerce",
+      "services/custom-software-development.html",
+      "services/crm-integration.html",
+      "services/saas-development.html",
+      "index.html#software",
+      "index.html#software",
+      "privacy.html",
+      "terms.html",
+      "index.html#home"
+    ],
+    "jsonLD": [],
+    "images": []
+  },
+  {
+    "route": "/faq.html",
+    "title": "Development, Marketing &amp; Support FAQ | CodeToScale",
+    "description": "Get clear answers about platforms, project scope, migration, SaaS, marketing, support and pricing discussions before sending CodeToScale your project brief.",
+    "h1": [
+      "Frequently asked questions"
+    ],
+    "canonical": null,
+    "robots": "index, follow (default; preview HTTP header overrides)",
+    "mainWordCount": 428,
+    "internalLinks": [
+      "#main",
+      "index.html#home",
+      "index.html#home",
+      "about.html",
+      "services.html",
+      "index.html#ecommerce",
+      "index.html#software",
+      "index.html#projects",
+      "index.html#contact",
+      "index.html#contact",
+      "index.html#home",
+      "about.html",
+      "services.html",
+      "index.html#ecommerce",
+      "index.html#software",
+      "index.html#projects",
+      "index.html#contact",
+      "index.html#contact",
+      "index.html",
+      "services/ecommerce-development.html",
+      "services/custom-software-development.html",
+      "index.html#contact",
+      "services/shopify-development.html",
+      "services/saas-development.html",
+      "services/seo-content-marketing.html",
+      "index.html#contact",
+      "index.html#contact",
+      "services.html",
+      "index.html#home",
+      "services/seo-content-marketing.html",
+      "services/social-media-marketing.html",
+      "index.html#home",
+      "about.html",
+      "services.html",
+      "index.html#projects",
+      "index.html#workflow",
+      "faq.html",
+      "index.html#contact",
+      "services/shopify-development.html",
+      "services/woocommerce-development.html",
+      "services/ecommerce-development.html",
+      "index.html#ecommerce",
+      "index.html#ecommerce",
+      "services/custom-software-development.html",
+      "services/crm-integration.html",
+      "services/saas-development.html",
+      "index.html#software",
+      "index.html#software",
+      "privacy.html",
+      "terms.html",
+      "index.html#home"
+    ],
+    "jsonLD": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which e-commerce platforms do you work with?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "We work with Shopify, WooCommerce and custom storefronts. We discuss your catalog, content, integrations and operating needs before recommending an approach. A platform choice should also account for ongoing management and provider availability in your selling markets."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does a project take?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The schedule depends on scope, content readiness, integrations and review availability. A focused store setup and a custom application have different dependencies. We discuss milestones after understanding the requirements rather than promising a standard launch window before discovery."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What post-launch support is available?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Maintenance and continued development can be discussed as part of an agreed support plan. Updates, monitoring, response arrangements and included work need to be defined for the project. This website does not promise round-the-clock support or a standard service-level agreement."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you migrate or redesign an existing store?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Migration planning starts with the current content, catalog, URLs and integrations. We identify what can transfer, what needs rebuilding and which changes require redirects or manual checks. The final scope depends on access and the capabilities of the source and destination platforms."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does SaaS development involve?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "SaaS development builds software delivered as an ongoing service. Planning can cover the core user problem, a focused first release, onboarding, account roles and integrations. Access boundaries and operational responsibilities need explicit decisions, especially where several customer organizations will use the same product."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do SEO and digital marketing fit into a project?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Search-friendly structure, useful content and clear customer journeys can be planned alongside development. Marketing scope may cover SEO, content, social media and paid acquisition where relevant. Priorities and measurement depend on the business goals and available access; rankings and sales are not guaranteed."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How are pricing and payment terms agreed?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Deliverables, integrations, content needs and support expectations determine the project scope. Pricing, payment stages and third-party costs need to be agreed in a project proposal or agreement. The budget ranges in the inquiry form help start that discussion; they are not published service prices. The form prepares an email draft for you to review and send."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "route": "/privacy.html",
+    "title": "Privacy notice | CodeToScale",
+    "description": "How the current CodeToScale website handles project inquiries and external font requests.",
+    "h1": [
+      "Privacy notice"
+    ],
+    "canonical": null,
+    "robots": "noindex, follow",
+    "mainWordCount": 191,
+    "internalLinks": [
+      "#main",
+      "index.html",
+      "index.html#contact",
+      "index.html",
+      "privacy.html",
+      "terms.html"
+    ],
+    "jsonLD": [],
+    "images": []
+  },
+  {
+    "route": "/terms.html",
+    "title": "Terms &amp; conditions | CodeToScale",
+    "description": "CodeToScale terms publication status and project agreement information.",
+    "h1": [
+      "Terms & conditions"
+    ],
+    "canonical": null,
+    "robots": "noindex, follow",
+    "mainWordCount": 132,
+    "internalLinks": [
+      "#main",
+      "index.html",
+      "index.html#contact",
+      "index.html#contact",
+      "index.html",
+      "privacy.html",
+      "terms.html"
+    ],
+    "jsonLD": [],
+    "images": []
+  }
+]

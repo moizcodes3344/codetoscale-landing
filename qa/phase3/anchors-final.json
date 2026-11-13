@@ -1,0 +1,82 @@
+[
+  {
+    "headingTop": 259.1696472167969,
+    "id": "about",
+    "width": 1440
+  },
+  {
+    "headingTop": 259.5714416503906,
+    "id": "capabilities",
+    "width": 1440
+  },
+  {
+    "headingTop": 299.65179443359375,
+    "id": "ecommerce",
+    "width": 1440
+  },
+  {
+    "headingTop": 324.7946472167969,
+    "id": "software",
+    "width": 1440
+  },
+  {
+    "headingTop": 283.7672119140625,
+    "id": "projects",
+    "width": 1440
+  },
+  {
+    "headingTop": 1531.5982666015625,
+    "id": "faq",
+    "width": 1440
+  },
+  {
+    "headingTop": 259.21429443359375,
+    "id": "contact",
+    "width": 1440
+  },
+  {
+    "headingTop": 137.625,
+    "id": "home",
+    "width": 1440
+  },
+  {
+    "headingTop": 193.0982208251953,
+    "id": "about",
+    "width": 375
+  },
+  {
+    "headingTop": 193.7053680419922,
+    "id": "capabilities",
+    "width": 375
+  },
+  {
+    "headingTop": 270.4732360839844,
+    "id": "ecommerce",
+    "width": 375
+  },
+  {
+    "headingTop": 270.2946472167969,
+    "id": "software",
+    "width": 375
+  },
+  {
+    "headingTop": 268.4133605957031,
+    "id": "projects",
+    "width": 375
+  },
+  {
+    "headingTop": 1924.0001220703125,
+    "id": "faq",
+    "width": 375
+  },
+  {
+    "headingTop": 200.79464721679688,
+    "id": "contact",
+    "width": 375
+  },
+  {
+    "headingTop": -17097.1171875,
+    "id": "home",
+    "width": 375
+  }
+]

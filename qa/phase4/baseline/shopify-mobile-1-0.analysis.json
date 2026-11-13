@@ -1,0 +1,961 @@
+{
+  "input": "qa/phase4/baseline/shopify-mobile-1-0.trace.json",
+  "units": "milliseconds except raw trace timestamps (microseconds)",
+  "note": "Nested category totals overlap; do not sum them. Wall minus thread CPU can include waiting/descheduling and is not proof of a specific competing process.",
+  "environment": {
+    "hardware": "Latitude E7470",
+    "nativeAccessibility": "NATIVE_APIS"
+  },
+  "longTasks": [
+    {
+      "name": "RunTask",
+      "wallMS": 69.28,
+      "threadCPUms": 58.783,
+      "ts": 596610191,
+      "args": {},
+      "inside": [
+        {
+          "name": "Layout",
+          "wallMS": 68.054,
+          "threadCPUms": 57.568,
+          "ts": 596611117,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 203,
+              "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+              "partialLayout": false,
+              "sampleTraceId": 2335147928329628,
+              "totalObjects": 203
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "name": "Layout",
+      "wallMS": 68.054,
+      "threadCPUms": 57.568,
+      "ts": 596611117,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 203,
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "partialLayout": false,
+          "sampleTraceId": 2335147928329628,
+          "totalObjects": 203
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 3,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  412,
+                  0,
+                  412,
+                  823,
+                  0,
+                  823
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 33.092,
+      "threadCPUms": 30.86,
+      "ts": 597715280,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 94,
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "partialLayout": false,
+          "sampleTraceId": 2335147928329454,
+          "totalObjects": 293
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 3,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  412,
+                  0,
+                  412,
+                  823,
+                  0,
+                  823
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 0.14,
+      "threadCPUms": 0.14,
+      "ts": 596555779,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 1,
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "partialLayout": false,
+          "sampleTraceId": 2335147928329502,
+          "totalObjects": 1
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 3,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  981,
+                  0,
+                  981,
+                  1958,
+                  0,
+                  1958
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 0.063,
+      "threadCPUms": 0.063,
+      "ts": 596692996,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 4,
+          "frame": "79360A4C6243C9E7A0AC951039D59AFC",
+          "partialLayout": false,
+          "sampleTraceId": 2335147928329271,
+          "totalObjects": 4
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 54,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 0.036,
+      "threadCPUms": 0.035,
+      "ts": 596679186,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 1,
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "partialLayout": false,
+          "sampleTraceId": 2335147928329710,
+          "totalObjects": 203
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 3,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  412,
+                  0,
+                  412,
+                  823,
+                  0,
+                  823
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 0.012,
+      "threadCPUms": 0.012,
+      "ts": 596693157,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 2,
+          "frame": "79360A4C6243C9E7A0AC951039D59AFC",
+          "partialLayout": false,
+          "sampleTraceId": 2335147928329275,
+          "totalObjects": 4
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 54,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  32,
+                  0,
+                  32,
+                  32,
+                  0,
+                  32
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "name": "EvaluateScript",
+      "wallMS": 3.088,
+      "threadCPUms": 0.95,
+      "ts": 599098156,
+      "args": {}
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 1.308,
+      "threadCPUms": 1.292,
+      "ts": 597819266,
+      "args": {}
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 1.289,
+      "threadCPUms": 1.14,
+      "ts": 596581277,
+      "args": {
+        "data": {
+          "columnNumber": 1,
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "lineNumber": 1,
+          "sampleTraceId": 2335147928329642,
+          "scriptId": 0,
+          "url": "http://127.0.0.1:4173/navigation.js"
+        }
+      }
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 0.96,
+      "threadCPUms": 0.951,
+      "ts": 597822433,
+      "args": {}
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 0.726,
+      "threadCPUms": 0.711,
+      "ts": 596558433,
+      "args": {
+        "data": {
+          "columnNumber": 13,
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "lineNumber": 6,
+          "sampleTraceId": 2335147928329579,
+          "scriptId": 0,
+          "url": "http://127.0.0.1:4173/services/shopify-development.html"
+        }
+      }
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 0.275,
+      "threadCPUms": 0.266,
+      "ts": 597819358,
+      "args": {
+        "data": {
+          "columnNumber": 1,
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "lineNumber": 1,
+          "sampleTraceId": 2335147928329416,
+          "scriptId": 0,
+          "url": ""
+        }
+      }
+    }
+  ],
+  "functions": [
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.291,
+      "threadCPUms": 0.285,
+      "ts": 597820712,
+      "args": {
+        "data": {
+          "columnNumber": 51,
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "functionName": "",
+          "isolate": "5933325373413078093",
+          "lineNumber": 18,
+          "sampleTraceId": 2335147928329420,
+          "scriptId": "14",
+          "url": "_lighthouse-eval.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.157,
+      "threadCPUms": 0.158,
+      "ts": 599255892,
+      "args": {
+        "data": {
+          "columnNumber": 16,
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "functionName": "",
+          "isolate": "5933325373413078093",
+          "lineNumber": 26,
+          "sampleTraceId": 2335147928329433,
+          "scriptId": "16",
+          "url": "_lighthouse-eval.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.087,
+      "threadCPUms": 0.087,
+      "ts": 597978444,
+      "args": {
+        "data": {
+          "columnNumber": 16,
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "functionName": "",
+          "isolate": "5933325373413078093",
+          "lineNumber": 26,
+          "sampleTraceId": 2335147928329424,
+          "scriptId": "15",
+          "url": "_lighthouse-eval.js"
+        }
+      }
+    }
+  ],
+  "timers": [
+    {
+      "name": "TimerFire",
+      "wallMS": 0.356,
+      "threadCPUms": 0.352,
+      "ts": 599255848,
+      "args": {
+        "data": {
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "timerId": 2
+        }
+      }
+    },
+    {
+      "name": "TimerFire",
+      "wallMS": 0.239,
+      "threadCPUms": 0.234,
+      "ts": 597978411,
+      "args": {
+        "data": {
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "timerId": 1
+        }
+      }
+    }
+  ],
+  "callbacks": [
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.127,
+      "threadCPUms": 0.119,
+      "ts": 596582635,
+      "args": {
+        "data": {
+          "sampleTraceId": 2335147928329647,
+          "type": "DOMContentLoaded"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.065,
+      "threadCPUms": 0.012,
+      "ts": 596590946,
+      "args": {
+        "data": {
+          "sampleTraceId": 2335147928329660,
+          "type": "contentvisibilityautostatechange"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.033,
+      "threadCPUms": 0.017,
+      "ts": 596590729,
+      "args": {
+        "data": {
+          "sampleTraceId": 2335147928329663,
+          "type": "load"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.022,
+      "threadCPUms": 0.021,
+      "ts": 596610634,
+      "args": {
+        "data": {
+          "sampleTraceId": 2335147928329613,
+          "type": "readystatechange"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.01,
+      "threadCPUms": 0.009,
+      "ts": 596539124,
+      "args": {
+        "data": {
+          "sampleTraceId": 2335147928329965,
+          "type": "visibilitychange"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.01,
+      "threadCPUms": 0.009,
+      "ts": 596582596,
+      "args": {
+        "data": {
+          "sampleTraceId": 2335147928329640,
+          "type": "load"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.009,
+      "threadCPUms": 0.008,
+      "ts": 596508115,
+      "args": {
+        "data": {
+          "sampleTraceId": 2335147928329860,
+          "type": "readystatechange"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.007,
+      "threadCPUms": 0.006,
+      "ts": 596563424,
+      "args": {
+        "data": {
+          "sampleTraceId": 2335147928329541,
+          "type": "readystatechange"
+        }
+      }
+    }
+  ],
+  "style": [
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 6.327,
+      "threadCPUms": 5.706,
+      "ts": 596583840,
+      "args": {
+        "beginData": {
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "sampleTraceId": 2335147928329649
+        },
+        "elementCount": 142
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 1.577,
+      "threadCPUms": 1.501,
+      "ts": 597713686,
+      "args": {
+        "beginData": {
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "sampleTraceId": 2335147928329450
+        },
+        "elementCount": 44
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 0.115,
+      "threadCPUms": 0.137,
+      "ts": 596610970,
+      "args": {
+        "beginData": {
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "sampleTraceId": 2335147928329629
+        },
+        "elementCount": 0
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 0.113,
+      "threadCPUms": 0.112,
+      "ts": 596508996,
+      "args": {
+        "beginData": {
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "sampleTraceId": 2335147928329872
+        },
+        "elementCount": 3
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 0.096,
+      "threadCPUms": 0.095,
+      "ts": 596692862,
+      "args": {
+        "beginData": {
+          "frame": "79360A4C6243C9E7A0AC951039D59AFC",
+          "sampleTraceId": 2335147928329262
+        },
+        "elementCount": 3
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 0.093,
+      "threadCPUms": 0.093,
+      "ts": 596555664,
+      "args": {
+        "beginData": {
+          "frame": "339540FD27BA449F5F73C168BBD2E5A7",
+          "sampleTraceId": 2335147928329503
+        },
+        "elementCount": 0
+      }
+    }
+  ],
+  "categoryTotals": {
+    "DocumentLoader::DocumentLoader": {
+      "count": 3,
+      "wallMS": 0.062,
+      "threadCPUms": 0.059,
+      "maxWallMS": 0.026
+    },
+    "DocumentLoader::CommitNavigation": {
+      "count": 3,
+      "wallMS": 13.146,
+      "threadCPUms": 11.209,
+      "maxWallMS": 12.084
+    },
+    "DocumentLoader::InitializeWindow": {
+      "count": 3,
+      "wallMS": 0.313,
+      "threadCPUms": 0.307,
+      "maxWallMS": 0.166
+    },
+    "DocumentLoader::RecordUseCountersForCommit": {
+      "count": 3,
+      "wallMS": 0.017,
+      "threadCPUms": 0.012,
+      "maxWallMS": 0.007
+    },
+    "DocumentLoader::DidInstallNewDocument": {
+      "count": 3,
+      "wallMS": 0.047,
+      "threadCPUms": 0.045,
+      "maxWallMS": 0.021
+    },
+    "DocumentLoader::DidCommitNavigation": {
+      "count": 3,
+      "wallMS": 0.10700000000000001,
+      "threadCPUms": 0.10400000000000001,
+      "maxWallMS": 0.099
+    },
+    "DocumentLoader::StartLoadingResponse": {
+      "count": 3,
+      "wallMS": 10.999999999999998,
+      "threadCPUms": 9.248,
+      "maxWallMS": 10.565
+    },
+    "DocumentLoader::CreateParserPostCommit": {
+      "count": 3,
+      "wallMS": 10.617,
+      "threadCPUms": 8.906,
+      "maxWallMS": 10.545
+    },
+    "DocumentLoader::FinishedLoading": {
+      "count": 3,
+      "wallMS": 0.528,
+      "threadCPUms": 0.468,
+      "maxWallMS": 0.27
+    },
+    "ParseHTML": {
+      "count": 5,
+      "wallMS": 3.7439999999999993,
+      "threadCPUms": 3.5839999999999996,
+      "maxWallMS": 3.631
+    },
+    "HTMLDocumentParser::DocumentElementAvailable": {
+      "count": 3,
+      "wallMS": 0.017,
+      "threadCPUms": 0.015,
+      "maxWallMS": 0.007
+    },
+    "EventDispatch": {
+      "count": 29,
+      "wallMS": 0.3590000000000001,
+      "threadCPUms": 0.266,
+      "maxWallMS": 0.127
+    },
+    "UpdateLayoutTree": {
+      "count": 6,
+      "wallMS": 8.321000000000002,
+      "threadCPUms": 7.644,
+      "maxWallMS": 6.327
+    },
+    "PrePaint": {
+      "count": 7,
+      "wallMS": 2.397,
+      "threadCPUms": 1.5229999999999997,
+      "maxWallMS": 1.868
+    },
+    "Paint": {
+      "count": 6,
+      "wallMS": 7.657,
+      "threadCPUms": 7.33,
+      "maxWallMS": 6.933
+    },
+    "Layerize": {
+      "count": 6,
+      "wallMS": 0.333,
+      "threadCPUms": 0.325,
+      "maxWallMS": 0.184
+    },
+    "Commit": {
+      "count": 6,
+      "wallMS": 1.598,
+      "threadCPUms": 1.176,
+      "maxWallMS": 0.461
+    },
+    "V8.GC_TIME_TO_SAFEPOINT": {
+      "count": 6,
+      "wallMS": 0.04500000000000001,
+      "threadCPUms": 0.033,
+      "maxWallMS": 0.029
+    },
+    "V8.GC_HEAP_ENSURE_SWEEPING_COMPLETED": {
+      "count": 21,
+      "wallMS": 0.138,
+      "threadCPUms": 0.11100000000000004,
+      "maxWallMS": 0.018
+    },
+    "V8.DeoptimizeCode": {
+      "count": 1,
+      "wallMS": 0.032,
+      "threadCPUms": 0.029,
+      "maxWallMS": 0.032
+    },
+    "BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache": {
+      "count": 3,
+      "wallMS": 0.01,
+      "threadCPUms": 0.008,
+      "maxWallMS": 0.004
+    },
+    "CommitLoad": {
+      "count": 1,
+      "wallMS": 0.059,
+      "threadCPUms": 0.058,
+      "maxWallMS": 0.059
+    },
+    "LocalWindowProxy::Initialize": {
+      "count": 3,
+      "wallMS": 12.747,
+      "threadCPUms": 9.44,
+      "maxWallMS": 7.677
+    },
+    "LocalWindowProxy::CreateContext": {
+      "count": 3,
+      "wallMS": 4.8420000000000005,
+      "threadCPUms": 3.319,
+      "maxWallMS": 2.849
+    },
+    "V8.DeserializeContext": {
+      "count": 3,
+      "wallMS": 3.4459999999999997,
+      "threadCPUms": 2.7680000000000002,
+      "maxWallMS": 1.759
+    },
+    "LocalWindowProxy::SetupWindowPrototypeChain": {
+      "count": 3,
+      "wallMS": 0.037,
+      "threadCPUms": 0.036,
+      "maxWallMS": 0.013
+    },
+    "LocalWindowProxy::UpdateDocumentProperty": {
+      "count": 2,
+      "wallMS": 0.013999999999999999,
+      "threadCPUms": 0.013999999999999999,
+      "maxWallMS": 0.009
+    },
+    "ContextCreatedNotification": {
+      "count": 3,
+      "wallMS": 1.139,
+      "threadCPUms": 1.113,
+      "maxWallMS": 0.413
+    },
+    "InstallConditionalFeatures": {
+      "count": 3,
+      "wallMS": 1.202,
+      "threadCPUms": 1.112,
+      "maxWallMS": 0.498
+    },
+    "ScriptCatchup": {
+      "count": 18,
+      "wallMS": 0.17600000000000002,
+      "threadCPUms": 0.155,
+      "maxWallMS": 0.025
+    },
+    "V8.StackGuard": {
+      "count": 1,
+      "wallMS": 0.014,
+      "threadCPUms": 0.011,
+      "maxWallMS": 0.014
+    },
+    "V8.HandleInterrupts": {
+      "count": 1,
+      "wallMS": 0.009,
+      "threadCPUms": 0.007,
+      "maxWallMS": 0.009
+    },
+    "V8.InvokeApiInterruptCallbacks": {
+      "count": 1,
+      "wallMS": 0.004,
+      "threadCPUms": 0.003,
+      "maxWallMS": 0.004
+    },
+    "v8.newInstance": {
+      "count": 12,
+      "wallMS": 0.12200000000000003,
+      "threadCPUms": 0.10700000000000001,
+      "maxWallMS": 0.038
+    },
+    "NavigationBodyLoader::StartLoadingBody": {
+      "count": 1,
+      "wallMS": 2.188,
+      "threadCPUms": 2.153,
+      "maxWallMS": 2.188
+    },
+    "NavigationBodyLoader::OnReadable": {
+      "count": 1,
+      "wallMS": 2.141,
+      "threadCPUms": 2.107,
+      "maxWallMS": 2.141
+    },
+    "NavigationBodyLoader::ReadFromDataPipe": {
+      "count": 1,
+      "wallMS": 2.133,
+      "threadCPUms": 2.101,
+      "maxWallMS": 2.133
+    },
+    "DocumentLoader::BodyDataReceivedImpl": {
+      "count": 1,
+      "wallMS": 2.106,
+      "threadCPUms": 2.075,
+      "maxWallMS": 2.106
+    },
+    "DocumentLoader::HandleData": {
+      "count": 1,
+      "wallMS": 1.972,
+      "threadCPUms": 1.943,
+      "maxWallMS": 1.972
+    },
+    "DocumentLoader::CommitData": {
+      "count": 1,
+      "wallMS": 1.966,
+      "threadCPUms": 1.938,
+      "maxWallMS": 1.966
+    },
+    "DecodedDataDocumentParser::AppendBytes": {
+      "count": 2,
+      "wallMS": 2.145,
+      "threadCPUms": 2.116,
+      "maxWallMS": 1.961
+    },
+    "HTMLDocumentParser::MaybeFetchQueuedPreloads": {
+      "count": 1,
+      "wallMS": 1.432,
+      "threadCPUms": 1.407,
+      "maxWallMS": 1.432
+    },
+    "Layout": {
+      "count": 6,
+      "wallMS": 101.397,
+      "threadCPUms": 88.678,
+      "maxWallMS": 68.054
+    },
+    "PageTimingMetricsSender::SendNow": {
+      "count": 8,
+      "wallMS": 0.396,
+      "threadCPUms": 0.386,
+      "maxWallMS": 0.065
+    },
+    "EvaluateScript": {
+      "count": 6,
+      "wallMS": 7.646,
+      "threadCPUms": 5.31,
+      "maxWallMS": 3.088
+    },
+    "v8.compile": {
+      "count": 3,
+      "wallMS": 0.622,
+      "threadCPUms": 0.616,
+      "maxWallMS": 0.222
+    },
+    "ScriptCompiled": {
+      "count": 3,
+      "wallMS": 1.551,
+      "threadCPUms": 1.393,
+      "maxWallMS": 1.021
+    },
+    "v8.run": {
+      "count": 3,
+      "wallMS": 1.31,
+      "threadCPUms": 1.192,
+      "maxWallMS": 0.864
+    },
+    "v8.produceCache": {
+      "count": 3,
+      "wallMS": 0.12100000000000001,
+      "threadCPUms": 0.085,
+      "maxWallMS": 0.113
+    },
+    "DocumentLoader::BodyLoadingFinished": {
+      "count": 1,
+      "wallMS": 0.373,
+      "threadCPUms": 0.318,
+      "maxWallMS": 0.373
+    },
+    "ParseAuthorStyleSheet": {
+      "count": 1,
+      "wallMS": 2.121,
+      "threadCPUms": 1.629,
+      "maxWallMS": 2.121
+    },
+    "RemoteFontLoaded": {
+      "count": 2,
+      "wallMS": 0.013999999999999999,
+      "threadCPUms": 0.012,
+      "maxWallMS": 0.009
+    },
+    "IntersectionObserverController::computeIntersections": {
+      "count": 10,
+      "wallMS": 0.3390000000000001,
+      "threadCPUms": 0.3370000000000001,
+      "maxWallMS": 0.134
+    },
+    "UpdateLayer": {
+      "count": 4,
+      "wallMS": 0.024,
+      "threadCPUms": 0.020999999999999998,
+      "maxWallMS": 0.012
+    },
+    "HitTest": {
+      "count": 1,
+      "wallMS": 0.174,
+      "threadCPUms": 0.174,
+      "maxWallMS": 0.174
+    },
+    "RunMicrotasks": {
+      "count": 6,
+      "wallMS": 3.032,
+      "threadCPUms": 0.8939999999999999,
+      "maxWallMS": 2.377
+    },
+    "v8.callFunction": {
+      "count": 3,
+      "wallMS": 0.8420000000000001,
+      "threadCPUms": 0.827,
+      "maxWallMS": 0.322
+    },
+    "FunctionCall": {
+      "count": 3,
+      "wallMS": 0.535,
+      "threadCPUms": 0.53,
+      "maxWallMS": 0.291
+    },
+    "TimerFire": {
+      "count": 2,
+      "wallMS": 0.595,
+      "threadCPUms": 0.586,
+      "maxWallMS": 0.356
+    }
+  }
+}

@@ -1,0 +1,13 @@
+ M index.html
+ M script.js
+ M styles.css
+?? .gitignore
+?? QA-AUDIT.md
+?? README.md
+?? assets/
+?? package.json
+?? privacy.html
+?? qa/
+?? serve.mjs
+?? terms.html
+?? tests/

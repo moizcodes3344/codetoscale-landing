@@ -1,0 +1,44 @@
+[
+  {
+    "width": 1440,
+    "questions": 7,
+    "allH2": true,
+    "sameCopy": true,
+    "sameTypography": true,
+    "sameDimensions": true,
+    "overflow": false,
+    "first": {
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "height": 72,
+      "letterSpacing": "-0.2px",
+      "lineHeight": "24px",
+      "margin": "0px",
+      "padding": "0px",
+      "tag": "H2",
+      "text": "Which e-commerce platforms do you work with?",
+      "width": 850.0000610351562
+    }
+  },
+  {
+    "width": 375,
+    "questions": 7,
+    "allH2": true,
+    "sameCopy": true,
+    "sameTypography": true,
+    "sameDimensions": true,
+    "overflow": false,
+    "first": {
+      "fontSize": "15px",
+      "fontWeight": "500",
+      "height": 96.00000762939452,
+      "letterSpacing": "-0.2px",
+      "lineHeight": "24px",
+      "margin": "0px",
+      "padding": "0px",
+      "tag": "H2",
+      "text": "Which e-commerce platforms do you work with?",
+      "width": 320.5714416503906
+    }
+  }
+]

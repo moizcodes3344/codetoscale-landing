@@ -1,0 +1,602 @@
+[
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/",
+    "scroll": 360,
+    "title": "CodeToScale: E-commerce & Custom Software Agency",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/",
+    "scroll": 410,
+    "title": "CodeToScale: E-commerce & Custom Software Agency",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/",
+    "scroll": 753,
+    "title": "CodeToScale: E-commerce & Custom Software Agency",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/",
+    "scroll": 1009,
+    "title": "CodeToScale: E-commerce & Custom Software Agency",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/",
+    "scroll": 1425,
+    "title": "CodeToScale: E-commerce & Custom Software Agency",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/services.html",
+    "scroll": 360,
+    "title": "E-commerce, Software & Marketing Services | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/services.html",
+    "scroll": 410,
+    "title": "E-commerce, Software & Marketing Services | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/services.html",
+    "scroll": 753,
+    "title": "E-commerce, Software & Marketing Services | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/services.html",
+    "scroll": 1009,
+    "title": "E-commerce, Software & Marketing Services | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/services.html",
+    "scroll": 1425,
+    "title": "E-commerce, Software & Marketing Services | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/about.html",
+    "scroll": 360,
+    "title": "About CodeToScale | E-commerce & Software Agency",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/about.html",
+    "scroll": 410,
+    "title": "About CodeToScale | E-commerce & Software Agency",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/about.html",
+    "scroll": 753,
+    "title": "About CodeToScale | E-commerce & Software Agency",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/about.html",
+    "scroll": 1009,
+    "title": "About CodeToScale | E-commerce & Software Agency",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/about.html",
+    "scroll": 1425,
+    "title": "About CodeToScale | E-commerce & Software Agency",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/faq.html",
+    "scroll": 360,
+    "title": "Development, Marketing & Support FAQ | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/faq.html",
+    "scroll": 410,
+    "title": "Development, Marketing & Support FAQ | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/faq.html",
+    "scroll": 753,
+    "title": "Development, Marketing & Support FAQ | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/faq.html",
+    "scroll": 1009,
+    "title": "Development, Marketing & Support FAQ | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/faq.html",
+    "scroll": 1425,
+    "title": "Development, Marketing & Support FAQ | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/privacy.html",
+    "scroll": 360,
+    "title": "Privacy notice | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/privacy.html",
+    "scroll": 410,
+    "title": "Privacy notice | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/privacy.html",
+    "scroll": 753,
+    "title": "Privacy notice | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/privacy.html",
+    "scroll": 1009,
+    "title": "Privacy notice | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/privacy.html",
+    "scroll": 1425,
+    "title": "Privacy notice | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/terms.html",
+    "scroll": 360,
+    "title": "Terms & conditions | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/terms.html",
+    "scroll": 410,
+    "title": "Terms & conditions | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/terms.html",
+    "scroll": 753,
+    "title": "Terms & conditions | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/terms.html",
+    "scroll": 1009,
+    "title": "Terms & conditions | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/terms.html",
+    "scroll": 1425,
+    "title": "Terms & conditions | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/services/ecommerce-development.html",
+    "scroll": 360,
+    "title": "E-commerce Website Development Services | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/services/ecommerce-development.html",
+    "scroll": 410,
+    "title": "E-commerce Website Development Services | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/services/ecommerce-development.html",
+    "scroll": 753,
+    "title": "E-commerce Website Development Services | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/services/ecommerce-development.html",
+    "scroll": 1009,
+    "title": "E-commerce Website Development Services | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/services/ecommerce-development.html",
+    "scroll": 1425,
+    "title": "E-commerce Website Development Services | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/services/shopify-development.html",
+    "scroll": 360,
+    "title": "Shopify Development for Pakistan & Beyond | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/services/shopify-development.html",
+    "scroll": 410,
+    "title": "Shopify Development for Pakistan & Beyond | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/services/shopify-development.html",
+    "scroll": 753,
+    "title": "Shopify Development for Pakistan & Beyond | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/services/shopify-development.html",
+    "scroll": 1009,
+    "title": "Shopify Development for Pakistan & Beyond | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/services/shopify-development.html",
+    "scroll": 1425,
+    "title": "Shopify Development for Pakistan & Beyond | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/services/woocommerce-development.html",
+    "scroll": 360,
+    "title": "WooCommerce Development Services | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/services/woocommerce-development.html",
+    "scroll": 410,
+    "title": "WooCommerce Development Services | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/services/woocommerce-development.html",
+    "scroll": 753,
+    "title": "WooCommerce Development Services | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/services/woocommerce-development.html",
+    "scroll": 1009,
+    "title": "WooCommerce Development Services | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/services/woocommerce-development.html",
+    "scroll": 1425,
+    "title": "WooCommerce Development Services | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/services/custom-software-development.html",
+    "scroll": 360,
+    "title": "Custom Software & Web App Development | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/services/custom-software-development.html",
+    "scroll": 410,
+    "title": "Custom Software & Web App Development | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/services/custom-software-development.html",
+    "scroll": 753,
+    "title": "Custom Software & Web App Development | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/services/custom-software-development.html",
+    "scroll": 1009,
+    "title": "Custom Software & Web App Development | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/services/custom-software-development.html",
+    "scroll": 1425,
+    "title": "Custom Software & Web App Development | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/services/saas-development.html",
+    "scroll": 360,
+    "title": "SaaS Product Development Services | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/services/saas-development.html",
+    "scroll": 410,
+    "title": "SaaS Product Development Services | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/services/saas-development.html",
+    "scroll": 753,
+    "title": "SaaS Product Development Services | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/services/saas-development.html",
+    "scroll": 1009,
+    "title": "SaaS Product Development Services | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/services/saas-development.html",
+    "scroll": 1425,
+    "title": "SaaS Product Development Services | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/services/crm-integration.html",
+    "scroll": 360,
+    "title": "CRM Development & Software Integration | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/services/crm-integration.html",
+    "scroll": 410,
+    "title": "CRM Development & Software Integration | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/services/crm-integration.html",
+    "scroll": 753,
+    "title": "CRM Development & Software Integration | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/services/crm-integration.html",
+    "scroll": 1009,
+    "title": "CRM Development & Software Integration | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/services/crm-integration.html",
+    "scroll": 1425,
+    "title": "CRM Development & Software Integration | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/services/digital-marketing.html",
+    "scroll": 360,
+    "title": "Digital Marketing Agency for Pakistan | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/services/digital-marketing.html",
+    "scroll": 410,
+    "title": "Digital Marketing Agency for Pakistan | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/services/digital-marketing.html",
+    "scroll": 753,
+    "title": "Digital Marketing Agency for Pakistan | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/services/digital-marketing.html",
+    "scroll": 1009,
+    "title": "Digital Marketing Agency for Pakistan | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/services/digital-marketing.html",
+    "scroll": 1425,
+    "title": "Digital Marketing Agency for Pakistan | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/services/seo-content-marketing.html",
+    "scroll": 360,
+    "title": "SEO & Content Marketing for Pakistan | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/services/seo-content-marketing.html",
+    "scroll": 410,
+    "title": "SEO & Content Marketing for Pakistan | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/services/seo-content-marketing.html",
+    "scroll": 753,
+    "title": "SEO & Content Marketing for Pakistan | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/services/seo-content-marketing.html",
+    "scroll": 1009,
+    "title": "SEO & Content Marketing for Pakistan | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/services/seo-content-marketing.html",
+    "scroll": 1425,
+    "title": "SEO & Content Marketing for Pakistan | CodeToScale",
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "h1": 1,
+    "path": "/services/social-media-marketing.html",
+    "scroll": 360,
+    "title": "Social Media Marketing for Pakistan | CodeToScale",
+    "width": 375
+  },
+  {
+    "client": 410,
+    "h1": 1,
+    "path": "/services/social-media-marketing.html",
+    "scroll": 410,
+    "title": "Social Media Marketing for Pakistan | CodeToScale",
+    "width": 425
+  },
+  {
+    "client": 753,
+    "h1": 1,
+    "path": "/services/social-media-marketing.html",
+    "scroll": 753,
+    "title": "Social Media Marketing for Pakistan | CodeToScale",
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "h1": 1,
+    "path": "/services/social-media-marketing.html",
+    "scroll": 1009,
+    "title": "Social Media Marketing for Pakistan | CodeToScale",
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "h1": 1,
+    "path": "/services/social-media-marketing.html",
+    "scroll": 1425,
+    "title": "Social Media Marketing for Pakistan | CodeToScale",
+    "width": 1440
+  }
+]

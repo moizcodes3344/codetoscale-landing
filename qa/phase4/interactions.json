@@ -1,0 +1,23 @@
+{
+  "motionToggle": [
+    "Play pressed=true",
+    "Pause pressed=false"
+  ],
+  "mobileMenu": "Opened with background removed from AX; Escape closed with focus restored",
+  "serviceCTA": {
+    "action": "mailto:moiz21892@gmail.com",
+    "endpoint": "",
+    "service": "Performance Marketing & Growth",
+    "url": "http://127.0.0.1:4173/?service=Performance%20Marketing%20%26%20Growth#contact"
+  },
+  "emptyForm": {
+    "focused": "name",
+    "nameMessage": "Please fill out this field.",
+    "nameValid": false
+  },
+  "tabs": {
+    "selected": "tab-woocommerce",
+    "title": "Your store. Your rules."
+  },
+  "tabHome": "tab-shopify"
+}

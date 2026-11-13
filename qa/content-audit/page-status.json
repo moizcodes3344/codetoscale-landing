@@ -1,0 +1,92 @@
+[
+  {
+    "route": "/",
+    "status": "PASS",
+    "title": "CodeToScale: E-commerce & Custom Software Agency",
+    "primaryKeyword": "CodeToScale"
+  },
+  {
+    "route": "/services.html",
+    "status": "PASS",
+    "title": "E-commerce, Software & Marketing Services | CodeToScale",
+    "primaryKeyword": "development and digital marketing services"
+  },
+  {
+    "route": "/services/crm-integration.html",
+    "status": "PASS",
+    "title": "CRM Development & Software Integration | CodeToScale",
+    "primaryKeyword": "CRM software integration"
+  },
+  {
+    "route": "/services/custom-software-development.html",
+    "status": "PASS",
+    "title": "Custom Software & Web App Development | CodeToScale",
+    "primaryKeyword": "custom software development"
+  },
+  {
+    "route": "/services/digital-marketing.html",
+    "status": "PASS",
+    "title": "Digital Marketing Agency for Pakistan | CodeToScale",
+    "primaryKeyword": "digital marketing agency Pakistan"
+  },
+  {
+    "route": "/services/ecommerce-development.html",
+    "status": "NEEDS REVIEW",
+    "title": "E-commerce Website Development Services | CodeToScale",
+    "primaryKeyword": "e-commerce website development"
+  },
+  {
+    "route": "/services/saas-development.html",
+    "status": "PASS",
+    "title": "SaaS Product Development Services | CodeToScale",
+    "primaryKeyword": "SaaS product development"
+  },
+  {
+    "route": "/services/seo-content-marketing.html",
+    "status": "PASS",
+    "title": "SEO & Content Marketing for Pakistan | CodeToScale",
+    "primaryKeyword": "SEO services Pakistan"
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "status": "PASS",
+    "title": "Shopify Development for Pakistan & Beyond | CodeToScale",
+    "primaryKeyword": "Shopify development agency"
+  },
+  {
+    "route": "/services/social-media-marketing.html",
+    "status": "PASS",
+    "title": "Social Media Marketing for Pakistan | CodeToScale",
+    "primaryKeyword": "social media marketing Pakistan"
+  },
+  {
+    "route": "/services/woocommerce-development.html",
+    "status": "PASS",
+    "title": "WooCommerce Development Services | CodeToScale",
+    "primaryKeyword": "WooCommerce development"
+  },
+  {
+    "route": "/about.html",
+    "status": "PASS",
+    "title": "About CodeToScale | E-commerce & Software Agency",
+    "primaryKeyword": "about CodeToScale"
+  },
+  {
+    "route": "/faq.html",
+    "status": "PASS",
+    "title": "Development, Marketing & Support FAQ | CodeToScale",
+    "primaryKeyword": "CodeToScale services FAQ"
+  },
+  {
+    "route": "/privacy.html",
+    "status": "BLOCKED",
+    "title": "Privacy notice | CodeToScale",
+    "primaryKeyword": "CodeToScale privacy notice"
+  },
+  {
+    "route": "/terms.html",
+    "status": "BLOCKED",
+    "title": "Terms & conditions | CodeToScale",
+    "primaryKeyword": "CodeToScale terms"
+  }
+]

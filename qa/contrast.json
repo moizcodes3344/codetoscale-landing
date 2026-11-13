@@ -1,0 +1,50 @@
+[
+  {
+    "background": "rgb(12, 14, 13)",
+    "color": "rgb(241, 243, 237)",
+    "name": "Main text",
+    "ratio": 17.32
+  },
+  {
+    "background": "rgb(12, 14, 13)",
+    "color": "rgb(160, 168, 159)",
+    "name": "Hero description",
+    "ratio": 7.93
+  },
+  {
+    "background": "rgb(22, 27, 21)",
+    "color": "rgb(160, 168, 159)",
+    "name": "Service copy",
+    "ratio": 7.15
+  },
+  {
+    "background": "rgb(198, 245, 99)",
+    "color": "rgb(52, 76, 28)",
+    "name": "Lime CTA copy",
+    "ratio": 7.58
+  },
+  {
+    "background": "rgb(198, 245, 99)",
+    "color": "rgb(53, 75, 28)",
+    "name": "Highlighted process copy",
+    "ratio": 7.65
+  },
+  {
+    "background": "rgb(22, 29, 19)",
+    "color": "rgb(213, 223, 202)",
+    "name": "Form labels",
+    "ratio": 12.5
+  },
+  {
+    "background": "rgb(22, 29, 19)",
+    "color": "rgb(176, 193, 157)",
+    "name": "Form note",
+    "ratio": 8.99
+  },
+  {
+    "background": "rgb(16, 21, 13)",
+    "color": "rgb(175, 191, 156)",
+    "name": "Footer text",
+    "ratio": 9.48
+  }
+]

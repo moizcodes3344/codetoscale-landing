@@ -1,0 +1,34 @@
+{
+  "menuOpen": {
+    "expanded": "true",
+    "mainInert": true
+  },
+  "wrap": true,
+  "form": {
+    "action": "mailto:moiz21892@gmail.com",
+    "endpoint": "",
+    "hash": "#contact",
+    "selected": "Shopify Store Development"
+  },
+  "validation": {
+    "active": "name",
+    "invalid": [
+      "name",
+      "email",
+      "budget",
+      "message"
+    ]
+  },
+  "paused": {
+    "label": "Play hero motion and simulated runtime logs",
+    "paused": true,
+    "text": "PLAY"
+  },
+  "playing": {
+    "label": "Pause hero motion and simulated runtime logs",
+    "paused": false,
+    "text": "PAUSE"
+  },
+  "tabHome": "tab-shopify",
+  "emailSent": false
+}

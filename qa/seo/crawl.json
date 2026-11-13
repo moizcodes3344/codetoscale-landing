@@ -1,0 +1,129 @@
+{
+  "pages": 15,
+  "uniqueLocalTargets": 85,
+  "requests": 27,
+  "errors": [],
+  "summary": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "CodeToScale: E-commerce &amp; Custom Software Agency",
+      "description": "Build online stores, custom software, SaaS and CRM with CodeToScale. Explore development and digital marketing services, then discuss your project with our team.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/services.html",
+      "status": 200,
+      "title": "E-commerce, Software &amp; Marketing Services | CodeToScale",
+      "description": "Explore CodeToScale services for online stores, custom software, SaaS, CRM and digital marketing. Find the right starting point for your business and project.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/about.html",
+      "status": 200,
+      "title": "About CodeToScale | E-commerce &amp; Software Agency",
+      "description": "Meet CodeToScale, a Pakistan-based software development and digital solutions company serving local and international businesses with connected technology.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/faq.html",
+      "status": 200,
+      "title": "Development, Marketing &amp; Support FAQ | CodeToScale",
+      "description": "Get clear answers about platforms, project scope, migration, SaaS, marketing, support and pricing discussions before sending CodeToScale your project brief.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/privacy.html",
+      "status": 200,
+      "title": "Privacy notice | CodeToScale",
+      "description": "How the CodeToScale website prepares inquiry email drafts, loads locally hosted fonts and identifies privacy information awaiting owner review.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/terms.html",
+      "status": 200,
+      "title": "Terms &amp; conditions | CodeToScale",
+      "description": "CodeToScale terms publication status and project agreement information.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/services/ecommerce-development.html",
+      "status": 200,
+      "title": "E-commerce Website Development Services | CodeToScale",
+      "description": "Plan an online store around your catalog, checkout and operations. Explore CodeToScale e-commerce development with Shopify, WooCommerce and custom storefronts.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/services/shopify-development.html",
+      "status": 200,
+      "title": "Shopify Development for Pakistan &amp; Beyond | CodeToScale",
+      "description": "Discuss Shopify development for Pakistan and international markets. CodeToScale plans Liquid themes, catalog setup, integrations and careful store migrations.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/services/woocommerce-development.html",
+      "status": 200,
+      "title": "WooCommerce Development Services | CodeToScale",
+      "description": "Build a WordPress store around your products and workflows. Explore CodeToScale WooCommerce development, plugin integration, checkout and migration planning.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/services/custom-software-development.html",
+      "status": 200,
+      "title": "Custom Software &amp; Web App Development | CodeToScale",
+      "description": "Turn business workflows into useful software. Explore CodeToScale custom applications, portals, dashboards, ERP workflows and API integration for your team.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/services/saas-development.html",
+      "status": 200,
+      "title": "SaaS Product Development Services | CodeToScale",
+      "description": "Shape a SaaS product around a clear user need. CodeToScale helps plan product scope, onboarding, access roles, integrations and a practical release roadmap.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/services/crm-integration.html",
+      "status": 200,
+      "title": "CRM Development &amp; Software Integration | CodeToScale",
+      "description": "Connect customer records and business workflows. Explore CodeToScale CRM development, data mapping, API integration and a practical plan for team adoption.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/services/digital-marketing.html",
+      "status": 200,
+      "title": "Digital Marketing Agency for Pakistan | CodeToScale",
+      "description": "Connect acquisition, content and on-site conversion. Explore CodeToScale digital marketing for Pakistan and international businesses, with measurable priorities.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/services/seo-content-marketing.html",
+      "status": 200,
+      "title": "SEO &amp; Content Marketing for Pakistan | CodeToScale",
+      "description": "Plan technical SEO and useful content with CodeToScale. Explore SEO services for Pakistan and global audiences, from keyword research to progress reporting.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    },
+    {
+      "route": "/services/social-media-marketing.html",
+      "status": 200,
+      "title": "Social Media Marketing for Pakistan | CodeToScale",
+      "description": "Plan social media marketing for Pakistan and wider audiences. CodeToScale connects content calendars, campaign goals and useful measurement to your customer journey.",
+      "h1Count": 1,
+      "previewRobots": "noindex, nofollow"
+    }
+  ],
+  "sitemap": "withheld: production domain unconfirmed"
+}

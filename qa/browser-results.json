@@ -1,0 +1,39 @@
+{
+  "environment": "Codex in-app browser; local HTTP preview; CSS viewport overrides with height 1000px",
+  "pages": 3,
+  "widths": [
+    1440,
+    1024,
+    768,
+    425,
+    375
+  ],
+  "matrixEntries": 15,
+  "console": [],
+  "navigationAndCtaChecks": 41,
+  "navigationNote": "One immediate hash assertion was rechecked successfully after navigation settled.",
+  "serviceAndProjectPrefillChecks": 28,
+  "serviceDisclosures": 16,
+  "faqDisclosures": 7,
+  "projectDisclosures": 2,
+  "legalLinkChecks": [
+    "Home footer → privacy",
+    "Privacy footer → terms",
+    "Terms inquiry link → home contact",
+    "Privacy header → home contact",
+    "Privacy back link → home",
+    "Home footer → terms",
+    "Terms brand → home"
+  ],
+  "skipNavigation": "Focus moved to main on all three pages",
+  "formValidation": "Empty, invalid email, whitespace-only, too-short message, focus recovery, aria-invalid clearing and stale feedback clearing tested",
+  "emailDraft": "Generated recipient, subject, CRLF-separated body and URI encoding inspected in the browser; launching mailto blocked by browser policy; nothing sent",
+  "motion": "Pause/resume, offscreen pausing, and scroll reveal behavior tested; reduced-motion CSS and JS reviewed, but OS preference not toggled",
+  "limitations": [
+    "No physical-device or cross-browser run",
+    "No Lighthouse or Core Web Vitals field measurement",
+    "No email-client launch verification",
+    "No configured direct-delivery backend",
+    "Reduced-motion preference not emulated"
+  ]
+}

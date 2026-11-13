@@ -1,0 +1,568 @@
+{
+  "layouts": [
+    {
+      "ms": 289.307,
+      "data": {
+        "dirtyObjects": 445,
+        "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950977701,
+        "totalObjects": 445
+      }
+    },
+    {
+      "ms": 117.501,
+      "data": {
+        "dirtyObjects": 1394,
+        "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950976576,
+        "totalObjects": 1952
+      }
+    },
+    {
+      "ms": 81.26,
+      "data": {
+        "dirtyObjects": 420,
+        "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950977993,
+        "totalObjects": 439
+      }
+    },
+    {
+      "ms": 52.445,
+      "data": {
+        "dirtyObjects": 131,
+        "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950977916,
+        "totalObjects": 439
+      }
+    },
+    {
+      "ms": 16.765,
+      "data": {
+        "dirtyObjects": 137,
+        "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950977986,
+        "totalObjects": 571
+      }
+    },
+    {
+      "ms": 0.626,
+      "data": {
+        "dirtyObjects": 11,
+        "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950977930,
+        "totalObjects": 439
+      }
+    },
+    {
+      "ms": 0.475,
+      "data": {
+        "dirtyObjects": 15,
+        "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950976016,
+        "totalObjects": 436
+      }
+    },
+    {
+      "ms": 0.312,
+      "data": {
+        "dirtyObjects": 1,
+        "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950977714,
+        "totalObjects": 445
+      }
+    },
+    {
+      "ms": 0.123,
+      "data": {
+        "dirtyObjects": 1,
+        "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950977542,
+        "totalObjects": 1
+      }
+    },
+    {
+      "ms": 0.107,
+      "data": {
+        "dirtyObjects": 3,
+        "frame": "A961E626593C54765AA3DE971DEB62B8",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950977707,
+        "totalObjects": 3
+      }
+    },
+    {
+      "ms": 0.071,
+      "data": {
+        "dirtyObjects": 4,
+        "frame": "25603C1D6E859B01CA0171F562890B16",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950977960,
+        "totalObjects": 4
+      }
+    },
+    {
+      "ms": 0.021,
+      "data": {
+        "dirtyObjects": 2,
+        "frame": "25603C1D6E859B01CA0171F562890B16",
+        "partialLayout": false,
+        "sampleTraceId": 7038756950977956,
+        "totalObjects": 4
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "ms": 340.736,
+      "inside": [
+        {
+          "name": "Layout",
+          "ms": 289.307,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 445,
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "partialLayout": false,
+              "sampleTraceId": 7038756950977701,
+              "totalObjects": 445
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 18.607,
+          "args": {
+            "beginData": {
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "sampleTraceId": 7038756950977779
+            },
+            "elementCount": 229
+          }
+        },
+        {
+          "name": "EvaluateScript",
+          "ms": 9.929,
+          "args": {
+            "data": {
+              "columnNumber": 1,
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "lineNumber": 1,
+              "sampleTraceId": 7038756950977788,
+              "scriptId": 0,
+              "url": "http://127.0.0.1:4173/script.js"
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 9.493,
+          "args": {
+            "beginData": {
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "sampleTraceId": 7038756950977674
+            },
+            "elementCount": 138
+          }
+        },
+        {
+          "name": "EventDispatch",
+          "ms": 0.648,
+          "args": {
+            "data": {
+              "sampleTraceId": 7038756950977781,
+              "type": "DOMContentLoaded"
+            }
+          }
+        },
+        {
+          "name": "Layout",
+          "ms": 0.312,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 1,
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "partialLayout": false,
+              "sampleTraceId": 7038756950977714,
+              "totalObjects": 445
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 0.177,
+          "args": {
+            "beginData": {
+              "frame": "A961E626593C54765AA3DE971DEB62B8",
+              "sampleTraceId": 7038756950977682
+            },
+            "elementCount": 2
+          }
+        },
+        {
+          "name": "Layout",
+          "ms": 0.107,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 3,
+              "frame": "A961E626593C54765AA3DE971DEB62B8",
+              "partialLayout": false,
+              "sampleTraceId": 7038756950977707,
+              "totalObjects": 3
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 15,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "EventDispatch",
+          "ms": 0.012,
+          "args": {
+            "data": {
+              "sampleTraceId": 7038756950977786,
+              "type": "load"
+            }
+          }
+        },
+        {
+          "name": "EventDispatch",
+          "ms": 0.006,
+          "args": {
+            "data": {
+              "sampleTraceId": 7038756950977684,
+              "type": "readystatechange"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ms": 236.716,
+      "inside": []
+    },
+    {
+      "ms": 153.893,
+      "inside": [
+        {
+          "name": "Layout",
+          "ms": 117.501,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 1394,
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "partialLayout": false,
+              "sampleTraceId": 7038756950976576,
+              "totalObjects": 1952
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 23.162,
+          "args": {
+            "beginData": {
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "sampleTraceId": 7038756950976582
+            },
+            "elementCount": 1040
+          }
+        }
+      ]
+    },
+    {
+      "ms": 102.499,
+      "inside": [
+        {
+          "name": "Layout",
+          "ms": 81.26,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 420,
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "partialLayout": false,
+              "sampleTraceId": 7038756950977993,
+              "totalObjects": 439
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Layout",
+          "ms": 16.765,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 137,
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "partialLayout": false,
+              "sampleTraceId": 7038756950977986,
+              "totalObjects": 571
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 0.403,
+          "args": {
+            "beginData": {
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "sampleTraceId": 7038756950977996
+            },
+            "elementCount": 0
+          }
+        },
+        {
+          "name": "EventDispatch",
+          "ms": 0.009,
+          "args": {
+            "data": {
+              "sampleTraceId": 7038756950977852,
+              "type": "readystatechange"
+            }
+          }
+        },
+        {
+          "name": "EventDispatch",
+          "ms": 0.008,
+          "args": {
+            "data": {
+              "sampleTraceId": 7038756950977855,
+              "type": "load"
+            }
+          }
+        },
+        {
+          "name": "EventDispatch",
+          "ms": 0.008,
+          "args": {
+            "data": {
+              "sampleTraceId": 7038756950977842,
+              "type": "pageshow"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ms": 87.893,
+      "inside": [
+        {
+          "name": "Layout",
+          "ms": 52.445,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 131,
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "partialLayout": false,
+              "sampleTraceId": 7038756950977916,
+              "totalObjects": 439
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 3.75,
+          "args": {
+            "beginData": {
+              "frame": "2F813237ACBE9880FBF617D5223A3DE6",
+              "sampleTraceId": 7038756950977917
+            },
+            "elementCount": 93
+          }
+        },
+        {
+          "name": "EventDispatch",
+          "ms": 2.626,
+          "args": {
+            "data": {
+              "sampleTraceId": 7038756950977889,
+              "type": "resize"
+            }
+          }
+        },
+        {
+          "name": "IntersectionObserverController::computeIntersections",
+          "ms": 0.417,
+          "args": {}
+        },
+        {
+          "name": "IntersectionObserverController::computeIntersections",
+          "ms": 0.138,
+          "args": {}
+        },
+        {
+          "name": "IntersectionObserverController::computeIntersections",
+          "ms": 0.047,
+          "args": {}
+        },
+        {
+          "name": "EventDispatch",
+          "ms": 0.032,
+          "args": {
+            "data": {
+              "sampleTraceId": 7038756950977895,
+              "type": "pagereveal"
+            }
+          }
+        },
+        {
+          "name": "IntersectionObserverController::computeIntersections",
+          "ms": 0.027,
+          "args": {}
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,752 @@
+[
+  {
+    "name": "home-mobile-1",
+    "url": "http://127.0.0.1:4173/",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "home-desktop-1",
+    "url": "http://127.0.0.1:4173/",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "shopify-mobile-1",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "shopify-desktop-1",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "seo-mobile-1",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "seo-desktop-1",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "seo-desktop-2",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "seo-mobile-2",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "shopify-desktop-2",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "shopify-mobile-2",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "home-desktop-2",
+    "url": "http://127.0.0.1:4173/",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "home-mobile-2",
+    "url": "http://127.0.0.1:4173/",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "home-mobile-3",
+    "url": "http://127.0.0.1:4173/",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "home-desktop-3",
+    "url": "http://127.0.0.1:4173/",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "shopify-mobile-3",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "shopify-desktop-3",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "seo-mobile-3",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "seo-desktop-3",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "seo-desktop-4",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "seo-mobile-4",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "shopify-desktop-4",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "shopify-mobile-4",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "home-desktop-4",
+    "url": "http://127.0.0.1:4173/",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "home-mobile-4",
+    "url": "http://127.0.0.1:4173/",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "home-mobile-5",
+    "url": "http://127.0.0.1:4173/",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "home-desktop-5",
+    "url": "http://127.0.0.1:4173/",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "shopify-mobile-5",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "shopify-desktop-5",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "seo-mobile-5",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  },
+  {
+    "name": "seo-desktop-5",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "motionLabel": 1
+  }
+]

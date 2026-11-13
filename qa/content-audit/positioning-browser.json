@@ -1,0 +1,14 @@
+[
+  {
+    "description": "Meet CodeToScale, a Pakistan-based software development and digital solutions company serving local and international businesses with connected technology.",
+    "intro": "CodeToScale is headquartered in Pakistan and works with businesses locally and internationally. Our software development and digital solutions span e-commerce, custom applications, SaaS products, CRM and digital marketing. We start with your goals, users and workflows to connect useful customer experiences with the systems that support your business.",
+    "overflow": false,
+    "route": "/about.html",
+    "width": 375
+  },
+  {
+    "overflow": false,
+    "route": "/about.html",
+    "width": 1440
+  }
+]

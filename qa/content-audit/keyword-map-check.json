@@ -1,0 +1,122 @@
+[
+  {
+    "route": "/",
+    "primaryKeyword": "CodeToScale",
+    "intent": "Brand discovery",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/services.html",
+    "primaryKeyword": "development and digital marketing services",
+    "intent": "Compare capabilities",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/services/crm-integration.html",
+    "primaryKeyword": "CRM software integration",
+    "intent": "Connect customer operations",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/services/custom-software-development.html",
+    "primaryKeyword": "custom software development",
+    "intent": "Commission software",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/services/digital-marketing.html",
+    "primaryKeyword": "digital marketing agency Pakistan",
+    "intent": "Commission channel strategy",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/services/ecommerce-development.html",
+    "primaryKeyword": "e-commerce website development",
+    "intent": "Commission a store",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/services/saas-development.html",
+    "primaryKeyword": "SaaS product development",
+    "intent": "Build a subscription product",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/services/seo-content-marketing.html",
+    "primaryKeyword": "SEO services Pakistan",
+    "intent": "Improve organic visibility",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "primaryKeyword": "Shopify development agency",
+    "intent": "Commission Shopify work",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/services/social-media-marketing.html",
+    "primaryKeyword": "social media marketing Pakistan",
+    "intent": "Commission social strategy",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/services/woocommerce-development.html",
+    "primaryKeyword": "WooCommerce development",
+    "intent": "Commission WooCommerce work",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/about.html",
+    "primaryKeyword": "about CodeToScale",
+    "intent": "Evaluate company",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/faq.html",
+    "primaryKeyword": "CodeToScale services FAQ",
+    "intent": "Resolve buying questions",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/privacy.html",
+    "primaryKeyword": "CodeToScale privacy notice",
+    "intent": "Policy information",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  },
+  {
+    "route": "/terms.html",
+    "primaryKeyword": "CodeToScale terms",
+    "intent": "Policy information",
+    "titleMatches": true,
+    "descriptionMatches": true,
+    "h1Matches": true
+  }
+]

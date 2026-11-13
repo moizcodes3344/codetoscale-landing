@@ -1,0 +1,79 @@
+[
+  {
+    "route": "/",
+    "title": "CodeToScale: E-commerce & Custom Software Agency",
+    "description": "Build online stores, custom software, SaaS and CRM with CodeToScale. Explore development and digital marketing services, then discuss your project with our team."
+  },
+  {
+    "route": "/services.html",
+    "title": "E-commerce, Software & Marketing Services | CodeToScale",
+    "description": "Explore CodeToScale services for online stores, custom software, SaaS, CRM and digital marketing. Find the right starting point for your business and project.",
+    "h1": "E-commerce, software & digital marketing services"
+  },
+  {
+    "route": "/services/ecommerce-development.html",
+    "title": "E-commerce Website Development Services | CodeToScale",
+    "description": "Plan an online store around your catalog, checkout and operations. Explore CodeToScale e-commerce development with Shopify, WooCommerce and custom storefronts.",
+    "h1": "E-commerce website development"
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "title": "Shopify Development for Pakistan & Beyond | CodeToScale",
+    "description": "Discuss Shopify development for Pakistan and international markets. CodeToScale plans Liquid themes, catalog setup, integrations and careful store migrations.",
+    "h1": "Shopify development for Pakistan and beyond"
+  },
+  {
+    "route": "/services/woocommerce-development.html",
+    "title": "WooCommerce Development Services | CodeToScale",
+    "description": "Build a WordPress store around your products and workflows. Explore CodeToScale WooCommerce development, plugin integration, checkout and migration planning.",
+    "h1": "WooCommerce development"
+  },
+  {
+    "route": "/services/custom-software-development.html",
+    "title": "Custom Software & Web App Development | CodeToScale",
+    "description": "Turn business workflows into useful software. Explore CodeToScale custom applications, portals, dashboards, ERP workflows and API integration for your team.",
+    "h1": "Custom software development"
+  },
+  {
+    "route": "/services/saas-development.html",
+    "title": "SaaS Product Development Services | CodeToScale",
+    "description": "Shape a SaaS product around a clear user need. CodeToScale helps plan product scope, onboarding, access roles, integrations and a practical release roadmap.",
+    "h1": "SaaS product development"
+  },
+  {
+    "route": "/services/crm-integration.html",
+    "title": "CRM Development & Software Integration | CodeToScale",
+    "description": "Connect customer records and business workflows. Explore CodeToScale CRM development, data mapping, API integration and a practical plan for team adoption.",
+    "h1": "CRM development & software integration"
+  },
+  {
+    "route": "/services/digital-marketing.html",
+    "title": "Digital Marketing Agency for Pakistan | CodeToScale",
+    "description": "Connect acquisition, content and on-site conversion. Explore CodeToScale digital marketing for Pakistan and international businesses, with measurable priorities.",
+    "h1": "Digital marketing for Pakistan and beyond"
+  },
+  {
+    "route": "/services/seo-content-marketing.html",
+    "title": "SEO & Content Marketing for Pakistan | CodeToScale",
+    "description": "Plan technical SEO and useful content with CodeToScale. Explore SEO services for Pakistan and global audiences, from keyword research to progress reporting.",
+    "h1": "SEO & content marketing for Pakistan and beyond"
+  },
+  {
+    "route": "/services/social-media-marketing.html",
+    "title": "Social Media Marketing for Pakistan | CodeToScale",
+    "description": "Plan social media marketing for Pakistan and wider audiences. CodeToScale connects content calendars, campaign goals and useful measurement to your customer journey.",
+    "h1": "Social media marketing for Pakistan and beyond"
+  },
+  {
+    "route": "/about.html",
+    "title": "About CodeToScale | E-commerce & Software Agency",
+    "description": "Meet CodeToScale, a Pakistan-based software development and digital solutions company serving local and international businesses with connected technology.",
+    "h1": "About CodeToScale"
+  },
+  {
+    "route": "/faq.html",
+    "title": "Development, Marketing & Support FAQ | CodeToScale",
+    "description": "Get clear answers about platforms, project scope, migration, SaaS, marketing, support and pricing discussions before sending CodeToScale your project brief.",
+    "h1": "Frequently asked questions"
+  }
+]

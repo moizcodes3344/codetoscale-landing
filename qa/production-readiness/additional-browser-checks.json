@@ -1,0 +1,30 @@
+{
+  "projects": {
+    "images": [
+      {
+        "alt": "Atelier demo storefront with a minimal cream layout, olive typography, and sculptural skincare product illustrations",
+        "complete": true,
+        "naturalWidth": 1000,
+        "src": "assets/commerce-concept.svg"
+      },
+      {
+        "alt": "Orbit demo operations dashboard showing an activity chart, project status table, and workflow overview with illustrative data",
+        "complete": true,
+        "naturalWidth": 1000,
+        "src": "assets/software-concept.svg"
+      }
+    ],
+    "label": "Original concept studies, created to illustrate our approach.\nThese are demos, not commissioned client projects."
+  },
+  "desktopResize": {
+    "expanded": "false",
+    "locked": false,
+    "mainInert": false
+  },
+  "tabArrow": {
+    "active": "tab-woocommerce",
+    "selected": "tab-woocommerce"
+  },
+  "tabHome": "tab-shopify",
+  "console": []
+}

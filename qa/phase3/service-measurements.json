@@ -1,0 +1,62 @@
+[
+  {
+    "file": "shopify-mobile-release",
+    "fetch": "2026-11-12T11:39:03.698Z",
+    "duration": 11923.25,
+    "performance": 99,
+    "lcp": 1053.16,
+    "tbt": 103.41999999999985,
+    "cls": 0,
+    "seo": 63,
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "file": "shopify-desktop-release",
+    "fetch": "2026-11-12T11:39:24.303Z",
+    "duration": 15379.75,
+    "performance": 100,
+    "lcp": 291.4215,
+    "tbt": 0,
+    "cls": 0,
+    "seo": 63,
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "file": "seo-mobile-final",
+    "fetch": "2026-11-12T11:42:46.736Z",
+    "duration": 14762.77,
+    "performance": 91,
+    "lcp": 1053.62,
+    "tbt": 366.69000000000005,
+    "cls": 0,
+    "seo": 63,
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "file": "seo-desktop-final",
+    "fetch": "2026-11-12T11:43:11.359Z",
+    "duration": 13574.69,
+    "performance": 95,
+    "lcp": 290.09389999999996,
+    "tbt": 188.95304999999996,
+    "cls": 0,
+    "seo": 63,
+    "accessibility": 100,
+    "bestPractices": 100
+  },
+  {
+    "file": "home-desktop-final",
+    "fetch": "2026-11-12T11:42:08.647Z",
+    "duration": 20798.91,
+    "performance": 67,
+    "lcp": 595.01,
+    "tbt": 1245.495,
+    "cls": 0,
+    "seo": 66,
+    "accessibility": 100,
+    "bestPractices": 100
+  }
+]

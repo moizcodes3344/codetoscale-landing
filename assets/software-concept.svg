@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680">
+<defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#bade83" stop-opacity=".25"/><stop offset="1" stop-color="#bade83" stop-opacity="0"/></linearGradient></defs>
+<rect width="1000" height="680" fill="#151b16"/>
+<rect width="186" height="680" fill="#101611"/><path d="M186 0v680" stroke="#303b2d"/>
+<circle cx="35" cy="36" r="12" fill="none" stroke="#c4e699" stroke-width="2"/><ellipse cx="35" cy="36" rx="17" ry="6" transform="rotate(-40 35 36)" fill="none" stroke="#c4e699"/>
+<text x="60" y="43" fill="#e8efdf" font-family="Arial,sans-serif" font-size="24" letter-spacing="-1">orbit</text>
+<text x="23" y="98" fill="#819277" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.5">WORKSPACE</text>
+<rect x="14" y="115" width="158" height="39" rx="5" fill="#b7d9841a"/>
+<g font-family="Arial,sans-serif" font-size="11"><text x="45" y="140" fill="#d2eca8">Overview</text><text x="45" y="182" fill="#9eae93">Projects</text><text x="45" y="224" fill="#9eae93">Workflows</text><text x="45" y="266" fill="#9eae93">Team</text><text x="45" y="308" fill="#9eae93">Reports</text></g>
+<g stroke="#8da679" fill="none" stroke-width="1.2"><rect x="26" y="129" width="9" height="9"/><path d="M26 173h10v10H26Zm0 44 10 7m-10 0 10-7"/><circle cx="31" cy="254" r="4"/><path d="M25 263q6-6 12 0m-10 39v-8m4 8v-12m4 12v-5"/></g>
+<rect x="17" y="554" width="152" height="76" rx="7" fill="#202b1c"/><text x="31" y="577" fill="#d4e8bc" font-family="Arial,sans-serif" font-size="10">Everything in sync.</text><text x="31" y="598" fill="#9caf8d" font-family="Arial,sans-serif" font-size="8">A calmer way to work.</text><circle cx="31" cy="615" r="3" fill="#bde58c"/><text x="41" y="618" fill="#aabd98" font-family="Arial,sans-serif" font-size="7">DESIGN CONCEPT</text>
+<path d="M187 67h813" stroke="#303b2d"/><text x="216" y="40" fill="#a5b49b" font-family="Arial,sans-serif" font-size="10">Workspace / Overview</text><rect x="794" y="22" width="148" height="26" rx="5" fill="#202a1d"/><text x="807" y="39" fill="#a5b49b" font-family="Arial,sans-serif" font-size="8">Search workspace</text><circle cx="967" cy="35" r="13" fill="#56674b"/><text x="967" y="39" text-anchor="middle" fill="#dce7cf" font-family="Arial,sans-serif" font-size="8">D</text>
+<text x="216" y="112" fill="#eef3e6" font-family="Arial,sans-serif" font-size="26" letter-spacing="-.6">Your business, at a glance.</text><text x="216" y="137" fill="#98aa8c" font-family="Arial,sans-serif" font-size="10">A little clarity for the work ahead.</text>
+<rect x="850" y="92" width="120" height="32" rx="5" fill="#c5e69a"/><text x="870" y="112" fill="#273a1c" font-family="Arial,sans-serif" font-size="9">+ New project</text>
+<g fill="#1d271a" stroke="#35452d"><rect x="216" y="164" width="235" height="98" rx="7"/><rect x="475" y="164" width="235" height="98" rx="7"/><rect x="735" y="164" width="235" height="98" rx="7"/></g>
+<g font-family="Arial,sans-serif"><g fill="#aab99b" font-size="9"><text x="233" y="190">ACTIVE PROJECTS</text><text x="492" y="190">TASKS IN PROGRESS</text><text x="752" y="190">CONNECTED WORKFLOWS</text></g><g fill="#eef4e5" font-size="30"><text x="233" y="233">12</text><text x="492" y="233">38</text><text x="752" y="233">06</text></g><g fill="#a2bf82" font-size="8"><text x="291" y="229">Across your workspace</text><text x="550" y="229">Shared team view</text><text x="810" y="229">Tools, working together</text></g></g>
+<rect x="216" y="286" width="475" height="213" rx="7" fill="#1b2419" stroke="#35452d"/>
+<text x="234" y="312" fill="#e0e9d5" font-family="Arial,sans-serif" font-size="11">Team activity</text><text x="614" y="311" fill="#93a786" font-family="Arial,sans-serif" font-size="8">This week</text>
+<g stroke="#34412e" stroke-dasharray="3 5"><path d="M243 349h418M243 388h418M243 427h418M243 465h418"/></g>
+<path d="m244 438 55-20 55 9 55-47 55 18 55-44 55 13 83-38v137H244Z" fill="url(#area)"/>
+<path d="m244 438 55-20 55 9 55-47 55 18 55-44 55 13 83-38" fill="none" stroke="#bce58b" stroke-width="2"/>
+<g fill="#94a587" font-family="Arial,sans-serif" font-size="7"><text x="244" y="482">MON</text><text x="310" y="482">TUE</text><text x="376" y="482">WED</text><text x="442" y="482">THU</text><text x="508" y="482">FRI</text><text x="574" y="482">SAT</text><text x="640" y="482">SUN</text></g>
+<rect x="714" y="286" width="256" height="213" rx="7" fill="#1b2419" stroke="#35452d"/>
+<text x="732" y="312" fill="#e0e9d5" font-family="Arial,sans-serif" font-size="11">Workflow health</text>
+<circle cx="785" cy="387" r="39" fill="none" stroke="#33452a" stroke-width="9"/><circle cx="785" cy="387" r="39" fill="none" stroke="#c4e799" stroke-width="9" stroke-dasharray="196 49" transform="rotate(-90 785 387)"/>
+<text x="785" y="392" text-anchor="middle" fill="#e0edcf" font-family="Arial,sans-serif" font-size="16">06</text>
+<g font-family="Arial,sans-serif" font-size="8"><circle cx="848" cy="371" r="3" fill="#c4e799"/><text x="858" y="374" fill="#b5c9a5">Connected</text><circle cx="848" cy="397" r="3" fill="#708c5a"/><text x="858" y="400" fill="#b5c9a5">In review</text><text x="732" y="467" fill="#8fa67e">Illustrative data / demo workspace</text></g>
+<rect x="216" y="521" width="754" height="115" rx="7" fill="#1b2419" stroke="#35452d"/>
+<g font-family="Arial,sans-serif" font-size="10"><text x="234" y="547" fill="#e0e9d5">Project overview</text><text x="872" y="547" fill="#adc792" font-size="8">View all →</text></g>
+<path d="M233 562h720" stroke="#35452d"/>
+<g fill="#9eb18f" font-family="Arial,sans-serif" font-size="8"><text x="234" y="581">PROJECT</text><text x="548" y="581">TEAM</text><text x="711" y="581">STATUS</text><text x="859" y="581">PROGRESS</text></g>
+<text x="234" y="612" fill="#dce7cf" font-family="Arial,sans-serif" font-size="10">Website experience</text><circle cx="555" cy="608" r="9" fill="#647d4f"/><circle cx="569" cy="608" r="9" fill="#879c74"/><rect x="707" y="597" width="77" height="19" rx="9" fill="#355027"/><text x="720" y="610" fill="#c6e4a5" font-family="Arial,sans-serif" font-size="8">In progress</text><rect x="860" y="605" width="90" height="5" rx="2" fill="#3a4c30"/><rect x="860" y="605" width="60" height="5" rx="2" fill="#badc91"/>
+<text x="595" y="663" text-anchor="middle" fill="#9db18b" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.2">ORIGINAL CODETOSCALE CONCEPT / ILLUSTRATIVE DATA / NO LIVE PLATFORM</text>
+</svg>

@@ -1,0 +1,3641 @@
+[
+  {
+    "file": "home-desktop.report.json",
+    "url": "http://127.0.0.1:4173/",
+    "version": "13.6.0",
+    "fetchTime": "2026-11-12T10:34:46.508Z",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "benchmarkIndex": 908,
+      "credits": {
+        "axe-core": "4.14.0"
+      }
+    },
+    "formFactor": "desktop",
+    "throttling": {
+      "rttMs": 40,
+      "throughputKbps": 10240,
+      "requestLatencyMs": 0,
+      "downloadThroughputKbps": 0,
+      "uploadThroughputKbps": 0,
+      "cpuSlowdownMultiplier": 1
+    },
+    "scores": {
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 855.1192644431885,
+        "display": "0.9 s"
+      },
+      "largest-contentful-paint": {
+        "value": 1184.2477644431885,
+        "display": "1.2 s"
+      },
+      "total-blocking-time": {
+        "value": 121.29199999999992,
+        "display": "120 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0004916063301520959,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 1426.954955339305,
+        "display": "1.4 s"
+      },
+      "interactive": {
+        "value": 1184.2477644431885,
+        "display": "1.2 s"
+      }
+    },
+    "warnings": [],
+    "failedAudits": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.93,
+        "display": "0.9 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.9,
+        "display": "1.2 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.86,
+        "display": "1.4 s"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "score": 0.94,
+        "display": "120 ms"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0.68,
+        "display": "200 ms"
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-BUTTON",
+                "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,0,DIV,1,DIV,2,DIV,0,DIV,2,BUTTON",
+                "selector": "div.hero-visual > div.runtime-terminal > div.terminal-title > button.log-toggle",
+                "boundingRect": {
+                  "top": 566,
+                  "bottom": 598,
+                  "left": 1194,
+                  "right": 1262,
+                  "width": 68,
+                  "height": 32
+                },
+                "snippet": "<button class=\"log-toggle\" type=\"button\" aria-pressed=\"false\" aria-label=\"Pause hero motion and simulated runtime logs\">",
+                "nodeLabel": "PAUSE Ⅱ",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0.5,
+        "display": "Est savings of 9 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedBytes": 9292,
+              "wastedPercent": 15.296569519335733
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 9292,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "display": "Est savings of 3 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/script.js",
+              "totalBytes": 18537,
+              "wastedBytes": 3226,
+              "wastedPercent": 17.403508771929822
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 3226,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "display": "Est savings of 28 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "wastedBytes": 28211,
+              "wastedPercent": 46.65222137682358,
+              "totalBytes": 60470
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 28211,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 46 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 5 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 5,
+            "uncompressedResponseBytes": 47338,
+            "wastedBytes": 47338
+          }
+        }
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "source",
+                  "valueType": "source-location",
+                  "label": "Source"
+                },
+                {
+                  "key": "reflowTime",
+                  "valueType": "ms",
+                  "granularity": 1,
+                  "label": "Total reflow time"
+                }
+              ],
+              "items": [
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/script.js",
+                    "urlProvider": "network",
+                    "line": 312,
+                    "column": 15
+                  },
+                  "reflowTime": 364.069
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "0C077B5EBDF08FF78754FF38C6725AF3": {
+                    "url": "http://127.0.0.1:4173/",
+                    "navStartToEndTime": 135,
+                    "transferSize": 70929,
+                    "isLongest": true,
+                    "children": {
+                      "16584.2": {
+                        "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+                        "navStartToEndTime": 596,
+                        "transferSize": 1429,
+                        "isLongest": true,
+                        "children": {
+                          "16584.16": {
+                            "url": "https://fonts.gstatic.com/s/firacode/v27/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2",
+                            "navStartToEndTime": 1536,
+                            "transferSize": 36372,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "16584.34": {
+                            "url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2",
+                            "navStartToEndTime": 1533,
+                            "transferSize": 27301,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "16584.3": {
+                        "url": "http://127.0.0.1:4173/styles.css",
+                        "navStartToEndTime": 150,
+                        "transferSize": 60744,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 1536
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "origin",
+                    "valueType": "text",
+                    "subItemsHeading": {
+                      "key": "warning"
+                    },
+                    "label": "Origin"
+                  },
+                  {
+                    "key": "source",
+                    "valueType": "node",
+                    "label": "Source"
+                  }
+                ],
+                "items": [
+                  {
+                    "origin": "https://fonts.googleapis.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-9-LINK",
+                      "path": "1,HTML,0,HEAD,9,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  },
+                  {
+                    "origin": "https://fonts.gstatic.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-10-LINK",
+                      "path": "1,HTML,0,HEAD,10,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 350 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+              "totalBytes": 1429,
+              "wastedMs": 610
+            },
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedMs": 165
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "file": "home-mobile.report.json",
+    "url": "http://127.0.0.1:4173/",
+    "version": "13.6.0",
+    "fetchTime": "2026-11-12T10:32:47.930Z",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "benchmarkIndex": 888,
+      "credits": {
+        "axe-core": "4.14.0"
+      }
+    },
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "scores": {
+      "performance": 52,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 2066.3202677933978,
+        "display": "2.1 s"
+      },
+      "largest-contentful-paint": {
+        "value": 3286.727267793398,
+        "display": "3.3 s"
+      },
+      "total-blocking-time": {
+        "value": 3485.0860000000002,
+        "display": "3,490 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.1425050747591693,
+        "display": "0.143"
+      },
+      "speed-index": {
+        "value": 4930.366680831337,
+        "display": "4.9 s"
+      },
+      "interactive": {
+        "value": 6010.456267793399,
+        "display": "6.0 s"
+      }
+    },
+    "warnings": [
+      "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+    ],
+    "failedAudits": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.82,
+        "display": "2.1 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.7,
+        "display": "3.3 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.65,
+        "display": "4.9 s"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "score": 0.02,
+        "display": "3,490 ms"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0,
+        "display": "2,690 ms"
+      },
+      {
+        "id": "cumulative-layout-shift",
+        "title": "Cumulative Layout Shift",
+        "score": 0.78,
+        "display": "0.143",
+        "details": {
+          "type": "debugdata",
+          "items": [
+            {
+              "cumulativeLayoutShiftMainFrame": 0.1425050747591693,
+              "newEngineResult": {
+                "cumulativeLayoutShift": 0.1425050747591693,
+                "cumulativeLayoutShiftMainFrame": 0.1425050747591693
+              },
+              "newEngineResultDiffered": false
+            }
+          ]
+        }
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.64,
+        "display": "6.0 s"
+      },
+      {
+        "id": "mainthread-work-breakdown",
+        "title": "Minimize main-thread work",
+        "score": 0,
+        "display": "8.0 s",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "groupLabel",
+              "valueType": "text",
+              "label": "Category"
+            },
+            {
+              "key": "duration",
+              "valueType": "ms",
+              "granularity": 1,
+              "label": "Time Spent"
+            }
+          ],
+          "items": [
+            {
+              "group": "other",
+              "groupLabel": "Other",
+              "duration": 3848.367999999995
+            },
+            {
+              "group": "styleLayout",
+              "groupLabel": "Style & Layout",
+              "duration": 3567.683999999999
+            },
+            {
+              "group": "paintCompositeRender",
+              "groupLabel": "Rendering",
+              "duration": 385.5320000000006
+            },
+            {
+              "group": "scriptEvaluation",
+              "groupLabel": "Script Evaluation",
+              "duration": 122.62000000000008
+            },
+            {
+              "group": "parseHTML",
+              "groupLabel": "Parse HTML & CSS",
+              "duration": 55.14400000000001
+            },
+            {
+              "group": "scriptParseCompile",
+              "groupLabel": "Script Parsing & Compilation",
+              "duration": 8.296
+            }
+          ],
+          "sortedBy": [
+            "duration"
+          ]
+        }
+      },
+      {
+        "id": "layout-shifts",
+        "title": "Avoid large layout shifts",
+        "score": 0,
+        "display": "1 layout shift found",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "extra"
+              },
+              "label": "Element"
+            },
+            {
+              "key": "score",
+              "valueType": "numeric",
+              "subItemsHeading": {
+                "key": "cause",
+                "valueType": "text"
+              },
+              "granularity": 0.001,
+              "label": "Layout shift score"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "page-1-DIV",
+                "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,0,DIV,1,DIV",
+                "selector": "main#main > section#home > div.hero-grid > div.hero-visual",
+                "boundingRect": {
+                  "top": 739,
+                  "bottom": 1285,
+                  "left": 20,
+                  "right": 392,
+                  "width": 372,
+                  "height": 546
+                },
+                "snippet": "<div class=\"hero-visual\" aria-label=\"CodeToScale system visualization and simulated runtime\">",
+                "nodeLabel": "COMMERCE + SOFTWARE, CONNECTED\nCTS / STUDIO\nSTOREFRONT / CONCEPT\nGood design.\nG…"
+              },
+              "score": 0.1425050747591693,
+              "subItems": {
+                "type": "subitems",
+                "items": [
+                  {
+                    "extra": {
+                      "type": "url",
+                      "value": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2"
+                    },
+                    "cause": "Web font loaded"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-BUTTON",
+                "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,0,DIV,1,DIV,2,DIV,0,DIV,2,BUTTON",
+                "selector": "div.hero-visual > div.runtime-terminal > div.terminal-title > button.log-toggle",
+                "boundingRect": {
+                  "top": 1095,
+                  "bottom": 1127,
+                  "left": 309,
+                  "right": 377,
+                  "width": 68,
+                  "height": 32
+                },
+                "snippet": "<button class=\"log-toggle\" type=\"button\" aria-pressed=\"false\" aria-label=\"Pause hero motion and simulated runtime logs\">",
+                "nodeLabel": "PAUSE Ⅱ",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0.5,
+        "display": "Est savings of 9 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedBytes": 9292,
+              "wastedPercent": 15.296569519335733
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 9292,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "display": "Est savings of 3 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/script.js",
+              "totalBytes": 18537,
+              "wastedBytes": 3226,
+              "wastedPercent": 17.403508771929822
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 3226,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "display": "Est savings of 12 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "wastedBytes": 12151,
+              "wastedPercent": 20.094941943167157,
+              "totalBytes": 60470
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 12151,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cls-culprits-insight",
+        "title": "Layout shift culprits",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "node",
+                  "valueType": "node",
+                  "subItemsHeading": {
+                    "key": "extra"
+                  },
+                  "label": "Element"
+                },
+                {
+                  "key": "score",
+                  "valueType": "numeric",
+                  "subItemsHeading": {
+                    "key": "cause",
+                    "valueType": "text"
+                  },
+                  "granularity": 0.001,
+                  "label": "Layout shift score"
+                }
+              ],
+              "items": [
+                {
+                  "node": {
+                    "type": "text",
+                    "value": "Total"
+                  },
+                  "score": 0.1425050747591693
+                },
+                {
+                  "node": {
+                    "type": "node",
+                    "lhId": "page-1-DIV",
+                    "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,0,DIV,1,DIV",
+                    "selector": "main#main > section#home > div.hero-grid > div.hero-visual",
+                    "boundingRect": {
+                      "top": 739,
+                      "bottom": 1285,
+                      "left": 20,
+                      "right": 392,
+                      "width": 372,
+                      "height": 546
+                    },
+                    "snippet": "<div class=\"hero-visual\" aria-label=\"CodeToScale system visualization and simulated runtime\">",
+                    "nodeLabel": "COMMERCE + SOFTWARE, CONNECTED\nCTS / STUDIO\nSTOREFRONT / CONCEPT\nGood design.\nG…"
+                  },
+                  "score": 0.1425050747591693,
+                  "subItems": {
+                    "type": "subitems",
+                    "items": [
+                      {
+                        "extra": {
+                          "type": "url",
+                          "value": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2"
+                        },
+                        "cause": "Web font"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 46 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 114 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 114,
+            "uncompressedResponseBytes": 47338,
+            "wastedBytes": 47338
+          }
+        }
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "source",
+                  "valueType": "source-location",
+                  "label": "Source"
+                },
+                {
+                  "key": "reflowTime",
+                  "valueType": "ms",
+                  "granularity": 1,
+                  "label": "Total reflow time"
+                }
+              ],
+              "items": [
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/script.js",
+                    "urlProvider": "network",
+                    "line": 312,
+                    "column": 15
+                  },
+                  "reflowTime": 41.95
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "lcp-breakdown-insight",
+        "title": "LCP breakdown",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "label",
+                  "valueType": "text",
+                  "label": "Subpart"
+                },
+                {
+                  "key": "duration",
+                  "valueType": "ms",
+                  "label": "Duration"
+                }
+              ],
+              "items": [
+                {
+                  "subpart": "timeToFirstByte",
+                  "label": "Time to first byte",
+                  "duration": 129.976
+                },
+                {
+                  "subpart": "elementRenderDelay",
+                  "label": "Element render delay",
+                  "duration": 2958.574
+                }
+              ]
+            },
+            {
+              "type": "node",
+              "lhId": "page-0-P",
+              "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,0,DIV,0,DIV,2,P",
+              "selector": "section#home > div.hero-grid > div.hero-copy > p.hero-description",
+              "boundingRect": {
+                "top": 376,
+                "bottom": 514,
+                "left": 20,
+                "right": 392,
+                "width": 372,
+                "height": 139
+              },
+              "snippet": "<p class=\"hero-description\">",
+              "nodeLabel": "Build a clearer path from your customer’s first visit to the work behind the sc…"
+            }
+          ]
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "23A26E25180A1674E3053A028266A2CD": {
+                    "url": "http://127.0.0.1:4173/",
+                    "navStartToEndTime": 201,
+                    "transferSize": 70929,
+                    "isLongest": true,
+                    "children": {
+                      "9068.2": {
+                        "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+                        "navStartToEndTime": 684,
+                        "transferSize": 1429,
+                        "isLongest": true,
+                        "children": {
+                          "9068.34": {
+                            "url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2",
+                            "navStartToEndTime": 3426,
+                            "transferSize": 27301,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "9068.16": {
+                            "url": "https://fonts.gstatic.com/s/firacode/v27/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2",
+                            "navStartToEndTime": 2947,
+                            "transferSize": 36372,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "9068.3": {
+                        "url": "http://127.0.0.1:4173/styles.css",
+                        "navStartToEndTime": 234,
+                        "transferSize": 60744,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 3426
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "origin",
+                    "valueType": "text",
+                    "subItemsHeading": {
+                      "key": "warning"
+                    },
+                    "label": "Origin"
+                  },
+                  {
+                    "key": "source",
+                    "valueType": "node",
+                    "label": "Source"
+                  }
+                ],
+                "items": [
+                  {
+                    "origin": "https://fonts.googleapis.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-5-LINK",
+                      "path": "1,HTML,0,HEAD,9,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  },
+                  {
+                    "origin": "https://fonts.gstatic.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-6-LINK",
+                      "path": "1,HTML,0,HEAD,10,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 1,110 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+              "totalBytes": 1429,
+              "wastedMs": 1162
+            },
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedMs": 754
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "file": "seo-desktop.report.json",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "version": "13.6.0",
+    "fetchTime": "2026-11-12T10:36:02.458Z",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "benchmarkIndex": 1347,
+      "credits": {
+        "axe-core": "4.14.0"
+      }
+    },
+    "formFactor": "desktop",
+    "throttling": {
+      "rttMs": 40,
+      "throughputKbps": 10240,
+      "requestLatencyMs": 0,
+      "downloadThroughputKbps": 0,
+      "uploadThroughputKbps": 0,
+      "cpuSlowdownMultiplier": 1
+    },
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 780.315,
+        "display": "0.8 s"
+      },
+      "largest-contentful-paint": {
+        "value": 780.315,
+        "display": "0.8 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.002470750053050469,
+        "display": "0.002"
+      },
+      "speed-index": {
+        "value": 911.4319477503739,
+        "display": "0.9 s"
+      },
+      "interactive": {
+        "value": 780.315,
+        "display": "0.8 s"
+      }
+    },
+    "warnings": [],
+    "failedAudits": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.95,
+        "display": "0.8 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.98,
+        "display": "0.8 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.98,
+        "display": "0.9 s"
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0.5,
+        "display": "Est savings of 9 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedBytes": 9292,
+              "wastedPercent": 15.296569519335733
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 9292,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "display": "Est savings of 53 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "wastedBytes": 54135,
+              "wastedPercent": 89.52330543517813,
+              "totalBytes": 60470
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 54135,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 9 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 3 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 3,
+            "uncompressedResponseBytes": 9361,
+            "wastedBytes": 9361
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "ED674A2AD9B30F3B3D8CE53A3FD82EFC": {
+                    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+                    "navStartToEndTime": 106,
+                    "transferSize": 14247,
+                    "isLongest": true,
+                    "children": {
+                      "19536.2": {
+                        "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+                        "navStartToEndTime": 607,
+                        "transferSize": 1429,
+                        "isLongest": true,
+                        "children": {
+                          "19536.14": {
+                            "url": "https://fonts.gstatic.com/s/firacode/v27/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2",
+                            "navStartToEndTime": 919,
+                            "transferSize": 36372,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "19536.32": {
+                            "url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2",
+                            "navStartToEndTime": 871,
+                            "transferSize": 27301,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "19536.3": {
+                        "url": "http://127.0.0.1:4173/styles.css",
+                        "navStartToEndTime": 121,
+                        "transferSize": 60744,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 919
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "origin",
+                    "valueType": "text",
+                    "subItemsHeading": {
+                      "key": "warning"
+                    },
+                    "label": "Origin"
+                  },
+                  {
+                    "key": "source",
+                    "valueType": "node",
+                    "label": "Source"
+                  }
+                ],
+                "items": [
+                  {
+                    "origin": "https://fonts.googleapis.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-5-LINK",
+                      "path": "1,HTML,0,HEAD,9,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  },
+                  {
+                    "origin": "https://fonts.gstatic.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-6-LINK",
+                      "path": "1,HTML,0,HEAD,10,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 520 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+              "totalBytes": 1429,
+              "wastedMs": 618
+            },
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedMs": 123
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "file": "seo-mobile.report.json",
+    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+    "version": "13.6.0",
+    "fetchTime": "2026-11-12T10:35:45.753Z",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "benchmarkIndex": 1048,
+      "credits": {
+        "axe-core": "4.14.0"
+      }
+    },
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1767.4003000000002,
+        "display": "1.8 s"
+      },
+      "largest-contentful-paint": {
+        "value": 1767.4003000000002,
+        "display": "1.8 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2153.4646900000375,
+        "display": "2.2 s"
+      },
+      "interactive": {
+        "value": 1767.4003000000002,
+        "display": "1.8 s"
+      }
+    },
+    "warnings": [],
+    "failedAudits": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.9,
+        "display": "1.8 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.99,
+        "display": "1.8 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.99,
+        "display": "2.2 s"
+      },
+      {
+        "id": "mainthread-work-breakdown",
+        "title": "Minimize main-thread work",
+        "score": 0.5,
+        "display": "2.1 s",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "groupLabel",
+              "valueType": "text",
+              "label": "Category"
+            },
+            {
+              "key": "duration",
+              "valueType": "ms",
+              "granularity": 1,
+              "label": "Time Spent"
+            }
+          ],
+          "items": [
+            {
+              "group": "styleLayout",
+              "groupLabel": "Style & Layout",
+              "duration": 1076.432
+            },
+            {
+              "group": "other",
+              "groupLabel": "Other",
+              "duration": 795.4079999999971
+            },
+            {
+              "group": "paintCompositeRender",
+              "groupLabel": "Rendering",
+              "duration": 127.684
+            },
+            {
+              "group": "scriptEvaluation",
+              "groupLabel": "Script Evaluation",
+              "duration": 30.171999999999993
+            },
+            {
+              "group": "parseHTML",
+              "groupLabel": "Parse HTML & CSS",
+              "duration": 28.599999999999998
+            },
+            {
+              "group": "scriptParseCompile",
+              "groupLabel": "Script Parsing & Compilation",
+              "duration": 1.844
+            }
+          ],
+          "sortedBy": [
+            "duration"
+          ]
+        }
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0.5,
+        "display": "Est savings of 9 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedBytes": 9292,
+              "wastedPercent": 15.296569519335733
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 9292,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "display": "Est savings of 50 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "wastedBytes": 51476,
+              "wastedPercent": 85.1268649310265,
+              "totalBytes": 60470
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 51476,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 9 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 4 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 4,
+            "uncompressedResponseBytes": 9361,
+            "wastedBytes": 9361
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "EA07EBA467CAA278F36942BBFF8601C1": {
+                    "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+                    "navStartToEndTime": 160,
+                    "transferSize": 14247,
+                    "isLongest": true,
+                    "children": {
+                      "13804.2": {
+                        "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+                        "navStartToEndTime": 642,
+                        "transferSize": 1429,
+                        "isLongest": true,
+                        "children": {
+                          "13804.32": {
+                            "url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2",
+                            "navStartToEndTime": 1034,
+                            "transferSize": 27301,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "13804.14": {
+                            "url": "https://fonts.gstatic.com/s/firacode/v27/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2",
+                            "navStartToEndTime": 1019,
+                            "transferSize": 36372,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "13804.3": {
+                        "url": "http://127.0.0.1:4173/styles.css",
+                        "navStartToEndTime": 191,
+                        "transferSize": 60744,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 1034
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "origin",
+                    "valueType": "text",
+                    "subItemsHeading": {
+                      "key": "warning"
+                    },
+                    "label": "Origin"
+                  },
+                  {
+                    "key": "source",
+                    "valueType": "node",
+                    "label": "Source"
+                  }
+                ],
+                "items": [
+                  {
+                    "origin": "https://fonts.googleapis.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-1-LINK",
+                      "path": "1,HTML,0,HEAD,9,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  },
+                  {
+                    "origin": "https://fonts.gstatic.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-2-LINK",
+                      "path": "1,HTML,0,HEAD,10,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 660 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+              "totalBytes": 1429,
+              "wastedMs": 1165
+            },
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedMs": 753
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "file": "shopify-desktop.report.json",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "version": "13.6.0",
+    "fetchTime": "2026-11-12T10:35:29.465Z",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "benchmarkIndex": 783,
+      "credits": {
+        "axe-core": "4.14.0"
+      }
+    },
+    "formFactor": "desktop",
+    "throttling": {
+      "rttMs": 40,
+      "throughputKbps": 10240,
+      "requestLatencyMs": 0,
+      "downloadThroughputKbps": 0,
+      "uploadThroughputKbps": 0,
+      "cpuSlowdownMultiplier": 1
+    },
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 782.749,
+        "display": "0.8 s"
+      },
+      "largest-contentful-paint": {
+        "value": 782.749,
+        "display": "0.8 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.01908886365820515,
+        "display": "0.019"
+      },
+      "speed-index": {
+        "value": 1055.2141341667473,
+        "display": "1.1 s"
+      },
+      "interactive": {
+        "value": 782.749,
+        "display": "0.8 s"
+      }
+    },
+    "warnings": [],
+    "failedAudits": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.95,
+        "display": "0.8 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.98,
+        "display": "0.8 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.96,
+        "display": "1.1 s"
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0.5,
+        "display": "Est savings of 9 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedBytes": 9292,
+              "wastedPercent": 15.296569519335733
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 9292,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "display": "Est savings of 53 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "wastedBytes": 54135,
+              "wastedPercent": 89.52330543517813,
+              "totalBytes": 60470
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 54135,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 9 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 4 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 4,
+            "uncompressedResponseBytes": 9319,
+            "wastedBytes": 9319
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "4432AE3D1164B46211F9C7A7268B06C8": {
+                    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+                    "navStartToEndTime": 214,
+                    "transferSize": 14184,
+                    "isLongest": true,
+                    "children": {
+                      "2316.2": {
+                        "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+                        "navStartToEndTime": 710,
+                        "transferSize": 1429,
+                        "isLongest": true,
+                        "children": {
+                          "2316.14": {
+                            "url": "https://fonts.gstatic.com/s/firacode/v27/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2",
+                            "navStartToEndTime": 1110,
+                            "transferSize": 36372,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "2316.32": {
+                            "url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2",
+                            "navStartToEndTime": 1084,
+                            "transferSize": 27301,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "2316.3": {
+                        "url": "http://127.0.0.1:4173/styles.css",
+                        "navStartToEndTime": 239,
+                        "transferSize": 60744,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 1110
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "origin",
+                    "valueType": "text",
+                    "subItemsHeading": {
+                      "key": "warning"
+                    },
+                    "label": "Origin"
+                  },
+                  {
+                    "key": "source",
+                    "valueType": "node",
+                    "label": "Source"
+                  }
+                ],
+                "items": [
+                  {
+                    "origin": "https://fonts.googleapis.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-5-LINK",
+                      "path": "1,HTML,0,HEAD,9,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  },
+                  {
+                    "origin": "https://fonts.gstatic.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-6-LINK",
+                      "path": "1,HTML,0,HEAD,10,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 470 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+              "totalBytes": 1429,
+              "wastedMs": 620
+            },
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedMs": 123
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "file": "shopify-mobile.report.json",
+    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+    "version": "13.6.0",
+    "fetchTime": "2026-11-12T10:35:07.672Z",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "benchmarkIndex": 245.5,
+      "credits": {
+        "axe-core": "4.14.0"
+      }
+    },
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1771.97215,
+        "display": "1.8 s"
+      },
+      "largest-contentful-paint": {
+        "value": 1771.97215,
+        "display": "1.8 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      },
+      "speed-index": {
+        "value": 2077.122792000134,
+        "display": "2.1 s"
+      },
+      "interactive": {
+        "value": 1771.97215,
+        "display": "1.8 s"
+      }
+    },
+    "warnings": [
+      "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+    ],
+    "failedAudits": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.9,
+        "display": "1.8 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.99,
+        "display": "1.8 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.99,
+        "display": "2.1 s"
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0.5,
+        "display": "Est savings of 9 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedBytes": 9292,
+              "wastedPercent": 15.296569519335733
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 9292,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "display": "Est savings of 50 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "wastedBytes": 51476,
+              "wastedPercent": 85.1268649310265,
+              "totalBytes": 60470
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 51476,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 9 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 4 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 4,
+            "uncompressedResponseBytes": 9319,
+            "wastedBytes": 9319
+          }
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "9AF43EA757917CC7EFD1423B663A204F": {
+                    "url": "http://127.0.0.1:4173/services/shopify-development.html",
+                    "navStartToEndTime": 94,
+                    "transferSize": 14184,
+                    "isLongest": true,
+                    "children": {
+                      "18852.2": {
+                        "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+                        "navStartToEndTime": 565,
+                        "transferSize": 1429,
+                        "isLongest": true,
+                        "children": {
+                          "18852.14": {
+                            "url": "https://fonts.gstatic.com/s/firacode/v27/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2",
+                            "navStartToEndTime": 893,
+                            "transferSize": 36372,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "18852.32": {
+                            "url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2",
+                            "navStartToEndTime": 839,
+                            "transferSize": 27301,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "18852.3": {
+                        "url": "http://127.0.0.1:4173/styles.css",
+                        "navStartToEndTime": 126,
+                        "transferSize": 60744,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 893
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "origin",
+                    "valueType": "text",
+                    "subItemsHeading": {
+                      "key": "warning"
+                    },
+                    "label": "Origin"
+                  },
+                  {
+                    "key": "source",
+                    "valueType": "node",
+                    "label": "Source"
+                  }
+                ],
+                "items": [
+                  {
+                    "origin": "https://fonts.googleapis.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-1-LINK",
+                      "path": "1,HTML,0,HEAD,9,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  },
+                  {
+                    "origin": "https://fonts.gstatic.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-2-LINK",
+                      "path": "1,HTML,0,HEAD,10,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0,
+        "display": "Est savings of 1,150 ms",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+              "totalBytes": 1429,
+              "wastedMs": 1167
+            },
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedMs": 757
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "file": "home-mobile-repeat.report.json",
+    "url": "http://127.0.0.1:4173/",
+    "version": "13.6.0",
+    "fetchTime": "2026-11-12T10:40:55.472Z",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "benchmarkIndex": 586,
+      "credits": {
+        "axe-core": "4.14.0"
+      }
+    },
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "scores": {
+      "performance": 53,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 2650.7570548205817,
+        "display": "2.7 s"
+      },
+      "largest-contentful-paint": {
+        "value": 3610.0663048205815,
+        "display": "3.6 s"
+      },
+      "total-blocking-time": {
+        "value": 3381.9999999999995,
+        "display": "3,380 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.03591464788816328,
+        "display": "0.036"
+      },
+      "speed-index": {
+        "value": 5172.452343153835,
+        "display": "5.2 s"
+      },
+      "interactive": {
+        "value": 6562.657054820582,
+        "display": "6.6 s"
+      }
+    },
+    "warnings": [
+      "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+    ],
+    "failedAudits": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "score": 0.62,
+        "display": "2.7 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "score": 0.61,
+        "display": "3.6 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "score": 0.6,
+        "display": "5.2 s"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "score": 0.02,
+        "display": "3,380 ms"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "score": 0,
+        "display": "2,340 ms"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "score": 0.58,
+        "display": "6.6 s"
+      },
+      {
+        "id": "mainthread-work-breakdown",
+        "title": "Minimize main-thread work",
+        "score": 0,
+        "display": "9.3 s",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "groupLabel",
+              "valueType": "text",
+              "label": "Category"
+            },
+            {
+              "key": "duration",
+              "valueType": "ms",
+              "granularity": 1,
+              "label": "Time Spent"
+            }
+          ],
+          "items": [
+            {
+              "group": "styleLayout",
+              "groupLabel": "Style & Layout",
+              "duration": 4924.491999999998
+            },
+            {
+              "group": "other",
+              "groupLabel": "Other",
+              "duration": 3637.83599999999
+            },
+            {
+              "group": "paintCompositeRender",
+              "groupLabel": "Rendering",
+              "duration": 503.7560000000011
+            },
+            {
+              "group": "scriptEvaluation",
+              "groupLabel": "Script Evaluation",
+              "duration": 186.6000000000001
+            },
+            {
+              "group": "parseHTML",
+              "groupLabel": "Parse HTML & CSS",
+              "duration": 75.06400000000001
+            },
+            {
+              "group": "scriptParseCompile",
+              "groupLabel": "Script Parsing & Compilation",
+              "duration": 5.3119999999999985
+            }
+          ],
+          "sortedBy": [
+            "duration"
+          ]
+        }
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "title": "Elements with visible text labels do not have matching accessible names.",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "node",
+              "valueType": "node",
+              "subItemsHeading": {
+                "key": "relatedNode",
+                "valueType": "node"
+              },
+              "label": "Failing Elements"
+            }
+          ],
+          "items": [
+            {
+              "node": {
+                "type": "node",
+                "lhId": "1-0-BUTTON",
+                "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,0,DIV,1,DIV,2,DIV,0,DIV,2,BUTTON",
+                "selector": "div.hero-visual > div.runtime-terminal > div.terminal-title > button.log-toggle",
+                "boundingRect": {
+                  "top": 1095,
+                  "bottom": 1127,
+                  "left": 309,
+                  "right": 377,
+                  "width": 68,
+                  "height": 32
+                },
+                "snippet": "<button class=\"log-toggle\" type=\"button\" aria-pressed=\"false\" aria-label=\"Pause hero motion and simulated runtime logs\">",
+                "nodeLabel": "PAUSE Ⅱ",
+                "explanation": "Fix any of the following:\n  Text inside the element is not included in the accessible name"
+              }
+            }
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "impact": "serious",
+            "tags": [
+              "cat.semantics",
+              "wcag21a",
+              "wcag253",
+              "EN-301-549",
+              "EN-9.2.5.3",
+              "RGAAv4",
+              "RGAA-6.1.5"
+            ]
+          }
+        }
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "score": 0.5,
+        "display": "Est savings of 9 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedBytes": 9292,
+              "wastedPercent": 15.296569519335733
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 9292,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unminified-javascript",
+        "title": "Minify JavaScript",
+        "score": 0.5,
+        "display": "Est savings of 3 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/script.js",
+              "totalBytes": 18537,
+              "wastedBytes": 3226,
+              "wastedPercent": 17.403508771929822
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 3226,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "score": 0.5,
+        "display": "Est savings of 12 KiB",
+        "details": {
+          "type": "opportunity",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedBytes",
+              "valueType": "bytes",
+              "label": "Est Savings"
+            }
+          ],
+          "items": [
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "wastedBytes": 12151,
+              "wastedPercent": 20.094941943167157,
+              "totalBytes": 60470
+            }
+          ],
+          "overallSavingsMs": 0,
+          "overallSavingsBytes": 12151,
+          "sortedBy": [
+            "wastedBytes"
+          ],
+          "debugData": {
+            "type": "debugdata",
+            "metricSavings": {
+              "FCP": 0,
+              "LCP": 0
+            }
+          }
+        }
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "score": 0,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      },
+      {
+        "id": "document-latency-insight",
+        "title": "Document request latency",
+        "score": 0.5,
+        "display": "Est savings of 46 KiB",
+        "details": {
+          "type": "checklist",
+          "items": {
+            "noRedirects": {
+              "label": "Avoids redirects",
+              "value": true
+            },
+            "serverResponseIsFast": {
+              "label": "Server responds quickly (observed 10 ms)",
+              "value": true
+            },
+            "usesCompression": {
+              "label": "No compression applied",
+              "value": false
+            }
+          },
+          "debugData": {
+            "type": "debugdata",
+            "redirectDuration": 0,
+            "serverResponseTime": 10,
+            "uncompressedResponseBytes": 47338,
+            "wastedBytes": 47338
+          }
+        }
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "source",
+                  "valueType": "source-location",
+                  "label": "Source"
+                },
+                {
+                  "key": "reflowTime",
+                  "valueType": "ms",
+                  "granularity": 1,
+                  "label": "Total reflow time"
+                }
+              ],
+              "items": [
+                {
+                  "source": {
+                    "type": "source-location",
+                    "url": "http://127.0.0.1:4173/script.js",
+                    "urlProvider": "network",
+                    "line": 312,
+                    "column": 15
+                  },
+                  "reflowTime": 71.25
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "lcp-breakdown-insight",
+        "title": "LCP breakdown",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "table",
+              "headings": [
+                {
+                  "key": "label",
+                  "valueType": "text",
+                  "label": "Subpart"
+                },
+                {
+                  "key": "duration",
+                  "valueType": "ms",
+                  "label": "Duration"
+                }
+              ],
+              "items": [
+                {
+                  "subpart": "timeToFirstByte",
+                  "label": "Time to first byte",
+                  "duration": 20.023999998092652
+                },
+                {
+                  "subpart": "elementRenderDelay",
+                  "label": "Element render delay",
+                  "duration": 2750.6750000019074
+                }
+              ]
+            },
+            {
+              "type": "node",
+              "lhId": "page-0-P",
+              "path": "1,HTML,1,BODY,4,MAIN,0,SECTION,0,DIV,0,DIV,2,P",
+              "selector": "section#home > div.hero-grid > div.hero-copy > p.hero-description",
+              "boundingRect": {
+                "top": 376,
+                "bottom": 514,
+                "left": 20,
+                "right": 392,
+                "width": 372,
+                "height": 139
+              },
+              "snippet": "<p class=\"hero-description\">",
+              "nodeLabel": "Build a clearer path from your customer’s first visit to the work behind the sc…"
+            }
+          ]
+        }
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "score": 0,
+        "details": {
+          "type": "list",
+          "items": [
+            {
+              "type": "list-section",
+              "value": {
+                "type": "network-tree",
+                "chains": {
+                  "B1D5AADC6C82265A99583E985B3D9D1B": {
+                    "url": "http://127.0.0.1:4173/",
+                    "navStartToEndTime": 78,
+                    "transferSize": 70929,
+                    "isLongest": true,
+                    "children": {
+                      "18232.2": {
+                        "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+                        "navStartToEndTime": 583,
+                        "transferSize": 1429,
+                        "isLongest": true,
+                        "children": {
+                          "18232.16": {
+                            "url": "https://fonts.gstatic.com/s/firacode/v27/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2",
+                            "navStartToEndTime": 2662,
+                            "transferSize": 36372,
+                            "isLongest": true,
+                            "children": {}
+                          },
+                          "18232.34": {
+                            "url": "https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2",
+                            "navStartToEndTime": 2445,
+                            "transferSize": 27301,
+                            "children": {}
+                          }
+                        }
+                      },
+                      "18232.3": {
+                        "url": "http://127.0.0.1:4173/styles.css",
+                        "navStartToEndTime": 113,
+                        "transferSize": 60744,
+                        "children": {}
+                      }
+                    }
+                  }
+                },
+                "longestChain": {
+                  "duration": 2662
+                }
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnected origins",
+              "description": "[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.",
+              "value": {
+                "type": "table",
+                "headings": [
+                  {
+                    "key": "origin",
+                    "valueType": "text",
+                    "subItemsHeading": {
+                      "key": "warning"
+                    },
+                    "label": "Origin"
+                  },
+                  {
+                    "key": "source",
+                    "valueType": "node",
+                    "label": "Source"
+                  }
+                ],
+                "items": [
+                  {
+                    "origin": "https://fonts.googleapis.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-5-LINK",
+                      "path": "1,HTML,0,HEAD,9,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  },
+                  {
+                    "origin": "https://fonts.gstatic.com/",
+                    "source": {
+                      "type": "node",
+                      "lhId": "page-6-LINK",
+                      "path": "1,HTML,0,HEAD,10,LINK",
+                      "selector": "head > link",
+                      "boundingRect": {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "snippet": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">",
+                      "nodeLabel": "head > link"
+                    },
+                    "subItems": {
+                      "type": "subitems",
+                      "items": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "list-section",
+              "title": "Preconnect candidates",
+              "description": "Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/) hints to your most important origins, but try to use no more than 4",
+              "value": {
+                "type": "text",
+                "value": "No additional origins are good candidates for preconnecting"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "score": 0.5,
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "url",
+              "valueType": "url",
+              "label": "URL"
+            },
+            {
+              "key": "totalBytes",
+              "valueType": "bytes",
+              "label": "Transfer Size"
+            },
+            {
+              "key": "wastedMs",
+              "valueType": "timespanMs",
+              "label": "Duration"
+            }
+          ],
+          "items": [
+            {
+              "url": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
+              "totalBytes": 1429,
+              "wastedMs": 1175
+            },
+            {
+              "url": "http://127.0.0.1:4173/styles.css",
+              "totalBytes": 60744,
+              "wastedMs": 756
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-13",
+  "source": "Owner confirmation in this conversation, after audit clarification",
+  "confirmed": [
+    "CodeToScale is based/headquartered in Pakistan",
+    "Company serves local and international businesses",
+    "Core offering includes e-commerce, custom software, SaaS, CRM and digital marketing"
+  ],
+  "prohibitedInferences": [
+    "Specific city or street address",
+    "International office",
+    "Unsupported business credentials"
+  ],
+  "appliedTo": [
+    "Homepage About introduction",
+    "About introduction and meta description",
+    "Keyword-map positioning"
+  ]
+}

@@ -4,7 +4,25 @@
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const menuButton = document.querySelector('.menu-toggle');
   const mobileMenu = document.querySelector('#mobile-menu');
-  const desktopBreakpoint = window.matchMedia('(min-width: 951px)');
+  const desktopBreakpoint = window.matchMedia('(min-width: 1101px)');
+  const menuBackground = [...document.querySelectorAll('main, .site-footer, .skip-link, .nav-shell .brand, .nav-cta')];
+  const previousInert = new Map();
+  const mainContent = document.querySelector('main');
+  // Resolve skipped sizes once, before the browser's native anchor action.
+  // Fragment entry URLs never opt into containment (see the tiny head boot).
+  function prepareAnchorNavigation() {
+    if (!document.documentElement.classList.contains('defer-offscreen')) return false;
+    document.documentElement.classList.remove('defer-offscreen');
+    void mainContent.offsetHeight;
+    return true;
+  }
+  window.addEventListener('hashchange', () => {
+    if (!prepareAnchorNavigation()) return;
+    // Address-bar/history fragment changes have no preceding anchor click.
+    let id;
+    try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
+    document.getElementById(id)?.scrollIntoView({ behavior: 'instant', block: 'start' });
+  });
 
   function setMenu(open, restoreFocus = false) {
     menuButton.setAttribute('aria-expanded', String(open));
@@ -12,6 +30,16 @@
     mobileMenu.classList.toggle('is-open', open);
     mobileMenu.inert = !open;
     document.body.classList.toggle('menu-open', open);
+    // Keep screen readers and pointer focus out of content behind the overlay.
+    menuBackground.forEach(element => {
+      if (open) {
+        if (!previousInert.has(element)) previousInert.set(element, element.inert);
+        element.inert = true;
+      } else if (previousInert.has(element)) {
+        element.inert = previousInert.get(element);
+        previousInert.delete(element);
+      }
+    });
     if (restoreFocus) menuButton.focus();
   }
   menuButton.addEventListener('click', () => setMenu(menuButton.getAttribute('aria-expanded') !== 'true'));
@@ -31,6 +59,7 @@
   // CSS provides smooth scrolling and an offset for the sticky navigation.
   document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener('click', () => {
+      prepareAnchorNavigation();
       if (link.dataset.service) document.querySelector('#service').value = link.dataset.service;
       if (menuButton.getAttribute('aria-expanded') === 'true') {
         setMenu(false);
@@ -131,11 +160,14 @@
   // This is a labeled visual simulation, not a live infrastructure claim.
   const logContainer = document.querySelector('#runtime-log');
   const logToggle = document.querySelector('.log-toggle');
+  const hero = document.querySelector('.hero');
+  const decorativeMotion = [...document.querySelectorAll('.orbit-outer, .floating-ui')];
   const logMessages = ['connecting commerce.engine', 'validating api.routes', 'profiling core.web.vitals', 'syncing growth.pipeline', 'checking security.layers', 'warming application.cache', 'building your.next.chapter', 'system ready for what’s next'];
   let logIndex = 0;
   let logTimer;
   let logsPaused = reducedMotion.matches;
-  let heroVisible = true;
+  let sceneVisible = false;
+  let terminalVisible = false;
   function appendLog() {
     const line = document.createElement('p');
     const prompt = document.createElement('span');
@@ -152,17 +184,32 @@
   function syncLogTimer() {
     window.clearInterval(logTimer);
     logTimer = undefined;
-    logToggle.setAttribute('aria-pressed', String(logsPaused));
-    logToggle.setAttribute('aria-label', `${logsPaused ? 'Resume' : 'Pause'} simulated runtime logs`);
-    logToggle.replaceChildren(document.createTextNode(logsPaused ? 'RESUME ▶' : 'PAUSE Ⅱ'));
-    if (!logsPaused && !document.hidden && heroVisible) logTimer = window.setInterval(appendLog, 2800);
+    if (logToggle.getAttribute('aria-pressed') !== String(logsPaused)) logToggle.setAttribute('aria-pressed', String(logsPaused));
+    const action = logsPaused ? 'Play' : 'Pause';
+    const accessibleLabel = `${action} hero motion and simulated runtime logs`;
+    if (logToggle.getAttribute('aria-label') !== accessibleLabel) logToggle.setAttribute('aria-label', accessibleLabel);
+    // Decorative glyphs are painted by CSS; only the action is label text.
+    if (logToggle.textContent !== action.toUpperCase()) logToggle.textContent = action.toUpperCase();
+    hero.classList.toggle('motion-paused', logsPaused);
+    syncDecorativeMotion();
+    if (!logsPaused && !document.hidden && terminalVisible) logTimer = window.setInterval(appendLog, 2800);
   }
   logToggle.addEventListener('click', () => { logsPaused = !logsPaused; syncLogTimer(); });
   reducedMotion.addEventListener('change', event => { logsPaused = event.matches; syncLogTimer(); });
   document.addEventListener('visibilitychange', syncLogTimer);
   if ('IntersectionObserver' in window) {
-    const heroObserver = new IntersectionObserver(entries => { heroVisible = entries[0].isIntersecting; syncLogTimer(); });
-    heroObserver.observe(document.querySelector('.hero'));
+    // On phones the terminal is below the first screen even while the hero
+    // copy is visible. Do not re-layout its simulated logs until it is seen.
+    const terminalObserver = new IntersectionObserver(entries => {
+      terminalVisible = entries[0].isIntersecting;
+      syncLogTimer();
+    });
+    terminalObserver.observe(document.querySelector('.runtime-terminal'));
+    const sceneObserver = new IntersectionObserver(entries => {
+      sceneVisible = entries[0].isIntersecting && entries[0].intersectionRatio >= .2;
+      syncDecorativeMotion();
+    }, { threshold: [0, .2] });
+    sceneObserver.observe(document.querySelector('.core-scene'));
     const navigationLinks = [...document.querySelectorAll('.desktop-nav a')];
     const sectionObserver = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -175,7 +222,9 @@
         });
       });
     }, { rootMargin: '-15% 0px -60% 0px' });
-    document.querySelectorAll('section[id]').forEach(section => sectionObserver.observe(section));
+    document.querySelectorAll('section[id], .service-category[id]').forEach(section => sectionObserver.observe(section));
+  } else {
+    sceneVisible = terminalVisible = true;
   }
   syncLogTimer();
 
@@ -183,6 +232,12 @@
   const submit = form.querySelector('button[type="submit"]');
   const submitLabel = document.querySelector('#submit-label');
   const feedback = document.querySelector('#form-feedback');
+  const nameInput = form.querySelector('#name');
+  const messageInput = form.querySelector('#message');
+  // Child-service CTAs return to the existing form without changing delivery.
+  const requestedService = new URLSearchParams(window.location.search).get('service');
+  const serviceSelect = form.querySelector('#service');
+  if (requestedService && [...serviceSelect.options].some(option => option.value === requestedService)) serviceSelect.value = requestedService;
   const toast = document.querySelector('#toast');
   let toastTimer;
   function showToast(title, message) {
@@ -193,7 +248,26 @@
     toastTimer = window.setTimeout(() => { toast.hidden = true; }, 9000);
   }
   document.querySelector('.toast-close').addEventListener('click', () => { toast.hidden = true; window.clearTimeout(toastTimer); });
-  if (form.dataset.endpoint.trim()) document.querySelector('#form-note').lastChild.textContent = ' Your details are used only to respond to your inquiry.';
+  form.addEventListener('invalid', event => {
+    event.target.setAttribute('aria-invalid', 'true');
+  }, true);
+  form.addEventListener('input', event => {
+    if (!(event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement)) return;
+    event.target.setCustomValidity('');
+    event.target.removeAttribute('aria-invalid');
+    if (feedback.classList.contains('is-error') && !form.querySelector('[aria-invalid="true"]')) {
+      feedback.hidden = true;
+      feedback.classList.remove('is-error');
+      feedback.textContent = '';
+    }
+  });
+  form.addEventListener('change', event => {
+    if (event.target instanceof HTMLSelectElement) event.target.removeAttribute('aria-invalid');
+  });
+  if (form.dataset.endpoint.trim()) {
+    document.querySelector('#form-note').lastChild.textContent = ' Your brief is sent to our project inquiry handler.';
+    submitLabel.textContent = 'Send project inquiry';
+  }
   function emailDraftLink(data) {
     const subject = `CodeToScale project inquiry — ${data.service}`;
     const body = [`Name: ${data.name}`, `Email: ${data.email}`, `Service: ${data.service}`, `Budget: ${data.budget}`, '', 'Project brief:', data.message].join('\r\n');
@@ -205,10 +279,13 @@
     const data = Object.fromEntries(new FormData(form));
     if (data.website) return;
     for (const key of ['name', 'email', 'service', 'budget', 'message']) data[key] = String(data[key] || '').trim();
+    nameInput.setCustomValidity(data.name ? '' : 'Please enter your name.');
+    messageInput.setCustomValidity(data.message.length >= 10 ? '' : 'Please describe your project in at least 10 non-padding characters.');
     if (!data.name || data.message.length < 10) {
       feedback.hidden = false;
       feedback.classList.add('is-error');
       feedback.textContent = 'Please add your name and at least 10 characters about your project.';
+      form.reportValidity();
       return;
     }
     delete data.website;
@@ -237,6 +314,7 @@
       const response = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(data), signal: controller.signal });
       if (!response.ok) throw new Error('Your brief could not be delivered. Please try again or email us directly.');
       form.reset();
+      form.querySelectorAll('[aria-invalid]').forEach(field => field.removeAttribute('aria-invalid'));
       feedback.textContent = 'Your project inquiry was submitted successfully. We look forward to learning more.';
       feedback.hidden = false;
       showToast('Transmission complete', 'Your project inquiry has been submitted successfully.');
@@ -247,8 +325,51 @@
     } finally {
       window.clearTimeout(timeout);
       submit.disabled = false;
-      submitLabel.textContent = 'Initiate project';
+      submitLabel.textContent = 'Send project inquiry';
     }
   });
-  document.querySelector('#year').textContent = String(new Date().getFullYear());
+  // Reveal only nearby content, once. Native content stays visible without JS.
+  const revealTargets = [...document.querySelectorAll('.section-heading, .about-intro, .solution, .service-card, .service-category, .fleet-console, .advantages-grid article, .workflow-step, .project-card, .faq-copy, .faq-list, .contact-copy, .project-form')];
+  let revealObserver;
+  function syncReveals() {
+    revealObserver?.disconnect();
+    if (reducedMotion.matches || !('IntersectionObserver' in window)) {
+      revealTargets.forEach(item => item.classList.remove('reveal-pending'));
+      return;
+    }
+    revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        revealObserver.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px 0px 80px 0px', threshold: 0.06 });
+    // IntersectionObserver supplies visibility without reading layout. Measuring
+    // every offscreen descendant would defeat native rendering containment.
+    revealTargets.forEach(item => {
+      if (item.classList.contains('is-visible')) return;
+      item.classList.add('reveal-pending');
+      const siblings = [...item.parentElement.children].filter(node => node.matches('.service-card, .workflow-step, .solution, article'));
+      item.style.setProperty('--reveal-delay', String((Math.max(0, siblings.indexOf(item)) % 3) * 70) + 'ms');
+      revealObserver.observe(item);
+    });
+  }
+  syncReveals();
+  reducedMotion.addEventListener('change', syncReveals);
+  // Stop decorative loops offscreen and in background tabs.
+  function syncDecorativeMotion() {
+    decorativeMotion.forEach(element => {
+      const playState = document.hidden || !sceneVisible || reducedMotion.matches || logsPaused ? 'paused' : 'running';
+      // CSS already starts these animations in the running state. Avoid
+      // invalidating hero styles repeatedly when visibility has not changed.
+      if (playState === 'running' && !element.style.animationPlayState) return;
+      if (element.style.animationPlayState !== playState) element.style.animationPlayState = playState;
+    });
+  }
+  // Visibility/preference changes share synchronization; scene/terminal
+  // observers track their actual components rather than the whole tall hero.
+  syncDecorativeMotion();
+  const year = document.querySelector('#year');
+  const currentYear = String(new Date().getFullYear());
+  if (year.textContent !== currentYear) year.textContent = currentYear;
 })();

@@ -1,0 +1,14 @@
+{
+  "paused": {
+    "glyphHidden": "true",
+    "label": "Play hero motion and simulated runtime logs",
+    "paused": true,
+    "text": "PLAY ▶"
+  },
+  "playing": {
+    "glyphHidden": "true",
+    "label": "Pause hero motion and simulated runtime logs",
+    "paused": false,
+    "text": "PAUSE Ⅱ"
+  }
+}

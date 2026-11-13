@@ -1,0 +1,22 @@
+{
+  "content": [
+    {
+      "file": "content/services.mjs",
+      "unchanged": true
+    },
+    {
+      "file": "content/pages.mjs",
+      "unchanged": true
+    },
+    {
+      "file": "navigation.js",
+      "unchanged": true
+    },
+    {
+      "file": "site.config.json",
+      "unchanged": true
+    }
+  ],
+  "contactHandlerUnchanged": true,
+  "homepageTextUnchanged": true
+}

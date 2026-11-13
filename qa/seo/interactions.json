@@ -1,0 +1,88 @@
+[
+  {
+    "route": "/",
+    "openState": {
+      "expanded": "true"
+    },
+    "wrapped": true,
+    "closed": {
+      "expanded": "false",
+      "focus": "menu-toggle"
+    }
+  },
+  {
+    "route": "/services.html",
+    "openState": {
+      "expanded": "true"
+    },
+    "wrapped": true,
+    "closed": {
+      "expanded": "false",
+      "focus": "menu-toggle"
+    }
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "openState": {
+      "expanded": "true"
+    },
+    "wrapped": true,
+    "closed": {
+      "expanded": "false",
+      "focus": "menu-toggle"
+    }
+  },
+  {
+    "route": "/about.html",
+    "openState": {
+      "expanded": "true"
+    },
+    "wrapped": true,
+    "closed": {
+      "expanded": "false",
+      "focus": "menu-toggle"
+    }
+  },
+  {
+    "route": "/faq.html",
+    "openState": {
+      "expanded": "true"
+    },
+    "wrapped": true,
+    "closed": {
+      "expanded": "false",
+      "focus": "menu-toggle"
+    }
+  },
+  {
+    "skipFocus": "main"
+  },
+  {
+    "servicesOpen": 14
+  },
+  {
+    "projectsOpen": 2
+  },
+  {
+    "module": "tab-shopify",
+    "title": "Commerce that converts."
+  },
+  {
+    "module": "tab-woocommerce",
+    "title": "Your store. Your rules."
+  },
+  {
+    "module": "tab-software",
+    "title": "Purpose-built. Future-ready."
+  },
+  {
+    "module": "tab-marketing",
+    "title": "Turn attention into action."
+  },
+  {
+    "faqOpen": 1
+  },
+  {
+    "motionPaused": "true"
+  }
+]

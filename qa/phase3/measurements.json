@@ -1,0 +1,1886 @@
+{
+  "verdict": "NOT READY — REMAINING ISSUES",
+  "selectedFinalMobile": [
+    {
+      "report": "lighthouse/home-mobile-audit-1.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:53:15.926Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 68,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1364.8740581234988,
+        "largest-contentful-paint": 1364.8740581234988,
+        "total-blocking-time": 3369.562970938251,
+        "cumulative-layout-shift": 0,
+        "speed-index": 4108.479294035955
+      },
+      "benchmarkIndex": 592,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-audit-2.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:53:54.742Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 70,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1353.3028798475473,
+        "largest-contentful-paint": 1353.3028798475473,
+        "total-blocking-time": 2842.348560076226,
+        "cumulative-layout-shift": 0,
+        "speed-index": 3288.925560097169
+      },
+      "benchmarkIndex": 481,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-audit-3.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:54:32.786Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 68,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1357.3775999999998,
+        "largest-contentful-paint": 1357.3775999999998,
+        "total-blocking-time": 4430.3112,
+        "cumulative-layout-shift": 0,
+        "speed-index": 3796.74501143774
+      },
+      "benchmarkIndex": 721.5,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "mobileMedians": {
+    "performance": 68,
+    "first-contentful-paint": 1357.3775999999998,
+    "largest-contentful-paint": 1357.3775999999998,
+    "total-blocking-time": 3369.562970938251,
+    "cumulative-layout-shift": 0,
+    "speed-index": 3796.74501143774
+  },
+  "selectedFinalDesktop": {
+    "report": "lighthouse/home-desktop-audit.report.json",
+    "url": "http://127.0.0.1:4173/",
+    "fetched": "2026-11-12T11:55:18.145Z",
+    "lighthouseVersion": "13.6.0",
+    "runtimeError": null,
+    "scores": {
+      "performance": 78,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "first-contentful-paint": 573.3620000000001,
+      "largest-contentful-paint": 573.3620000000001,
+      "total-blocking-time": 492.81899999999996,
+      "cumulative-layout-shift": 0,
+      "speed-index": 1397.1876431351534
+    },
+    "benchmarkIndex": 774,
+    "warnings": [],
+    "throttling": {
+      "rttMs": 40,
+      "throughputKbps": 10240,
+      "requestLatencyMs": 0,
+      "downloadThroughputKbps": 0,
+      "uploadThroughputKbps": 0,
+      "cpuSlowdownMultiplier": 1
+    },
+    "motionLabelAudit": 1,
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "representativeServices": [
+    {
+      "report": "lighthouse/shopify-mobile-release.report.json",
+      "url": "http://127.0.0.1:4173/services/shopify-development.html",
+      "fetched": "2026-11-12T11:39:03.698Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": 1053.16,
+        "largest-contentful-paint": 1053.16,
+        "total-blocking-time": 103.41999999999985,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1162.7348611608452
+      },
+      "benchmarkIndex": 970,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/shopify-desktop-release.report.json",
+      "url": "http://127.0.0.1:4173/services/shopify-development.html",
+      "fetched": "2026-11-12T11:39:24.303Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": 291.4215,
+        "largest-contentful-paint": 291.4215,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 458.69254239688314
+      },
+      "benchmarkIndex": 625.5,
+      "warnings": [],
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/seo-mobile-final.report.json",
+      "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "fetched": "2026-11-12T11:42:46.736Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 91,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": 1053.62,
+        "largest-contentful-paint": 1053.62,
+        "total-blocking-time": 366.69000000000005,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1475.479830114658
+      },
+      "benchmarkIndex": 818,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/seo-desktop-final.report.json",
+      "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "fetched": "2026-11-12T11:43:11.359Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": 290.09389999999996,
+        "largest-contentful-paint": 290.09389999999996,
+        "total-blocking-time": 188.95304999999996,
+        "cumulative-layout-shift": 0,
+        "speed-index": 806.4008013242726
+      },
+      "benchmarkIndex": 752,
+      "warnings": [],
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "entryBaselines": [
+    {
+      "report": "baseline/home-mobile.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T10:52:01.935Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 56,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 2365.025126392755,
+        "largest-contentful-paint": 3312.709126392755,
+        "total-blocking-time": 3675,
+        "cumulative-layout-shift": 0.035614895109233095,
+        "speed-index": 5042.516808371056
+      },
+      "benchmarkIndex": 723.5,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 0,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "baseline/control-desktop-network-enabled.report.json",
+      "url": "http://127.0.0.1:58987/",
+      "fetched": "2026-11-12T12:00:52.419Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 91,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": 868.1650022802229,
+        "largest-contentful-paint": 1185.229502280223,
+        "total-blocking-time": 175.96300000000008,
+        "cumulative-layout-shift": 0.0004074352881274692,
+        "speed-index": 1485.767225434215
+      },
+      "benchmarkIndex": 1420,
+      "warnings": [],
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "motionLabelAudit": 0,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "interpretation": "Final mobile audit-1/2/3 form the reported triplet, not the best runs from the archive. Same settings; variable host load and slow-CPU warnings limit causal comparisons. Service reports use the final shared styles and font assets; later homepage-only script scheduling does not run on service pages. Lab TBT is not field INP.",
+  "archive": [
+    {
+      "report": "lighthouse/home-desktop-audit.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:55:18.145Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 78,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 573.3620000000001,
+        "largest-contentful-paint": 573.3620000000001,
+        "total-blocking-time": 492.81899999999996,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1397.1876431351534
+      },
+      "benchmarkIndex": 774,
+      "warnings": [],
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-desktop-final.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:42:08.647Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 67,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 595.01,
+        "largest-contentful-paint": 595.01,
+        "total-blocking-time": 1245.495,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1853.5989934953586
+      },
+      "benchmarkIndex": 713,
+      "warnings": [],
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-desktop-release.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:38:32.788Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 81,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 559.5514736172731,
+        "largest-contentful-paint": 559.5514736172731,
+        "total-blocking-time": 414.72426319136343,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1333.1690960217647
+      },
+      "benchmarkIndex": 774,
+      "warnings": [],
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-audit-1.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:53:15.926Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 68,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1364.8740581234988,
+        "largest-contentful-paint": 1364.8740581234988,
+        "total-blocking-time": 3369.562970938251,
+        "cumulative-layout-shift": 0,
+        "speed-index": 4108.479294035955
+      },
+      "benchmarkIndex": 592,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-audit-2.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:53:54.742Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 70,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1353.3028798475473,
+        "largest-contentful-paint": 1353.3028798475473,
+        "total-blocking-time": 2842.348560076226,
+        "cumulative-layout-shift": 0,
+        "speed-index": 3288.925560097169
+      },
+      "benchmarkIndex": 481,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-audit-3.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:54:32.786Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 68,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1357.3775999999998,
+        "largest-contentful-paint": 1357.3775999999998,
+        "total-blocking-time": 4430.3112,
+        "cumulative-layout-shift": 0,
+        "speed-index": 3796.74501143774
+      },
+      "benchmarkIndex": 721.5,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-current-1.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:44:41.133Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 68,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1376.0706262839167,
+        "largest-contentful-paint": 1376.0706262839167,
+        "total-blocking-time": 3870.9999999999995,
+        "cumulative-layout-shift": 0,
+        "speed-index": 3774.947272234058
+      },
+      "benchmarkIndex": 744.5,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-current-2.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:45:19.326Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 68,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1361.6251038053772,
+        "largest-contentful-paint": 1361.6251038053772,
+        "total-blocking-time": 4866.687448097311,
+        "cumulative-layout-shift": 0,
+        "speed-index": 3913.666673320643
+      },
+      "benchmarkIndex": 623.5,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-current-3.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:45:53.269Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 68,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1361.9031659251868,
+        "largest-contentful-paint": 1361.9031659251868,
+        "total-blocking-time": 3653.5484170374066,
+        "cumulative-layout-shift": 0,
+        "speed-index": 4368.057543482788
+      },
+      "benchmarkIndex": 657,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-diagnostic.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T10:57:46.804Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 64,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1209.8919213076686,
+        "largest-contentful-paint": 1209.8919213076686,
+        "total-blocking-time": 5236.054039346167,
+        "cumulative-layout-shift": 0.01203740225097046,
+        "speed-index": 6097.618879556654
+      },
+      "benchmarkIndex": 721.5,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 0,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-final-1.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:26:33.704Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 78,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1358.9079482336297,
+        "largest-contentful-paint": 1358.9079482336297,
+        "total-blocking-time": 948.0460258831849,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2583.708905547034
+      },
+      "benchmarkIndex": 919.5,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-final-R1.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:40:23.305Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 73,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1360.5684944151817,
+        "largest-contentful-paint": 1360.5684944151817,
+        "total-blocking-time": 1663.7157527924091,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2769.2198462065367
+      },
+      "benchmarkIndex": 782.5,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-final-R2.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:40:43.057Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 73,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1357.4502611935804,
+        "largest-contentful-paint": 1357.4502611935804,
+        "total-blocking-time": 1632.7748694032098,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2732.656393232743
+      },
+      "benchmarkIndex": 838,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-final-R3.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:41:00.569Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 90,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1368.8025741531974,
+        "largest-contentful-paint": 1368.8025741531974,
+        "total-blocking-time": 396,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1968.6023158681803
+      },
+      "benchmarkIndex": 1230.5,
+      "warnings": [],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-release-A.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:36:34.852Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 85,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1357.715652892498,
+        "largest-contentful-paint": 1357.715652892498,
+        "total-blocking-time": 589.5710867768755,
+        "cumulative-layout-shift": 0.01203740225097046,
+        "speed-index": 2111.4590188392535
+      },
+      "benchmarkIndex": 884,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-release-B.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:36:52.260Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 83,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1358.7981451272472,
+        "largest-contentful-paint": 1358.7981451272472,
+        "total-blocking-time": 679.8004637181882,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2193.3315456772107
+      },
+      "benchmarkIndex": 1195,
+      "warnings": [],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-release-C.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:37:09.930Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 84,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1356.6889150848478,
+        "largest-contentful-paint": 1356.6889150848478,
+        "total-blocking-time": 606.6722287712118,
+        "cumulative-layout-shift": 0.01203740225097046,
+        "speed-index": 2030.161153071767
+      },
+      "benchmarkIndex": 1237,
+      "warnings": [],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-render-trace.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:28:40.133Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 71,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1370.3535451818677,
+        "largest-contentful-paint": 1370.3535451818677,
+        "total-blocking-time": 2100,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2987.2319457458075
+      },
+      "benchmarkIndex": 781.5,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-staged.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:30:52.263Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 74,
+        "accessibility": 97,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1359.2586622471213,
+        "largest-contentful-paint": 1359.2586622471213,
+        "total-blocking-time": 1369.9999999999998,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2833.9992587213883
+      },
+      "benchmarkIndex": 858.5,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-verified-1.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:33:46.158Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 72,
+        "accessibility": 97,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1359.843973117937,
+        "largest-contentful-paint": 1359.843973117937,
+        "total-blocking-time": 1717.5780134410315,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2753.783772721274
+      },
+      "benchmarkIndex": 670.5,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/home-mobile-verified-2.report.json",
+      "url": "http://127.0.0.1:4173/",
+      "fetched": "2026-11-12T11:34:51.793Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 76,
+        "accessibility": 97,
+        "best-practices": 100,
+        "seo": 66
+      },
+      "metrics": {
+        "first-contentful-paint": 1356.3207358102004,
+        "largest-contentful-paint": 1356.3207358102004,
+        "total-blocking-time": 1135.8396320949,
+        "cumulative-layout-shift": 0,
+        "speed-index": 2522.521870948868
+      },
+      "benchmarkIndex": 782,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/seo-desktop-final.report.json",
+      "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "fetched": "2026-11-12T11:43:11.359Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 95,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": 290.09389999999996,
+        "largest-contentful-paint": 290.09389999999996,
+        "total-blocking-time": 188.95304999999996,
+        "cumulative-layout-shift": 0,
+        "speed-index": 806.4008013242726
+      },
+      "benchmarkIndex": 752,
+      "warnings": [],
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/seo-mobile-final.report.json",
+      "url": "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "fetched": "2026-11-12T11:42:46.736Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 91,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": 1053.62,
+        "largest-contentful-paint": 1053.62,
+        "total-blocking-time": 366.69000000000005,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1475.479830114658
+      },
+      "benchmarkIndex": 818,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/shopify-desktop-release.report.json",
+      "url": "http://127.0.0.1:4173/services/shopify-development.html",
+      "fetched": "2026-11-12T11:39:24.303Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": 291.4215,
+        "largest-contentful-paint": 291.4215,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0,
+        "speed-index": 458.69254239688314
+      },
+      "benchmarkIndex": 625.5,
+      "warnings": [],
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "report": "lighthouse/shopify-mobile-release.report.json",
+      "url": "http://127.0.0.1:4173/services/shopify-development.html",
+      "fetched": "2026-11-12T11:39:03.698Z",
+      "lighthouseVersion": "13.6.0",
+      "runtimeError": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 63
+      },
+      "metrics": {
+        "first-contentful-paint": 1053.16,
+        "largest-contentful-paint": 1053.16,
+        "total-blocking-time": 103.41999999999985,
+        "cumulative-layout-shift": 0,
+        "speed-index": 1162.7348611608452
+      },
+      "benchmarkIndex": 970,
+      "warnings": [
+        "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+      ],
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "motionLabelAudit": 1,
+      "failedWeightedSEO": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "details": {
+            "type": "table",
+            "headings": [
+              {
+                "key": "source",
+                "valueType": "code",
+                "label": "Blocking Directive Source"
+              }
+            ],
+            "items": [
+              {
+                "source": "X-Robots-Tag: noindex, nofollow"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

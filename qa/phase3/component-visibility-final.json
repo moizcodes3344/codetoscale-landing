@@ -1,0 +1,120 @@
+[
+  {
+    "phase": "mobile initial",
+    "state": {
+      "animations": [
+        {
+          "class": "orbit orbit-outer",
+          "state": "paused"
+        }
+      ],
+      "button": "<button class=\"log-toggle\" type=\"button\" aria-pressed=\"false\" aria-label=\"Pause hero motion and simulated runtime logs\">PAUSE</button>",
+      "hash": "",
+      "log": "\n                \n                  > initializing system... [OK]\n                \n                \n                  > loading commerce.engine [OK]\n                \n                \n                  > optimizing for what’s next_\n                \n              ",
+      "overflow": false,
+      "rootClass": "defer-offscreen",
+      "width": 375
+    }
+  },
+  {
+    "phase": "mobile after timer period",
+    "state": {
+      "animations": [
+        {
+          "class": "orbit orbit-outer",
+          "state": "paused"
+        }
+      ],
+      "button": "<button class=\"log-toggle\" type=\"button\" aria-pressed=\"false\" aria-label=\"Pause hero motion and simulated runtime logs\">PAUSE</button>",
+      "hash": "",
+      "log": "\n                \n                  > initializing system... [OK]\n                \n                \n                  > loading commerce.engine [OK]\n                \n                \n                  > optimizing for what’s next_\n                \n              ",
+      "overflow": false,
+      "rootClass": "defer-offscreen",
+      "width": 375
+    }
+  },
+  {
+    "phase": "mobile paused in view",
+    "state": {
+      "animations": [
+        {
+          "class": "orbit orbit-outer",
+          "state": "paused"
+        }
+      ],
+      "button": "<button class=\"log-toggle\" type=\"button\" aria-pressed=\"true\" aria-label=\"Play hero motion and simulated runtime logs\">PLAY</button>",
+      "hash": "",
+      "log": "\n                \n                  > initializing system... [OK]\n                \n                \n                  > loading commerce.engine [OK]\n                \n                \n                  > optimizing for what’s next_\n                \n              ",
+      "overflow": false,
+      "rootClass": "defer-offscreen",
+      "width": 375
+    }
+  },
+  {
+    "phase": "mobile resumed in view",
+    "state": {
+      "animations": [
+        {
+          "class": "orbit orbit-outer",
+          "state": "running"
+        }
+      ],
+      "button": "<button class=\"log-toggle\" type=\"button\" aria-pressed=\"false\" aria-label=\"Pause hero motion and simulated runtime logs\">PAUSE</button>",
+      "hash": "",
+      "log": "\n                \n                \n                  > loading commerce.engine [OK]\n                \n                \n                  > optimizing for what’s next_\n                \n              > connecting commerce.engine [OK]",
+      "overflow": false,
+      "rootClass": "defer-offscreen",
+      "width": 375
+    }
+  },
+  {
+    "phase": "desktop initial",
+    "state": {
+      "animations": [
+        {
+          "class": "floating-ui commerce-ui",
+          "state": "running"
+        },
+        {
+          "class": "floating-ui software-ui",
+          "state": "running"
+        },
+        {
+          "class": "orbit orbit-outer",
+          "state": "running"
+        }
+      ],
+      "button": "<button class=\"log-toggle\" type=\"button\" aria-pressed=\"false\" aria-label=\"Pause hero motion and simulated runtime logs\">PAUSE</button>",
+      "hash": "#home",
+      "log": "\n                \n                \n                \n                  > optimizing for what’s next_\n                \n              > connecting commerce.engine [OK]> validating api.routes [OK]",
+      "overflow": false,
+      "rootClass": "",
+      "width": 1440
+    }
+  },
+  {
+    "phase": "desktop timer period",
+    "state": {
+      "animations": [
+        {
+          "class": "floating-ui commerce-ui",
+          "state": "running"
+        },
+        {
+          "class": "floating-ui software-ui",
+          "state": "running"
+        },
+        {
+          "class": "orbit orbit-outer",
+          "state": "running"
+        }
+      ],
+      "button": "<button class=\"log-toggle\" type=\"button\" aria-pressed=\"false\" aria-label=\"Pause hero motion and simulated runtime logs\">PAUSE</button>",
+      "hash": "#home",
+      "log": "\n                \n                \n                \n              > connecting commerce.engine [OK]> validating api.routes [OK]> profiling core.web.vitals [OK]",
+      "overflow": false,
+      "rootClass": "",
+      "width": 1440
+    }
+  }
+]

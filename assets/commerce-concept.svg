@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680">
+<defs>
+<linearGradient id="bottle" x1="0" x2="1"><stop stop-color="#819066"/><stop offset=".25" stop-color="#a9b891"/><stop offset=".65" stop-color="#75875e"/><stop offset="1" stop-color="#526743"/></linearGradient>
+<linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d1c9b4"/><stop offset="1" stop-color="#b4ad97"/></linearGradient>
+<radialGradient id="light"><stop stop-color="#faf8ee"/><stop offset="1" stop-color="#e3dfd0"/></radialGradient>
+<filter id="shadow"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="1000" height="680" fill="#f6f4eb"/>
+<rect width="1000" height="30" fill="#37452e"/><text x="500" y="20" text-anchor="middle" fill="#f3f3de" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">A LITTLE LESS. A LITTLE BETTER. / DEMO STORE</text>
+<text x="40" y="80" fill="#35442e" font-size="33" font-family="Georgia,serif" letter-spacing="-1">atelier.</text>
+<g fill="#59604c" font-family="Arial,sans-serif" font-size="10"><text x="360" y="73">Shop essentials</text><text x="484" y="73">Our philosophy</text><text x="611" y="73">The journal</text><text x="869" y="73">Search</text><text x="925" y="73">Bag (0)</text></g>
+<path d="M40 103h920" stroke="#d3d4c4"/>
+<rect x="500" y="130" width="460" height="420" rx="3" fill="url(#light)"/>
+<circle cx="800" cy="290" r="185" fill="#eff0df" opacity=".6"/>
+<ellipse cx="749" cy="500" rx="130" ry="21" fill="#777966" opacity=".14" filter="url(#shadow)"/>
+<path d="M574 470q75-35 171-9t165 19v40H574Z" fill="url(#stone)"/>
+<g transform="translate(705 201) rotate(8 55 130)"><rect x="13" y="52" width="96" height="220" rx="26" fill="url(#bottle)"/><rect x="30" y="4" width="62" height="65" rx="7" fill="#c1c0a6"/><path d="M37 9v48m8-48v48m9-48v48m9-48v48m9-48v48m9-48v48" stroke="#a5a58c"/><rect x="23" y="115" width="76" height="103" rx="1" fill="#eeeddf"/><text x="61" y="144" text-anchor="middle" fill="#49513c" font-family="Georgia,serif" font-size="17">atelier.</text><text x="61" y="166" text-anchor="middle" fill="#69715a" font-family="Arial,sans-serif" font-size="7" letter-spacing="1.4">DAILY RESET</text><text x="61" y="180" text-anchor="middle" fill="#69715a" font-family="Arial,sans-serif" font-size="6">BOTANICAL CLEANSER</text><text x="61" y="203" text-anchor="middle" fill="#69715a" font-family="Arial,sans-serif" font-size="6">200 ml / 6.7 fl oz</text></g>
+<g transform="translate(600 377) rotate(-7)"><rect width="92" height="92" rx="12" fill="#bbbca4"/><ellipse cx="46" cy="3" rx="46" ry="11" fill="#dedfca"/><rect x="6" y="34" width="80" height="37" fill="#e7e5d6"/><text x="46" y="52" text-anchor="middle" fill="#59614b" font-family="Georgia,serif" font-size="14">atelier.</text><text x="46" y="64" text-anchor="middle" fill="#59614b" font-family="Arial,sans-serif" font-size="5" letter-spacing="1">EVERYDAY BALM</text></g>
+<path d="M866 442q-18-155 20-229m-18 126q-42-19-42-65 47 12 42 65m7-61q-17-32 9-59 21 32-9 59m-12 104q34-3 49-43-45-1-49 43" fill="#73845b" stroke="#6b7c55" stroke-width="2"/>
+<text x="43" y="183" fill="#7a8469" font-family="Arial,sans-serif" font-size="9" letter-spacing="2.5">CONSIDERED ESSENTIALS</text>
+<g fill="#37472d" font-family="Georgia,serif" font-size="63" letter-spacing="-2"><text x="40" y="267">Good things.</text><text x="40" y="338">Simple rituals.</text></g>
+<g fill="#7d826e" font-family="Arial,sans-serif" font-size="12"><text x="43" y="384">Everyday care, thoughtfully made.</text><text x="43" y="406">A collection for slowing down and feeling good.</text></g>
+<rect x="43" y="442" width="166" height="42" rx="2" fill="#3e4f32"/><text x="65" y="468" fill="#eff0de" font-family="Arial,sans-serif" font-size="10">Discover the collection</text><path d="m184 458 6 6-6 6m-8-6h14" fill="none" stroke="#eff0de"/>
+<text x="43" y="536" fill="#8b927e" font-family="Arial,sans-serif" font-size="8" letter-spacing="1.4">SMALL RITUALS. THOUGHTFUL DETAILS.</text>
+<path d="M40 582h920" stroke="#d4d6c6"/>
+<g fill="#6c765c" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.2"><text x="83" y="618">01 / DAILY ESSENTIALS</text><text x="390" y="618">02 / THOUGHTFUL DESIGN</text><text x="718" y="618">03 / MADE TO FEEL GOOD</text></g>
+<text x="500" y="662" fill="#8b927e" font-family="Arial,sans-serif" font-size="8" text-anchor="middle" letter-spacing="1.6">ORIGINAL CODETOSCALE CONCEPT / FICTIONAL BRAND / NOT A LIVE STORE</text>
+</svg>

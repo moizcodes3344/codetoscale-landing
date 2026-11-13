@@ -1,0 +1,3363 @@
+[
+  {
+    "name": "home-mobile-1",
+    "round": 1,
+    "page": "home",
+    "route": "/",
+    "mode": "mobile",
+    "started": "2026-11-13T08:09:51.586Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 50,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/home-mobile-1",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--save-assets"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 42,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:10:19.119Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 71,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "largest-contentful-paint": 1361.1828778496943,
+      "total-blocking-time": 2112.908561075153,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1361.1828778496943,
+      "speed-index": 3267.435662459072
+    },
+    "benchmarkIndex": 627.5,
+    "warnings": [
+      "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+    ],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "home-desktop-1",
+    "round": 1,
+    "page": "home",
+    "route": "/",
+    "mode": "desktop",
+    "started": "2026-11-13T08:10:19.136Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 42,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/home-desktop-1",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop",
+      "--save-assets"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 65,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:10:45.022Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 81,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "largest-contentful-paint": 556.409971120049,
+      "total-blocking-time": 412.99999999999994,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 556.409971120049,
+      "speed-index": 1229.5266786820562
+    },
+    "benchmarkIndex": 678.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "shopify-mobile-1",
+    "round": 1,
+    "page": "shopify",
+    "route": "/services/shopify-development.html",
+    "mode": "mobile",
+    "started": "2026-11-13T08:10:45.040Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 65,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/shopify-development.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/shopify-mobile-1",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--save-assets"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 36,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:11:05.819Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 1053.042,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1053.042,
+      "speed-index": 1053.042
+    },
+    "benchmarkIndex": 1044,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "shopify-desktop-1",
+    "round": 1,
+    "page": "shopify",
+    "route": "/services/shopify-development.html",
+    "mode": "desktop",
+    "started": "2026-11-13T08:11:05.829Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 62,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/shopify-development.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/shopify-desktop-1",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop",
+      "--save-assets"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 29,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:11:24.028Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 282.382,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 282.382,
+      "speed-index": 341.5033080562366
+    },
+    "benchmarkIndex": 1126,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "seo-mobile-1",
+    "round": 1,
+    "page": "seo",
+    "route": "/services/seo-content-marketing.html",
+    "mode": "mobile",
+    "started": "2026-11-13T08:11:24.036Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 34,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/seo-mobile-1",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--save-assets"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 33,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:11:41.728Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 1054.4276,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1054.4276,
+      "speed-index": 1054.4276
+    },
+    "benchmarkIndex": 1226,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "seo-desktop-1",
+    "round": 1,
+    "page": "seo",
+    "route": "/services/seo-content-marketing.html",
+    "mode": "desktop",
+    "started": "2026-11-13T08:11:41.736Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 26,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/seo-desktop-1",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop",
+      "--save-assets"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 28,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:11:59.806Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 286.742,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 286.742,
+      "speed-index": 345.25138333332103
+    },
+    "benchmarkIndex": 895,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "seo-desktop-2",
+    "round": 2,
+    "page": "seo",
+    "route": "/services/seo-content-marketing.html",
+    "mode": "desktop",
+    "started": "2026-11-13T08:11:59.817Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 42,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/seo-desktop-2",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 38,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:12:17.736Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 285.18,
+      "total-blocking-time": 1.2050000000000125,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 285.18,
+      "speed-index": 342.21074463601695
+    },
+    "benchmarkIndex": 1325.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "seo-mobile-2",
+    "round": 2,
+    "page": "seo",
+    "route": "/services/seo-content-marketing.html",
+    "mode": "mobile",
+    "started": "2026-11-13T08:12:17.742Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 34,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/seo-mobile-2",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 48,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:12:35.314Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 1054.9514,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1054.9514,
+      "speed-index": 1054.9514
+    },
+    "benchmarkIndex": 1313.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "shopify-desktop-2",
+    "round": 2,
+    "page": "shopify",
+    "route": "/services/shopify-development.html",
+    "mode": "desktop",
+    "started": "2026-11-13T08:12:35.324Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 45,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/shopify-development.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/shopify-desktop-2",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 48,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:12:54.487Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 283.3165,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 283.3165,
+      "speed-index": 355.5487508268552
+    },
+    "benchmarkIndex": 856,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "shopify-mobile-2",
+    "round": 2,
+    "page": "shopify",
+    "route": "/services/shopify-development.html",
+    "mode": "mobile",
+    "started": "2026-11-13T08:12:54.495Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 51,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/shopify-development.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/shopify-mobile-2",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 33,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:13:12.826Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 1052.632,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1052.632,
+      "speed-index": 1052.632
+    },
+    "benchmarkIndex": 854,
+    "warnings": [
+      "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+    ],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "home-desktop-2",
+    "round": 2,
+    "page": "home",
+    "route": "/",
+    "mode": "desktop",
+    "started": "2026-11-13T08:13:12.841Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 48,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/home-desktop-2",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 40,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:13:34.284Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "largest-contentful-paint": 488.91684461005855,
+      "total-blocking-time": 37.99999999999994,
+      "cumulative-layout-shift": 0.0003612985598327217,
+      "first-contentful-paint": 488.91684461005855,
+      "speed-index": 872.7090552139258
+    },
+    "benchmarkIndex": 1209,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "home-mobile-2",
+    "round": 2,
+    "page": "home",
+    "route": "/",
+    "mode": "mobile",
+    "started": "2026-11-13T08:13:34.292Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 34,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/home-mobile-2",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 20,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:13:53.074Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 86,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "largest-contentful-paint": 1358.5019669423486,
+      "total-blocking-time": 549.125491735587,
+      "cumulative-layout-shift": 0.01203740225097046,
+      "first-contentful-paint": 1358.5019669423486,
+      "speed-index": 1949.0332969742356
+    },
+    "benchmarkIndex": 1301.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "home-mobile-3",
+    "round": 3,
+    "page": "home",
+    "route": "/",
+    "mode": "mobile",
+    "started": "2026-11-13T08:13:53.082Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 28,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/home-mobile-3",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 40,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:14:13.053Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 77,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "largest-contentful-paint": 1354.5301523931917,
+      "total-blocking-time": 1027.5000000000002,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1354.5301523931917,
+      "speed-index": 2428.0336674933083
+    },
+    "benchmarkIndex": 756.5,
+    "warnings": [
+      "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+    ],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "home-desktop-3",
+    "round": 3,
+    "page": "home",
+    "route": "/",
+    "mode": "desktop",
+    "started": "2026-11-13T08:14:13.066Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 39,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/home-desktop-3",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 31,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:14:32.917Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "largest-contentful-paint": 469.64996585241033,
+      "total-blocking-time": 12.087508536897417,
+      "cumulative-layout-shift": 0.0003612985598327217,
+      "first-contentful-paint": 469.64996585241033,
+      "speed-index": 771.2011876049507
+    },
+    "benchmarkIndex": 1438.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "shopify-mobile-3",
+    "round": 3,
+    "page": "shopify",
+    "route": "/services/shopify-development.html",
+    "mode": "mobile",
+    "started": "2026-11-13T08:14:32.933Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 44,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/shopify-development.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/shopify-mobile-3",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 31,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:14:50.394Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 1052.9716,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1052.9716,
+      "speed-index": 1052.9716
+    },
+    "benchmarkIndex": 1438.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "shopify-desktop-3",
+    "round": 3,
+    "page": "shopify",
+    "route": "/services/shopify-development.html",
+    "mode": "desktop",
+    "started": "2026-11-13T08:14:50.400Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 35,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/shopify-development.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/shopify-desktop-3",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 46,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:15:09.455Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 283.2738,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 283.2738,
+      "speed-index": 330.6598600000085
+    },
+    "benchmarkIndex": 1178.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "seo-mobile-3",
+    "round": 3,
+    "page": "seo",
+    "route": "/services/seo-content-marketing.html",
+    "mode": "mobile",
+    "started": "2026-11-13T08:15:09.463Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 37,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/seo-mobile-3",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 39,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:15:26.821Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 1056.0398,
+      "total-blocking-time": 35,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1056.0398,
+      "speed-index": 1056.0398
+    },
+    "benchmarkIndex": 1395.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "seo-desktop-3",
+    "round": 3,
+    "page": "seo",
+    "route": "/services/seo-content-marketing.html",
+    "mode": "desktop",
+    "started": "2026-11-13T08:15:26.829Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 40,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/seo-desktop-3",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 31,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:15:45.344Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 281.762,
+      "total-blocking-time": 9.559499999999986,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 281.762,
+      "speed-index": 345.3840807921681
+    },
+    "benchmarkIndex": 1168,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "seo-desktop-4",
+    "round": 4,
+    "page": "seo",
+    "route": "/services/seo-content-marketing.html",
+    "mode": "desktop",
+    "started": "2026-11-13T08:15:45.356Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 30,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/seo-desktop-4",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 29,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:16:02.897Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 282.186,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 282.186,
+      "speed-index": 301.36122499995554
+    },
+    "benchmarkIndex": 1401.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "seo-mobile-4",
+    "round": 4,
+    "page": "seo",
+    "route": "/services/seo-content-marketing.html",
+    "mode": "mobile",
+    "started": "2026-11-13T08:16:02.905Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 45,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/seo-mobile-4",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 43,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:16:20.779Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 1052.52,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1052.52,
+      "speed-index": 1052.52
+    },
+    "benchmarkIndex": 1223,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "shopify-desktop-4",
+    "round": 4,
+    "page": "shopify",
+    "route": "/services/shopify-development.html",
+    "mode": "desktop",
+    "started": "2026-11-13T08:16:20.789Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 49,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/shopify-development.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/shopify-desktop-4",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 24,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:16:38.637Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 281.8897,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 281.8897,
+      "speed-index": 328.87105944219695
+    },
+    "benchmarkIndex": 1293,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "shopify-mobile-4",
+    "round": 4,
+    "page": "shopify",
+    "route": "/services/shopify-development.html",
+    "mode": "mobile",
+    "started": "2026-11-13T08:16:38.651Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 52,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/shopify-development.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/shopify-mobile-4",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 28,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:16:56.305Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 1053.356,
+      "total-blocking-time": 54.160999999999945,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1053.356,
+      "speed-index": 1053.356
+    },
+    "benchmarkIndex": 1138.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "home-desktop-4",
+    "round": 4,
+    "page": "home",
+    "route": "/",
+    "mode": "desktop",
+    "started": "2026-11-13T08:16:56.315Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 63,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/home-desktop-4",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 40,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:17:16.213Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "largest-contentful-paint": 476.49040523123654,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.0003612985598327217,
+      "first-contentful-paint": 476.49040523123654,
+      "speed-index": 771.0585122550134
+    },
+    "benchmarkIndex": 1366.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "home-mobile-4",
+    "round": 4,
+    "page": "home",
+    "route": "/",
+    "mode": "mobile",
+    "started": "2026-11-13T08:17:16.226Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 37,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/home-mobile-4",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 31,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:17:35.310Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 83,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "largest-contentful-paint": 1355.0418850241795,
+      "total-blocking-time": 678.7604712560449,
+      "cumulative-layout-shift": 0.01203740225097046,
+      "first-contentful-paint": 1355.0418850241795,
+      "speed-index": 2016.6874615353704
+    },
+    "benchmarkIndex": 1160,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "home-mobile-5",
+    "round": 5,
+    "page": "home",
+    "route": "/",
+    "mode": "mobile",
+    "started": "2026-11-13T08:17:35.317Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 27,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/home-mobile-5",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 31,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:17:55.117Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 87,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "largest-contentful-paint": 1353.8824477341982,
+      "total-blocking-time": 512.0587761329009,
+      "cumulative-layout-shift": 0.01203740225097046,
+      "first-contentful-paint": 1353.8824477341982,
+      "speed-index": 1864.1834169646493
+    },
+    "benchmarkIndex": 1431,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "home-desktop-5",
+    "round": 5,
+    "page": "home",
+    "route": "/",
+    "mode": "desktop",
+    "started": "2026-11-13T08:17:55.132Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 57,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/home-desktop-5",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 43,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:18:23.853Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 88,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 66
+    },
+    "metrics": {
+      "largest-contentful-paint": 557.6954425575414,
+      "total-blocking-time": 274.6522787212293,
+      "cumulative-layout-shift": 0.0003612985598327217,
+      "first-contentful-paint": 557.6954425575414,
+      "speed-index": 1181.1527946090423
+    },
+    "benchmarkIndex": 686.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "shopify-mobile-5",
+    "round": 5,
+    "page": "shopify",
+    "route": "/services/shopify-development.html",
+    "mode": "mobile",
+    "started": "2026-11-13T08:18:23.880Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 56,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/shopify-development.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/shopify-mobile-5",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 31,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:18:46.028Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 1055.6024,
+      "total-blocking-time": 281.1987999999999,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1055.6024,
+      "speed-index": 1234.2677486569437
+    },
+    "benchmarkIndex": 626.5,
+    "warnings": [
+      "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+    ],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "shopify-desktop-5",
+    "round": 5,
+    "page": "shopify",
+    "route": "/services/shopify-development.html",
+    "mode": "desktop",
+    "started": "2026-11-13T08:18:46.038Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 48,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/shopify-development.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/shopify-desktop-5",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 22,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:19:08.047Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 284.75,
+      "total-blocking-time": 17.625,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 284.75,
+      "speed-index": 401.83850055284734
+    },
+    "benchmarkIndex": 822.5,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "seo-mobile-5",
+    "round": 5,
+    "page": "seo",
+    "route": "/services/seo-content-marketing.html",
+    "mode": "mobile",
+    "started": "2026-11-13T08:19:08.059Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 50,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/seo-mobile-5",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 48,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:19:29.587Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 1053.048,
+      "total-blocking-time": 215.47599999999989,
+      "cumulative-layout-shift": 0,
+      "first-contentful-paint": 1053.048,
+      "speed-index": 1088.4161859355104
+    },
+    "benchmarkIndex": 631.5,
+    "warnings": [
+      "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md#cpu-throttling)."
+    ],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": true,
+        "width": 412,
+        "height": 823,
+        "deviceScaleFactor": 1.75,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  },
+  {
+    "name": "seo-desktop-5",
+    "round": 5,
+    "page": "seo",
+    "route": "/services/seo-content-marketing.html",
+    "mode": "desktop",
+    "started": "2026-11-13T08:19:29.604Z",
+    "cpuBefore": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 48,
+      "CurrentClockSpeed": 2396,
+      "MaxClockSpeed": 2496
+    },
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/user/AppData/Local/npm-cache/_npx/ba16b138af87a83e/node_modules/lighthouse/cli/index.js",
+      "http://127.0.0.1:4173/services/seo-content-marketing.html",
+      "--output=json",
+      "--output=html",
+      "--output-path=qa/phase4/baseline/seo-desktop-5",
+      "--chrome-flags=--headless=new --no-first-run --disable-extensions --remote-debugging-address=127.0.0.1",
+      "--only-categories=performance,accessibility,best-practices,seo",
+      "--max-wait-for-load=45000",
+      "--quiet",
+      "--preset=desktop"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": "",
+    "cpuAfter": {
+      "Name": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+      "LoadPercentage": 31,
+      "CurrentClockSpeed": 1497,
+      "MaxClockSpeed": 2496
+    },
+    "finished": "2026-11-13T08:19:51.369Z",
+    "runtimeError": null,
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 63
+    },
+    "metrics": {
+      "largest-contentful-paint": 285.93399999999997,
+      "total-blocking-time": 3,
+      "cumulative-layout-shift": 0.002334154160634135,
+      "first-contentful-paint": 285.93399999999997,
+      "speed-index": 542.9442234644241
+    },
+    "benchmarkIndex": 666,
+    "warnings": [],
+    "settings": {
+      "output": [
+        "json",
+        "html"
+      ],
+      "maxWaitForFcp": 30000,
+      "maxWaitForLoad": 45000,
+      "pauseAfterFcpMs": 1000,
+      "pauseAfterLoadMs": 1000,
+      "networkQuietThresholdMs": 1000,
+      "cpuQuietThresholdMs": 1000,
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "throttlingMethod": "simulate",
+      "screenEmulation": {
+        "mobile": false,
+        "width": 1350,
+        "height": 940,
+        "deviceScaleFactor": 1,
+        "disabled": false
+      },
+      "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+      "auditMode": false,
+      "gatherMode": false,
+      "clearStorageTypes": [
+        "file_systems",
+        "shader_cache",
+        "service_workers",
+        "cache_storage"
+      ],
+      "disableStorageReset": false,
+      "debugNavigation": false,
+      "channel": "cli",
+      "usePassiveGathering": false,
+      "disableFullPageScreenshot": false,
+      "skipAboutBlank": false,
+      "blankPage": "about:blank",
+      "ignoreStatusCode": false,
+      "locale": "en-US",
+      "blockedUrlPatterns": null,
+      "additionalTraceCategories": null,
+      "extraHeaders": null,
+      "precomputedLanternData": null,
+      "onlyAudits": null,
+      "onlyCategories": [
+        "performance",
+        "accessibility",
+        "best-practices",
+        "seo"
+      ],
+      "skipAudits": null
+    }
+  }
+]

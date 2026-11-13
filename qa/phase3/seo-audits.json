@@ -1,0 +1,210 @@
+[
+  {
+    "report": "lighthouse/home-mobile-audit-1.report.json",
+    "score": 66,
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "explanation": "is-crawlable fails because the loopback preview intentionally sends X-Robots-Tag: noindex, nofollow. Do not remove this protection to raise the score."
+  },
+  {
+    "report": "lighthouse/home-mobile-audit-2.report.json",
+    "score": 66,
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "explanation": "is-crawlable fails because the loopback preview intentionally sends X-Robots-Tag: noindex, nofollow. Do not remove this protection to raise the score."
+  },
+  {
+    "report": "lighthouse/home-mobile-audit-3.report.json",
+    "score": 66,
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "explanation": "is-crawlable fails because the loopback preview intentionally sends X-Robots-Tag: noindex, nofollow. Do not remove this protection to raise the score."
+  },
+  {
+    "report": "lighthouse/home-desktop-audit.report.json",
+    "score": 66,
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "explanation": "is-crawlable fails because the loopback preview intentionally sends X-Robots-Tag: noindex, nofollow. Do not remove this protection to raise the score."
+  },
+  {
+    "report": "lighthouse/shopify-mobile-release.report.json",
+    "score": 63,
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "explanation": "is-crawlable fails because the loopback preview intentionally sends X-Robots-Tag: noindex, nofollow. Do not remove this protection to raise the score."
+  },
+  {
+    "report": "lighthouse/shopify-desktop-release.report.json",
+    "score": 63,
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "explanation": "is-crawlable fails because the loopback preview intentionally sends X-Robots-Tag: noindex, nofollow. Do not remove this protection to raise the score."
+  },
+  {
+    "report": "lighthouse/seo-mobile-final.report.json",
+    "score": 63,
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "explanation": "is-crawlable fails because the loopback preview intentionally sends X-Robots-Tag: noindex, nofollow. Do not remove this protection to raise the score."
+  },
+  {
+    "report": "lighthouse/seo-desktop-final.report.json",
+    "score": 63,
+    "failedWeightedSEO": [
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "details": {
+          "type": "table",
+          "headings": [
+            {
+              "key": "source",
+              "valueType": "code",
+              "label": "Blocking Directive Source"
+            }
+          ],
+          "items": [
+            {
+              "source": "X-Robots-Tag: noindex, nofollow"
+            }
+          ]
+        }
+      }
+    ],
+    "explanation": "is-crawlable fails because the loopback preview intentionally sends X-Robots-Tag: noindex, nofollow. Do not remove this protection to raise the score."
+  }
+]

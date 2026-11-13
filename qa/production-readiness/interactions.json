@@ -1,0 +1,103 @@
+[
+  {
+    "route": "/",
+    "opened": {
+      "bodyLocked": true,
+      "expanded": "true",
+      "mainInert": true
+    },
+    "wrap": true,
+    "closed": {
+      "expanded": "false",
+      "focus": "menu-toggle",
+      "mainInert": false
+    }
+  },
+  {
+    "route": "/services.html",
+    "opened": {
+      "bodyLocked": true,
+      "expanded": "true",
+      "mainInert": true
+    },
+    "wrap": true,
+    "closed": {
+      "expanded": "false",
+      "focus": "menu-toggle",
+      "mainInert": false
+    }
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "opened": {
+      "bodyLocked": true,
+      "expanded": "true",
+      "mainInert": true
+    },
+    "wrap": true,
+    "closed": {
+      "expanded": "false",
+      "focus": "menu-toggle",
+      "mainInert": false
+    }
+  },
+  {
+    "route": "/about.html",
+    "opened": {
+      "bodyLocked": true,
+      "expanded": "true",
+      "mainInert": true
+    },
+    "wrap": true,
+    "closed": {
+      "expanded": "false",
+      "focus": "menu-toggle",
+      "mainInert": false
+    }
+  },
+  {
+    "route": "/faq.html",
+    "opened": {
+      "bodyLocked": true,
+      "expanded": "true",
+      "mainInert": true
+    },
+    "wrap": true,
+    "closed": {
+      "expanded": "false",
+      "focus": "menu-toggle",
+      "mainInert": false
+    }
+  },
+  {
+    "skipFocus": "main"
+  },
+  {
+    "servicesOpen": 14
+  },
+  {
+    "projectsOpen": 2
+  },
+  {
+    "tab": "tab-shopify",
+    "title": "Commerce that converts."
+  },
+  {
+    "tab": "tab-woocommerce",
+    "title": "Your store. Your rules."
+  },
+  {
+    "tab": "tab-software",
+    "title": "Purpose-built. Future-ready."
+  },
+  {
+    "tab": "tab-marketing",
+    "title": "Turn attention into action."
+  },
+  {
+    "faqOpen": 1
+  },
+  {
+    "pause": "true"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "route": "/",
+    "opened": {
+      "bodyLocked": true,
+      "mainInert": true,
+      "menuInert": false
+    },
+    "resized": {
+      "bodyLocked": false,
+      "expanded": "false",
+      "mainInert": false,
+      "menuInert": true
+    }
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "opened": {
+      "bodyLocked": true,
+      "mainInert": true,
+      "menuInert": false
+    },
+    "resized": {
+      "bodyLocked": false,
+      "expanded": "false",
+      "mainInert": false,
+      "menuInert": true
+    }
+  }
+]

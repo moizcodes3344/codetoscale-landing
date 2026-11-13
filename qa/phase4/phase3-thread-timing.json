@@ -1,0 +1,234 @@
+{
+  "trace": "qa/phase3/lighthouse/home-mobile-audit-3-0.trace.json",
+  "longTasks": [
+    {
+      "wallMS": 702.527,
+      "threadCPUms": 0.385,
+      "notOnThreadMS": 702.142,
+      "ts": 13372196729
+    },
+    {
+      "wallMS": 595.413,
+      "threadCPUms": 313.996,
+      "notOnThreadMS": 281.417,
+      "ts": 13371255607
+    },
+    {
+      "wallMS": 191.234,
+      "threadCPUms": 82.261,
+      "notOnThreadMS": 108.973,
+      "ts": 13371936239
+    },
+    {
+      "wallMS": 167.804,
+      "threadCPUms": 101.27,
+      "notOnThreadMS": 66.534,
+      "ts": 13373981360
+    },
+    {
+      "wallMS": 80.304,
+      "threadCPUms": 55.863,
+      "notOnThreadMS": 24.441,
+      "ts": 13371853073
+    }
+  ],
+  "layouts": [
+    {
+      "wallMS": 557.858,
+      "threadCPUms": 280.852,
+      "objects": {
+        "dirtyObjects": 445,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179893,
+        "totalObjects": 445
+      },
+      "roots": {
+        "layoutRoots": [
+          {
+            "depth": 1,
+            "nodeId": 3,
+            "nodeName": "#document",
+            "quads": [
+              [
+                0,
+                0,
+                412,
+                0,
+                412,
+                823,
+                0,
+                823
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "wallMS": 144.729,
+      "threadCPUms": 64.143,
+      "objects": {
+        "dirtyObjects": 420,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179988,
+        "totalObjects": 439
+      },
+      "roots": {
+        "layoutRoots": [
+          {
+            "depth": 1,
+            "nodeId": 3,
+            "nodeName": "#document",
+            "quads": [
+              [
+                0,
+                0,
+                412,
+                0,
+                412,
+                823,
+                0,
+                823
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "wallMS": 123.94,
+      "threadCPUms": 79.024,
+      "objects": {
+        "dirtyObjects": 1394,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179600,
+        "totalObjects": 1952
+      },
+      "roots": {
+        "layoutRoots": [
+          {
+            "depth": 1,
+            "nodeId": 3,
+            "nodeName": "#document",
+            "quads": [
+              [
+                0,
+                0,
+                412,
+                0,
+                412,
+                823,
+                0,
+                823
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "wallMS": 56.691,
+      "threadCPUms": 42.341,
+      "objects": {
+        "dirtyObjects": 131,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179916,
+        "totalObjects": 439
+      },
+      "roots": {
+        "layoutRoots": [
+          {
+            "depth": 1,
+            "nodeId": 3,
+            "nodeName": "#document",
+            "quads": [
+              [
+                0,
+                0,
+                412,
+                0,
+                412,
+                823,
+                0,
+                823
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "wallMS": 29.674,
+      "threadCPUms": 15.194,
+      "objects": {
+        "dirtyObjects": 137,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913180070,
+        "totalObjects": 571
+      },
+      "roots": {
+        "layoutRoots": [
+          {
+            "depth": 1,
+            "nodeId": 3,
+            "nodeName": "#document",
+            "quads": [
+              [
+                0,
+                0,
+                412,
+                0,
+                412,
+                823,
+                0,
+                823
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "wallMS": 0.221,
+      "threadCPUms": 0.141,
+      "objects": {
+        "dirtyObjects": 1,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179757,
+        "totalObjects": 1
+      },
+      "roots": {
+        "layoutRoots": [
+          {
+            "depth": 1,
+            "nodeId": 3,
+            "nodeName": "#document",
+            "quads": [
+              [
+                0,
+                0,
+                981,
+                0,
+                981,
+                1958,
+                0,
+                1958
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "cpuCores": 4,
+    "hardware": "Latitude E7470",
+    "accessibility": "NATIVE_APIS"
+  }
+}

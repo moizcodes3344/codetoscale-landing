@@ -1,0 +1,86 @@
+[
+  {
+    "hash": "#about",
+    "headingTop": 259.1696472167969,
+    "id": "about",
+    "width": 1440
+  },
+  {
+    "hash": "#capabilities",
+    "headingTop": 259.5714416503906,
+    "id": "capabilities",
+    "width": 1440
+  },
+  {
+    "hash": "#ecommerce",
+    "headingTop": 299.65179443359375,
+    "id": "ecommerce",
+    "width": 1440
+  },
+  {
+    "hash": "#software",
+    "headingTop": 324.7946472167969,
+    "id": "software",
+    "width": 1440
+  },
+  {
+    "hash": "#projects",
+    "headingTop": 314.792724609375,
+    "id": "projects",
+    "width": 1440
+  },
+  {
+    "hash": "#contact",
+    "headingTop": 259.21429443359375,
+    "id": "contact",
+    "width": 1440
+  },
+  {
+    "hash": "#home",
+    "headingTop": 198.19644165039065,
+    "id": "home",
+    "width": 1440
+  },
+  {
+    "hash": "#about",
+    "headingTop": 193.0982208251953,
+    "id": "about",
+    "width": 375
+  },
+  {
+    "hash": "#capabilities",
+    "headingTop": 193.7053680419922,
+    "id": "capabilities",
+    "width": 375
+  },
+  {
+    "hash": "#ecommerce",
+    "headingTop": 300.7589416503906,
+    "id": "ecommerce",
+    "width": 375
+  },
+  {
+    "hash": "#software",
+    "headingTop": 295.4375,
+    "id": "software",
+    "width": 375
+  },
+  {
+    "hash": "#projects",
+    "headingTop": 265.1875,
+    "id": "projects",
+    "width": 375
+  },
+  {
+    "hash": "#contact",
+    "headingTop": 224.79464721679688,
+    "id": "contact",
+    "width": 375
+  },
+  {
+    "hash": "#home",
+    "headingTop": -7.973214626312256,
+    "id": "home",
+    "width": 375
+  }
+]

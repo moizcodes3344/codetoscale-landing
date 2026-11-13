@@ -1,0 +1,184 @@
+[
+  {
+    "client": 1425,
+    "questions": [
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 72,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "Which e-commerce platforms do you work with?",
+        "width": 850.0000610351562
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 72,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "How long does a project take?",
+        "width": 850.0000610351562
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 72,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "What post-launch support is available?",
+        "width": 850.0000610351562
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 72,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "Can you migrate or redesign an existing store?",
+        "width": 850.0000610351562
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 72,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "What does SaaS development involve?",
+        "width": 850.0000610351562
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 72,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "How do SEO and digital marketing fit into a project?",
+        "width": 850.0000610351562
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 72,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "How are pricing and payment terms agreed?",
+        "width": 850.0000610351562
+      }
+    ],
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "client": 360,
+    "questions": [
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 96.00000762939452,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "Which e-commerce platforms do you work with?",
+        "width": 320.5714416503906
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 72,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "How long does a project take?",
+        "width": 320.5714416503906
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 72,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "What post-launch support is available?",
+        "width": 320.5714416503906
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 96.00000762939452,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "Can you migrate or redesign an existing store?",
+        "width": 320.5714416503906
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 72,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "What does SaaS development involve?",
+        "width": 320.5714416503906
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 96.00000762939452,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "How do SEO and digital marketing fit into a project?",
+        "width": 320.5714416503906
+      },
+      {
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "height": 96.00000762939452,
+        "letterSpacing": "-0.2px",
+        "lineHeight": "24px",
+        "margin": "0px",
+        "padding": "0px",
+        "tag": "H2",
+        "text": "How are pricing and payment terms agreed?",
+        "width": 320.5714416503906
+      }
+    ],
+    "scroll": 360,
+    "width": 375
+  }
+]

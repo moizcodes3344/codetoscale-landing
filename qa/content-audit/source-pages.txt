@@ -1,0 +1,672 @@
+=== PAGE 1 ===
+Executive Summary
+CodeToScale is a software and e-commerce solutions agency, offering services from online store
+development (Shopify/WooCommerce) to custom SaaS & CRM software and digital marketing. To
+improve search rankings, we conducted extensive keyword research (global + Pakistan), analyzed user
+intent, and outlined SEO-optimized content and schema markup for every page. Key findings: target 
+transactional, high-intent keywords (e.g. “e-commerce development company”, “Shopify development
+Pakistan”) for service pages, supported by long-tail, question-based keywords for blogs/FAQs【21†L99-
+L107】【34†L148-L156】. Content will be structured with one <h1>  per page, multiple descriptive <h2> /
+subheaders, unique meta titles/descriptions (≤60/160 chars)【14†L133-L136】【39†L191-L200】, and
+relevant internal links. We’ll add JSON-LD schema (Organization, LocalBusiness, Service, FAQPage,
+BreadcrumbList) to help Google “understand the content”【37†L168-L174】【24†L30-L39】. Accessibility
+and technical SEO (semantic HTML, alt text, responsive design, WCAG) are integrated – e.g. use alt text on
+images【30†L306-L314】, semantic tags and keyboard navigation to benefit users and crawlers alike
+【30†L322-L330】【14†L167-L175】. 
+Next steps: implement a Codex prompt with precise instructions to add keywords, write optimized copy,
+update metadata, insert schema, and fix layout issues. A mermaid timeline and priority table (below) show
+how tasks (keywording, content writing, markup, testing) flow from audit to deployment. We include a QA
+checklist for manual review and a Codex acceptance report template to ensure every change passes
+automated and visual tests. 
+Keyword Research
+We identified primary, secondary, and long-tail keywords in our niches (E-commerce dev, SaaS, CRM,
+marketing). Search intent is mostly transactional (service purchase) or informational (learning, comparisons).
+Volumes are estimates (global and Pakistan) from tools and trends, and competition is generally moderate-
+to-high for head terms. For example: 
+Keyword Intent
+Monthly Search
+Volume (Global /
+PK)
+Competition
+Level Suggested Page
+E-commerce website
+development Transactional
+~12,000 / 100
+(est)【21†L99-
+L107】
+High
+Services → E-
+commerce
+Development
+Shopify
+development
+Pakistan
+Transactional ~3,000 / 50 (est) Medium-High Services → ShopifyDevelopment
+1
+
+=== PAGE 2 ===
+Keyword Intent
+Monthly Search
+Volume (Global /
+PK)
+Competition
+Level Suggested Page
+WooCommerce
+development Transactional ~4,000 / 60 (est) Medium
+Services → 
+WooCommerce
+Development
+Custom software
+development Transactional ~6,000 / 70 (est) High Services → CustomSoftware
+SaaS product
+development Transactional ~2,500 / 20 (est) Medium Services → SaaSSolutions
+CRM software
+integration Transactional ~2,000 / 10 (est) Medium Services → CRM & ERPSolutions
+Digital marketing
+agency Pakistan Transactional ~8,000 / 80 (est) High Services → DigitalMarketing
+SEO services
+Pakistan Transactional ~5,000 / 40 (est) High Services → SEO &Content Marketing
+Social media
+marketing Pakistan Transactional ~4,500 / 35 (est) High Services → SocialMedia Marketing
+E-commerce store
+SEO tips Informational ~1,200 / 5 (est) Medium Blog (SEO tips forstores)
+What is SaaS
+development? Informational ~800 / 2 (est) Low-Medium Blog/FAQ (SaaSexplanation)
+How to integrate
+CRM in business Informational ~500 / 3 (est) Low Blog/FAQ (CRMintegration guide)
+long tail example High intent Niche / location-specific Varies Correspondingservice page or blog
+Primary keywords (bold above) are high-volume, high-competition, transactional phrases that
+match our core services. We’ll target these on main service pages. 
+Secondary keywords (italic / similar variants) support niche offerings and local targeting (e.g.
+including “Pakistan” or city names). 
+Long-tail keywords (question-based or detailed phrases) capture specific queries (e.g. “how to
+develop Shopify store in Pakistan?”) and are ideal for blog posts or FAQ content【34†L148-L156】.
+These improve relevance and target users closer to conversion. 
+Note: These estimates and priorities are illustrative. In practice, use Google’s Keyword Planner or Ahrefs for
+exact volume/competition and tailor to CodeToScale’s audience【21†L99-L107】. The focus should be on 
+search intent – creating content that satisfies what users are actively seeking【21†L99-L107】. For example,
+“best software development company Pakistan” is likely searchers ready to hire (high intent). We’ll group
+• 
+• 
+• 
+2
+
+=== PAGE 3 ===
+keywords by page: transactional keywords on service pages, informational on blog/FAQ pages, local
+modifiers on localized pages. 
+SEO Content Recommendations
+Below are suggested content outlines, headings, and meta tags for each key page. We include SEO best
+practices: one <h1>  per page, descriptive <h2>  subsections【14†L147-L155】, relevant keywords in
+headings and text, and calls-to-action (CTAs). Each meta title is ≤60 chars and meta description ≤160 chars
+【14†L133-L136】【39†L191-L200】. Replace placeholders (e.g. “[Company Name]”) with actual data during
+implementation.
+Homepage
+URL: /
+Title/H1: CodeToScale: E-commerce & Software Solutions
+Meta Description: “CodeToScale is a leading e-commerce and software development agency. We
+build Shopify/WooCommerce stores, custom SaaS & CRM solutions, and digital marketing to help
+businesses grow online.” (approx. 155 chars)【39†L173-L181】. 
+H1: CodeToScale: E-commerce & Custom Software Agency  (Main heading) 
+H2s/Sections:
+“About CodeToScale” – brief mission statement (mention global & Pakistan clients). 
+“Our Services” – summarizing major categories (E-commerce, Software, Marketing). 
+“How We Work” – 3-5 bullet points/process (audit, design, develop, support). 
+“Our Work” – highlight 2 project concepts (with images). 
+“Client Testimonials” – placeholder quotes. 
+“Contact Us” CTA (button to contact form or email link). 
+Body Content (300–500 words): Describe CodeToScale as an expert agency. Mention local presence
+in Pakistan (e.g., “Lahore” or “Karachi” if applicable) and global reach. Use keywords like e-commerce
+development, Shopify development, software development, CRM solutions, digital marketing naturally.
+Emphasize outcomes (scalable stores, ROI-driven marketing, custom software). 
+CTAs (at least 3): e.g. “Get a Free Consultation”, “View Our Services”, “Contact Our Team”. Include
+Urdu snippet for CTA (optional): e.g. “ کریںہابھی رابط”!  for “Contact us now!”. 
+Image Alt Text: e.g. “Team reviewing e-commerce website designs” . Ensure each hero or
+service image has a descriptive alt (125 chars max【14†L167-L175】). 
+Internal Links: Link to about page, main service categories, and contact form (#). 
+Schema (JSON-LD):
+{
+"@context": "https://schema.org",
+"@type": "Organization",
+"name": "CodeToScale",
+"url": "https://yourdomain.com/",
+"logo": "https://yourdomain.com/logo.png",
+"sameAs": [
+"https://www.facebook.com/yourpage",
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+3
+
+=== PAGE 4 ===
+"https://www.linkedin.com/company/yourcompany"
+],
+"contactPoint": [{
+"@type": "ContactPoint",
+"telephone": "+92-XXX-XXX-XXXX",
+"contactType": "customer support",
+"areaServed": "PK"
+}]
+}
+(Add in <script>  in head or footer【14†L177-L185】). 
+Services Overview
+URL: /services
+Title/H1: Our Services – E-commerce & Software Solutions
+Meta Description: “Our services include e-commerce store development, custom software, SaaS &
+CRM solutions, and digital marketing. CodeToScale delivers end-to-end IT services for growing
+businesses.” 
+H1: Full-Service E-commerce & Software Development
+H2s:
+“E-commerce Development” (link to E-commerce page) 
+“Software & SaaS Solutions” (link to Software page) 
+“Digital Marketing” (link to Marketing page) 
+“CRM & ERP Integration” (link to CRM page) 
+“Why Choose CodeToScale?” (bullet points differentiators) 
+Body (300–400 words): Briefly introduce each service category: talk about building Shopify/
+WooCommerce stores, bespoke apps, SaaS platforms, CRM/ERP integrations, and marketing (SEO/
+SMM). Use keywords and include business benefits (e.g. increased sales, efficiency). 
+CTAs: “Learn More” on each summary linking to detailed page. “Get Started” at bottom. 
+Schema: Organization  plus maybe a BreadcrumbList  with crumb for Services. 
+Individual Service Pages (16 examples)
+Each service page should follow this template:
+URL: /services/<slug>  (e.g. /services/shopify-development ) 
+Title/H1: Concise, keyword-rich (e.g. “Shopify Store Development Services”) 
+Meta Title/Description: Include service name + geography/benefit (e.g. “Shopify Development
+Pakistan – CodeToScale”). Description ~150 chars highlighting outcome. 
+H1: Repeat Title. 
+H2s: Cover subtopics (features, process, benefits, why you, FAQs). For example, on Shopify page:
+“Why Shopify?”, “Our Shopify Services (design, dev, migration)”, “Our Process” (discovery, mockups,
+launch), “Case Study” (blurb or link), “Client Success Stories”. 
+Body (400–600 words): Explain service in detail. Use primary keywords (e.g. “Shopify development
+agency”) and secondary keywords (e.g. “Shopify Pakistan”) naturally. Highlight expertise, mention
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+4
+
+=== PAGE 5 ===
+timeline estimates, technologies (Liquid, plugins). Include any trust signals (years of experience,
+support). 
+CTAs: “Request a Quote”, “View Our Portfolio”, “Contact a Shopify Expert”. Urdu snippet: e.g. “ابھی 
+ حاصل کریںہمفت مشور”! “( Get a free consultation now!”). 
+Image Alt Text: e.g. “Screenshot of a custom Shopify e-commerce store by 
+CodeToScale” . 
+Internal Links: Link back to Services overview, to related service (e.g. link Shopify page to
+WooCommerce page or to Marketing if cross-sell). 
+Schema: Add @type: Service  JSON-LD as per schema.org【24†L30-L39】. For example:
+{
+"@context": "https://schema.org",
+"@type": "Service",
+"serviceType": "Shopify Development",
+"provider": {
+"@type": "Organization",
+"name": "CodeToScale"
+},
+"description": "Custom Shopify store design, development, and migration 
+services in Pakistan and globally.",
+"areaServed": "PK"
+}
+(Place in <head> ). 
+Repeat for these 16 services (sample list; actual can vary):
+1. E-commerce Store Development – general overview (possibly combined page linking to Shopify/
+WooCommerce/Magento).
+2. Shopify Development
+3. WooCommerce Development
+4. Magento Development (or skip if not offered).
+5. Custom Software Development – bespoke apps & portals.
+6. Web Application Development (if separate).
+7. Mobile App Development – iOS/Android apps.
+8. SaaS Product Development – cloud platforms, multi-tenant apps.
+9. CRM Development & Integration – Salesforce, Zoho, custom CRM.
+10. ERP & Business Automation – inventory, accounting software.
+11. UI/UX Design Services – website/app design.
+12. Digital Marketing – overview of SEO, PPC, content, etc.
+13. Search Engine Optimization (SEO) – details on on-page SEO, audits.
+14. Social Media Marketing (SMM) – Facebook/Instagram campaigns, management.
+15. Email & SMS Marketing – automation, newsletter , campaigns.
+16. Content Marketing & Blogging – content strategy for SEO and engagement. 
+(Note: If some categories overlap, merge sensibly. The above is illustrative.) 
+• 
+• 
+• 
+• 
+5
+
+=== PAGE 6 ===
+Example: SEO & Content Marketing Page
+URL: /services/seo-content-marketing
+Title: SEO & Content Marketing Services
+Meta: “Boost your visibility with CodeToScale’s SEO and Content Marketing. We optimize websites for
+search (keyword research, on-page SEO) and create engaging content to drive traffic.” 
+H1: SEO & Content Marketing Agency
+H2s: “Our SEO Services” (keyword optimization, technical SEO), “Content Strategy” (blogging,
+copywriting), “Results-Driven Approach” (analytics, ROI), “Get a Free SEO Audit”. 
+Body (400 words): Describe importance of SEO for e-commerce (with stats if possible). Mention
+content creation for product pages and blogs. Use terms like keyword research, backlinking, organic
+traffic. CTAs: “Schedule SEO Audit”, “View SEO Case Study”. 
+About Page
+URL: /about
+Title/H1: About CodeToScale – E-commerce & Software Agency
+Meta: “Learn about CodeToScale: our mission, values, and expert team delivering top e-commerce,
+SaaS, and CRM solutions since 20XX.” 
+H1: About CodeToScale
+H2s: “Our Story” (short history), “Our Mission” (value proposition), “Our Team” (expertise areas), “Why
+Choose Us?” (trust factors like years, clients, tech). 
+Body (300-400 words): Company background, focus on innovation, client success. Mention
+partnerships (Shopify, Google, etc if any). 
+CTA: “Meet the Team” (if you have team bios page) or “Join Our Team” (if hiring). 
+Schema: LocalBusiness  or Organization  schema with @type: LocalBusiness  if address
+provided, to mark location【37†L268-L279】. For example:
+{
+"@context": "https://schema.org",
+"@type": "LocalBusiness",
+"name": "CodeToScale",
+"image": "https://yourdomain.com/office.jpg",
+"address": {
+"@type": "PostalAddress",
+"streetAddress": "123 Software Park Rd",
+"addressLocality": "Lahore",
+"addressRegion": "Punjab",
+"postalCode": "54000",
+"addressCountry": "PK"
+},
+"telephone": "+92-XXX-XXX-XXXX",
+"priceRange": "$$"
+}
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+6
+
+=== PAGE 7 ===
+Projects/Portfolio Page
+URL: /projects  or /portfolio
+Title/H1: Our Projects & Case Studies
+Meta: “See CodeToScale’s work: e-commerce stores, SaaS platforms, CRM solutions. Learn how we
+helped brands improve sales and efficiency.” 
+H1: Our Projects & Case Studies
+H2s: For two project highlights, e.g.: “Project: [Client A] Shopify Store” and “Project: [Client B] CRM
+Integration”. Each with a brief description of the problem, solution, technologies. Include images or
+mockups. 
+Body (200-300 words): Showcase key outcomes (sales increase %, time saved, etc). Placeholder text
+if actuals not ready. 
+CTA: “View More Projects” (if planning more) or “Get a Free Project Consultation”. 
+Schema: None needed beyond breadcrumb.
+FAQ Page (7 Questions)
+URL: /faq
+Title/H1: FAQs – CodeToScale Services & Support
+Meta: “Frequently asked questions about CodeToScale’s services, processes, and policies. Learn
+about our development approach, timelines, and support.” 
+H1: Frequently Asked Questions
+H2: Not needed; directly list Q&A. 
+Questions (Example):
+Q: “What platforms do you use for e-commerce?”
+A: “We build on Shopify, WooCommerce, Magento, and custom platforms. We recommend the best
+fit for your business model.” 
+Q: “How long does it take to launch a new online store?”
+A: “Timeline depends on scope; typically 4–8 weeks for a basic store, longer for custom features. We
+provide a schedule after initial consultation.” 
+Q: “Do you offer post-launch support?” … 
+Q: “Can you migrate my existing website to a new platform?” 
+Q: “What does SaaS development involve?” 
+Q: “How do you handle SEO and marketing?” 
+Q: “What are your rates/payment terms?” (Placeholder answer). 
+CTA: “Still have questions? Contact our team.” 
+Schema: Use FAQPage  JSON-LD【25†L0-L4】. Example structure (replace text):
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [{
+"@type": "Question",
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+7
+
+=== PAGE 8 ===
+"name": "What platforms do you use for e-commerce?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "We build on Shopify, WooCommerce, and custom platforms to 
+suit your needs."
+}
+},
+... (other Q&A objects) ...
+]
+}
+This goes in <script>  after the FAQs section.
+Privacy / Terms Pages
+URLs: /privacy , /terms
+Meta & H1: e.g. “Privacy Policy – CodeToScale”. 
+Content: Include legal text (placeholder until approved). Use headings: “Information We Collect”,
+“Use of Data”, “Cookies”, etc. For Terms: “Terms of Service”, “User Obligations”, “Governing Law
+(Pakistan?)”. 
+CTAs: Usually none, maybe link back to Home. 
+Schema: Not needed (some use breadcrumb).
+Blog (10 Topics)
+Suggested blog post titles to capture traffic and improve SEO (long-tail informational keywords):
+1. “How to Choose Between Shopify and WooCommerce in 2027”
+2. “Top 10 E-commerce Trends in Pakistan for 2026”
+3. “Why Your Business Needs a Custom CRM or ERP”
+4. “Beginner’s Guide: What is SaaS and How Can It Transform Your Business?”
+5. “SEO for Online Stores: 5 Tips to Increase Sales”
+6. “How to Integrate Social Media Marketing with Your E-commerce Strategy”
+7. “The Role of Mobile Apps in Modern Retail”
+8. “What to Look for in a Software Development Agency”
+9. “Case Study: [Industry] Brand’s Journey to a New Online Store”
+10. “Frequently Asked Questions about E-commerce Security” 
+Each blog should have H1 title, SEO-friendly URL, internal links to services, and schema (e.g. Article schema
+with author , date). These topics can target long-tail question keywords and user intent【34†L148-L156】
+【21†L99-L107】.
+• 
+• 
+• 
+• 
+• 
+8
+
+=== PAGE 9 ===
+Technical SEO & Performance Checklist
+To ensure the site is fast, indexable, and accessible, implement these optimizations without altering overall
+architecture: 
+Semantic HTML: Use <header> , <nav> , <main> , <article> , <section> , <footer>  tags
+appropriately. One <h1>  per page, then <h2> / <h3>  hierarchically【14†L147-L155】. 
+Responsive Design: Verify layout and navigation on mobile (375px, 425px) up to desktop (1440px).
+Ensure no horizontal scroll; use media queries for breakpoints 1024px, 768px, 425px, 375px. 
+Images: Compress and serve scaled images. Use img srcset  or <picture>  for responsive
+images. Include alt  text (descriptive, ≤125 chars【14†L167-L175】). Add loading="lazy"  to
+offscreen images. 
+CSS/JS: Inline critical CSS (above-the-fold styles) or use a minimal critical CSS file. Defer non-critical
+CSS/JS. Use preconnect for required domains (e.g. Google Fonts):
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+Preload Key Assets: Preload web fonts and hero images if needed:
+<link rel="preload" href="/fonts/OpenSans.woff2" as="font" type="font/
+woff2" crossorigin>
+Meta Tags: Include viewport meta
+( <meta name="viewport" content="width=device-width, initial-scale=1"> ), charset
+( UTF-8 ), and relevant description  and title  tags on each page. 
+Canonical URLs: Ensure a <link rel="canonical" href="..."/>  on each page (pointing to
+itself)【37†L268-L279】. 
+Sitemap & robots.txt: Create sitemap.xml  listing all public URLs and reference it in 
+robots.txt  ( Sitemap: https://yourdomain.com/sitemap.xml ). 
+Structured Data: Embed JSON-LD for Organization, BreadcrumbList, Service (per service page)
+【24†L30-L39】, FAQPage (FAQ page) and possibly BreadcrumbList on all pages to reflect navigation.
+Validate via Google’s Rich Results Test【37†L196-L204】. 
+Accessibility (WCAG 2.1):
+Ensure all images have alt  text【30†L306-L314】. 
+Use ARIA roles/labels for any interactive components (e.g. 
+<button aria-label="Close menu"> ). 
+Ensure tab order: navigation and links should be focusable with keyboard (use button  or a 
+href="#"  elements, not plain div ). 
+Form labels: <label>  tags for inputs, or aria-label . 
+Contrast & text size: meet WCAG AA (contrast ≥4.5:1 for text) (no citation needed, widely known). 
+Reduced-motion: if animations exist (e.g. scroll reveals), respect prefers-reduced-motion  media
+query to disable or simplify animations for users who opt out. 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+9
+
+=== PAGE 10 ===
+Reduced Motion: Apply prefers-reduced-motion  CSS to disable unnecessary transitions or
+parallax. For scroll reveal JS, detect and skip if 
+window.matchMedia('(prefers-reduced-motion: reduce)').matches  is true.
+Performance: Use Lighthouse to target scores >90 for Performance, Accessibility, SEO. Check mobile
+and desktop. Fix any JS console errors. Use npm run check  (if existing) to run automated checks. 
+Implement the above without installing new dependencies, focusing on HTML/CSS/JS edits only (as
+requested). 
+Implementation Timeline and Priorities
+flowchart TD
+    A[AUDIT: Run site locally & Lighthouse] --> B[Fix Critical Issues (layout 
+bugs, console errors)]
+    B --> C[Insert SEO Content (titles, metas, body copy)]
+    C --> D[Add Schema Markup (Organization, Service, FAQPage)]
+    D --> E[Optimize Assets (images, CSS/JS load)]
+    E --> F[Accessibility Enhancements (alt text, ARIA, reduced-motion)]
+    F --> G[Test responsiveness on mobile/tablet]
+    G --> H[Final QA: Lighthouse, manual review, screenshots]
+    H --> I[Deploy Staging & Submit Sitemap]
+- Tasks Priority: The highest priority is ensuring content and structure (titles, headings, copy) are optimized
+for SEO and clarity, then implementing structured data, then performance tweaks. This order reflects search
+impact and ease of testing.
+Task Priority Impact (SEO/UX) Done (Y/N)
+Audit with Lighthouse/console High Identify issues
+Update Meta titles & descriptions High SEO CTR & keywords
+Write/insert SEO-optimized copy High Relevance & ranking
+Implement Schema (Service, FAQ) High Rich results potential
+Fix layout/content issues High User experience
+Optimize images (lazy-load, alt) Medium Performance & SEO
+Improve responsiveness (CSS tweaks) Medium Mobile usability
+Ensure ARIA, labels, reduced-motion Medium Accessibility & SEO
+Add Internal links & sitemaps Medium Crawlability
+Run automated tests ( npm run check ) High Validate build
+• 
+• 
+10
+
+=== PAGE 11 ===
+Task Priority Impact (SEO/UX) Done (Y/N)
+Manual QA & review screenshots High Final verification
+Ready-to-Use Codex Prompt
+# Codex Prompt: SEO & Content Update for CodeToScale Website
+You are ChatGPT Codex, a code assistant. 
+The task is to update the existing CodeToScale website (charcoal-and-lime 
+design) with SEO-optimized content, metadata, and technical fixes. Preserve the 
+current HTML/CSS/JavaScript architecture and branding. Do not redesign sections 
+or remove functionality.
+## Instructions
+1. **Run and Verify Locally**  
+   - In the project folder, execute:
+     ```
+     npm run dev
+     npm run check
+     ```
+   - Open http://127.0.0.1:4173/ to view the site.  
+   - Verify no console errors; note any broken layouts or issues.
+2. **Meta Tags & Titles**  
+   - For each page (index.html, about.html, services, each service page, 
+faq.html, privacy.html, terms.html, etc.), add unique `<title>` and `<meta 
+name="description">`. Ensure titles ≤60 chars and descriptions ≤160 chars
+【14†L133-L136】【39†L191-L200】.  
+   - Use target keywords: e.g. 
+     - Home: `CodeToScale: E-commerce & Software Solutions`  
+     - About: `About CodeToScale – E-commerce & Software Agency`  
+     - For services: “Shopify Development Pakistan – CodeToScale”, “SEO Services 
+Pakistan – CodeToScale”, etc.  
+   - Add `<link rel="canonical" href="FULL_URL">` on each page.
+3. **Page Content Updates**  
+   - **Homepage:** Insert an H1 and H2 sections as outlined in SEO Content. 
+Write ~400 words: describe company and services, include primary keywords. Add 
+at least 3 CTAs (buttons/links).
+   - **Services Overview:** Summarize each category (E-commerce, Software, 
+Marketing, CRM). Add H2 anchors linking to detailed pages. 
+   - **Service Pages (16 pages):** For each, create or update content with 
+~400-600 words explaining the service. Include bullets or subheadings describing 
+offerings, process, and benefits. Use keywords naturally (e.g. “Shopify 
+11
+
+=== PAGE 12 ===
+development agency”, “custom ERP solutions”). Add CTAs on each page.  
+   - **About:** Add company background (~300 words). Include mission, team 
+expertise. Insert company location (city).  
+   - **Projects:** Add two example projects with images and captions.  
+   - **FAQ:** Add 7 Q&A as specified.  
+   - **Privacy/Terms:** Use placeholders for legal text (no fictitious info).  
+   Ensure one `<h1>` per page, plus relevant `<h2>` subheadings【14†L147-L155】. 
+Use bullet lists for lists. Include Urdu text snippets for CTAs like “ہ ابھی رابط
+ں ”!کریwhere noted.
+4. **Image Alt Text**  
+   - For every `<img>`, add descriptive `alt="..."`. Keep alt text concise (≤125 
+chars) and descriptive【14†L167-L175】.  
+   - Example: `alt="Screenshot of a CodeToScale-built Shopify store"`.
+5. **Structured Data (JSON-LD)**  
+   - In `<head>` or before `</body>`, insert JSON-LD:
+     - **Organization/LocalBusiness** (on About or global header): with name, 
+URL, logo, contact, address in PK.  
+     - **Service** (on each service page): use `"@type":"Service"`, set `name`, 
+`description`, `provider` (Organization), and `serviceType`.【24†L30-L39】  
+     - **FAQPage** (on FAQ page): use `"@type":"FAQPage"` and list each Q&A.  
+     - **BreadcrumbList** (optionally on multi-page section): reflect site 
+hierarchy (Home > Services > Current).  
+6. **Internal Linking**  
+   - Ensure navigation links go to correct pages.  
+   - In body text, link relevant keywords to other pages (e.g. link “Shopify 
+stores” to /services/shopify-development).  
+   - Create a footer or nav link to Privacy and Terms pages.
+7. **Responsiveness and CSS Fixes**  
+   - Check mobile widths (1440px, 1024px, 768px, 425px, 375px). Fix any 
+overlapping or offscreen content (images, menus).  
+   - If mobile menu (hamburger) is broken, fix JavaScript or CSS so menu toggles 
+correctly.  
+   - Ensure no horizontal scroll; use `overflow-x: hidden;` on `body` if needed.
+8. **Performance Enhancements**  
+   - Add `<meta name="viewport">` if missing (for mobile).  
+   - Preconnect to fonts (if Google Fonts used):  
+     `<link rel="preconnect" href="https://fonts.googleapis.com">`  
+     `<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>`  
+   - Add `loading="lazy"` to large images.  
+   - Inline critical CSS (if there is a large external CSS, leave as is for 
+now).  
+12
+
+=== PAGE 13 ===
+   - Defer non-critical JS (if a large script delays render).
+9. **Accessibility**  
+   - Ensure semantic HTML (headers, nav, main, footer).  
+   - Add `role="navigation"` to nav if needed.  
+   - Ensure all form inputs have `<label>`.  
+   - Respect `prefers-reduced-motion` for animations (wrap JS reveals with `if 
+(!prefersReduce) { animate }`).  
+   - Tab order: test that menu and buttons are reachable by keyboard.
+10. **Testing & Validation**  
+    - After changes, run `npm run check` to ensure builds/tests pass.  
+    - Use Lighthouse (or `npm run lighthouse`) to check Performance (>90), 
+Accessibility (>90), SEO (>90). Document scores in the report.  
+    - Take screenshots of key pages (home, a service, about, FAQ) on desktop and 
+mobile.  
+    - Fix any console errors or critical warnings.
+## Acceptance Criteria  
+- All pages have unique, keyword-rich titles and meta descriptions.  
+- Content is inserted in HTML (no new frameworks).  
+- SEO schema (JSON-LD) is valid (no errors in Rich Results Test).  
+- Automated tests (`npm run check`) pass and no `git diff --check` warnings.  
+- Pages load without horizontal scroll and are usable on mobile widths.  
+- No JavaScript console errors.
+## Commands to Run  
+After edits, from project root:  
+npm run dev # start local dev server npm run check # run structural tests (if present)
+Open http://127.0.0.1:4173/ to verify changes. Capture screenshots of the 
+rendered pages for review.
+Once Codex completes these changes, it should output a summary of fixes and any 
+remaining issues (visual or test failures).
+Manual QA Checklist
+Homepage: Branding looks professional? Content is relevant? Navigation works (logo home, menu,
+dropdowns)? All CTAs clickable? 
+Services pages: Each service loaded correct content, images. Keywords present in headings. No
+missing text or layout bugs. 
+Mobile/Tablet: Layout collapses correctly, menu toggles, no elements overflow. Text readable at
+375px. 
+• 
+• 
+• 
+13
+
+=== PAGE 14 ===
+Forms and Links: Contact form (if any) triggers an email draft. Links open correct pages. Buttons are
+focusable via keyboard. 
+Images: Alt text present (check with dev tools accessibility panel). Images load and lazy-load. 
+Performance: Lighthouse scores recorded. Fallback for reduced-motion if animations exist. 
+Schema: Use Google’s Rich Results Test and an FAQ/Service snippet tester to ensure valid markup. 
+Acceptance Report Template
+At the end of the Codex run, output a report in markdown format with: 
+Summary of changes made (pages updated, SEO additions, fixes). 
+List of automated checks passed (13 tests, Lighthouse scores). 
+Screenshots attached (could be referenced or paths given). 
+Remaining issues (e.g. “Mobile menu icon does not respond on iPhone Safari [investigate further]”). 
+Final sign-off statement (e.g. “All tasks completed per instructions, site ready for deployment.”). 
+Include placeholders or instructions for company-specific data (actual testimonials, stats) to be filled later .
+Ensure any example stats in copy are clearly marked “X%” or “[statistic]” for replacement. 
+End of Prompt
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+14

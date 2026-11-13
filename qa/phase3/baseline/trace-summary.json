@@ -1,0 +1,96 @@
+{
+  "trace": "home-mobile-0.trace.json",
+  "totals": {
+    "RunTask": {
+      "count": 10367,
+      "totalMs": 12143.48000000024,
+      "maxMs": 707.31
+    },
+    "ParseHTML": {
+      "count": 6,
+      "totalMs": 15.55,
+      "maxMs": 10.026
+    },
+    "UpdateLayoutTree": {
+      "count": 70,
+      "totalMs": 114.698,
+      "maxMs": 32.444
+    },
+    "Paint": {
+      "count": 193,
+      "totalMs": 177.81600000000017,
+      "maxMs": 34.743
+    },
+    "FunctionCall": {
+      "count": 9,
+      "totalMs": 2.675,
+      "maxMs": 1.073
+    },
+    "Layout": {
+      "count": 60,
+      "totalMs": 897.853,
+      "maxMs": 647.416
+    },
+    "EvaluateScript": {
+      "count": 5,
+      "totalMs": 103.44999999999999,
+      "maxMs": 98.705
+    }
+  },
+  "longTasks": [
+    {
+      "ms": 707.31,
+      "events": [
+        {
+          "name": "Layout",
+          "ms": 647.416
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 32.444
+        },
+        {
+          "name": "Layout",
+          "ms": 0.268
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 0.198
+        },
+        {
+          "name": "Layout",
+          "ms": 0.105
+        }
+      ]
+    },
+    {
+      "ms": 701.888,
+      "events": []
+    },
+    {
+      "ms": 634.126,
+      "events": []
+    },
+    {
+      "ms": 617.051,
+      "events": []
+    },
+    {
+      "ms": 407.528,
+      "events": []
+    },
+    {
+      "ms": 146.231,
+      "events": [
+        {
+          "name": "Layout",
+          "ms": 122.187
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 3.483
+        }
+      ]
+    }
+  ]
+}

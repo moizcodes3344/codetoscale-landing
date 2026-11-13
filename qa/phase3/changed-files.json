@@ -1,0 +1,140 @@
+{
+  "scope": "Phase 3 implementation and documentation; existing unrelated dirty work retained. Raw QA evidence separately under qa/phase3. Existing audit scripts refreshed qa/seo/inventory.json and qa/seo/crawl.json.",
+  "files": [
+    {
+      "file": "index.html",
+      "bytes": 70655,
+      "sha256": "c0273d04d7768ac4a1b75ac023c0e588e4c1923288e5876f09dbad4df9e8d069"
+    },
+    {
+      "file": "script.js",
+      "bytes": 20616,
+      "sha256": "2383fcf010f4c1fed1bc23349934eba09f1113549a2784358e082cb8761a9133"
+    },
+    {
+      "file": "styles.css",
+      "bytes": 61798,
+      "sha256": "e0e516e469b4b584588d9fa79534d33f7056cec13c2a6fd6656d955086448274"
+    },
+    {
+      "file": "serve.mjs",
+      "bytes": 2432,
+      "sha256": "093f83c9aeb6696b90100142f78e443ea82c56c064d58d570e3d856c16e4a058"
+    },
+    {
+      "file": "scripts/build.mjs",
+      "bytes": 9987,
+      "sha256": "1f83cc18269fccdda0ea8eb88274780bf36db606d09bbe45b8ca99b5ccb2b39a"
+    },
+    {
+      "file": "tests/seo.test.mjs",
+      "bytes": 8487,
+      "sha256": "3c2999a1c22243342185e87e2e089ebdfc2a44b47200edb577025117e2ed8a93"
+    },
+    {
+      "file": "services.html",
+      "bytes": 12315,
+      "sha256": "29a9034e556113e68f53d18f48c814530a37350f331a38a6b125c4c6246c4ac1"
+    },
+    {
+      "file": "about.html",
+      "bytes": 11409,
+      "sha256": "d352ea1dd0b77acd8db9fb886021b62588503e353ed6b7d3b4f24dbffe7f8ed3"
+    },
+    {
+      "file": "faq.html",
+      "bytes": 16381,
+      "sha256": "ec47d3352b6333d14890d77d2e19cf43720aea47802cfd630e24bcf26dc13e47"
+    },
+    {
+      "file": "services/ecommerce-development.html",
+      "bytes": 13676,
+      "sha256": "c615a84e38de45fccc571261582b5ca11c01dcc704b1ff90e1179c94a20245a5"
+    },
+    {
+      "file": "services/shopify-development.html",
+      "bytes": 13934,
+      "sha256": "650fe0bccd668f3b889da1d1a70bd64462eb8564698b17d32ebc9733ec3ee51d"
+    },
+    {
+      "file": "services/woocommerce-development.html",
+      "bytes": 13822,
+      "sha256": "40c27cdbb9b58bdb96df7d047c6d27f0720d38aa40b423c4b8ce4fd98f398e86"
+    },
+    {
+      "file": "services/custom-software-development.html",
+      "bytes": 13918,
+      "sha256": "f45c88e79f2276e62b2d4f3a41002be2ac397f836e4bd55e219b8b28a1135c2d"
+    },
+    {
+      "file": "services/saas-development.html",
+      "bytes": 13829,
+      "sha256": "1fd005c562024242eb1a8d174b0f1fd0d5066ff8f671a1b6e0400fa76761d2da"
+    },
+    {
+      "file": "services/crm-integration.html",
+      "bytes": 13977,
+      "sha256": "641e89c6786b142a5ca8f6310c4142ffc4928ed0f250df8f8f62f2635bb5194d"
+    },
+    {
+      "file": "services/digital-marketing.html",
+      "bytes": 13859,
+      "sha256": "dfde4894cb636091622dc6b46eca22f50bd726394d68c446f579c72bef3b75cc"
+    },
+    {
+      "file": "services/seo-content-marketing.html",
+      "bytes": 13997,
+      "sha256": "8e4e2a294cfc4f4a9af84cdceedb93df18dcfcd6ba26c830b4fa17988e6472d8"
+    },
+    {
+      "file": "services/social-media-marketing.html",
+      "bytes": 13957,
+      "sha256": "e8b5d51dd8ea9fd935fcad80430882b33324dd165645cf2ffe8a80fe62e864f5"
+    },
+    {
+      "file": "privacy.html",
+      "bytes": 4385,
+      "sha256": "29ce5aeb188e719a3797a2a6bca5c5c937fdd2ba7ffe7af75d6c3deb528bcbd8"
+    },
+    {
+      "file": "terms.html",
+      "bytes": 4105,
+      "sha256": "056f392f5e38d59d4a7cffcc61ce591e02a01d4db6fd20143c5b4e5bcb841147"
+    },
+    {
+      "file": "assets/fonts/plus-jakarta-sans-latin.woff2",
+      "bytes": 27272,
+      "sha256": "cd8db90cd950e26bc8761f65d323588bd5cd112d326d6d322bc7c8ea86771215"
+    },
+    {
+      "file": "assets/fonts/fira-code-latin.woff2",
+      "bytes": 36340,
+      "sha256": "d32d5b5a7c9720cf3812f7d1e3ebdb54116f8f656e7471a03a5a93bdd93c98b3"
+    },
+    {
+      "file": "assets/fonts/plus-jakarta-sans-OFL.txt",
+      "bytes": 4402,
+      "sha256": "995c7199cab65954f545996326755daee7b63cc6b42b06c13da1f9502ab08a99"
+    },
+    {
+      "file": "assets/fonts/fira-code-OFL.txt",
+      "bytes": 4391,
+      "sha256": "926041dac670e6922505e35ac1661a4e8d20f1ffeabbbcb5edb5544370702369"
+    },
+    {
+      "file": "README.md",
+      "bytes": 9604,
+      "sha256": "b118332dd84b36e02fd996e6c20b12f52cc305aa3bc098c947bfb424d42b0a20"
+    },
+    {
+      "file": "docs/production-launch-checklist.md",
+      "bytes": 6849,
+      "sha256": "6f445ca07f1326b314eadbd0482f06fb14c72a00518da5ca69ad43cf426f84a0"
+    },
+    {
+      "file": "docs/phase3-performance-report.md",
+      "bytes": 22718,
+      "sha256": "881d02ecf57ec257e6b7851b38a895cda17ea7023c2cc7bc2d0839a703127ecb"
+    }
+  ]
+}

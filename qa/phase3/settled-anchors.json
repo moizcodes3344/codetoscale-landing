@@ -1,0 +1,50 @@
+[
+  {
+    "headingBottom": 169.0982208251953,
+    "headingTop": 40.3125,
+    "id": "about",
+    "sectionTop": -110.68750762939452
+  },
+  {
+    "headingBottom": 1496.3572540283203,
+    "headingTop": 1367.571533203125,
+    "id": "capabilities",
+    "sectionTop": 1216
+  },
+  {
+    "headingBottom": 358.1428642272949,
+    "headingTop": 324.7946472167969,
+    "id": "ecommerce",
+    "sectionTop": 218.2232208251953
+  },
+  {
+    "headingBottom": 358.1428642272949,
+    "headingTop": 324.7946472167969,
+    "id": "software",
+    "sectionTop": 218.2232208251953
+  },
+  {
+    "headingBottom": 442.81251525878906,
+    "headingTop": 314.02679443359375,
+    "id": "projects",
+    "sectionTop": 163.02679443359375
+  },
+  {
+    "headingBottom": 1660.3750762939453,
+    "headingTop": 1531.58935546875,
+    "id": "faq",
+    "sectionTop": 1355.58935546875
+  },
+  {
+    "headingBottom": 496.82606506347656,
+    "headingTop": 268.3706970214844,
+    "id": "contact",
+    "sectionTop": 117.33929443359376
+  },
+  {
+    "headingBottom": -9791.589416503906,
+    "headingTop": -9965.8037109375,
+    "id": "home",
+    "sectionTop": -10142
+  }
+]

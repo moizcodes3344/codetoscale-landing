@@ -1,0 +1,5 @@
+# Local preview additionally sends X-Robots-Tag: noindex.
+User-agent: *
+Allow: /
+# Sitemap withheld until the production origin is confirmed.
+

@@ -1,0 +1,2576 @@
+{
+  "input": "qa/phase4/home-mobile-diagnostic-0.trace.json",
+  "units": "milliseconds except raw trace timestamps (microseconds)",
+  "note": "Nested category totals overlap; do not sum them. Wall minus thread CPU can include waiting/descheduling and is not proof of a specific competing process.",
+  "environment": {
+    "hardware": "Latitude E7470",
+    "nativeAccessibility": "NATIVE_APIS"
+  },
+  "longTasks": [
+    {
+      "name": "RunTask",
+      "wallMS": 329.19,
+      "threadCPUms": 289.056,
+      "ts": 1154867752,
+      "args": {},
+      "inside": [
+        {
+          "name": "HTMLDocumentParser::NotifyScriptLoaded",
+          "wallMS": 328.709,
+          "threadCPUms": 288.615,
+          "ts": 1154867760,
+          "args": {
+            "parser": "0x362c0217bf90"
+          }
+        },
+        {
+          "name": "Document::FinishedParsing",
+          "wallMS": 316.662,
+          "threadCPUms": 277.606,
+          "ts": 1154879802,
+          "args": {}
+        },
+        {
+          "name": "Document::UpdateStyleAndLayout",
+          "wallMS": 292.061,
+          "threadCPUms": 255.403,
+          "ts": 1154900380,
+          "args": {}
+        },
+        {
+          "name": "Blink.ForcedStyleAndLayout.UpdateTime",
+          "wallMS": 292.052,
+          "threadCPUms": 255.395,
+          "ts": 1154900385,
+          "args": {
+            "preFCP": true
+          }
+        },
+        {
+          "name": "LocalFrameView::UpdateStyleAndLayout",
+          "wallMS": 292.045,
+          "threadCPUms": 255.389,
+          "ts": 1154900389,
+          "args": {}
+        },
+        {
+          "name": "Blink.Layout.UpdateTime",
+          "wallMS": 282.216,
+          "threadCPUms": 246.786,
+          "ts": 1154910006,
+          "args": {
+            "preFCP": true
+          }
+        },
+        {
+          "name": "LocalFrameView::layout",
+          "wallMS": 282.178,
+          "threadCPUms": 246.748,
+          "ts": 1154910011,
+          "args": {
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 8,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Layout",
+          "wallMS": 282.169,
+          "threadCPUms": 246.739,
+          "ts": 1154910017,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 445,
+              "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+              "partialLayout": false,
+              "sampleTraceId": 1114242824760253,
+              "totalObjects": 445
+            }
+          }
+        },
+        {
+          "name": "LocalFrameView::performLayout",
+          "wallMS": 282.114,
+          "threadCPUms": 246.688,
+          "ts": 1154910061,
+          "args": {
+            "contentsHeightBeforeLayout": 1957
+          }
+        },
+        {
+          "name": "InlineNode::ShapeTextIncludingFirstLine",
+          "wallMS": 19.877,
+          "threadCPUms": 16.86,
+          "ts": 1155006754,
+          "args": {}
+        },
+        {
+          "name": "Blink.Style.UpdateTime",
+          "wallMS": 18.981,
+          "threadCPUms": 16.991,
+          "ts": 1154880288,
+          "args": {
+            "preFCP": true
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "wallMS": 18.547,
+          "threadCPUms": 16.596,
+          "ts": 1154880716,
+          "args": {
+            "beginData": {
+              "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+              "sampleTraceId": 1114242824760279
+            },
+            "elementCount": 229
+          }
+        },
+        {
+          "name": "InlineNode::ShapeTextIncludingFirstLine",
+          "wallMS": 16.765,
+          "threadCPUms": 12.844,
+          "ts": 1155097945,
+          "args": {}
+        },
+        {
+          "name": "Document::updateStyle",
+          "wallMS": 13.181,
+          "threadCPUms": 11.983,
+          "ts": 1154886071,
+          "args": {
+            "counters": {
+              "baseStylesUsed": 0,
+              "customPropertiesApplied": 0,
+              "elementsStyled": 217,
+              "independentInheritedStylesPropagated": 0,
+              "matchedPropertyApply": 0,
+              "matchedPropertyCacheAdded": 164,
+              "matchedPropertyCacheHit": 55,
+              "pseudoElementsStyled": 12,
+              "rulesFastRejected": 4268,
+              "rulesMatched": 1545,
+              "rulesRejected": 209,
+              "stylesAnimated": 8,
+              "stylesChanged": 206,
+              "stylesUnchanged": 9,
+              "svgPresentationAttributeStylesUsed": 0
+            },
+            "resolverAccessCount": 229
+          }
+        },
+        {
+          "name": "HTMLParserScriptRunner::executeScriptsWaitingForParsing",
+          "wallMS": 12.03,
+          "threadCPUms": 10.994,
+          "ts": 1154867768,
+          "args": {}
+        },
+        {
+          "name": "HTMLParserScriptRunner ExecuteScript",
+          "wallMS": 11.986,
+          "threadCPUms": 10.937,
+          "ts": 1154867809,
+          "args": {
+            "data": {
+              "frame": "0x362c02166f78",
+              "url": "http://127.0.0.1:4173/script.js"
+            }
+          }
+        },
+        {
+          "name": "PendingScript::ExecuteScriptBlock",
+          "wallMS": 11.958,
+          "threadCPUms": 10.924,
+          "ts": 1154867834,
+          "args": {}
+        },
+        {
+          "name": "AsyncTask Run",
+          "wallMS": 11.951,
+          "threadCPUms": 10.918,
+          "ts": 1154867839,
+          "args": {}
+        }
+      ]
+    },
+    {
+      "name": "RunTask",
+      "wallMS": 185.59,
+      "threadCPUms": 3.901,
+      "ts": 1155768269,
+      "args": {},
+      "inside": []
+    },
+    {
+      "name": "RunTask",
+      "wallMS": 172.059,
+      "threadCPUms": 154.719,
+      "ts": 1157061707,
+      "args": {},
+      "inside": [
+        {
+          "name": "AIPageContentAgent::ContentBuilder::Build",
+          "wallMS": 168.212,
+          "threadCPUms": 151.2,
+          "ts": 1157061738,
+          "args": {}
+        },
+        {
+          "name": "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+          "wallMS": 163.83,
+          "threadCPUms": 147.138,
+          "ts": 1157062009,
+          "args": {}
+        },
+        {
+          "name": "LocalFrameView::UpdateStyleAndLayout",
+          "wallMS": 163.81,
+          "threadCPUms": 147.12,
+          "ts": 1157062017,
+          "args": {}
+        },
+        {
+          "name": "Blink.Layout.UpdateTime",
+          "wallMS": 119.452,
+          "threadCPUms": 107.993,
+          "ts": 1157106255,
+          "args": {
+            "preFCP": false
+          }
+        },
+        {
+          "name": "LocalFrameView::layout",
+          "wallMS": 119.424,
+          "threadCPUms": 107.967,
+          "ts": 1157106263,
+          "args": {
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 8,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Layout",
+          "wallMS": 119.416,
+          "threadCPUms": 107.961,
+          "ts": 1157106268,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 1394,
+              "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+              "partialLayout": false,
+              "sampleTraceId": 1114242824761215,
+              "totalObjects": 1952
+            }
+          }
+        },
+        {
+          "name": "LocalFrameView::performLayout",
+          "wallMS": 119.324,
+          "threadCPUms": 107.87,
+          "ts": 1157106356,
+          "args": {
+            "contentsHeightBeforeLayout": 13816.203125
+          }
+        },
+        {
+          "name": "Blink.Style.UpdateTime",
+          "wallMS": 44.224,
+          "threadCPUms": 38.996,
+          "ts": 1157062026,
+          "args": {
+            "preFCP": false
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "wallMS": 44.205,
+          "threadCPUms": 38.977,
+          "ts": 1157062037,
+          "args": {
+            "beginData": {
+              "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+              "sampleTraceId": 1114242824761194
+            },
+            "elementCount": 1040
+          }
+        },
+        {
+          "name": "Document::updateStyle",
+          "wallMS": 44.083,
+          "threadCPUms": 38.865,
+          "ts": 1157062133,
+          "args": {
+            "counters": {
+              "baseStylesUsed": 2,
+              "customPropertiesApplied": 0,
+              "elementsStyled": 939,
+              "independentInheritedStylesPropagated": 0,
+              "matchedPropertyApply": 0,
+              "matchedPropertyCacheAdded": 439,
+              "matchedPropertyCacheHit": 596,
+              "pseudoElementsStyled": 101,
+              "rulesFastRejected": 18795,
+              "rulesMatched": 6891,
+              "rulesRejected": 1356,
+              "stylesAnimated": 5,
+              "stylesChanged": 900,
+              "stylesUnchanged": 38,
+              "svgPresentationAttributeStylesUsed": 0
+            },
+            "resolverAccessCount": 1040
+          }
+        },
+        {
+          "name": "Document::recalcStyle",
+          "wallMS": 28.234,
+          "threadCPUms": 25.035,
+          "ts": 1157062140,
+          "args": {}
+        },
+        {
+          "name": "Document::rebuildLayoutTree",
+          "wallMS": 15.43,
+          "threadCPUms": 13.442,
+          "ts": 1157090377,
+          "args": {}
+        },
+        {
+          "name": "InlineNode::ShapeTextIncludingFirstLine",
+          "wallMS": 6.911,
+          "threadCPUms": 6.288,
+          "ts": 1157216214,
+          "args": {}
+        },
+        {
+          "name": "InlineNode::ShapeTextIncludingFirstLine",
+          "wallMS": 4.713,
+          "threadCPUms": 4.034,
+          "ts": 1157129451,
+          "args": {}
+        },
+        {
+          "name": "InlineNode::ShapeTextIncludingFirstLine",
+          "wallMS": 4.673,
+          "threadCPUms": 4.343,
+          "ts": 1157204517,
+          "args": {}
+        },
+        {
+          "name": "InlineNode::ShapeTextIncludingFirstLine",
+          "wallMS": 4.286,
+          "threadCPUms": 3.977,
+          "ts": 1157107306,
+          "args": {}
+        },
+        {
+          "name": "InlineNode::ShapeTextIncludingFirstLine",
+          "wallMS": 4.03,
+          "threadCPUms": 3.713,
+          "ts": 1157189223,
+          "args": {}
+        },
+        {
+          "name": "InlineNode::ShapeTextIncludingFirstLine",
+          "wallMS": 2.745,
+          "threadCPUms": 2.56,
+          "ts": 1157199806,
+          "args": {}
+        }
+      ]
+    },
+    {
+      "name": "RunTask",
+      "wallMS": 114.551,
+      "threadCPUms": 104.689,
+      "ts": 1155273882,
+      "args": {},
+      "inside": [
+        {
+          "name": "Document::UpdateStyleAndLayout",
+          "wallMS": 93.438,
+          "threadCPUms": 85.006,
+          "ts": 1155275497,
+          "args": {}
+        },
+        {
+          "name": "Blink.ForcedStyleAndLayout.UpdateTime",
+          "wallMS": 93.429,
+          "threadCPUms": 84.999,
+          "ts": 1155275503,
+          "args": {
+            "preFCP": false
+          }
+        },
+        {
+          "name": "LocalFrameView::UpdateStyleAndLayout",
+          "wallMS": 93.421,
+          "threadCPUms": 84.992,
+          "ts": 1155275507,
+          "args": {}
+        },
+        {
+          "name": "Blink.Layout.UpdateTime",
+          "wallMS": 88.768,
+          "threadCPUms": 81.046,
+          "ts": 1155280127,
+          "args": {
+            "preFCP": false
+          }
+        },
+        {
+          "name": "LocalFrameView::layout",
+          "wallMS": 88.739,
+          "threadCPUms": 81.018,
+          "ts": 1155280134,
+          "args": {
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 8,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Layout",
+          "wallMS": 88.731,
+          "threadCPUms": 81.011,
+          "ts": 1155280139,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 420,
+              "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+              "partialLayout": false,
+              "sampleTraceId": 1114242824759825,
+              "totalObjects": 439
+            }
+          }
+        },
+        {
+          "name": "LocalFrameView::performLayout",
+          "wallMS": 88.685,
+          "threadCPUms": 80.965,
+          "ts": 1155280180,
+          "args": {
+            "contentsHeightBeforeLayout": 13664.6875
+          }
+        },
+        {
+          "name": "Document::UpdateStyleAndLayout",
+          "wallMS": 17.979,
+          "threadCPUms": 16.813,
+          "ts": 1155369102,
+          "args": {}
+        },
+        {
+          "name": "Blink.ForcedStyleAndLayout.UpdateTime",
+          "wallMS": 17.969,
+          "threadCPUms": 16.805,
+          "ts": 1155369106,
+          "args": {
+            "preFCP": false
+          }
+        },
+        {
+          "name": "LocalFrameView::UpdateStyleAndLayout",
+          "wallMS": 17.96,
+          "threadCPUms": 16.796,
+          "ts": 1155369110,
+          "args": {}
+        },
+        {
+          "name": "Blink.Layout.UpdateTime",
+          "wallMS": 17.913,
+          "threadCPUms": 16.754,
+          "ts": 1155369117,
+          "args": {
+            "preFCP": false
+          }
+        },
+        {
+          "name": "LocalFrameView::layout",
+          "wallMS": 17.885,
+          "threadCPUms": 16.726,
+          "ts": 1155369122,
+          "args": {
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 8,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Layout",
+          "wallMS": 17.876,
+          "threadCPUms": 16.718,
+          "ts": 1155369126,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 137,
+              "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+              "partialLayout": false,
+              "sampleTraceId": 1114242824760032,
+              "totalObjects": 571
+            }
+          }
+        },
+        {
+          "name": "LocalFrameView::performLayout",
+          "wallMS": 17.677,
+          "threadCPUms": 16.616,
+          "ts": 1155369258,
+          "args": {
+            "contentsHeightBeforeLayout": 13816.203125
+          }
+        },
+        {
+          "name": "Blink.Style.UpdateTime",
+          "wallMS": 4.608,
+          "threadCPUms": 3.906,
+          "ts": 1155275514,
+          "args": {
+            "preFCP": false
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "wallMS": 4.595,
+          "threadCPUms": 3.894,
+          "ts": 1155275520,
+          "args": {
+            "beginData": {
+              "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+              "sampleTraceId": 1114242824759826
+            },
+            "elementCount": 0
+          }
+        },
+        {
+          "name": "StyleEngine::InvalidateStyleAndLayoutForFontUpdates",
+          "wallMS": 4.33,
+          "threadCPUms": 3.682,
+          "ts": 1155275559,
+          "args": {}
+        },
+        {
+          "name": "LayoutObject::InvalidateSubtreeForFontUpdates",
+          "wallMS": 4.191,
+          "threadCPUms": 3.546,
+          "ts": 1155275695,
+          "args": {}
+        }
+      ]
+    },
+    {
+      "name": "RunTask",
+      "wallMS": 73.023,
+      "threadCPUms": 66.051,
+      "ts": 1155199040,
+      "args": {},
+      "inside": [
+        {
+          "name": "WebFrameWidgetImpl::UpdateLifecycle",
+          "wallMS": 71.64,
+          "threadCPUms": 64.787,
+          "ts": 1155199287,
+          "args": {}
+        },
+        {
+          "name": "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+          "wallMS": 59.556,
+          "threadCPUms": 53.816,
+          "ts": 1155201599,
+          "args": {}
+        },
+        {
+          "name": "LocalFrameView::UpdateStyleAndLayout",
+          "wallMS": 59.539,
+          "threadCPUms": 53.801,
+          "ts": 1155201604,
+          "args": {}
+        },
+        {
+          "name": "Blink.Layout.UpdateTime",
+          "wallMS": 54.054,
+          "threadCPUms": 48.716,
+          "ts": 1155207065,
+          "args": {
+            "preFCP": true
+          }
+        },
+        {
+          "name": "LocalFrameView::layout",
+          "wallMS": 54.023,
+          "threadCPUms": 48.685,
+          "ts": 1155207081,
+          "args": {
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 8,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Layout",
+          "wallMS": 54.011,
+          "threadCPUms": 48.674,
+          "ts": 1155207090,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 131,
+              "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+              "partialLayout": false,
+              "sampleTraceId": 1114242824759874,
+              "totalObjects": 439
+            }
+          }
+        },
+        {
+          "name": "LocalFrameView::performLayout",
+          "wallMS": 53.923,
+          "threadCPUms": 48.588,
+          "ts": 1155207172,
+          "args": {
+            "contentsHeightBeforeLayout": 12722.765625
+          }
+        },
+        {
+          "name": "InlineNode::ShapeTextIncludingFirstLine",
+          "wallMS": 7.59,
+          "threadCPUms": 6.845,
+          "ts": 1155210755,
+          "args": {}
+        },
+        {
+          "name": "InlineNode::ShapeTextIncludingFirstLine",
+          "wallMS": 7.244,
+          "threadCPUms": 6.403,
+          "ts": 1155229896,
+          "args": {}
+        },
+        {
+          "name": "LocalFrameView::RunPaintLifecyclePhase",
+          "wallMS": 6.801,
+          "threadCPUms": 6.183,
+          "ts": 1155262288,
+          "args": {}
+        },
+        {
+          "name": "Blink.Style.UpdateTime",
+          "wallMS": 5.449,
+          "threadCPUms": 5.053,
+          "ts": 1155201610,
+          "args": {
+            "preFCP": true
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "wallMS": 5.435,
+          "threadCPUms": 5.038,
+          "ts": 1155201615,
+          "args": {
+            "beginData": {
+              "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+              "sampleTraceId": 1114242824759877
+            },
+            "elementCount": 93
+          }
+        },
+        {
+          "name": "Document::updateStyle",
+          "wallMS": 5.388,
+          "threadCPUms": 4.995,
+          "ts": 1155201645,
+          "args": {
+            "counters": {
+              "baseStylesUsed": 0,
+              "customPropertiesApplied": 0,
+              "elementsStyled": 84,
+              "independentInheritedStylesPropagated": 0,
+              "matchedPropertyApply": 0,
+              "matchedPropertyCacheAdded": 78,
+              "matchedPropertyCacheHit": 15,
+              "pseudoElementsStyled": 9,
+              "rulesFastRejected": 2073,
+              "rulesMatched": 625,
+              "rulesRejected": 146,
+              "stylesAnimated": 0,
+              "stylesChanged": 81,
+              "stylesUnchanged": 0,
+              "svgPresentationAttributeStylesUsed": 0
+            },
+            "resolverAccessCount": 93
+          }
+        },
+        {
+          "name": "Blink.Paint.UpdateTime",
+          "wallMS": 5.031,
+          "threadCPUms": 4.598,
+          "ts": 1155262293,
+          "args": {
+            "preFCP": false
+          }
+        },
+        {
+          "name": "FontCache::GetFontPlatformData",
+          "wallMS": 4.957,
+          "threadCPUms": 3.941,
+          "ts": 1155223342,
+          "args": {}
+        },
+        {
+          "name": "FontDataManager - using mapped file",
+          "wallMS": 4.09,
+          "threadCPUms": 3.76,
+          "ts": 1155224167,
+          "args": {}
+        },
+        {
+          "name": "FontDataManager::onMakeFromStreamArgs",
+          "wallMS": 4.003,
+          "threadCPUms": 3.678,
+          "ts": 1155224248,
+          "args": {
+            "size": 208444
+          }
+        },
+        {
+          "name": "Paint",
+          "wallMS": 3.554,
+          "threadCPUms": 3.284,
+          "ts": 1155262411,
+          "args": {
+            "data": {
+              "clip": [
+                0,
+                0,
+                412,
+                0,
+                412,
+                7823,
+                0,
+                7823
+              ],
+              "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+              "layerId": 0,
+              "nodeId": 8,
+              "nodeName": "#document",
+              "sampleTraceId": 1114242824759887
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "name": "Layout",
+      "wallMS": 282.169,
+      "threadCPUms": 246.739,
+      "ts": 1154910017,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 445,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "partialLayout": false,
+          "sampleTraceId": 1114242824760253,
+          "totalObjects": 445
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 119.416,
+      "threadCPUms": 107.961,
+      "ts": 1157106268,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 1394,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "partialLayout": false,
+          "sampleTraceId": 1114242824761215,
+          "totalObjects": 1952
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 88.731,
+      "threadCPUms": 81.011,
+      "ts": 1155280139,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 420,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "partialLayout": false,
+          "sampleTraceId": 1114242824759825,
+          "totalObjects": 439
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 54.011,
+      "threadCPUms": 48.674,
+      "ts": 1155207090,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 131,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "partialLayout": false,
+          "sampleTraceId": 1114242824759874,
+          "totalObjects": 439
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 17.876,
+      "threadCPUms": 16.718,
+      "ts": 1155369126,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 137,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "partialLayout": false,
+          "sampleTraceId": 1114242824760032,
+          "totalObjects": 571
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 0.196,
+      "threadCPUms": 0.188,
+      "ts": 1154807768,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 1,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "partialLayout": false,
+          "sampleTraceId": 1114242824760154,
+          "totalObjects": 1
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 0.124,
+      "threadCPUms": 0.122,
+      "ts": 1155192242,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 1,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "partialLayout": false,
+          "sampleTraceId": 1114242824760212,
+          "totalObjects": 445
+        }
+      }
+    },
+    {
+      "name": "Layout",
+      "wallMS": 0.113,
+      "threadCPUms": 0.111,
+      "ts": 1154906616,
+      "args": {
+        "beginData": {
+          "dirtyObjects": 3,
+          "frame": "F1BB81590366F667D0D590D36A39379F",
+          "partialLayout": false,
+          "sampleTraceId": 1114242824760255,
+          "totalObjects": 3
+        }
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "name": "EvaluateScript",
+      "wallMS": 11.793,
+      "threadCPUms": 10.765,
+      "ts": 1154867912,
+      "args": {
+        "data": {
+          "columnNumber": 1,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "lineNumber": 1,
+          "sampleTraceId": 1114242824760260,
+          "scriptId": 0,
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 3.014,
+      "threadCPUms": 2.746,
+      "ts": 1157006445,
+      "args": {}
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 2.178,
+      "threadCPUms": 2.164,
+      "ts": 1154810074,
+      "args": {
+        "data": {
+          "columnNumber": 13,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "lineNumber": 6,
+          "sampleTraceId": 1114242824760111,
+          "scriptId": 0,
+          "url": "http://127.0.0.1:4173/"
+        }
+      }
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 2.031,
+      "threadCPUms": 1.796,
+      "ts": 1157013300,
+      "args": {}
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 1.634,
+      "threadCPUms": 1.623,
+      "ts": 1158254749,
+      "args": {}
+    },
+    {
+      "name": "EvaluateScript",
+      "wallMS": 0.505,
+      "threadCPUms": 0.472,
+      "ts": 1157006668,
+      "args": {
+        "data": {
+          "columnNumber": 1,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "lineNumber": 1,
+          "sampleTraceId": 1114242824760466,
+          "scriptId": 0,
+          "url": ""
+        }
+      }
+    }
+  ],
+  "functions": [
+    {
+      "name": "FunctionCall",
+      "wallMS": 1.969,
+      "threadCPUms": 1.801,
+      "ts": 1155396842,
+      "args": {
+        "data": {
+          "columnNumber": 52,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "functionName": "IntersectionObserver.threshold",
+          "isolate": "7934683918485661132",
+          "lineNumber": 208,
+          "sampleTraceId": 1114242824760020,
+          "scriptId": "12",
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.774,
+      "threadCPUms": 0.546,
+      "ts": 1155399373,
+      "args": {
+        "data": {
+          "columnNumber": 54,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "functionName": "IntersectionObserver.rootMargin",
+          "isolate": "7934683918485661132",
+          "lineNumber": 214,
+          "sampleTraceId": 1114242824760030,
+          "scriptId": "12",
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.45,
+      "threadCPUms": 0.449,
+      "ts": 1157009789,
+      "args": {
+        "data": {
+          "columnNumber": 51,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "functionName": "",
+          "isolate": "7934683918485661132",
+          "lineNumber": 18,
+          "sampleTraceId": 1114242824760478,
+          "scriptId": "14",
+          "url": "_lighthouse-eval.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.219,
+      "threadCPUms": 0.209,
+      "ts": 1157240279,
+      "args": {
+        "data": {
+          "columnNumber": 16,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "functionName": "",
+          "isolate": "7934683918485661132",
+          "lineNumber": 26,
+          "sampleTraceId": 1114242824761137,
+          "scriptId": "15",
+          "url": "_lighthouse-eval.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.213,
+      "threadCPUms": 0.196,
+      "ts": 1155399098,
+      "args": {
+        "data": {
+          "columnNumber": 55,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "functionName": "",
+          "isolate": "7934683918485661132",
+          "lineNumber": 203,
+          "sampleTraceId": 1114242824760016,
+          "scriptId": "12",
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.192,
+      "threadCPUms": 0.19,
+      "ts": 1155398872,
+      "args": {
+        "data": {
+          "columnNumber": 47,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "functionName": "IntersectionObserver.rootMargin",
+          "isolate": "7934683918485661132",
+          "lineNumber": 340,
+          "sampleTraceId": 1114242824760019,
+          "scriptId": "12",
+          "url": "http://127.0.0.1:4173/script.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.165,
+      "threadCPUms": 0.165,
+      "ts": 1158407408,
+      "args": {
+        "data": {
+          "columnNumber": 16,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "functionName": "",
+          "isolate": "7934683918485661132",
+          "lineNumber": 26,
+          "sampleTraceId": 1114242824757637,
+          "scriptId": "16",
+          "url": "_lighthouse-eval.js"
+        }
+      }
+    },
+    {
+      "name": "FunctionCall",
+      "wallMS": 0.071,
+      "threadCPUms": 0.071,
+      "ts": 1157239987,
+      "args": {
+        "data": {
+          "columnNumber": 51,
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "functionName": "",
+          "isolate": "7934683918485661132",
+          "lineNumber": 18,
+          "sampleTraceId": 1114242824761139,
+          "scriptId": "14",
+          "url": "_lighthouse-eval.js"
+        }
+      }
+    }
+  ],
+  "timers": [
+    {
+      "name": "TimerFire",
+      "wallMS": 0.44,
+      "threadCPUms": 0.406,
+      "ts": 1157240205,
+      "args": {
+        "data": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "timerId": 1
+        }
+      }
+    },
+    {
+      "name": "TimerFire",
+      "wallMS": 0.388,
+      "threadCPUms": 0.377,
+      "ts": 1158407365,
+      "args": {
+        "data": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "timerId": 2
+        }
+      }
+    }
+  ],
+  "callbacks": [
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.122,
+      "threadCPUms": 0.122,
+      "ts": 1154879848,
+      "args": {
+        "data": {
+          "sampleTraceId": 1114242824760269,
+          "type": "DOMContentLoaded"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.033,
+      "threadCPUms": 0.032,
+      "ts": 1154824493,
+      "args": {
+        "data": {
+          "sampleTraceId": 1114242824760112,
+          "type": "toggle"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.029,
+      "threadCPUms": 0.029,
+      "ts": 1155197967,
+      "args": {
+        "data": {
+          "sampleTraceId": 1114242824759922,
+          "type": "contentvisibilityautostatechange"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.023,
+      "threadCPUms": 0.022,
+      "ts": 1154835436,
+      "args": {
+        "data": {
+          "sampleTraceId": 1114242824760066,
+          "type": "readystatechange"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.022,
+      "threadCPUms": 0.043,
+      "ts": 1154835669,
+      "args": {
+        "data": {
+          "sampleTraceId": 1114242824760078,
+          "type": "slotchange"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.019,
+      "threadCPUms": 0.018,
+      "ts": 1154862443,
+      "args": {
+        "data": {
+          "sampleTraceId": 1114242824760305,
+          "type": "load"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.019,
+      "threadCPUms": 0.018,
+      "ts": 1155197753,
+      "args": {
+        "data": {
+          "sampleTraceId": 1114242824759914,
+          "type": "contentvisibilityautostatechange"
+        }
+      }
+    },
+    {
+      "name": "EventDispatch",
+      "wallMS": 0.018,
+      "threadCPUms": 0.006,
+      "ts": 1154765057,
+      "args": {
+        "data": {
+          "sampleTraceId": 1114242824759475,
+          "type": "visibilitychange"
+        }
+      }
+    }
+  ],
+  "style": [
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 44.205,
+      "threadCPUms": 38.977,
+      "ts": 1157062037,
+      "args": {
+        "beginData": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "sampleTraceId": 1114242824761194
+        },
+        "elementCount": 1040
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 18.547,
+      "threadCPUms": 16.596,
+      "ts": 1154880716,
+      "args": {
+        "beginData": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "sampleTraceId": 1114242824760279
+        },
+        "elementCount": 229
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 9.597,
+      "threadCPUms": 8.382,
+      "ts": 1154900399,
+      "args": {
+        "beginData": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "sampleTraceId": 1114242824760284
+        },
+        "elementCount": 138
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 5.435,
+      "threadCPUms": 5.038,
+      "ts": 1155201615,
+      "args": {
+        "beginData": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "sampleTraceId": 1114242824759877
+        },
+        "elementCount": 93
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 4.595,
+      "threadCPUms": 3.894,
+      "ts": 1155275520,
+      "args": {
+        "beginData": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "sampleTraceId": 1114242824759826
+        },
+        "elementCount": 0
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 1.397,
+      "threadCPUms": 0.931,
+      "ts": 1156486969,
+      "args": {
+        "beginData": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "sampleTraceId": 1114242824760411
+        },
+        "elementCount": 5
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 0.988,
+      "threadCPUms": 0.601,
+      "ts": 1156102446,
+      "args": {
+        "beginData": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "sampleTraceId": 1114242824760594
+        },
+        "elementCount": 8
+      }
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "wallMS": 0.915,
+      "threadCPUms": 0.805,
+      "ts": 1156135429,
+      "args": {
+        "beginData": {
+          "frame": "7CF7F48848A42ACDA95B5F7302A3A776",
+          "sampleTraceId": 1114242824760810
+        },
+        "elementCount": 8
+      }
+    }
+  ],
+  "categoryTotals": {
+    "DocumentLoader::DocumentLoader": {
+      "count": 4,
+      "wallMS": 0.11100000000000002,
+      "threadCPUms": 0.10600000000000001,
+      "maxWallMS": 0.036
+    },
+    "WebLocalFrameImpl::createFrameView": {
+      "count": 2,
+      "wallMS": 0.045,
+      "threadCPUms": 0.045,
+      "maxWallMS": 0.024
+    },
+    "DocumentLoader::CommitNavigation": {
+      "count": 4,
+      "wallMS": 39.252,
+      "threadCPUms": 34.70899999999999,
+      "maxWallMS": 36.619
+    },
+    "DocumentLoader::InitializeWindow": {
+      "count": 4,
+      "wallMS": 0.48500000000000004,
+      "threadCPUms": 0.467,
+      "maxWallMS": 0.215
+    },
+    "Document::Document": {
+      "count": 6,
+      "wallMS": 0.429,
+      "threadCPUms": 0.403,
+      "maxWallMS": 0.094
+    },
+    "Document::Initialize": {
+      "count": 6,
+      "wallMS": 0.23500000000000001,
+      "threadCPUms": 0.23700000000000002,
+      "maxWallMS": 0.057
+    },
+    "DocumentLoader::RecordUseCountersForCommit": {
+      "count": 4,
+      "wallMS": 0.038,
+      "threadCPUms": 0.023000000000000003,
+      "maxWallMS": 0.021
+    },
+    "DocumentLoader::DidInstallNewDocument": {
+      "count": 4,
+      "wallMS": 0.112,
+      "threadCPUms": 0.107,
+      "maxWallMS": 0.039
+    },
+    "AsyncTask Scheduled": {
+      "count": 39,
+      "wallMS": 0.23700000000000007,
+      "threadCPUms": 0.20800000000000005,
+      "maxWallMS": 0.032
+    },
+    "DocumentLoader::DidCommitNavigation": {
+      "count": 4,
+      "wallMS": 0.17700000000000002,
+      "threadCPUms": 0.17200000000000001,
+      "maxWallMS": 0.157
+    },
+    "DocumentLoader::StartLoadingResponse": {
+      "count": 4,
+      "wallMS": 36.263999999999996,
+      "threadCPUms": 31.879999999999995,
+      "maxWallMS": 34.931
+    },
+    "DocumentLoader::CreateParserPostCommit": {
+      "count": 4,
+      "wallMS": 35.097,
+      "threadCPUms": 30.852,
+      "maxWallMS": 34.886
+    },
+    "Document::OpenForNavigation": {
+      "count": 6,
+      "wallMS": 0.649,
+      "threadCPUms": 0.637,
+      "maxWallMS": 0.283
+    },
+    "HTMLDocumentParser::HTMLDocumentParser": {
+      "count": 4,
+      "wallMS": 0.10800000000000001,
+      "threadCPUms": 0.10900000000000001,
+      "maxWallMS": 0.081
+    },
+    "Document::SetReadyState": {
+      "count": 24,
+      "wallMS": 0.4160000000000001,
+      "threadCPUms": 0.3910000000000001,
+      "maxWallMS": 0.087
+    },
+    "DocumentLoader::FinishedLoading": {
+      "count": 4,
+      "wallMS": 1.349,
+      "threadCPUms": 1.218,
+      "maxWallMS": 0.607
+    },
+    "HTMLDocumentParser::Flush": {
+      "count": 4,
+      "wallMS": 0.088,
+      "threadCPUms": 0.08299999999999999,
+      "maxWallMS": 0.046
+    },
+    "HTMLDocumentParser::AttemptToEnd": {
+      "count": 4,
+      "wallMS": 1.157,
+      "threadCPUms": 1.0210000000000001,
+      "maxWallMS": 0.538
+    },
+    "HTMLDocumentParser::PrepareToStopParsing": {
+      "count": 4,
+      "wallMS": 1.116,
+      "threadCPUms": 0.993,
+      "maxWallMS": 0.529
+    },
+    "HTMLDocumentParser::PumpTokenizerIfPossible": {
+      "count": 6,
+      "wallMS": 21.383,
+      "threadCPUms": 19.111,
+      "maxWallMS": 10.732
+    },
+    "HTMLDocumentParser::PumpTokenizer": {
+      "count": 6,
+      "wallMS": 20.464999999999996,
+      "threadCPUms": 18.245,
+      "maxWallMS": 10.044
+    },
+    "ParseHTML": {
+      "count": 6,
+      "wallMS": 20.378,
+      "threadCPUms": 18.171000000000003,
+      "maxWallMS": 10.032
+    },
+    "HTMLDocumentParser::DocumentElementAvailable": {
+      "count": 4,
+      "wallMS": 0.052,
+      "threadCPUms": 0.051,
+      "maxWallMS": 0.03
+    },
+    "Document::BeginLifecycleUpdatesIfRenderingReady": {
+      "count": 15,
+      "wallMS": 0.23,
+      "threadCPUms": 0.203,
+      "maxWallMS": 0.038
+    },
+    "LocalFrameView::BeginLifecycleUpdates": {
+      "count": 11,
+      "wallMS": 0.12100000000000001,
+      "threadCPUms": 0.11400000000000002,
+      "maxWallMS": 0.025
+    },
+    "EventDispatch": {
+      "count": 63,
+      "wallMS": 0.7500000000000003,
+      "threadCPUms": 0.7270000000000003,
+      "maxWallMS": 0.122
+    },
+    "HTMLParserScriptRunner::executeScriptsWaitingForParsing": {
+      "count": 6,
+      "wallMS": 12.117,
+      "threadCPUms": 11.076,
+      "maxWallMS": 12.03
+    },
+    "Document::FinishedParsing": {
+      "count": 6,
+      "wallMS": 318.28599999999994,
+      "threadCPUms": 278.98499999999996,
+      "maxWallMS": 316.662
+    },
+    "Document::CancelParsing": {
+      "count": 8,
+      "wallMS": 0.196,
+      "threadCPUms": 0.14,
+      "maxWallMS": 0.054
+    },
+    "LocalFrame::SetContextPaused": {
+      "count": 4,
+      "wallMS": 0.02,
+      "threadCPUms": 0.016,
+      "maxWallMS": 0.006
+    },
+    "VisualViewport::setSize": {
+      "count": 2,
+      "wallMS": 0.089,
+      "threadCPUms": 0.083,
+      "maxWallMS": 0.071
+    },
+    "WebFrameWidgetImpl::BeginMainFrame": {
+      "count": 102,
+      "wallMS": 27.569000000000003,
+      "threadCPUms": 23.107000000000003,
+      "maxWallMS": 1.751
+    },
+    "Blink.Animate.UpdateTime": {
+      "count": 102,
+      "wallMS": 25.50099999999999,
+      "threadCPUms": 21.485999999999994,
+      "maxWallMS": 1.724
+    },
+    "PageAnimator::serviceScriptedAnimations": {
+      "count": 104,
+      "wallMS": 24.276,
+      "threadCPUms": 20.340999999999987,
+      "maxWallMS": 1.703
+    },
+    "AnimationTimeline::serviceAnimations": {
+      "count": 107,
+      "wallMS": 19.413000000000007,
+      "threadCPUms": 16.069,
+      "maxWallMS": 1.633
+    },
+    "FrameRequestCallbackCollection::ExecuteFrameCallbacks": {
+      "count": 104,
+      "wallMS": 0.4720000000000003,
+      "threadCPUms": 0.3980000000000003,
+      "maxWallMS": 0.036
+    },
+    "WebFrameWidgetImpl::UpdateLifecycle": {
+      "count": 102,
+      "wallMS": 175.73399999999998,
+      "threadCPUms": 159.54700000000005,
+      "maxWallMS": 71.64
+    },
+    "LocalFrameView::WillStartLifecycleUpdate": {
+      "count": 103,
+      "wallMS": 0.5980000000000004,
+      "threadCPUms": 0.5360000000000004,
+      "maxWallMS": 0.044
+    },
+    "LocalFrameView::UpdateLifecyclePhases - start of lifecycle tasks": {
+      "count": 103,
+      "wallMS": 0.3880000000000003,
+      "threadCPUms": 0.3620000000000002,
+      "maxWallMS": 0.011
+    },
+    "LocalFrameView::RunStyleAndLayoutLifecyclePhases": {
+      "count": 109,
+      "wallMS": 262.515,
+      "threadCPUms": 236.688,
+      "maxWallMS": 163.83
+    },
+    "LocalFrameView::UpdateStyleAndLayout": {
+      "count": 167,
+      "wallMS": 664.4020000000002,
+      "threadCPUms": 592.669,
+      "maxWallMS": 292.045
+    },
+    "Blink.Style.UpdateTime": {
+      "count": 107,
+      "wallMS": 117.71299999999998,
+      "threadCPUms": 105.48599999999998,
+      "maxWallMS": 44.224
+    },
+    "UpdateLayoutTree": {
+      "count": 109,
+      "wallMS": 116.24799999999989,
+      "threadCPUms": 104.19899999999996,
+      "maxWallMS": 44.205
+    },
+    "Document::updateActiveStyle": {
+      "count": 123,
+      "wallMS": 4.658999999999977,
+      "threadCPUms": 3.764000000000004,
+      "maxWallMS": 3.692
+    },
+    "Document::updateStyle": {
+      "count": 109,
+      "wallMS": 101.77799999999999,
+      "threadCPUms": 91.64100000000003,
+      "maxWallMS": 44.083
+    },
+    "Document::recalcStyle": {
+      "count": 107,
+      "wallMS": 72.92900000000002,
+      "threadCPUms": 65.91300000000003,
+      "maxWallMS": 28.234
+    },
+    "RootScrollerController::PerformRootScrollerSelection": {
+      "count": 109,
+      "wallMS": 0.5120000000000003,
+      "threadCPUms": 0.44100000000000034,
+      "maxWallMS": 0.012
+    },
+    "PrePaint": {
+      "count": 108,
+      "wallMS": 32.019999999999996,
+      "threadCPUms": 29.508,
+      "maxWallMS": 1.923
+    },
+    "LocalFrameView::RunCompositingInputsLifecyclePhase": {
+      "count": 108,
+      "wallMS": 13.051000000000004,
+      "threadCPUms": 12.002000000000004,
+      "maxWallMS": 0.793
+    },
+    "Blink.CompositingInputs.UpdateTime": {
+      "count": 105,
+      "wallMS": 11.859000000000004,
+      "threadCPUms": 11.086000000000006,
+      "maxWallMS": 0.778
+    },
+    "LayoutView::commitPendingSelection": {
+      "count": 108,
+      "wallMS": 0.4360000000000003,
+      "threadCPUms": 0.38400000000000023,
+      "maxWallMS": 0.025
+    },
+    "LocalFrameView::RunPrePaintLifecyclePhase": {
+      "count": 108,
+      "wallMS": 17.244999999999994,
+      "threadCPUms": 16.051000000000002,
+      "maxWallMS": 1.438
+    },
+    "Blink.PrePaint.UpdateTime": {
+      "count": 105,
+      "wallMS": 15.492000000000008,
+      "threadCPUms": 14.88800000000001,
+      "maxWallMS": 1.42
+    },
+    "LocalFrameView::NotifyResizeObservers": {
+      "count": 105,
+      "wallMS": 0.6640000000000005,
+      "threadCPUms": 0.6170000000000004,
+      "maxWallMS": 0.03
+    },
+    "LocalFrameView::RunPaintLifecyclePhase": {
+      "count": 103,
+      "wallMS": 26.691000000000006,
+      "threadCPUms": 24.090999999999994,
+      "maxWallMS": 6.801
+    },
+    "Blink.Paint.UpdateTime": {
+      "count": 102,
+      "wallMS": 14.974999999999998,
+      "threadCPUms": 13.575000000000008,
+      "maxWallMS": 5.031
+    },
+    "CullRectUpdate": {
+      "count": 103,
+      "wallMS": 0.9030000000000006,
+      "threadCPUms": 0.7680000000000003,
+      "maxWallMS": 0.181
+    },
+    "Paint": {
+      "count": 28,
+      "wallMS": 11.399000000000001,
+      "threadCPUms": 10.353,
+      "maxWallMS": 3.554
+    },
+    "PaintController::commitNewDisplayItems": {
+      "count": 5,
+      "wallMS": 0.055999999999999994,
+      "threadCPUms": 0.054000000000000006,
+      "maxWallMS": 0.027
+    },
+    "LocalFrameView::pushPaintArtifactToCompositor": {
+      "count": 103,
+      "wallMS": 5.143999999999993,
+      "threadCPUms": 4.526,
+      "maxWallMS": 1.153
+    },
+    "Blink.CompositingCommit.UpdateTime": {
+      "count": 102,
+      "wallMS": 4.283999999999995,
+      "threadCPUms": 3.756999999999998,
+      "maxWallMS": 1.137
+    },
+    "Layerize": {
+      "count": 102,
+      "wallMS": 3.370999999999997,
+      "threadCPUms": 3.052999999999995,
+      "maxWallMS": 1.113
+    },
+    "LocalFrameView::DidFinishLifecycleUpdate": {
+      "count": 103,
+      "wallMS": 1.188999999999999,
+      "threadCPUms": 1.0859999999999999,
+      "maxWallMS": 0.49
+    },
+    "Commit": {
+      "count": 102,
+      "wallMS": 36.807999999999986,
+      "threadCPUms": 33.614999999999995,
+      "maxWallMS": 1.024
+    },
+    "LocalFrameView::RunAccessibilitySteps": {
+      "count": 102,
+      "wallMS": 1.583999999999999,
+      "threadCPUms": 1.3759999999999997,
+      "maxWallMS": 0.044
+    },
+    "Blink.Accessibility.UpdateTime": {
+      "count": 102,
+      "wallMS": 0.5450000000000004,
+      "threadCPUms": 0.5140000000000003,
+      "maxWallMS": 0.015
+    },
+    "LocalFrameView::UpdateViewportIntersectionsForSubtree": {
+      "count": 102,
+      "wallMS": 17.560000000000006,
+      "threadCPUms": 15.837000000000005,
+      "maxWallMS": 0.503
+    },
+    "Blink.IntersectionObservation.UpdateTime": {
+      "count": 102,
+      "wallMS": 16.590000000000003,
+      "threadCPUms": 15.034000000000002,
+      "maxWallMS": 0.487
+    },
+    "V8.GC_TIME_TO_SAFEPOINT": {
+      "count": 10,
+      "wallMS": 0.163,
+      "threadCPUms": 0.05700000000000001,
+      "maxWallMS": 0.114
+    },
+    "V8.GC_HEAP_ENSURE_SWEEPING_COMPLETED": {
+      "count": 37,
+      "wallMS": 0.4280000000000002,
+      "threadCPUms": 0.29900000000000015,
+      "maxWallMS": 0.087
+    },
+    "V8.DeoptimizeCode": {
+      "count": 1,
+      "wallMS": 0.041,
+      "threadCPUms": 0.038,
+      "maxWallMS": 0.041
+    },
+    "LocalFrameView::HandleLoadCompleted": {
+      "count": 4,
+      "wallMS": 0.031000000000000003,
+      "threadCPUms": 0.045000000000000005,
+      "maxWallMS": 0.01
+    },
+    "Document::DispatchUnloadEvents": {
+      "count": 2,
+      "wallMS": 0.144,
+      "threadCPUms": 0.131,
+      "maxWallMS": 0.089
+    },
+    "Document::shutdown": {
+      "count": 6,
+      "wallMS": 1.177,
+      "threadCPUms": 0.649,
+      "maxWallMS": 0.903
+    },
+    "StyleEngine::clearResolver": {
+      "count": 5,
+      "wallMS": 0.049,
+      "threadCPUms": 0.044,
+      "maxWallMS": 0.02
+    },
+    "Frame::Detach": {
+      "count": 4,
+      "wallMS": 4.712,
+      "threadCPUms": 2.2889999999999997,
+      "maxWallMS": 4.386
+    },
+    "ScrollAnchor::FindAnchor": {
+      "count": 1,
+      "wallMS": 0.013,
+      "threadCPUms": 0.012,
+      "maxWallMS": 0.013
+    },
+    "ScrollAnchor::SerializeAnchor": {
+      "count": 1,
+      "wallMS": 0.008,
+      "threadCPUms": 0.008,
+      "maxWallMS": 0.008
+    },
+    "BackForwardCacheBufferLimitTracker::DidRemoveFrameOrWorkerFromBackForwardCache": {
+      "count": 3,
+      "wallMS": 0.022,
+      "threadCPUms": 0.02,
+      "maxWallMS": 0.009
+    },
+    "Document::SetURL": {
+      "count": 1,
+      "wallMS": 0.01,
+      "threadCPUms": 0.01,
+      "maxWallMS": 0.01
+    },
+    "CommitLoad": {
+      "count": 1,
+      "wallMS": 0.106,
+      "threadCPUms": 0.104,
+      "maxWallMS": 0.106
+    },
+    "ScrollableArea::SetScrollOffset": {
+      "count": 1,
+      "wallMS": 0.009,
+      "threadCPUms": 0.008,
+      "maxWallMS": 0.009
+    },
+    "VisualViewport::mainFrameDidChangeSize": {
+      "count": 4,
+      "wallMS": 0.023,
+      "threadCPUms": 0.018000000000000002,
+      "maxWallMS": 0.008
+    },
+    "LocalWindowProxy::Initialize": {
+      "count": 3,
+      "wallMS": 33.001,
+      "threadCPUms": 28.827,
+      "maxWallMS": 27.331
+    },
+    "LocalWindowProxy::CreateContext": {
+      "count": 3,
+      "wallMS": 5.423,
+      "threadCPUms": 4.954000000000001,
+      "maxWallMS": 2.047
+    },
+    "V8.DeserializeContext": {
+      "count": 4,
+      "wallMS": 5.563,
+      "threadCPUms": 5.125,
+      "maxWallMS": 1.797
+    },
+    "LocalWindowProxy::SetupWindowPrototypeChain": {
+      "count": 3,
+      "wallMS": 0.05500000000000001,
+      "threadCPUms": 0.055999999999999994,
+      "maxWallMS": 0.021
+    },
+    "LocalWindowProxy::UpdateDocumentProperty": {
+      "count": 2,
+      "wallMS": 0.022,
+      "threadCPUms": 0.022,
+      "maxWallMS": 0.012
+    },
+    "ContextCreatedNotification": {
+      "count": 3,
+      "wallMS": 1.6949999999999998,
+      "threadCPUms": 1.653,
+      "maxWallMS": 0.598
+    },
+    "InstallConditionalFeatures": {
+      "count": 3,
+      "wallMS": 1.478,
+      "threadCPUms": 1.423,
+      "maxWallMS": 0.618
+    },
+    "ScriptCatchup": {
+      "count": 34,
+      "wallMS": 0.5320000000000001,
+      "threadCPUms": 0.4810000000000001,
+      "maxWallMS": 0.128
+    },
+    "V8.StackGuard": {
+      "count": 2,
+      "wallMS": 18.243,
+      "threadCPUms": 15.068000000000001,
+      "maxWallMS": 18.224
+    },
+    "V8.HandleInterrupts": {
+      "count": 2,
+      "wallMS": 18.226,
+      "threadCPUms": 15.054,
+      "maxWallMS": 18.215
+    },
+    "V8.InvokeApiInterruptCallbacks": {
+      "count": 2,
+      "wallMS": 18.211000000000002,
+      "threadCPUms": 15.040000000000001,
+      "maxWallMS": 18.207
+    },
+    "CpuProfiler::StartProfiling": {
+      "count": 1,
+      "wallMS": 17.964,
+      "threadCPUms": 14.796,
+      "maxWallMS": 17.964
+    },
+    "v8.newInstance": {
+      "count": 23,
+      "wallMS": 0.27500000000000013,
+      "threadCPUms": 0.2690000000000001,
+      "maxWallMS": 0.052
+    },
+    "NavigationBodyLoader::StartLoadingBody": {
+      "count": 1,
+      "wallMS": 6.073,
+      "threadCPUms": 5.822,
+      "maxWallMS": 6.073
+    },
+    "NavigationBodyLoader::OnReadable": {
+      "count": 1,
+      "wallMS": 6.01,
+      "threadCPUms": 5.761,
+      "maxWallMS": 6.01
+    },
+    "NavigationBodyLoader::ReadFromDataPipe": {
+      "count": 1,
+      "wallMS": 6.001,
+      "threadCPUms": 5.754,
+      "maxWallMS": 6.001
+    },
+    "DocumentLoader::BodyDataReceivedImpl": {
+      "count": 1,
+      "wallMS": 5.966,
+      "threadCPUms": 5.721,
+      "maxWallMS": 5.966
+    },
+    "DocumentLoader::HandleData": {
+      "count": 1,
+      "wallMS": 5.515,
+      "threadCPUms": 5.291,
+      "maxWallMS": 5.515
+    },
+    "DocumentLoader::CommitData": {
+      "count": 1,
+      "wallMS": 5.504,
+      "threadCPUms": 5.281,
+      "maxWallMS": 5.504
+    },
+    "HTMLDocumentParser::appendBytes": {
+      "count": 1,
+      "wallMS": 5.483,
+      "threadCPUms": 5.26,
+      "maxWallMS": 5.483
+    },
+    "DecodedDataDocumentParser::AppendBytes": {
+      "count": 3,
+      "wallMS": 5.937,
+      "threadCPUms": 5.703,
+      "maxWallMS": 5.472
+    },
+    "TextResourceDecoder::Decode": {
+      "count": 6,
+      "wallMS": 1.8969999999999998,
+      "threadCPUms": 1.763,
+      "maxWallMS": 0.583
+    },
+    "HTMLDocumentParser::append": {
+      "count": 1,
+      "wallMS": 4.963,
+      "threadCPUms": 4.745,
+      "maxWallMS": 4.963
+    },
+    "HTMLPreloadScanner::HTMLPreloadScanner": {
+      "count": 1,
+      "wallMS": 0.016,
+      "threadCPUms": 0.013,
+      "maxWallMS": 0.016
+    },
+    "HTMLPreloadScanner::AppendToEnd": {
+      "count": 1,
+      "wallMS": 0.006,
+      "threadCPUms": 0.005,
+      "maxWallMS": 0.006
+    },
+    "HTMLDocumentParser::ScanAndPreload": {
+      "count": 1,
+      "wallMS": 4.667,
+      "threadCPUms": 4.48,
+      "maxWallMS": 4.667
+    },
+    "HTMLPreloadScanner::scan": {
+      "count": 1,
+      "wallMS": 1.974,
+      "threadCPUms": 1.904,
+      "maxWallMS": 1.974
+    },
+    "HTMLDocumentParser::DispatchLinkHeaderPreloads": {
+      "count": 1,
+      "wallMS": 0.01,
+      "threadCPUms": 0.009,
+      "maxWallMS": 0.01
+    },
+    "HTMLDocumentParser::MaybeFetchQueuedPreloads": {
+      "count": 1,
+      "wallMS": 2.571,
+      "threadCPUms": 2.459,
+      "maxWallMS": 2.571
+    },
+    "ResourceFetcher::requestResource": {
+      "count": 13,
+      "wallMS": 6.76,
+      "threadCPUms": 6.226,
+      "maxWallMS": 3.832
+    },
+    "HTMLDocumentParser::CommitPreloadedData": {
+      "count": 1,
+      "wallMS": 0.032,
+      "threadCPUms": 0.029,
+      "maxWallMS": 0.032
+    },
+    "HTMLDocumentParser::FinishAppend": {
+      "count": 1,
+      "wallMS": 0.022,
+      "threadCPUms": 0.021,
+      "maxWallMS": 0.022
+    },
+    "HTMLDocumentParser::SchedulePumpTokenizer": {
+      "count": 2,
+      "wallMS": 0.011,
+      "threadCPUms": 0.009000000000000001,
+      "maxWallMS": 0.006
+    },
+    "StyleEngine::updateActiveStyleSheets": {
+      "count": 4,
+      "wallMS": 3.579,
+      "threadCPUms": 2.9,
+      "maxWallMS": 3.536
+    },
+    "StyleSheetCollection::updateMixins": {
+      "count": 29,
+      "wallMS": 0.22600000000000006,
+      "threadCPUms": 0.15300000000000005,
+      "maxWallMS": 0.065
+    },
+    "Document::UpdateStyleAndLayout": {
+      "count": 58,
+      "wallMS": 405.63999999999993,
+      "threadCPUms": 359.15899999999965,
+      "maxWallMS": 292.061
+    },
+    "Blink.ForcedStyleAndLayout.UpdateTime": {
+      "count": 55,
+      "wallMS": 404.8600000000001,
+      "threadCPUms": 358.51399999999956,
+      "maxWallMS": 292.052
+    },
+    "Blink.Layout.UpdateTime": {
+      "count": 7,
+      "wallMS": 562.7940000000001,
+      "threadCPUms": 501.671,
+      "maxWallMS": 282.216
+    },
+    "LocalFrameView::layout": {
+      "count": 10,
+      "wallMS": 562.896,
+      "threadCPUms": 501.76899999999995,
+      "maxWallMS": 282.178
+    },
+    "Layout": {
+      "count": 10,
+      "wallMS": 562.8100000000001,
+      "threadCPUms": 501.69300000000004,
+      "maxWallMS": 282.169
+    },
+    "LocalFrameView::performLayout": {
+      "count": 10,
+      "wallMS": 562.179,
+      "threadCPUms": 501.17199999999997,
+      "maxWallMS": 282.114
+    },
+    "LocalFrameView::PropagateFrameRects": {
+      "count": 3,
+      "wallMS": 0.032,
+      "threadCPUms": 0.03,
+      "maxWallMS": 0.017
+    },
+    "LocalFrameView::performPostLayoutTasks": {
+      "count": 9,
+      "wallMS": 0.17200000000000001,
+      "threadCPUms": 0.158,
+      "maxWallMS": 0.038
+    },
+    "ResourceLoadPriorityOptimizer::UpdateImagePrioritiesAndSpeculativeDecodes": {
+      "count": 9,
+      "wallMS": 0.04,
+      "threadCPUms": 0.036,
+      "maxWallMS": 0.006
+    },
+    "PageTimingMetricsSender::SendNow": {
+      "count": 7,
+      "wallMS": 0.365,
+      "threadCPUms": 0.362,
+      "maxWallMS": 0.091
+    },
+    "HTMLDocumentParser::DeferredPumpTokenizerIfPossible": {
+      "count": 2,
+      "wallMS": 20.859,
+      "threadCPUms": 18.615000000000002,
+      "maxWallMS": 10.741
+    },
+    "HTMLDocumentParser::RunScriptsForPausedTreeBuilder": {
+      "count": 3,
+      "wallMS": 2.567,
+      "threadCPUms": 2.5349999999999997,
+      "maxWallMS": 2.428
+    },
+    "HTMLParserScriptRunner::execute": {
+      "count": 3,
+      "wallMS": 2.506,
+      "threadCPUms": 2.48,
+      "maxWallMS": 2.398
+    },
+    "PendingScript::ExecuteScriptBlock": {
+      "count": 2,
+      "wallMS": 14.247,
+      "threadCPUms": 13.195,
+      "maxWallMS": 11.958
+    },
+    "AsyncTask Run": {
+      "count": 35,
+      "wallMS": 15.581999999999997,
+      "threadCPUms": 14.468999999999998,
+      "maxWallMS": 11.951
+    },
+    "ClassicPendingScript::GetSource": {
+      "count": 2,
+      "wallMS": 0.034,
+      "threadCPUms": 0.034,
+      "maxWallMS": 0.02
+    },
+    "EvaluateScript": {
+      "count": 6,
+      "wallMS": 21.154999999999998,
+      "threadCPUms": 19.566000000000003,
+      "maxWallMS": 11.793
+    },
+    "v8.compile": {
+      "count": 3,
+      "wallMS": 2.381,
+      "threadCPUms": 2.262,
+      "maxWallMS": 1.804
+    },
+    "ScriptCompiled": {
+      "count": 3,
+      "wallMS": 11.940999999999999,
+      "threadCPUms": 10.995000000000001,
+      "maxWallMS": 9.915
+    },
+    "v8.run": {
+      "count": 3,
+      "wallMS": 11.683,
+      "threadCPUms": 10.761,
+      "maxWallMS": 9.814
+    },
+    "v8.produceCache": {
+      "count": 3,
+      "wallMS": 0.07500000000000001,
+      "threadCPUms": 0.07400000000000001,
+      "maxWallMS": 0.064
+    },
+    "StyleElement::processStyleSheet": {
+      "count": 25,
+      "wallMS": 1.2790000000000004,
+      "threadCPUms": 0.8780000000000003,
+      "maxWallMS": 0.565
+    },
+    "Blink.ParseStyleSheet.UpdateTime": {
+      "count": 2,
+      "wallMS": 2.803,
+      "threadCPUms": 2.698,
+      "maxWallMS": 2.306
+    },
+    "CSSParserImpl::parseStyleSheet": {
+      "count": 6,
+      "wallMS": 3.139,
+      "threadCPUms": 2.992,
+      "maxWallMS": 2.294
+    },
+    "CSSParserImpl::parseStyleSheet.parse": {
+      "count": 6,
+      "wallMS": 3.053,
+      "threadCPUms": 2.921,
+      "maxWallMS": 2.279
+    },
+    "RunMicrotasks": {
+      "count": 12,
+      "wallMS": 3.0130000000000003,
+      "threadCPUms": 2.666,
+      "maxWallMS": 0.743
+    },
+    "DocumentLoader::BodyLoadingFinished": {
+      "count": 1,
+      "wallMS": 1.378,
+      "threadCPUms": 1.331,
+      "maxWallMS": 1.378
+    },
+    "FontCache::PrewarmFamily": {
+      "count": 4,
+      "wallMS": 0.043,
+      "threadCPUms": 0.037000000000000005,
+      "maxWallMS": 0.019
+    },
+    "HTMLSelectElement::selectOption": {
+      "count": 2,
+      "wallMS": 0.038,
+      "threadCPUms": 0.036000000000000004,
+      "maxWallMS": 0.027
+    },
+    "ResponseBodyLoader::OnStateChange": {
+      "count": 3,
+      "wallMS": 3.952,
+      "threadCPUms": 3.705,
+      "maxWallMS": 3.237
+    },
+    "Resource::appendData": {
+      "count": 4,
+      "wallMS": 0.22400000000000003,
+      "threadCPUms": 0.22100000000000003,
+      "maxWallMS": 0.201
+    },
+    "ResponseBodyLoader::DidFinishLoadingBody": {
+      "count": 1,
+      "wallMS": 3.229,
+      "threadCPUms": 3.009,
+      "maxWallMS": 3.229
+    },
+    "ParseAuthorStyleSheet": {
+      "count": 1,
+      "wallMS": 2.336,
+      "threadCPUms": 2.238,
+      "maxWallMS": 2.336
+    },
+    "MemoryCache::evict": {
+      "count": 4,
+      "wallMS": 0.063,
+      "threadCPUms": 0.056,
+      "maxWallMS": 0.029
+    },
+    "HTMLDocumentParser::ExecuteScriptsWaitingForResources": {
+      "count": 1,
+      "wallMS": 0.08,
+      "threadCPUms": 0.077,
+      "maxWallMS": 0.08
+    },
+    "YieldParserForScriptLoad": {
+      "count": 1,
+      "wallMS": 0.016,
+      "threadCPUms": 0.015,
+      "maxWallMS": 0.016
+    },
+    "HTMLDocumentParser::NotifyScriptLoaded": {
+      "count": 1,
+      "wallMS": 328.709,
+      "threadCPUms": 288.615,
+      "maxWallMS": 328.709
+    },
+    "HTMLParserScriptRunner ExecuteScript": {
+      "count": 1,
+      "wallMS": 11.986,
+      "threadCPUms": 10.937,
+      "maxWallMS": 11.986
+    },
+    "V8.BytecodeBudgetInterrupt": {
+      "count": 7,
+      "wallMS": 0.07399999999999998,
+      "threadCPUms": 0.057999999999999996,
+      "maxWallMS": 0.015
+    },
+    "SlotAssignmentEngine::RecalcSlotAssignments": {
+      "count": 1,
+      "wallMS": 0.402,
+      "threadCPUms": 0.367,
+      "maxWallMS": 0.402
+    },
+    "RuleSet::addRulesFromSheet": {
+      "count": 3,
+      "wallMS": 2.113,
+      "threadCPUms": 1.6560000000000001,
+      "maxWallMS": 1.982
+    },
+    "StyleEngine::scheduleInvalidationsForRuleSets": {
+      "count": 26,
+      "wallMS": 0.2180000000000001,
+      "threadCPUms": 0.1910000000000001,
+      "maxWallMS": 0.064
+    },
+    "StyleEngine::InvalidateStyleAndLayoutForFontUpdates": {
+      "count": 2,
+      "wallMS": 4.376,
+      "threadCPUms": 3.719,
+      "maxWallMS": 4.33
+    },
+    "Node::MarkSubtreeNeedsStyleRecalcForFontUpdates": {
+      "count": 2,
+      "wallMS": 0.133,
+      "threadCPUms": 0.133,
+      "maxWallMS": 0.125
+    },
+    "LayoutObject::InvalidateSubtreeForFontUpdates": {
+      "count": 2,
+      "wallMS": 4.2059999999999995,
+      "threadCPUms": 3.561,
+      "maxWallMS": 4.191
+    },
+    "Document::rebuildLayoutTree": {
+      "count": 6,
+      "wallMS": 21.345,
+      "threadCPUms": 18.598,
+      "maxWallMS": 15.43
+    },
+    "ImageResourceContent::updateImage": {
+      "count": 1,
+      "wallMS": 3.267,
+      "threadCPUms": 2.869,
+      "maxWallMS": 3.267
+    },
+    "SVGImage::DataChanged": {
+      "count": 2,
+      "wallMS": 5.752000000000001,
+      "threadCPUms": 5.292,
+      "maxWallMS": 3.112
+    },
+    "IsolatedSVGDocumentHost::IsolatedSVGDocumentHost": {
+      "count": 2,
+      "wallMS": 5.686999999999999,
+      "threadCPUms": 5.23,
+      "maxWallMS": 3.062
+    },
+    "IsolatedSVGDocumentHost::IsolatedSVGDocumentHost::createPage": {
+      "count": 2,
+      "wallMS": 0.452,
+      "threadCPUms": 0.453,
+      "maxWallMS": 0.229
+    },
+    "IsolatedSVGDocumentHost::IsolatedSVGDocumentHost::createFrame": {
+      "count": 2,
+      "wallMS": 2.635,
+      "threadCPUms": 2.434,
+      "maxWallMS": 1.408
+    },
+    "IsolatedSVGDocumentHost::IsolatedSVGDocumentHost::load": {
+      "count": 2,
+      "wallMS": 2.553,
+      "threadCPUms": 2.305,
+      "maxWallMS": 1.403
+    },
+    "FontCache::GetFontPlatformData": {
+      "count": 223,
+      "wallMS": 76.45600000000009,
+      "threadCPUms": 57.35300000000003,
+      "maxWallMS": 6.587
+    },
+    "FontDataManager::onMatchFamilyStyle": {
+      "count": 20,
+      "wallMS": 16.596,
+      "threadCPUms": 2.3000000000000007,
+      "maxWallMS": 1.845
+    },
+    "FontDataManager - using mapped file": {
+      "count": 17,
+      "wallMS": 61.138000000000005,
+      "threadCPUms": 55.006,
+      "maxWallMS": 5.558
+    },
+    "FontDataManager::onMakeFromStreamArgs": {
+      "count": 17,
+      "wallMS": 60.122000000000014,
+      "threadCPUms": 54.12499999999999,
+      "maxWallMS": 5.472
+    },
+    "InlineNode::ShapeTextIncludingFirstLine": {
+      "count": 600,
+      "wallMS": 381.0269999999999,
+      "threadCPUms": 344.2209999999996,
+      "maxWallMS": 19.877
+    },
+    "FontCache::FallbackFontForCharacter": {
+      "count": 41,
+      "wallMS": 31.139,
+      "threadCPUms": 24.011,
+      "maxWallMS": 11.54
+    },
+    "HTMLSelectElement::recalcListItems": {
+      "count": 2,
+      "wallMS": 0.013000000000000001,
+      "threadCPUms": 0.012,
+      "maxWallMS": 0.007
+    },
+    "TimerBase::run": {
+      "count": 53,
+      "wallMS": 2.9489999999999985,
+      "threadCPUms": 2.7449999999999983,
+      "maxWallMS": 0.762
+    },
+    "IntersectionObserverController::computeIntersections": {
+      "count": 205,
+      "wallMS": 21.130999999999993,
+      "threadCPUms": 20.173999999999992,
+      "maxWallMS": 0.459
+    },
+    "PaintImage": {
+      "count": 48,
+      "wallMS": 1.2560000000000004,
+      "threadCPUms": 1.0950000000000004,
+      "maxWallMS": 0.22
+    },
+    "PaintArtifactCompositor::Update": {
+      "count": 3,
+      "wallMS": 2.165,
+      "threadCPUms": 2.017,
+      "maxWallMS": 1.1
+    },
+    "UpdateLayer": {
+      "count": 126,
+      "wallMS": 0.8450000000000005,
+      "threadCPUms": 0.7240000000000004,
+      "maxWallMS": 0.065
+    },
+    "Blink.UpdateViewportIntersection.UpdateTime": {
+      "count": 11,
+      "wallMS": 0.072,
+      "threadCPUms": 0.06599999999999999,
+      "maxWallMS": 0.011
+    },
+    "RemoteFontLoaded": {
+      "count": 2,
+      "wallMS": 0.02,
+      "threadCPUms": 0.019,
+      "maxWallMS": 0.014
+    },
+    "HTMLPreloadScanner::~HTMLPreloadScanner": {
+      "count": 1,
+      "wallMS": 0.005,
+      "threadCPUms": 0.005,
+      "maxWallMS": 0.005
+    },
+    "v8.callFunction": {
+      "count": 8,
+      "wallMS": 4.623,
+      "threadCPUms": 4.136,
+      "maxWallMS": 1.996
+    },
+    "FunctionCall": {
+      "count": 8,
+      "wallMS": 4.053,
+      "threadCPUms": 3.627,
+      "maxWallMS": 1.969
+    },
+    "PendingAnimations::notifyCompositorAnimationStarted": {
+      "count": 14,
+      "wallMS": 18.24599999999999,
+      "threadCPUms": 15.847000000000007,
+      "maxWallMS": 17.653
+    },
+    "OverlayInterstitialAdDetector::MaybeFireDetection": {
+      "count": 3,
+      "wallMS": 0.301,
+      "threadCPUms": 0.296,
+      "maxWallMS": 0.15
+    },
+    "HitTest": {
+      "count": 3,
+      "wallMS": 0.23199999999999998,
+      "threadCPUms": 0.23099999999999998,
+      "maxWallMS": 0.128
+    },
+    "AIPageContentAgent::ContentBuilder::Build": {
+      "count": 1,
+      "wallMS": 168.212,
+      "threadCPUms": 151.2,
+      "maxWallMS": 168.212
+    },
+    "TimerFire": {
+      "count": 2,
+      "wallMS": 0.8280000000000001,
+      "threadCPUms": 0.783,
+      "maxWallMS": 0.44
+    }
+  }
+}

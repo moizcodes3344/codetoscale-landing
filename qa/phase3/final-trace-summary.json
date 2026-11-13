@@ -1,0 +1,427 @@
+{
+  "layouts": [
+    {
+      "ms": 557.858,
+      "ts": 13371288076,
+      "tid": 16700,
+      "data": {
+        "dirtyObjects": 445,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179893,
+        "totalObjects": 445
+      }
+    },
+    {
+      "ms": 144.729,
+      "ts": 13371940714,
+      "tid": 16700,
+      "data": {
+        "dirtyObjects": 420,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179988,
+        "totalObjects": 439
+      }
+    },
+    {
+      "ms": 123.94,
+      "ts": 13374007479,
+      "tid": 16700,
+      "data": {
+        "dirtyObjects": 1394,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179600,
+        "totalObjects": 1952
+      }
+    },
+    {
+      "ms": 56.691,
+      "ts": 13371862588,
+      "tid": 16700,
+      "data": {
+        "dirtyObjects": 131,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179916,
+        "totalObjects": 439
+      }
+    },
+    {
+      "ms": 29.674,
+      "ts": 13372085629,
+      "tid": 16700,
+      "data": {
+        "dirtyObjects": 137,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913180070,
+        "totalObjects": 571
+      }
+    },
+    {
+      "ms": 0.221,
+      "ts": 13371194509,
+      "tid": 16700,
+      "data": {
+        "dirtyObjects": 1,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179757,
+        "totalObjects": 1
+      }
+    },
+    {
+      "ms": 0.172,
+      "ts": 13371284816,
+      "tid": 16700,
+      "data": {
+        "dirtyObjects": 3,
+        "frame": "2AB8A1D5DBF2F88D5D30CB03664F479A",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179895,
+        "totalObjects": 3
+      }
+    },
+    {
+      "ms": 0.132,
+      "ts": 13371845958,
+      "tid": 16700,
+      "data": {
+        "dirtyObjects": 1,
+        "frame": "EF6C883589D3E5F16C438743011F3ADB",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913179870,
+        "totalObjects": 445
+      }
+    },
+    {
+      "ms": 0.084,
+      "ts": 13372186428,
+      "tid": 16700,
+      "data": {
+        "dirtyObjects": 4,
+        "frame": "BAB997AAFE44136C182C802368D36A04",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913180108,
+        "totalObjects": 4
+      }
+    },
+    {
+      "ms": 0.02,
+      "ts": 13372186639,
+      "tid": 16700,
+      "data": {
+        "dirtyObjects": 2,
+        "frame": "BAB997AAFE44136C182C802368D36A04",
+        "partialLayout": false,
+        "sampleTraceId": 1442876913180096,
+        "totalObjects": 4
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "ms": 702.527,
+      "inside": []
+    },
+    {
+      "ms": 595.413,
+      "inside": [
+        {
+          "name": "Layout",
+          "ms": 557.858,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 445,
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "partialLayout": false,
+              "sampleTraceId": 1442876913179893,
+              "totalObjects": 445
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "EvaluateScript",
+          "ms": 11.399,
+          "args": {
+            "data": {
+              "columnNumber": 1,
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "lineNumber": 1,
+              "sampleTraceId": 1442876913179779,
+              "scriptId": 0,
+              "url": "http://127.0.0.1:4173/script.js"
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 11.123,
+          "args": {
+            "beginData": {
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "sampleTraceId": 1442876913179807
+            },
+            "elementCount": 229
+          }
+        },
+        {
+          "name": "ScriptCompiled",
+          "ms": 9.012,
+          "args": {
+            "data": {
+              "contextType": "default",
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "frameType": "page",
+              "isDefault": true,
+              "isolate": "8762966413530020645",
+              "origin": "http://127.0.0.1:4173",
+              "scriptId": 12,
+              "url": "http://127.0.0.1:4173/",
+              "v8context": "AEAD9A76A55E47DBAB72AE3C005EE633"
+            }
+          }
+        },
+        {
+          "name": "v8.run",
+          "ms": 8.89,
+          "args": {
+            "fileName": "http://127.0.0.1:4173/script.js",
+            "worldId": 0
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 7.634,
+          "args": {
+            "beginData": {
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "sampleTraceId": 1442876913179798
+            },
+            "elementCount": 138
+          }
+        }
+      ]
+    },
+    {
+      "ms": 191.234,
+      "inside": [
+        {
+          "name": "Layout",
+          "ms": 144.729,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 420,
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "partialLayout": false,
+              "sampleTraceId": 1442876913179988,
+              "totalObjects": 439
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Layout",
+          "ms": 29.674,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 137,
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "partialLayout": false,
+              "sampleTraceId": 1442876913180070,
+              "totalObjects": 571
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ms": 167.804,
+      "inside": [
+        {
+          "name": "Layout",
+          "ms": 123.94,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 1394,
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "partialLayout": false,
+              "sampleTraceId": 1442876913179600,
+              "totalObjects": 1952
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 25.99,
+          "args": {
+            "beginData": {
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "sampleTraceId": 1442876913179608
+            },
+            "elementCount": 1040
+          }
+        }
+      ]
+    },
+    {
+      "ms": 80.304,
+      "inside": [
+        {
+          "name": "Layout",
+          "ms": 56.691,
+          "args": {
+            "beginData": {
+              "dirtyObjects": 131,
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "partialLayout": false,
+              "sampleTraceId": 1442876913179916,
+              "totalObjects": 439
+            },
+            "endData": {
+              "layoutRoots": [
+                {
+                  "depth": 1,
+                  "nodeId": 3,
+                  "nodeName": "#document",
+                  "quads": [
+                    [
+                      0,
+                      0,
+                      412,
+                      0,
+                      412,
+                      823,
+                      0,
+                      823
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Paint",
+          "ms": 7.373,
+          "args": {
+            "data": {
+              "clip": [
+                0,
+                0,
+                412,
+                0,
+                412,
+                7823,
+                0,
+                7823
+              ],
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "layerId": 0,
+              "nodeId": 3,
+              "nodeName": "#document",
+              "sampleTraceId": 1442876913179911
+            }
+          }
+        },
+        {
+          "name": "PrePaint",
+          "ms": 6.337,
+          "args": {
+            "data": {
+              "frame": "EF6C883589D3E5F16C438743011F3ADB",
+              "isMainFrame": true,
+              "isOutermostMainFrame": true,
+              "page": "EF6C883589D3E5F16C438743011F3ADB"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

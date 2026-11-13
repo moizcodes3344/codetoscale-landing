@@ -1,0 +1,65 @@
+[
+  {
+    "contactFound": true,
+    "endpoint": "",
+    "service": "Custom Software Development",
+    "url": "http://127.0.0.1:4173/?service=Custom%20Software%20Development#contact",
+    "source": "/services/crm-integration.html"
+  },
+  {
+    "contactFound": true,
+    "endpoint": "",
+    "service": "Custom Software Development",
+    "url": "http://127.0.0.1:4173/?service=Custom%20Software%20Development#contact",
+    "source": "/services/custom-software-development.html"
+  },
+  {
+    "contactFound": true,
+    "endpoint": "",
+    "service": "Performance Marketing & Growth",
+    "url": "http://127.0.0.1:4173/?service=Performance%20Marketing%20%26%20Growth#contact",
+    "source": "/services/digital-marketing.html"
+  },
+  {
+    "contactFound": true,
+    "endpoint": "",
+    "service": "Shopify Store Development",
+    "url": "http://127.0.0.1:4173/?service=Shopify%20Store%20Development#contact",
+    "source": "/services/ecommerce-development.html"
+  },
+  {
+    "contactFound": true,
+    "endpoint": "",
+    "service": "Custom Software Development",
+    "url": "http://127.0.0.1:4173/?service=Custom%20Software%20Development#contact",
+    "source": "/services/saas-development.html"
+  },
+  {
+    "contactFound": true,
+    "endpoint": "",
+    "service": "Performance Marketing & Growth",
+    "url": "http://127.0.0.1:4173/?service=Performance%20Marketing%20%26%20Growth#contact",
+    "source": "/services/seo-content-marketing.html"
+  },
+  {
+    "contactFound": true,
+    "endpoint": "",
+    "service": "Shopify Store Development",
+    "url": "http://127.0.0.1:4173/?service=Shopify%20Store%20Development#contact",
+    "source": "/services/shopify-development.html"
+  },
+  {
+    "contactFound": true,
+    "endpoint": "",
+    "service": "Performance Marketing & Growth",
+    "url": "http://127.0.0.1:4173/?service=Performance%20Marketing%20%26%20Growth#contact",
+    "source": "/services/social-media-marketing.html"
+  },
+  {
+    "contactFound": true,
+    "endpoint": "",
+    "service": "WooCommerce Solutions",
+    "url": "http://127.0.0.1:4173/?service=WooCommerce%20Solutions#contact",
+    "source": "/services/woocommerce-development.html"
+  }
+]

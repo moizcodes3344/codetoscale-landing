@@ -1,0 +1,540 @@
+{
+  "applicationFilesChanged": [],
+  "documentationFiles": [
+    "README.md",
+    "docs/production-launch-checklist.md",
+    "docs/phase4-performance-report.md"
+  ],
+  "files": [
+    {
+      "file": "qa/phase4/analyze-trace.mjs",
+      "bytes": 2458,
+      "sha256": "8a0df7855de80d56a5ba378e4656abe2ccc8feb5dfb55cf49fb84f9421a8bff9"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-1-0.analysis.json",
+      "bytes": 35414,
+      "sha256": "cdd4bb410e35153449a57f07e7310a8d7a79904c37fac90473dd061e98cacc63"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-1-0.devtoolslog.json",
+      "bytes": 33060,
+      "sha256": "bb75255cc809bc40df39154114a18c82f5300d72572c84aee0ff99ca5ad0e5ca"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-1-0.trace.json",
+      "bytes": 7301270,
+      "sha256": "745a7c81312e038fb097cc265e4cdfb24a17b89e94e87db42b35578ce8110f00"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-1.report.html",
+      "bytes": 1025989,
+      "sha256": "fa2ed30636d58973e28c475a44c1040f09d8d2d098669d39f5ad51c6900585ab"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-1.report.json",
+      "bytes": 934918,
+      "sha256": "de23c836dba2477d89b9016be9682839c90375a19220136a1253916633fce5d4"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-2.report.html",
+      "bytes": 1044523,
+      "sha256": "b7ca89e9630589bae87f7ac6e33699794c5b0012803d225712d089c0586ee931"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-2.report.json",
+      "bytes": 955589,
+      "sha256": "3d083577e1ab0de5da7db5e89cfe0774222c4b9a8a8f7d4c219c27128bd2c7ce"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-3.report.html",
+      "bytes": 1044984,
+      "sha256": "356fe211e9eec1865962969951cae3b6c2dc6616a2209d3c3636b21e8976d1a3"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-3.report.json",
+      "bytes": 957150,
+      "sha256": "bfd3446c502a73a3279bbcf9fbd8c9ae77e80ff715741b4f182b437e781b50aa"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-4.report.html",
+      "bytes": 1052374,
+      "sha256": "226557fb23946c4b4e2ceb667e90d57761ace4269f0a01b42de15f4f93e89b8f"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-4.report.json",
+      "bytes": 964807,
+      "sha256": "0d7c6a0645474dc0066a4405999a440542f806ef28a212c4c45fe27de383aa03"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-5.report.html",
+      "bytes": 1045388,
+      "sha256": "60a8c68c25975765132261b8ade883b7383ff778024f05af749afba2bbe46a01"
+    },
+    {
+      "file": "qa/phase4/baseline/home-desktop-5.report.json",
+      "bytes": 957507,
+      "sha256": "bdf440ce1f387187f3e771c7ed3a2cad8dbdcf2c15d2bd4bdfe7f80cc7cad245"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-1-0.analysis.json",
+      "bytes": 36366,
+      "sha256": "37d20481ccceaedd5e7ab55c22584e9a8d0145ebd92c3099f7d7ad08d96b2bbe"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-1-0.devtoolslog.json",
+      "bytes": 34214,
+      "sha256": "f64707f349d958ef76e1f2b8fc2e615d6206d9e307ada4a39110566b0bde9afa"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-1-0.trace.json",
+      "bytes": 6856203,
+      "sha256": "e9eeb81aeb5a70bdb2dc2f0e6ad574e7d255c70a1794095ddb725d7c1d33d67d"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-1.report.html",
+      "bytes": 851823,
+      "sha256": "ac97e5ac5e4b55a6724431772bbe1a4b0d95ca892c146aae3eb1681da18a39f1"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-1.report.json",
+      "bytes": 761270,
+      "sha256": "8c1a585508a08a579747477bde9a241567e13d8aa982a956ab5ba1efca316c30"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-2.report.html",
+      "bytes": 883289,
+      "sha256": "1302a1f6635d5286a8870d77c501de6830eed707cb03fa20451298d00ef5b5d5"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-2.report.json",
+      "bytes": 794272,
+      "sha256": "68ae52a33aae7929632917809bb74d06b9071d2efe0f2ec6d2f70081efc6b810"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-3.report.html",
+      "bytes": 857937,
+      "sha256": "950e39a9c66c2fd75b36a6048bc55d25fadc75c4b2978b89b419af213b4682d1"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-3.report.json",
+      "bytes": 767044,
+      "sha256": "e1e8d6991102b9a63e4987c352200288d84c5d94b02606a972e16471e86d5750"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-4.report.html",
+      "bytes": 881724,
+      "sha256": "58b52147f08c417885640b62ec5dff797c4eee1c3ca551bca4bc3d0e020d2b18"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-4.report.json",
+      "bytes": 792889,
+      "sha256": "d1d6042974d59b7b133e7909d671d600994ef0ef8ae87cc7be6beb47e3a233c8"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-5.report.html",
+      "bytes": 881751,
+      "sha256": "32b976ab841873c957042c86d1b1df4e7c9ddb982ea0ace7651c7a0f6243ef55"
+    },
+    {
+      "file": "qa/phase4/baseline/home-mobile-5.report.json",
+      "bytes": 792698,
+      "sha256": "fbae09b1bcbbfc1e26eaefcd2fb3dfca02b15a2f916545b99289fdc2619d4f9b"
+    },
+    {
+      "file": "qa/phase4/baseline/runs.json",
+      "bytes": 101693,
+      "sha256": "1f3902050e3fbf807bb73431348df4ed39273290d80e9318d5a693375b5373a4"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-1-0.devtoolslog.json",
+      "bytes": 31416,
+      "sha256": "5156689ff1b3eda6189bda9aefb5026e09e3eeb5ffcca5b5c723805c1d998d86"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-1-0.trace.json",
+      "bytes": 1028076,
+      "sha256": "bbc995da1dec3b16cd30ceb62535cb0e1a3939f178c3693334cc3f2b1d49dbfc"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-1.report.html",
+      "bytes": 833013,
+      "sha256": "ac15302e7867e24e6edfd113e40a41aaea9663cc22f9ca695a18394f007468d2"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-1.report.json",
+      "bytes": 729333,
+      "sha256": "c5697a73fe6f89c41d89f4a1d1e86db3a8872f35a4231a3123a854f7b0121510"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-2.report.html",
+      "bytes": 833403,
+      "sha256": "9196b63301ed6301ddb88bb50b4f9ced0d40e15a75d1e93df7be2d10af2aabf7"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-2.report.json",
+      "bytes": 730037,
+      "sha256": "71c21e88f50e499389fb6a7c017d69f05d4687de81186cfa6cc0ed042a4eaaa3"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-3.report.html",
+      "bytes": 833619,
+      "sha256": "3f2314b950ed4c255fc91a3efa7bcf0e319b2c6c1544dd07861c751d3a6aaeb5"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-3.report.json",
+      "bytes": 730403,
+      "sha256": "c7d7f33e75aaf6ec960545addde04391ac9bee4aa2ce4ce04afb6709be9c5a82"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-4.report.html",
+      "bytes": 833037,
+      "sha256": "0d067b424dad12a2014b232c387f03929d912225211c80b1ea1792edf40a17f4"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-4.report.json",
+      "bytes": 729307,
+      "sha256": "176547f9a548f5f64ef92c04ec0ce7a1ff6f76001f0a51e55084be5462481a2f"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-5.report.html",
+      "bytes": 808504,
+      "sha256": "8a8c23ffb57bd0adb697d52333a616ae2be923d73a33e48f275c7ce4d62346da"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-desktop-5.report.json",
+      "bytes": 707959,
+      "sha256": "06143e0d4e58434e1e8e2b0650090cf493c2fc25f8a8fd6a343a0184e796d299"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-1-0.devtoolslog.json",
+      "bytes": 31696,
+      "sha256": "e3ed16bff9a34b9e6061978bf7e714bc31e26b060d26b24c35b5eb26f4570af6"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-1-0.trace.json",
+      "bytes": 1886102,
+      "sha256": "6478c891c32ab3e24cdaad152d14cb756d29c5026bc970835e5d21b69e7cb94b"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-1.report.html",
+      "bytes": 843395,
+      "sha256": "dfab872475b0614534024b53d976612d9784cf22bbb2a6d1362689b6a950c19c"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-1.report.json",
+      "bytes": 740863,
+      "sha256": "4ecb247781cb4cfcd79f211903e35ba469916eccc07438cadde757aa9fbb496f"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-2.report.html",
+      "bytes": 843351,
+      "sha256": "e4bb7376da9971f82ab3d3081657d52d2893949a48aac10e455bc76c02815485"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-2.report.json",
+      "bytes": 740769,
+      "sha256": "a3bc45b6f0666f329649caa9a28efca4eff32583bc910ee71098e13ececa9273"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-3.report.html",
+      "bytes": 843674,
+      "sha256": "076d0ade302f1ba8559856456f9c5a44db12603ea16c51d170c84dd30a9dc8c3"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-3.report.json",
+      "bytes": 741450,
+      "sha256": "1dd5bed88096274acab91d313dd905f9739d371b67bc2370c522650e3a26a574"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-4.report.html",
+      "bytes": 812224,
+      "sha256": "decd371973779b1f3f509b6e047ac5804f5be37d70c31d7e8b00d70dca6b8f55"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-4.report.json",
+      "bytes": 709896,
+      "sha256": "a34e19570a1ff5068834349c40f4040b512e19abb5688190ff389aa37e4a134b"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-5.report.html",
+      "bytes": 813541,
+      "sha256": "b8e6c528e2aba8e3f4f900f45d65a3feb54171004ee1f6f2857bcc9cf82e485a"
+    },
+    {
+      "file": "qa/phase4/baseline/seo-mobile-5.report.json",
+      "bytes": 711631,
+      "sha256": "eeee55039d24e4a56996ffb81097caac2c740583249c8ae08ba228798377a21c"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-1-0.devtoolslog.json",
+      "bytes": 31377,
+      "sha256": "4f87c143ab4f62b6ca55e935dfcd546665571ee208552e70f7ce72a512ea989a"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-1-0.trace.json",
+      "bytes": 1051355,
+      "sha256": "b0843967f1c2bbbfe2a3bb3c33c94b35dd02060a46d03003ace4602bc2211617"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-1.report.html",
+      "bytes": 860297,
+      "sha256": "73203f0ca72e4175d3d73415c37284c6cc390ad8dfe14575176e692492253d8b"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-1.report.json",
+      "bytes": 756981,
+      "sha256": "6fdf7ef7589c03e28941e803fd0f4f6f38d4173f6315d37b1249d3067e9a6b2c"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-2.report.html",
+      "bytes": 859869,
+      "sha256": "f2b8878a271e77504b50709412f9a1eb2a94c3ca709450f0f5a2e368266f0dba"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-2.report.json",
+      "bytes": 756239,
+      "sha256": "b0850910cdf5ab37f2e940be7d6d7dc44710174c8b0a78d66cda44625c74020f"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-3.report.html",
+      "bytes": 859690,
+      "sha256": "d908b2648c5b0ff0e8220ab60f69b79f71f5213e1233c2a0b28b555174f6807a"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-3.report.json",
+      "bytes": 755960,
+      "sha256": "a465b10607747ed5d39eadd54a595f3e8d9ad42f05221d4086783bad42fb3a6b"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-4.report.html",
+      "bytes": 859765,
+      "sha256": "9bf9e43fef975eef8b1328ce485104d03dbf36e31644b2be2c7287a831fa18da"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-4.report.json",
+      "bytes": 756035,
+      "sha256": "63bafdcebe0ec2d3ec68d35bbb8a942935e78bae7573f58f78f83206e213368a"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-5.report.html",
+      "bytes": 830178,
+      "sha256": "fc35568cac55215f60aa940ab3141110095c8855f4c180b5e377fe975ec20702"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-desktop-5.report.json",
+      "bytes": 727062,
+      "sha256": "276508da28451872bdbf5e173082347c2ce4fb23d68612d00b24de766abccf6e"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-1-0.analysis.json",
+      "bytes": 22177,
+      "sha256": "102638500cfeda6e6cf338b102a87aa36c11b5bdaf269adfd738c7e9c23c9bd9"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-1-0.devtoolslog.json",
+      "bytes": 31643,
+      "sha256": "52fc058963647fe2c5e4c18706bbc26146d00374b5de1b3890035ce7ed9864b2"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-1-0.trace.json",
+      "bytes": 1845571,
+      "sha256": "d169c8ef3c8ba5ebef7975b3da72b43088f762653462235106143f96b44b9626"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-1.report.html",
+      "bytes": 863428,
+      "sha256": "7244677b68975a050e45cddbb0f7e2a87a20ba97d0641db3539e74df8a960b51"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-1.report.json",
+      "bytes": 760796,
+      "sha256": "944d927d1a0c0b5df10e5af310d9a123f66be21b640b87c3614283aa90caa519"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-2.report.html",
+      "bytes": 864038,
+      "sha256": "d3f954ed7119314375fc0edf8ec3b186a6cbc443851c818be76550f37c301943"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-2.report.json",
+      "bytes": 761896,
+      "sha256": "03c04cdb76d38cf99717a9dde17618edcaf845d797e11f358923508cbb5a9894"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-3.report.html",
+      "bytes": 863635,
+      "sha256": "44cf6f70fa43cbf687dfd50b3fccaf716f2fd39e40c1bc14f853a47c9099799a"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-3.report.json",
+      "bytes": 761257,
+      "sha256": "8b25eb1bec6b82c5b875bbc2107c068fa3a15d804f8dfb635e59d4445fc525f9"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-4.report.html",
+      "bytes": 863880,
+      "sha256": "10edb013d4fdc1223b06706bc9f820b3ca8ac6a8a3c919373360431c7b5a5dfc"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-4.report.json",
+      "bytes": 761738,
+      "sha256": "264140d896aeb5bc106f1dbcb890fe3f7fd41c67d1247f9db9beb12cf21f957c"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-5.report.html",
+      "bytes": 831632,
+      "sha256": "33186dbf576ab3bd92321127adf574194dd522d2d389b7a3c3019966ea27265a"
+    },
+    {
+      "file": "qa/phase4/baseline/shopify-mobile-5.report.json",
+      "bytes": 729871,
+      "sha256": "609496815823fffdde0fc2824bf0415c8f118253bbefda39f6ae12b2b6d24ef1"
+    },
+    {
+      "file": "qa/phase4/baseline/summary.json",
+      "bytes": 31891,
+      "sha256": "98bc5b97e68ca4a8162c93bed5ca20176e47c5bdb928326107e2ac9ae4d2619c"
+    },
+    {
+      "file": "qa/phase4/console.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "qa/phase4/crawl.json",
+      "bytes": 5901,
+      "sha256": "1518b1453cea71472929a574fb65f23c117bb7b9a5adcee8d98cc16fdf6890f0"
+    },
+    {
+      "file": "qa/phase4/diagnostic-attribution.json",
+      "bytes": 8327,
+      "sha256": "9477537a744e4b19012dddae97cf34003b9fe243d8c96ca4e0f47cfdfff80c66"
+    },
+    {
+      "file": "qa/phase4/entry/hashes.json",
+      "bytes": 3368,
+      "sha256": "66e0e250f8f214d262f23bf80a9a3757b6015f378795df6b25b812f5cc60a382"
+    },
+    {
+      "file": "qa/phase4/entry/index.html",
+      "bytes": 70655,
+      "sha256": "c0273d04d7768ac4a1b75ac023c0e588e4c1923288e5876f09dbad4df9e8d069"
+    },
+    {
+      "file": "qa/phase4/entry/script.js",
+      "bytes": 20616,
+      "sha256": "2383fcf010f4c1fed1bc23349934eba09f1113549a2784358e082cb8761a9133"
+    },
+    {
+      "file": "qa/phase4/entry/styles.css",
+      "bytes": 61798,
+      "sha256": "e0e516e469b4b584588d9fa79534d33f7056cec13c2a6fd6656d955086448274"
+    },
+    {
+      "file": "qa/phase4/home-mobile-diagnostic-0.analysis.json",
+      "bytes": 65980,
+      "sha256": "d2b3448a3ef91df2274044261109bf3b48ecef51909f6e7ed918ca202516508c"
+    },
+    {
+      "file": "qa/phase4/home-mobile-diagnostic-0.devtoolslog.json",
+      "bytes": 33376,
+      "sha256": "0c1d641d9098e085df73dd12ef6be8da27df92d203ca586c39ed9b83adaacb7f"
+    },
+    {
+      "file": "qa/phase4/home-mobile-diagnostic-0.trace.json",
+      "bytes": 10093223,
+      "sha256": "ca1a38d7004a3581e1e49d3fd5d79e9b4d6726c8d549f799ddba1dcf4a256617"
+    },
+    {
+      "file": "qa/phase4/home-mobile-diagnostic.report.html",
+      "bytes": 874124,
+      "sha256": "182d412399861f3543720a4e511c77b40428d5863ad7e3a4261a73ed6208e27d"
+    },
+    {
+      "file": "qa/phase4/home-mobile-diagnostic.report.json",
+      "bytes": 783925,
+      "sha256": "99c3106572f4624220ff3970358913f6e6aa0294f6315b0fe3d2f770b52493c3"
+    },
+    {
+      "file": "qa/phase4/interactions.json",
+      "bytes": 635,
+      "sha256": "5be44899d714d7ccc21e369350318b682687255b9befe5593b756143dd1a5b7f"
+    },
+    {
+      "file": "qa/phase4/layouts.json",
+      "bytes": 3090,
+      "sha256": "21bbbb0dbcd7f2e3c6deb24f6d331790892dbf717358373f520bc8371a424e2b"
+    },
+    {
+      "file": "qa/phase4/measurements.json",
+      "bytes": 35256,
+      "sha256": "a840f430e0c1e19fcf4b754c909a6c13127b41a9800409a8c3c0a03453e75964"
+    },
+    {
+      "file": "qa/phase4/phase3-thread-timing.json",
+      "bytes": 4897,
+      "sha256": "d535223c7c0dc18c3afa279186c64590984a794b83bfb62977b3ad00423422ad"
+    },
+    {
+      "file": "qa/phase4/preservation.json",
+      "bytes": 10756,
+      "sha256": "0dee3526fa9e161681c733b2b4b7cdf8d2e2b9d53fb10abe2754c21931792914"
+    },
+    {
+      "file": "qa/phase4/README.md",
+      "bytes": 1891,
+      "sha256": "15e6331d35da339af574d183ab32fe610a6b194331698d239b160556b1376428"
+    },
+    {
+      "file": "qa/phase4/run-audits.mjs",
+      "bytes": 4243,
+      "sha256": "861326b38fe77d12521f5c2ed860ede13adbc8d5f447cbe90ddae55c7430383b"
+    },
+    {
+      "file": "qa/phase4/screenshots/home-375.png",
+      "bytes": 46875,
+      "sha256": "e2104a8dd9af1608127d2b252c078e1e6ebee0fbe73a119904adcdeb653d24e7"
+    },
+    {
+      "file": "qa/phase4/screenshots/home-desktop.png",
+      "bytes": 102776,
+      "sha256": "6e489bc82dd31e54ce8b4fb1181f4047811c0571381135f4da54474235649a12"
+    },
+    {
+      "file": "qa/phase4/screenshots/home-mobile.png",
+      "bytes": 44042,
+      "sha256": "22aa3c306611bd414d425ac9696473b0bc4d80b1f4c40e84d1ad08e101f76797"
+    },
+    {
+      "file": "qa/phase4/seo-audits.json",
+      "bytes": 16767,
+      "sha256": "422316a98d6c5f6d01407cfd6b0b998bca08d62191b88181304ea6e86bc9343e"
+    },
+    {
+      "file": "qa/phase4/summarize.mjs",
+      "bytes": 2487,
+      "sha256": "dbfb1cee625031e47ff1cbe4005b729e004340dc820d0da6b1f259b005690ac4"
+    },
+    {
+      "file": "qa/phase4/tests.json",
+      "bytes": 7775,
+      "sha256": "7bd3c2931bf985b4679110768b45ad0204ba32058077d03a6128097c6e6b806e"
+    },
+    {
+      "file": "README.md",
+      "bytes": 9746,
+      "sha256": "fa0667f232cf8584e7dc045b718e979c7e76a5d705e324d61acf4566bd3afbf9"
+    },
+    {
+      "file": "docs/production-launch-checklist.md",
+      "bytes": 7387,
+      "sha256": "9f29fa34a83f3fdca4c4916ca4844a7c6a7040d1e419a2d3b7a85e8676110cab"
+    },
+    {
+      "file": "docs/phase4-performance-report.md",
+      "bytes": 18729,
+      "sha256": "2be9a11a339fcf4f088e7f55741ede1cd1de4b7750d85706f56f264b80c87ade"
+    }
+  ]
+}

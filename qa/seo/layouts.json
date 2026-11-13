@@ -1,0 +1,527 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/services.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/services.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/services.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/services.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/shopify-development.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/ecommerce-development.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/ecommerce-development.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/ecommerce-development.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/ecommerce-development.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/ecommerce-development.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/woocommerce-development.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/woocommerce-development.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/woocommerce-development.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/woocommerce-development.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/woocommerce-development.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/custom-software-development.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/custom-software-development.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/custom-software-development.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/custom-software-development.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/custom-software-development.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/saas-development.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/saas-development.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/saas-development.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/saas-development.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/saas-development.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/crm-integration.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/crm-integration.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/crm-integration.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/crm-integration.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/crm-integration.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/digital-marketing.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/digital-marketing.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/digital-marketing.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/digital-marketing.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/digital-marketing.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/seo-content-marketing.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/seo-content-marketing.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/seo-content-marketing.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/seo-content-marketing.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/seo-content-marketing.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/social-media-marketing.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/social-media-marketing.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/social-media-marketing.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/social-media-marketing.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/services/social-media-marketing.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/about.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/about.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/about.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/about.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/about.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/faq.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/faq.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/faq.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/faq.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/faq.html",
+    "width": 375,
+    "client": 360,
+    "scroll": 360,
+    "h1Count": 1
+  },
+  {
+    "route": "/privacy.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/privacy.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/privacy.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/privacy.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/privacy.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/terms.html",
+    "width": 1440,
+    "client": 1425,
+    "scroll": 1425,
+    "h1Count": 1
+  },
+  {
+    "route": "/terms.html",
+    "width": 1024,
+    "client": 1009,
+    "scroll": 1009,
+    "h1Count": 1
+  },
+  {
+    "route": "/terms.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  },
+  {
+    "route": "/terms.html",
+    "width": 425,
+    "client": 410,
+    "scroll": 410,
+    "h1Count": 1
+  },
+  {
+    "route": "/terms.html",
+    "width": 768,
+    "client": 753,
+    "scroll": 753,
+    "h1Count": 1
+  }
+]

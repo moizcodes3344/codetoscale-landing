@@ -1,0 +1,46 @@
+- link "Schema.org":
+  - /url: https://schema.org/
+- list:
+  - link "Documentation":
+    - /url: https://schema.org/docs/documents.html
+  - link "Schemas":
+    - /url: https://schema.org/docs/schemas.html
+  - link "Validate":
+    - /url: /
+  - link "About":
+    - /url: https://schema.org/docs/about.html
+- textbox "search"
+- generic: public
+- button "Run new test"
+- button "language_japanese_kana":
+  - generic: language_japanese_kana
+- button "info":
+  - generic: info
+- textbox
+- generic: "1"
+- text: "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"name\":\"CodeToScale\",\"email\":\"moiz21892@gmail.com\"}]}</script>"
+- generic: "2"
+- text: "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Service\",\"name\":\"Shopify development\",\"serviceType\":\"Shopify development\",\"description\":\"Choosing a Shopify development agency starts with finding a team that understands your catalog, customers and daily operations. CodeToScale plans Shopify stores around those requirements, from a focused theme implementation to a more tailored storefront. Our Shopify development work addresses businesses targeting Pakistan and international markets without treating every store as the same project.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"CodeToScale\",\"email\":\"moiz21892@gmail.com\"}}]}</script>"
+- generic: "3"
+- text: "<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Which e-commerce platforms do you work with?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We work with Shopify, WooCommerce and custom storefronts. We discuss your catalog, content, integrations and operating needs before recommending an approach. A platform choice should also account for ongoing management and provider availability in your selling markets.\"}},{\"@type\":\"Question\",\"name\":\"How long does a project take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The schedule depends on scope, content readiness, integrations and review availability. A focused store setup and a custom application have different dependencies. We discuss milestones after understanding the requirements rather than promising a standard launch window before discovery.\"}},{\"@type\":\"Question\",\"name\":\"What post-launch support is available?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Maintenance and continued development can be discussed as part of an agreed support plan. Updates, monitoring, response arrangements and included work need to be defined for the project. This website does not promise round-the-clock support or a standard service-level agreement.\"}},{\"@type\":\"Question\",\"name\":\"Can you migrate or redesign an existing store?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Migration planning starts with the current content, catalog, URLs and integrations. We identify what can transfer, what needs rebuilding and which changes require redirects or manual checks. The final scope depends on access and the capabilities of the source and destination platforms.\"}},{\"@type\":\"Question\",\"name\":\"What does SaaS development involve?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"SaaS development builds software delivered as an ongoing service. Planning can cover the core user problem, a focused first release, onboarding, account roles and integrations. Access boundaries and operational responsibilities need explicit decisions, especially where several customer organizations will use the same product.\"}},{\"@type\":\"Question\",\"name\":\"How do SEO and digital marketing fit into a project?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Search-friendly structure, useful content and clear customer journeys can be planned alongside development. Marketing scope may cover SEO, content, social media and paid acquisition where relevant. Priorities and measurement depend on the business goals and available access; rankings and sales are not guaranteed.\"}},{\"@type\":\"Question\",\"name\":\"How are pricing and payment terms agreed?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Deliverables, integrations, content needs and support expectations determine the project scope. Pricing, payment stages and third-party costs need to be agreed in a project proposal or agreement. The budget ranges in the inquiry form help start that discussion; they are not published service prices. The form prepares an email draft for you to review and send.\"}}]}]}</script>"
+- generic: Detected
+- text: 0 ERRORS
+- text: 0 WARNINGS
+- text: 3 ITEMS
+- list:
+  - generic: Organization
+  - text: 0 ERRORS
+  - text: 0 WARNINGS
+  - text: 1 ITEM
+  - generic: Service
+  - text: 0 ERRORS
+  - text: 0 WARNINGS
+  - text: 1 ITEM
+  - generic: FAQPage
+  - text: 0 ERRORS
+  - text: 0 WARNINGS
+  - text: 1 ITEM
+- button "play_arrow" [disabled]:
+  - generic: play_arrow
+- generic: VALIDATE
+- button
